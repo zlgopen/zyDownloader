@@ -11,7 +11,7 @@ var zhStrings = {
 	"Choose File":"选择文件",
 	"Start Download":"开始下载",
 	"tcp":"TCP",
-	"serial":"串口",
+	"serial(ymodem)":"串口(ymodem)",
 	"tftp_server":"TFTP",
 	"serial port":"串口",
 	"baudrate":"波特率",

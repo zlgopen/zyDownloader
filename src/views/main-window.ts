@@ -16,7 +16,7 @@ export class MainWindow extends WindowNormal {
 
 		var logo = Image.create({value:"assets/icons/@density/logo.png"});
 		logo.drawType = ImageDrawType.ICON;
-		logo.layoutParam = this.createChildLayoutParam({x:"0", y:"0", w:"200px", h:"120"});
+		logo.layoutParam = this.createChildLayoutParam({x:"0", y:"0", w:"300px", h:"120"});
 		this.addChild(logo);
 
 		function addItem(titleValue, bindingRule, h?:number) {

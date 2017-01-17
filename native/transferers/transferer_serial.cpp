@@ -168,7 +168,7 @@ static const char* transferer_serial_get_props_desc() {
 
 static transferer_desc_t s_transferer_serial_creator_desc;
 bool_t transferer_serial_register_creator_desc() {
-	s_transferer_serial_creator_desc.name = "serial";
+	s_transferer_serial_creator_desc.name = "serial(ymodem)";
 	s_transferer_serial_creator_desc.create = transferer_serial_create;
 	s_transferer_serial_creator_desc.get_props_desc = transferer_serial_get_props_desc; 
 
