@@ -1,0 +1,40 @@
+{
+  "name": "downloader",
+  "version": "1.0.0",
+  "description": "downloader.",
+  "main": "www/main.js",
+  "scripts": {
+    "build": "tsc && webpack",
+    "pack": "build --dir --project release",
+    "dist": "build --project release"
+  },
+  "keywords": [
+    "downloader"
+  ],
+  "author": "lixianjing@zlg.cn",
+  "devDependencies": {
+    "asar": "^0.12.4",
+    "electron": "^1.4.13",
+    "electron-builder": "^10.17.3",
+    "karma": "^1.1.2",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-coverage": "^1.1.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-mocha": "^1.1.1",
+    "mocha": "^3.0.0",
+    "nan": "^2.5.0",
+    "qtk": "git+https://github.com/qtoolkit/qtk.git",
+    "ts-loader": "^0.8.2",
+    "typedoc": "^0.4.4",
+    "typescript": "^2.0.3",
+    "typings": "^1.3.2",
+    "webpack": "^1.13.1"
+  },
+  "build": {
+    "appId": "downloader.zlg.cn",
+    "productName": "Downloader"
+  },
+  "dependencies": {
+    "bindings": "^1.2.1"
+  }
+}
