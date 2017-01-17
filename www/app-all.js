@@ -61386,11 +61386,11 @@ var app =
 	        _super.prototype.onInit.call(this);
 	        this.childrenLayouter = qtk_2.SimpleLayouter.create();
 	        var listView = qtk_3.ListView.create({ dragToScroll: false, slideToScroll: false, itemH: 60 });
-	        listView.layoutParam = this.createChildLayoutParam({ x: "center", w: "320px", h: "360px" });
+	        listView.layoutParam = this.createChildLayoutParam({ x: "center", y: "middle", w: "360px", h: "280px" });
 	        this.addChild(listView);
 	        var logo = qtk_1.Image.create({ value: "assets/icons/@density/logo.png" });
 	        logo.drawType = qtk_2.ImageDrawType.ICON;
-	        logo.layoutParam = this.createChildLayoutParam({ x: "0", y: "0", w: "300px", h: "120" });
+	        logo.layoutParam = this.createChildLayoutParam({ x: "0", y: "0", w: "240px", h: "80" });
 	        this.addChild(logo);
 	        function addItem(titleValue, bindingRule, h) {
 	            var item = qtk_1.ListItem.create({ styleType: "widget.tansparent" });
