@@ -59,4 +59,5 @@ npm run dist
 * www          Electron的相关的文件。
 * www/asserts  GUI主题数据。
 * native       C/C++开发的代码(参考文件夹内的README)。
+* installer    编译好的安装包。
 

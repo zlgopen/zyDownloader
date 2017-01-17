@@ -73,7 +73,7 @@ var app =
 	var App = (function (_super) {
 	    __extends(App, _super);
 	    function App() {
-	        return _super.apply(this, arguments) || this;
+	        return _super !== null && _super.apply(this, arguments) || this;
 	    }
 	    App.prototype.onReady = function () {
 	        locales_1.initLocales();
@@ -61224,7 +61224,7 @@ var app =
 	    "Choose File": "选择文件",
 	    "Start Download": "开始下载",
 	    "tcp": "TCP",
-	    "serial": "串口",
+	    "serial(ymodem)": "串口(ymodem)",
 	    "tftp_server": "TFTP",
 	    "serial port": "串口",
 	    "baudrate": "波特率",
@@ -61380,7 +61380,7 @@ var app =
 	var MainWindow = (function (_super) {
 	    __extends(MainWindow, _super);
 	    function MainWindow() {
-	        return _super.apply(this, arguments) || this;
+	        return _super !== null && _super.apply(this, arguments) || this;
 	    }
 	    MainWindow.prototype.onInit = function () {
 	        _super.prototype.onInit.call(this);
@@ -61390,7 +61390,7 @@ var app =
 	        this.addChild(listView);
 	        var logo = qtk_1.Image.create({ value: "assets/icons/@density/logo.png" });
 	        logo.drawType = qtk_2.ImageDrawType.ICON;
-	        logo.layoutParam = this.createChildLayoutParam({ x: "0", y: "0", w: "200px", h: "120" });
+	        logo.layoutParam = this.createChildLayoutParam({ x: "0", y: "0", w: "300px", h: "120" });
 	        this.addChild(logo);
 	        function addItem(titleValue, bindingRule, h) {
 	            var item = qtk_1.ListItem.create({ styleType: "widget.tansparent" });
