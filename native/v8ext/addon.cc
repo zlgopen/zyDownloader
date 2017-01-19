@@ -129,6 +129,8 @@ static void registerTransfers() {
 NAN_MODULE_INIT(InitAll) {
 	freopen("stdout.txt", "w+", stdout);
 	freopen("stderr.txt", "w+", stderr);
+	printf("build date: %s %s\n", __DATE__, __TIME__);
+	fflush(stdout);
 
 	registerTransfers();
 	
