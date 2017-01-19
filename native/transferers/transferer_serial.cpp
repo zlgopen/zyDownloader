@@ -6,6 +6,7 @@
 #include "progress.h"
 #include "stream_serial.h"
 #include "transferer_serial.h"
+#include "transferer_factory.h"
 
 using serial::stopbits_t;
 using serial::flowcontrol_t;
@@ -19,6 +20,8 @@ typedef struct _transferer_serial_t {
 	stream_t* stream;
 	url_t* url;
 }transferer_serial_t;
+
+static transferer_desc_t s_transferer_serial_creator_desc;
 
 static void on_progress(void* ctx, const char* tag, size_t finish, size_t total) {
 	(void)tag;
@@ -88,7 +91,7 @@ static void transferer_serial_destroy(transferer_t* t){
 }
 
 static bool_t transferer_is_valid_url(url_t* url) {
-	return url != NULL && strcmp("serial", url->schema) == 0 && url->host != NULL;
+	return url != NULL && strcmp(s_transferer_serial_creator_desc.name, url->schema) == 0 && url->host != NULL;
 }
 
 transferer_t* transferer_serial_create(const char* surl) {
@@ -112,8 +115,6 @@ transferer_t* transferer_serial_create(const char* surl) {
 
 	return (transferer_t*)serial;
 }
-
-#include "transferer_factory.h"
 
 static std::string s_props_desc ="[\
 	{\"type\":\"options\", \"name\":\"Device\", \"path\":\"device\", options:[\"Green\", \"Red\"}, \
@@ -166,7 +167,6 @@ static const char* transferer_serial_get_props_desc() {
 	return s_props_desc.c_str();
 }
 
-static transferer_desc_t s_transferer_serial_creator_desc;
 bool_t transferer_serial_register_creator_desc() {
 	s_transferer_serial_creator_desc.name = "serial(ymodem)";
 	s_transferer_serial_creator_desc.create = transferer_serial_create;

@@ -12,6 +12,9 @@
 
 * 支持国际化，根据当前系统选择适当的语言。
 
+预编译好的安装包
+--------------------------
+* 在[release下](https://github.com/ZHIYUAN-Electronics/zyDownloader/releases)可以下载预编译好的安装包。
 
 安装依赖的工具:
 --------------------------
@@ -59,5 +62,4 @@ npm run dist
 * www          Electron的相关的文件。
 * www/asserts  GUI主题数据。
 * native       C/C++开发的代码(参考文件夹内的README)。
-* installer    编译好的安装包。
 
