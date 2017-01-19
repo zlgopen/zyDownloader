@@ -5,6 +5,9 @@
 #include "progress.h"
 #include "stream_tcp.h"
 #include "transferer_tcp.h"
+#include "transferer_factory.h"
+
+static transferer_desc_t s_transferer_tcp_creator_desc;
 
 typedef struct _transferer_tcp_t {
 	transferer_t base;
@@ -70,7 +73,8 @@ static void transferer_tcp_destroy(transferer_t* t){
 }
 
 static bool_t transferer_is_valid_url(url_t* url) {
-	return url != NULL && strcmp("tcp", url->schema) == 0 && url_get_param(url, "server") != NULL && url->path;
+	return url != NULL && strcmp(s_transferer_tcp_creator_desc.name, url->schema) == 0 
+		&& url_get_param(url, "server") != NULL && url->path;
 }
 
 transferer_t* transferer_tcp_create(const char* surl) {
@@ -95,8 +99,6 @@ transferer_t* transferer_tcp_create(const char* surl) {
 	return (transferer_t*)tcp;
 }
 
-#include "transferer_factory.h"
-
 static const char* s_props_desc ="[\
 	{\"type\":\"text\", \"name\":\"Server\", \"path\":\"server\", \"defValue\":\"localhost\"}, \
 	{\"type\":\"number\", \"name\":\"Port\", \"path\":\"port\", \"defValue\":9988} \
@@ -106,7 +108,6 @@ static const char* transferer_tcp_get_props_desc() {
 	return s_props_desc;
 }
 
-static transferer_desc_t s_transferer_tcp_creator_desc;
 bool_t transferer_tcp_register_creator_desc() {
 	s_transferer_tcp_creator_desc.name = "tcp";
 	s_transferer_tcp_creator_desc.create = transferer_tcp_create;

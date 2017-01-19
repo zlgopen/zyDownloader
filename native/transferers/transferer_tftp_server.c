@@ -6,6 +6,9 @@
 #include "tftp/work_thread.h"
 #include "transferer_tftp_server.h"
 
+#include "transferer_factory.h"
+static transferer_desc_t s_transferer_tftp_server_creator_desc;
+
 typedef struct _transferer_tftp_server_t {
 	transferer_t base;
 	size_t total_size;
@@ -49,7 +52,7 @@ static void transferer_tftp_server_destroy(transferer_t* t){
 }
 
 static bool_t transferer_is_valid_url(url_t* url) {
-	return url != NULL && strcmp("tftp_server", url->schema) == 0 && url->path;
+	return url != NULL && strcmp(s_transferer_tftp_server_creator_desc.name, url->schema) == 0 && url->path;
 }
 
 transferer_t* transferer_tftp_server_create(const char* surl) {
@@ -74,8 +77,6 @@ transferer_t* transferer_tftp_server_create(const char* surl) {
 	return (transferer_t*)tftp_server;
 }
 
-#include "transferer_factory.h"
-
 static char s_props_desc[1024];
 static const char* s_props_desc_temp ="[\
 {\"type\":\"text-readonly\", \"name\":\"IP\", \"path\":\"ip\", \"defValue\":\"%s\"}, \
@@ -91,7 +92,6 @@ static const char* transferer_tftp_server_get_props_desc() {
 	return s_props_desc;
 }
 
-static transferer_desc_t s_transferer_tftp_server_creator_desc;
 bool_t transferer_tftp_server_register_creator_desc() {
 	s_transferer_tftp_server_creator_desc.name = "tftp_server";
 	s_transferer_tftp_server_creator_desc.create = transferer_tftp_server_create;
