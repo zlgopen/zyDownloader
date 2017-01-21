@@ -1,7 +1,7 @@
 {
-  "name": "downloader",
+  "name": "zyDownloader",
   "version": "1.0.0",
-  "description": "downloader.",
+  "description": "zyDownloader",
   "main": "www/main.js",
   "scripts": {
     "build": "tsc && webpack",
@@ -9,7 +9,7 @@
     "dist": "build --project release"
   },
   "keywords": [
-    "downloader"
+    "zyDownloader"
   ],
   "author": "lixianjing@zlg.cn",
   "devDependencies": {
@@ -31,8 +31,8 @@
     "webpack": "^1.13.1"
   },
   "build": {
-    "appId": "downloader.zlg.cn",
-    "productName": "Downloader"
+    "appId": "zydownloader.zlg.cn",
+    "productName": "zyDownloader"
   },
   "dependencies": {
     "bindings": "^1.2.1"
