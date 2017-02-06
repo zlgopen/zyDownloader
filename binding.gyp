@@ -30,11 +30,15 @@
       'cflags!': [ '-fno-exceptions' ],
       'cflags_cc!': [ '-fno-exceptions' ],
       'conditions': [
-        ['OS=="mac"', {
+        [
+        'OS=="mac"', {
           'xcode_settings': {
             'GCC_ENABLE_CPP_EXCEPTIONS': 'YES'
           },
           "sources": ["native/serial/src/impl/list_ports/list_ports_osx.cc","native/serial/src/impl/unix.cc"] 
+        },
+        'OS=="linux"', {
+          "sources": ["native/serial/src/impl/list_ports/list_ports_linux.cc", "native/serial/src/impl/unix.cc"] 
         },
 		'OS=="win"', { 
           "sources": ["native/serial/src/impl/list_ports/list_ports_win.cc","native/serial/src/impl/win.cc"],
