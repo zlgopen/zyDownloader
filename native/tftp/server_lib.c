@@ -67,7 +67,7 @@ typedef int socklen_t;
 
 char* get_local_ips(char buff[256], size_t n) {
 	size_t i = 0;  
-	char hname[128];
+	char hname[128] ={0};
 	*buff = '\0';
 
 	gethostname(hname, sizeof(hname));
@@ -82,5 +82,7 @@ char* get_local_ips(char buff[256], size_t n) {
 		strcat(buff, ip);
 	}  
 	printf("%s %s\n", hname, buff);
+	fflush(stdout);
+	
 	return buff;
 }

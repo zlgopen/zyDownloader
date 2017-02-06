@@ -61,7 +61,7 @@ export class MainModel {
 		settingsDesc.map(iter => {
 			var path = iter.path;
 
-			if(data[path] === undefined) {
+			if(data[path] === undefined || iter.type.indexOf("readonly") >= 0) {
 				if(iter.defValue !== undefined) {
 					data[path] = iter.defValue;
 				}else{
