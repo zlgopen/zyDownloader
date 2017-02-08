@@ -22,7 +22,7 @@ export class MainWindow extends WindowNormal {
 		function addItem(titleValue, bindingRule, h?:number) {
 			var item = ListItem.create({styleType:"widget.tansparent"});
 			if(h) {
-				item.layoutParam = ListLayouterParam.create({h:h});
+				item.layoutParam = ListLayouterParam.createWithOptions({h:h});
 			}
 			listView.addChild(item, true);
 			item.childrenLayouter = SimpleLayouter.create();
@@ -36,16 +36,16 @@ export class MainWindow extends WindowNormal {
 		}
 		
 		addItem(TitleComboBox.create({title:"Download Type", titleW:"100",valueW:"60%", 
-				layoutParam : SimpleLayouterParam.create({h:"40"})}), 
+				layoutParam : SimpleLayouterParam.createWithOptions({h:"40"})}), 
 				{value: {path:"downloadType"},options: {path:"downloadTypes"}});
 
-		addItem(Button.create({text:"Change Settings",layoutParam : SimpleLayouterParam.create({h:"80%"})}), 
+		addItem(Button.create({text:"Change Settings",layoutParam : SimpleLayouterParam.createWithOptions({h:"80%"})}), 
 				{"click" : {command:"showSettings"}});
 		
-		addItem(Button.create({text:"Choose File", layoutParam : SimpleLayouterParam.create({h:"80%"})}), 
+		addItem(Button.create({text:"Choose File", layoutParam : SimpleLayouterParam.createWithOptions({h:"80%"})}), 
 				{"click" : {command:"chooseFile"}});
 		
-		addItem(Button.create({text:"Start Download", layoutParam : SimpleLayouterParam.create({h:"80%"})}), 
+		addItem(Button.create({text:"Start Download", layoutParam : SimpleLayouterParam.createWithOptions({h:"80%"})}), 
 				{"click" : {command:"startDownload"}});
 
 		this.bindData(this.viewModel);
