@@ -32,7 +32,7 @@ var zhStrings = {
 	"software":"软件",
 	"hardware":"硬件",
 	"Download Failed: ":"无法下载: ",
-	"Settings(serial)":"串口设置",
+	"Settings(serial(ymodem))":"串口设置",
 	"Settings(tcp)":"TCP设置",
 	"Downloading...":"正在下载...",
 	"send file content failed.":"发送文件失败。",
