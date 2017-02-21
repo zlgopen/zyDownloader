@@ -2,6 +2,7 @@ rmdir /S /Q release
 mkdir release\node_modules
 mkdir release\Release
 
+copy /Y winPackager-fixed.js node_modules\electron-builder\out\winPackager.js
 copy /Y package.json release\package.json
 copy /Y build\Release\*.node release\Release
 copy /Y  index.html release

@@ -116,94 +116,97 @@ var app =
 	exports.Label = label_1.Label;
 	var emitter_1 = __webpack_require__(6);
 	exports.Emitter = emitter_1.Emitter;
-	var page_1 = __webpack_require__(97);
+	var page_1 = __webpack_require__(96);
 	exports.Page = page_1.Page;
 	var key_event_1 = __webpack_require__(18);
 	exports.KeyEvent = key_event_1.KeyEvent;
-	var view_port_1 = __webpack_require__(98);
+	var view_port_1 = __webpack_require__(97);
 	exports.ViewPort = view_port_1.ViewPort;
-	var pages_1 = __webpack_require__(99);
+	var pages_1 = __webpack_require__(98);
 	exports.Pages = pages_1.Pages;
-	var main_loop_1 = __webpack_require__(100);
+	var main_loop_1 = __webpack_require__(99);
 	exports.MainLoop = main_loop_1.MainLoop;
 	var string_table_1 = __webpack_require__(24);
 	exports.StringTable = string_table_1.StringTable;
-	var image_1 = __webpack_require__(101);
+	var image_1 = __webpack_require__(100);
 	exports.Image = image_1.Image;
-	var group_1 = __webpack_require__(102);
+	var group_1 = __webpack_require__(101);
 	exports.Group = group_1.Group;
-	var dialog_1 = __webpack_require__(103);
+	var dialog_1 = __webpack_require__(102);
 	exports.Dialog = dialog_1.Dialog;
-	var button_1 = __webpack_require__(105);
+	var button_1 = __webpack_require__(104);
 	exports.Button = button_1.Button;
-	var slider_1 = __webpack_require__(106);
+	var slider_1 = __webpack_require__(105);
 	exports.Slider = slider_1.Slider;
-	var switch_1 = __webpack_require__(108);
+	var switch_1 = __webpack_require__(107);
 	exports.Switch = switch_1.Switch;
-	var matrix_stack_1 = __webpack_require__(87);
+	var matrix_stack_1 = __webpack_require__(86);
 	exports.MatrixStack = matrix_stack_1.MatrixStack;
-	var tab_page_1 = __webpack_require__(109);
+	var tab_page_1 = __webpack_require__(108);
 	exports.TabPage = tab_page_1.TabPage;
-	var rich_text_1 = __webpack_require__(110);
+	var rich_text_1 = __webpack_require__(109);
 	exports.RichText = rich_text_1.RichText;
-	var tab_button_1 = __webpack_require__(115);
+	var tab_button_1 = __webpack_require__(114);
 	exports.TabButton = tab_button_1.TabButton;
-	var tab_control_1 = __webpack_require__(119);
+	var tab_control_1 = __webpack_require__(118);
 	exports.TabControl = tab_control_1.TabControl;
 	var image_tile_1 = __webpack_require__(9);
 	exports.ImageDrawType = image_tile_1.ImageDrawType;
 	exports.ImageTile = image_tile_1.ImageTile;
-	var rich_text_edit_1 = __webpack_require__(121);
+	var rich_text_edit_1 = __webpack_require__(120);
 	exports.RichTextEdit = rich_text_edit_1.RichTextEdit;
-	var tab_button_group_1 = __webpack_require__(120);
+	var tab_button_group_1 = __webpack_require__(119);
 	exports.TabButtonGroup = tab_button_group_1.TabButtonGroup;
-	var combo_box_1 = __webpack_require__(122);
+	var combo_box_1 = __webpack_require__(121);
 	exports.ComboBox = combo_box_1.ComboBox;
 	exports.ComboBoxEditable = combo_box_1.ComboBoxEditable;
-	var grid_view_1 = __webpack_require__(127);
+	var grid_view_1 = __webpack_require__(126);
 	exports.GridView = grid_view_1.GridView;
-	var list_view_1 = __webpack_require__(123);
+	var list_view_1 = __webpack_require__(122);
 	exports.ListView = list_view_1.ListView;
-	var tree_item_1 = __webpack_require__(129);
+	var tree_item_1 = __webpack_require__(128);
 	exports.TreeItem = tree_item_1.TreeItem;
-	var tree_view_1 = __webpack_require__(130);
+	var tree_view_1 = __webpack_require__(129);
 	exports.TreeView = tree_view_1.TreeView;
-	var application_1 = __webpack_require__(132);
+	var application_1 = __webpack_require__(131);
 	exports.Application = application_1.Application;
-	var movable_1 = __webpack_require__(174);
+	var movable_1 = __webpack_require__(173);
 	exports.Movable = movable_1.Movable;
-	var theme_manager_1 = __webpack_require__(133);
+	var theme_manager_1 = __webpack_require__(132);
 	exports.ThemeManager = theme_manager_1.ThemeManager;
-	var draggable_1 = __webpack_require__(175);
+	var draggable_1 = __webpack_require__(174);
 	exports.Draggable = draggable_1.Draggable;
-	var droppable_1 = __webpack_require__(176);
+	var droppable_1 = __webpack_require__(175);
 	exports.Droppable = droppable_1.Droppable;
-	var behavior_1 = __webpack_require__(88);
+	var behavior_1 = __webpack_require__(87);
 	exports.Behavior = behavior_1.Behavior;
 	exports.BehaviorFactory = behavior_1.BehaviorFactory;
-	var resizable_1 = __webpack_require__(177);
+	var resizable_1 = __webpack_require__(176);
 	exports.Resizable = resizable_1.Resizable;
 	exports.ResizableOptions = resizable_1.ResizableOptions;
-	var menu_1 = __webpack_require__(178);
+	var menu_1 = __webpack_require__(177);
 	exports.Menu = menu_1.Menu;
 	exports.MenuItem = menu_1.MenuItem;
-	var radio_button_1 = __webpack_require__(117);
+	var radio_button_1 = __webpack_require__(116);
 	exports.RadioButton = radio_button_1.RadioButton;
-	var tree_item_data_1 = __webpack_require__(131);
+	var tree_item_data_1 = __webpack_require__(130);
 	exports.TreeItemData = tree_item_data_1.TreeItemData;
-	var check_button_1 = __webpack_require__(118);
+	var check_button_1 = __webpack_require__(117);
 	exports.CheckButton = check_button_1.CheckButton;
-	var window_normal_1 = __webpack_require__(179);
+	var window_normal_1 = __webpack_require__(178);
 	exports.WindowNormal = window_normal_1.WindowNormal;
 	var widget_factory_1 = __webpack_require__(26);
 	exports.WidgetFactory = widget_factory_1.WidgetFactory;
-	var menu_bar_1 = __webpack_require__(180);
+	var menu_bar_1 = __webpack_require__(179);
 	exports.MenuBar = menu_bar_1.MenuBar;
 	exports.MenuBarItem = menu_bar_1.MenuBarItem;
-	var color_tile_1 = __webpack_require__(151);
+	var tool_bar_1 = __webpack_require__(180);
+	exports.ToolBar = tool_bar_1.ToolBar;
+	exports.ToolBarItem = tool_bar_1.ToolBarItem;
+	var color_tile_1 = __webpack_require__(150);
 	exports.ColorTile = color_tile_1.ColorTile;
 	exports.ColorLine = color_tile_1.ColorLine;
-	var list_item_1 = __webpack_require__(125);
+	var list_item_1 = __webpack_require__(124);
 	exports.ListItem = list_item_1.ListItem;
 	exports.ListItemStyle = list_item_1.ListItemStyle;
 	var chart_view_1 = __webpack_require__(181);
@@ -218,77 +221,77 @@ var app =
 	exports.HRuler = ruler_1.HRuler;
 	var title_content_1 = __webpack_require__(341);
 	exports.TitleContent = title_content_1.TitleContent;
-	var title_label_1 = __webpack_require__(153);
+	var title_label_1 = __webpack_require__(152);
 	exports.TitleLabel = title_label_1.TitleLabel;
-	var title_range_1 = __webpack_require__(155);
+	var title_range_1 = __webpack_require__(153);
 	exports.TitleRange = title_range_1.TitleRange;
-	var title_vector_1 = __webpack_require__(157);
+	var title_vector_1 = __webpack_require__(155);
 	exports.TitleVector = title_vector_1.TitleVector;
-	var title_edit_1 = __webpack_require__(152);
+	var title_edit_1 = __webpack_require__(151);
 	exports.TitleEdit = title_edit_1.TitleEdit;
-	var title_slider_1 = __webpack_require__(159);
+	var title_slider_1 = __webpack_require__(157);
 	exports.TitleSlider = title_slider_1.TitleSlider;
-	var property_page_1 = __webpack_require__(147);
+	var property_page_1 = __webpack_require__(146);
 	exports.PropertyPage = property_page_1.PropertyPage;
-	var property_dialog_1 = __webpack_require__(146);
+	var property_dialog_1 = __webpack_require__(145);
 	exports.PropertyDialog = property_dialog_1.PropertyDialog;
-	var range_edit_1 = __webpack_require__(156);
+	var range_edit_1 = __webpack_require__(154);
 	exports.RangeEdit = range_edit_1.RangeEdit;
-	var vector_edit_1 = __webpack_require__(158);
+	var vector_edit_1 = __webpack_require__(156);
 	exports.VectorEdit = vector_edit_1.VectorEdit;
-	var choosable_edit_1 = __webpack_require__(162);
+	var choosable_edit_1 = __webpack_require__(161);
 	exports.ChoosableEdit = choosable_edit_1.ChoosableEdit;
-	var title_text_area_1 = __webpack_require__(160);
+	var title_text_area_1 = __webpack_require__(158);
 	exports.TitleTextArea = title_text_area_1.TitleTextArea;
 	var property_sheets_1 = __webpack_require__(344);
 	exports.PropertySheets = property_sheets_1.PropertySheets;
-	var progress_bar_1 = __webpack_require__(107);
+	var progress_bar_1 = __webpack_require__(106);
 	exports.ProgressBarType = progress_bar_1.ProgressBarType;
 	exports.ProgressBar = progress_bar_1.ProgressBar;
-	var title_choosable_edit_1 = __webpack_require__(161);
+	var title_choosable_edit_1 = __webpack_require__(160);
 	exports.TitleChoosableEdit = title_choosable_edit_1.TitleChoosableEdit;
-	var dock_layouter_1 = __webpack_require__(142);
+	var dock_layouter_1 = __webpack_require__(141);
 	exports.DockLayouter = dock_layouter_1.DockLayouter;
 	exports.DockLayouterParam = dock_layouter_1.DockLayouterParam;
-	var grid_layouter_1 = __webpack_require__(128);
+	var grid_layouter_1 = __webpack_require__(127);
 	exports.GridLayouter = grid_layouter_1.GridLayouter;
 	exports.GridLayouterParam = grid_layouter_1.GridLayouterParam;
-	var list_layouter_1 = __webpack_require__(124);
+	var list_layouter_1 = __webpack_require__(123);
 	exports.ListLayouter = list_layouter_1.ListLayouter;
 	exports.ListLayouterParam = list_layouter_1.ListLayouterParam;
-	var simple_layouter_1 = __webpack_require__(126);
+	var simple_layouter_1 = __webpack_require__(125);
 	exports.SimpleLayouter = simple_layouter_1.SimpleLayouter;
 	exports.SimpleLayouterParam = simple_layouter_1.SimpleLayouterParam;
-	var linear_layouter_1 = __webpack_require__(143);
+	var linear_layouter_1 = __webpack_require__(142);
 	exports.LinearLayouter = linear_layouter_1.LinearLayouter;
 	exports.LinearLayouterParam = linear_layouter_1.LinearLayouterParam;
 	var widget_1 = __webpack_require__(21);
 	exports.Widget = widget_1.Widget;
 	exports.WidgetState = widget_1.WidgetState;
 	exports.HitTestResult = widget_1.HitTestResult;
-	var consts_1 = __webpack_require__(116);
+	var consts_1 = __webpack_require__(115);
 	exports.Direction = consts_1.Direction;
 	exports.Align = consts_1.Align;
 	exports.AlignH = consts_1.AlignH;
 	exports.AlignV = consts_1.AlignV;
 	exports.Orientation = consts_1.Orientation;
-	var title_combo_box_1 = __webpack_require__(164);
+	var title_combo_box_1 = __webpack_require__(163);
 	exports.TitleComboBox = title_combo_box_1.TitleComboBox;
 	exports.TitleComboBoxEditable = title_combo_box_1.TitleComboBoxEditable;
-	var message_box_1 = __webpack_require__(141);
+	var message_box_1 = __webpack_require__(140);
 	exports.ButtonOption = message_box_1.ButtonOption;
 	exports.ButtonsOptions = message_box_1.ButtonsOptions;
 	exports.TitleOptions = message_box_1.TitleOptions;
 	exports.MessageBox = message_box_1.MessageBox;
-	var scroll_view_1 = __webpack_require__(111);
+	var scroll_view_1 = __webpack_require__(110);
 	exports.ScrollerBarVisibility = scroll_view_1.ScrollerBarVisibility;
 	exports.ScrollBarStyle = scroll_view_1.ScrollBarStyle;
 	exports.ScrollView = scroll_view_1.ScrollView;
 	var device_info_1 = __webpack_require__(25);
 	exports.DeviceInfo = device_info_1.DeviceInfo;
-	var view_model_1 = __webpack_require__(165);
+	var view_model_1 = __webpack_require__(164);
 	exports.ViewModel = view_model_1.ViewModel;
-	var recyclable_creator_1 = __webpack_require__(94);
+	var recyclable_creator_1 = __webpack_require__(93);
 	exports.RecyclableCreator = recyclable_creator_1.RecyclableCreator;
 	var delegate_command_1 = __webpack_require__(345);
 	exports.DelegateCommand = delegate_command_1.DelegateCommand;
@@ -296,31 +299,31 @@ var app =
 	exports.CollectionViewModel = collection_view_model_1.CollectionViewModel;
 	var delegate_value_converter_1 = __webpack_require__(347);
 	exports.DelegateValueConverter = delegate_value_converter_1.DelegateValueConverter;
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	exports.WidgetRecyclableCreator = widget_recyclable_creator_1.WidgetRecyclableCreator;
-	var ivalidation_rule_1 = __webpack_require__(169);
+	var ivalidation_rule_1 = __webpack_require__(168);
 	exports.ValidationResult = ivalidation_rule_1.ValidationResult;
 	var delegate_validation_rule_1 = __webpack_require__(348);
 	exports.DelegateValidationRule = delegate_validation_rule_1.DelegateValidationRule;
-	var binding_rule_1 = __webpack_require__(90);
+	var binding_rule_1 = __webpack_require__(89);
 	exports.BindingRule = binding_rule_1.BindingRule;
 	exports.BindingDataSource = binding_rule_1.BindingDataSource;
 	exports.BindingCommandSource = binding_rule_1.BindingCommandSource;
 	exports.BindingRuleItem = binding_rule_1.BindingRuleItem;
-	var iview_model_1 = __webpack_require__(92);
+	var iview_model_1 = __webpack_require__(91);
 	exports.BindingMode = iview_model_1.BindingMode;
-	var props_desc_1 = __webpack_require__(163);
+	var props_desc_1 = __webpack_require__(162);
 	exports.PagePropsDesc = props_desc_1.PagePropsDesc;
 	exports.PropsDesc = props_desc_1.PropsDesc;
 	exports.PropDesc = props_desc_1.PropDesc;
 	exports.NumberPropDesc = props_desc_1.NumberPropDesc;
 	exports.SliderPropDesc = props_desc_1.SliderPropDesc;
-	var props_desc_2 = __webpack_require__(163);
+	var props_desc_2 = __webpack_require__(162);
 	exports.TextPropDesc = props_desc_2.TextPropDesc;
 	exports.ReadonlyTextPropDesc = props_desc_2.ReadonlyTextPropDesc;
 	exports.OptionsPropDesc = props_desc_2.OptionsPropDesc;
 	exports.RangePropDesc = props_desc_2.RangePropDesc;
-	var props_desc_3 = __webpack_require__(163);
+	var props_desc_3 = __webpack_require__(162);
 	exports.Vector2PropDesc = props_desc_3.Vector2PropDesc;
 	exports.Vector3PropDesc = props_desc_3.Vector3PropDesc;
 	exports.LinePropDesc = props_desc_3.LinePropDesc;
@@ -349,11 +352,11 @@ var app =
 	exports.ConfirmationInfo = confirmation_info_1.ConfirmationInfo;
 	var notification_info_1 = __webpack_require__(355);
 	exports.NotificationInfo = notification_info_1.NotificationInfo;
-	var interaction_types_1 = __webpack_require__(138);
+	var interaction_types_1 = __webpack_require__(137);
 	exports.InteractionTypes = interaction_types_1.InteractionTypes;
-	var interaction_request_1 = __webpack_require__(137);
+	var interaction_request_1 = __webpack_require__(136);
 	exports.InteractionRequest = interaction_request_1.InteractionRequest;
-	var interaction_service_1 = __webpack_require__(139);
+	var interaction_service_1 = __webpack_require__(138);
 	exports.InteractionService = interaction_service_1.InteractionService;
 	var items_storage_1 = __webpack_require__(356);
 	exports.ItemsStorage = items_storage_1.ItemsStorage;
@@ -396,10 +399,24 @@ var app =
 /***/ function(module, exports) {
 
 	"use strict";
+	/**
+	 * @class Rect
+	 * 用左上角坐标、宽度和高度来描述一个矩形区域。
+	 */
 	var Rect = (function () {
 	    function Rect(x, y, w, h) {
 	        this.init(x, y, w, h);
 	    }
+	    /**
+	     * @method init
+	     * 初始化Rect。
+	     * @param {number} x 左上角X坐标。
+	     * @param {number} y 左上角Y坐标。
+	     * @param {number} w 宽度。
+	     * @param {number} h 高度。
+	     *
+	     * return {Rect} Rect自己。
+	     */
 	    Rect.prototype.init = function (x, y, w, h) {
 	        this.x = x;
 	        this.y = y;
@@ -409,15 +426,33 @@ var app =
 	    };
 	    Rect.prototype.dispose = function () {
 	    };
+	    /**
+	     * @method clone
+	     * 克隆。
+	     */
 	    Rect.prototype.clone = function () {
 	        return Rect.create(this.x, this.y, this.w, this.h);
 	    };
+	    /**
+	     * @method equal
+	     * 判断两个Rect的区域是否相同。
+	     */
 	    Rect.prototype.equal = function (other) {
 	        return this.x === other.x && this.y === other.y && this.w === other.w && this.h === other.h;
 	    };
+	    /**
+	     * @method copy
+	     * 拷贝另外一个Rect的属性到当前的Rect。
+	     */
 	    Rect.prototype.copy = function (other) {
 	        return this.init(other.x, other.y, other.w, other.h);
 	    };
+	    /**
+	     * @method merge
+	     * 扩展当前的Rect去包含指定的Rect。
+	     *
+	     * @return {Rect} Rect本身。
+	     */
 	    Rect.prototype.merge = function (other) {
 	        var x = Math.min(this.x, other.x);
 	        var y = Math.min(this.y, other.y);
@@ -427,8 +462,29 @@ var app =
 	        this.y = y;
 	        return this;
 	    };
+	    /**
+	     * @method containsPoint
+	     * 判断Rect是否包含指定的点。
+	     */
 	    Rect.prototype.containsPoint = function (x, y) {
 	        return x >= this.x && x < (this.x + this.w) && y >= this.y && y < (this.y + this.h);
+	    };
+	    /**
+	     * @method normalize
+	     * 规范化Rect，让w/h总是非负的，但表示的区域不变。
+	     * @param {Rect} out 保存规范化之后的Rect，如果为空，则直接修改Rect本身。
+	     * @return {Rect} 规范化之后的Rect。
+	     */
+	    Rect.prototype.normalize = function (out) {
+	        var x = this.w > 0 ? this.x : (this.x + this.w);
+	        var y = this.h > 0 ? this.y : (this.y + this.h);
+	        var w = Math.abs(this.w);
+	        var h = Math.abs(this.h);
+	        if (!out) {
+	            out = this;
+	        }
+	        out.init(x, y, w, h);
+	        return out;
 	    };
 	    Rect.create = function (x, y, w, h) {
 	        var r = new Rect(x || 0, y || 0, w || 0, h || 0);
@@ -4150,11 +4206,9 @@ var app =
 	    }
 	    else if (type === Events.POINTER_UP) {
 	        detail.setPointerDown(pointerDown, pointerDownX, pointerDownY, pointerDownTime);
+	        dispatchEvent(target, Events.CLICK, detail);
 	        pointerDown = false;
 	        pointerMoved = false;
-	        if (!pointerMoved) {
-	            dispatchEvent(target, Events.CLICK, detail);
-	        }
 	    }
 	    else {
 	        pointerMoved = true;
@@ -4530,11 +4584,11 @@ var app =
 	var label_1 = __webpack_require__(20);
 	var Events = __webpack_require__(8);
 	var key_event_1 = __webpack_require__(18);
-	var html_edit_1 = __webpack_require__(95);
+	var html_edit_1 = __webpack_require__(94);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
 	var graphics_1 = __webpack_require__(28);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 编辑器。multiLineMode决定是多行编辑器还是单行编辑器。
 	 */
@@ -4669,6 +4723,12 @@ var app =
 	        }
 	        this.requestRedraw();
 	    };
+	    Edit.prototype.notifyChangeEx = function (type, value, oldValue) {
+	        var e = this.eChangeEvent;
+	        e.init(type, { value: value, oldValue: oldValue });
+	        ;
+	        this.dispatchEvent(e);
+	    };
 	    Edit.prototype.showEditor = function () {
 	        var _this = this;
 	        var style = this.getStyle();
@@ -4697,20 +4757,14 @@ var app =
 	            _this.hideEditor();
 	        });
 	        input.on(Events.CHANGING, function (evt) {
-	            var e = _this.eChangeEvent;
 	            _this.text = _this.filterText(evt.value);
 	            var value = _this.inputType === "number" ? +_this.text : _this.text;
-	            e.init(Events.CHANGING, { value: value });
-	            ;
-	            _this.dispatchEvent(e);
+	            _this.notifyChangeEx(Events.CHANGING, value, null);
 	        });
 	        input.on(Events.CHANGE, function (evt) {
-	            var e = _this.eChangeEvent;
 	            _this.text = _this.filterText(evt.value);
 	            var value = _this.inputType === "number" ? +_this.text : _this.text;
-	            e.init(Events.CHANGE, { value: value, oldValue: oldValue });
-	            ;
-	            _this.dispatchEvent(e);
+	            _this.notifyChangeEx(Events.CHANGE, value, oldValue);
 	        });
 	        input.on(Events.KEYDOWN, function (evt) {
 	            _this.dispatchEvent(evt);
@@ -4782,7 +4836,7 @@ var app =
 	var widget_1 = __webpack_require__(21);
 	var graphics_1 = __webpack_require__(28);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 文本控件。
 	 */
@@ -4912,13 +4966,13 @@ var app =
 	var string_table_1 = __webpack_require__(24);
 	var widget_factory_1 = __webpack_require__(26);
 	var graphics_1 = __webpack_require__(28);
-	var dirty_rect_context_1 = __webpack_require__(86);
+	var dirty_rect_context_1 = __webpack_require__(85);
 	var image_tile_1 = __webpack_require__(9);
-	var behavior_1 = __webpack_require__(88);
-	var layouter_1 = __webpack_require__(89);
-	var binding_rule_1 = __webpack_require__(90);
-	var binding_rule_2 = __webpack_require__(90);
-	var iview_model_1 = __webpack_require__(92);
+	var behavior_1 = __webpack_require__(87);
+	var layouter_1 = __webpack_require__(88);
+	var binding_rule_1 = __webpack_require__(89);
+	var binding_rule_2 = __webpack_require__(89);
+	var iview_model_1 = __webpack_require__(91);
 	/**
 	 * @enum WidgetState
 	 * 控件的状态
@@ -5280,14 +5334,22 @@ var app =
 	        if (!this._enable || !this._sensitive) {
 	            return;
 	        }
-	        this.dispatchEvent(evt, true);
-	        if (this.target) {
-	            this.target.dispatchClick(evt);
+	        this.translatePointerEvent(evt);
+	        var x = evt.localX;
+	        var y = evt.localY;
+	        var hitTestResult = this.selfHitTest(x, y);
+	        var isClick = Math.abs(evt.dx) < 5 && Math.abs(evt.dy) < 5;
+	        if (isClick || hitTestResult) {
+	            this.dispatchEvent(evt, true);
+	            if (this.target) {
+	                this.target.dispatchClick(evt);
+	            }
+	            if (this.onclick) {
+	                this.onclick(evt);
+	            }
+	            this.dispatchEvent(evt, false);
 	        }
-	        if (this.onclick) {
-	            this.onclick(evt);
-	        }
-	        this.dispatchEvent(evt, false);
+	        this.untranslatePointerEvent(evt);
 	    };
 	    Widget.prototype.dispatchContextMenu = function (evt) {
 	        if (!this._enable || !this._sensitive) {
@@ -5567,6 +5629,9 @@ var app =
 	            else {
 	                this._childrenLayouter = layouter;
 	            }
+	            if (this.children.length) {
+	                this.relayoutChildren();
+	            }
 	        },
 	        enumerable: true,
 	        configurable: true
@@ -5588,6 +5653,13 @@ var app =
 	        enumerable: true,
 	        configurable: true
 	    });
+	    Widget.prototype.getParentByType = function (type) {
+	        var iter = this.parent;
+	        while (iter && iter.type !== type) {
+	            iter = iter.parent;
+	        }
+	        return iter;
+	    };
 	    ///////////////////////////////////////////
 	    /**
 	     * @method indexOfChild
@@ -6642,11 +6714,12 @@ var app =
 	        }
 	        return behavior;
 	    };
-	    Widget.prototype.notifyChange = function () {
-	        this.dispatchEvent(this.eChangeEvent.init(Events.CHANGE, { newValue: this.value, oldValue: !this.value }));
+	    Widget.prototype.notifyChange = function (oldValue) {
+	        this.dispatchEvent(this.eChangeEvent.init(Events.CHANGE, { newValue: this.value, oldValue: oldValue }));
 	    };
 	    Widget.prototype.setValue = function (value, notify, exclude) {
 	        var _this = this;
+	        var oldValue = this.value;
 	        if (exclude) {
 	            var type = this.type;
 	            if (this.parent && value) {
@@ -6665,7 +6738,7 @@ var app =
 	            this.setProp("value", value, notify);
 	        }
 	        if (notify) {
-	            this.notifyChange();
+	            this.notifyChange(oldValue);
 	        }
 	    };
 	    Widget.prototype.onReset = function () {
@@ -7110,7 +7183,7 @@ var app =
 	        });
 	    };
 	    Widget.prototype.hitTest = function (x, y) {
-	        return this.doHitTest(x, y, rect_1.Rect.rect.init(0, 0, this.w, this.h));
+	        return this.doHitTest(x, y, rect_1.Rect.rect.init(0, 0, this.w + 1, this.h + 1));
 	    };
 	    Widget.prototype.doHitTest = function (x, y, r) {
 	        return r.containsPoint(x, y) ? HitTestResult.MM : HitTestResult.NONE;
@@ -11793,11 +11866,11 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	var Stream = __webpack_require__(51).Stream,
-	    util = __webpack_require__(78),
-	    TokenType = __webpack_require__(81),
-	    BreakType = __webpack_require__(82),
-	    tokenizer = __webpack_require__(83),
-	    LineBreak = __webpack_require__(85);
+	    util = __webpack_require__(77),
+	    TokenType = __webpack_require__(80),
+	    BreakType = __webpack_require__(81),
+	    tokenizer = __webpack_require__(82),
+	    LineBreak = __webpack_require__(84);
 
 	function TokenizerStream() {
 	    Stream.call(this);
@@ -11884,10 +11957,10 @@ var app =
 
 	inherits(Stream, EE);
 	Stream.Readable = __webpack_require__(54);
-	Stream.Writable = __webpack_require__(74);
-	Stream.Duplex = __webpack_require__(75);
-	Stream.Transform = __webpack_require__(76);
-	Stream.PassThrough = __webpack_require__(77);
+	Stream.Writable = __webpack_require__(73);
+	Stream.Duplex = __webpack_require__(74);
+	Stream.Transform = __webpack_require__(75);
+	Stream.PassThrough = __webpack_require__(76);
 
 	// Backwards-compat with node 0.4.x
 	Stream.Stream = Stream;
@@ -12334,10 +12407,10 @@ var app =
 	exports = module.exports = __webpack_require__(55);
 	exports.Stream = Stream || exports;
 	exports.Readable = exports;
-	exports.Writable = __webpack_require__(67);
-	exports.Duplex = __webpack_require__(66);
-	exports.Transform = __webpack_require__(72);
-	exports.PassThrough = __webpack_require__(73);
+	exports.Writable = __webpack_require__(66);
+	exports.Duplex = __webpack_require__(65);
+	exports.Transform = __webpack_require__(71);
+	exports.PassThrough = __webpack_require__(72);
 
 	if (!process.browser && process.env.READABLE_STREAM === 'disable' && Stream) {
 	  module.exports = Stream;
@@ -12388,16 +12461,16 @@ var app =
 
 	var Buffer = __webpack_require__(58).Buffer;
 	/*<replacement>*/
-	var bufferShim = __webpack_require__(62);
+	var bufferShim = __webpack_require__(61);
 	/*</replacement>*/
 
 	/*<replacement>*/
-	var util = __webpack_require__(63);
+	var util = __webpack_require__(62);
 	util.inherits = __webpack_require__(53);
 	/*</replacement>*/
 
 	/*<replacement>*/
-	var debugUtil = __webpack_require__(64);
+	var debugUtil = __webpack_require__(63);
 	var debug = void 0;
 	if (debugUtil && debugUtil.debuglog) {
 	  debug = debugUtil.debuglog('stream');
@@ -12406,7 +12479,7 @@ var app =
 	}
 	/*</replacement>*/
 
-	var BufferList = __webpack_require__(65);
+	var BufferList = __webpack_require__(64);
 	var StringDecoder;
 
 	util.inherits(Readable, Stream);
@@ -12426,7 +12499,7 @@ var app =
 	}
 
 	function ReadableState(options, stream) {
-	  Duplex = Duplex || __webpack_require__(66);
+	  Duplex = Duplex || __webpack_require__(65);
 
 	  options = options || {};
 
@@ -12488,14 +12561,14 @@ var app =
 	  this.decoder = null;
 	  this.encoding = null;
 	  if (options.encoding) {
-	    if (!StringDecoder) StringDecoder = __webpack_require__(71).StringDecoder;
+	    if (!StringDecoder) StringDecoder = __webpack_require__(70).StringDecoder;
 	    this.decoder = new StringDecoder(options.encoding);
 	    this.encoding = options.encoding;
 	  }
 	}
 
 	function Readable(options) {
-	  Duplex = Duplex || __webpack_require__(66);
+	  Duplex = Duplex || __webpack_require__(65);
 
 	  if (!(this instanceof Readable)) return new Readable(options);
 
@@ -12598,7 +12671,7 @@ var app =
 
 	// backwards compatibility.
 	Readable.prototype.setEncoding = function (enc) {
-	  if (!StringDecoder) StringDecoder = __webpack_require__(71).StringDecoder;
+	  if (!StringDecoder) StringDecoder = __webpack_require__(70).StringDecoder;
 	  this._readableState.decoder = new StringDecoder(enc);
 	  this._readableState.encoding = enc;
 	  return this;
@@ -13369,7 +13442,7 @@ var app =
 
 	var base64 = __webpack_require__(59)
 	var ieee754 = __webpack_require__(60)
-	var isArray = __webpack_require__(61)
+	var isArray = __webpack_require__(57)
 
 	exports.Buffer = Buffer
 	exports.SlowBuffer = SlowBuffer
@@ -15155,6 +15228,7 @@ var app =
 
 	'use strict'
 
+	exports.byteLength = byteLength
 	exports.toByteArray = toByteArray
 	exports.fromByteArray = fromByteArray
 
@@ -15162,23 +15236,17 @@ var app =
 	var revLookup = []
 	var Arr = typeof Uint8Array !== 'undefined' ? Uint8Array : Array
 
-	function init () {
-	  var code = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
-	  for (var i = 0, len = code.length; i < len; ++i) {
-	    lookup[i] = code[i]
-	    revLookup[code.charCodeAt(i)] = i
-	  }
-
-	  revLookup['-'.charCodeAt(0)] = 62
-	  revLookup['_'.charCodeAt(0)] = 63
+	var code = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+	for (var i = 0, len = code.length; i < len; ++i) {
+	  lookup[i] = code[i]
+	  revLookup[code.charCodeAt(i)] = i
 	}
 
-	init()
+	revLookup['-'.charCodeAt(0)] = 62
+	revLookup['_'.charCodeAt(0)] = 63
 
-	function toByteArray (b64) {
-	  var i, j, l, tmp, placeHolders, arr
+	function placeHoldersCount (b64) {
 	  var len = b64.length
-
 	  if (len % 4 > 0) {
 	    throw new Error('Invalid string. Length must be a multiple of 4')
 	  }
@@ -15188,9 +15256,19 @@ var app =
 	  // represent one byte
 	  // if there is only one, then the three characters before it represent 2 bytes
 	  // this is just a cheap hack to not do indexOf twice
-	  placeHolders = b64[len - 2] === '=' ? 2 : b64[len - 1] === '=' ? 1 : 0
+	  return b64[len - 2] === '=' ? 2 : b64[len - 1] === '=' ? 1 : 0
+	}
 
+	function byteLength (b64) {
 	  // base64 is 4/3 + up to two characters of the original data
+	  return b64.length * 3 / 4 - placeHoldersCount(b64)
+	}
+
+	function toByteArray (b64) {
+	  var i, j, l, tmp, placeHolders, arr
+	  var len = b64.length
+	  placeHolders = placeHoldersCount(b64)
+
 	  arr = new Arr(len * 3 / 4 - placeHolders)
 
 	  // if there are placeholders, only get up to the last complete 4 chars
@@ -15356,17 +15434,6 @@ var app =
 
 /***/ },
 /* 61 */
-/***/ function(module, exports) {
-
-	var toString = {}.toString;
-
-	module.exports = Array.isArray || function (arr) {
-	  return toString.call(arr) == '[object Array]';
-	};
-
-
-/***/ },
-/* 62 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
@@ -15481,7 +15548,7 @@ var app =
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 63 */
+/* 62 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(Buffer) {// Copyright Joyent, Inc. and other Node contributors.
@@ -15595,20 +15662,20 @@ var app =
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(58).Buffer))
 
 /***/ },
-/* 64 */
+/* 63 */
 /***/ function(module, exports) {
 
 	/* (ignored) */
 
 /***/ },
-/* 65 */
+/* 64 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	var Buffer = __webpack_require__(58).Buffer;
 	/*<replacement>*/
-	var bufferShim = __webpack_require__(62);
+	var bufferShim = __webpack_require__(61);
 	/*</replacement>*/
 
 	module.exports = BufferList;
@@ -15670,7 +15737,7 @@ var app =
 	};
 
 /***/ },
-/* 66 */
+/* 65 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// a duplex stream is just a stream that is both readable and writable.
@@ -15697,12 +15764,12 @@ var app =
 	/*</replacement>*/
 
 	/*<replacement>*/
-	var util = __webpack_require__(63);
+	var util = __webpack_require__(62);
 	util.inherits = __webpack_require__(53);
 	/*</replacement>*/
 
 	var Readable = __webpack_require__(55);
-	var Writable = __webpack_require__(67);
+	var Writable = __webpack_require__(66);
 
 	util.inherits(Duplex, Readable);
 
@@ -15750,7 +15817,7 @@ var app =
 	}
 
 /***/ },
-/* 67 */
+/* 66 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process, setImmediate) {// A bit simpler than readable streams.
@@ -15776,13 +15843,13 @@ var app =
 	Writable.WritableState = WritableState;
 
 	/*<replacement>*/
-	var util = __webpack_require__(63);
+	var util = __webpack_require__(62);
 	util.inherits = __webpack_require__(53);
 	/*</replacement>*/
 
 	/*<replacement>*/
 	var internalUtil = {
-	  deprecate: __webpack_require__(70)
+	  deprecate: __webpack_require__(69)
 	};
 	/*</replacement>*/
 
@@ -15799,7 +15866,7 @@ var app =
 
 	var Buffer = __webpack_require__(58).Buffer;
 	/*<replacement>*/
-	var bufferShim = __webpack_require__(62);
+	var bufferShim = __webpack_require__(61);
 	/*</replacement>*/
 
 	util.inherits(Writable, Stream);
@@ -15814,7 +15881,7 @@ var app =
 	}
 
 	function WritableState(options, stream) {
-	  Duplex = Duplex || __webpack_require__(66);
+	  Duplex = Duplex || __webpack_require__(65);
 
 	  options = options || {};
 
@@ -15948,7 +16015,7 @@ var app =
 	}
 
 	function Writable(options) {
-	  Duplex = Duplex || __webpack_require__(66);
+	  Duplex = Duplex || __webpack_require__(65);
 
 	  // Writable ctor is applied to Duplexes, too.
 	  // `realHasInstance` is necessary because using plain `instanceof`
@@ -16307,10 +16374,10 @@ var app =
 	    }
 	  };
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12), __webpack_require__(68).setImmediate))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12), __webpack_require__(67).setImmediate))
 
 /***/ },
-/* 68 */
+/* 67 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var apply = Function.prototype.apply;
@@ -16363,13 +16430,13 @@ var app =
 	};
 
 	// setimmediate attaches itself to the global object
-	__webpack_require__(69);
+	__webpack_require__(68);
 	exports.setImmediate = setImmediate;
 	exports.clearImmediate = clearImmediate;
 
 
 /***/ },
-/* 69 */
+/* 68 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -16562,7 +16629,7 @@ var app =
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(12)))
 
 /***/ },
-/* 70 */
+/* 69 */
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {
@@ -16636,7 +16703,7 @@ var app =
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 71 */
+/* 70 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// Copyright Joyent, Inc. and other Node contributors.
@@ -16863,7 +16930,7 @@ var app =
 
 
 /***/ },
-/* 72 */
+/* 71 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// a transform stream is a readable/writable stream where you do
@@ -16912,10 +16979,10 @@ var app =
 
 	module.exports = Transform;
 
-	var Duplex = __webpack_require__(66);
+	var Duplex = __webpack_require__(65);
 
 	/*<replacement>*/
-	var util = __webpack_require__(63);
+	var util = __webpack_require__(62);
 	util.inherits = __webpack_require__(53);
 	/*</replacement>*/
 
@@ -17050,7 +17117,7 @@ var app =
 	}
 
 /***/ },
-/* 73 */
+/* 72 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// a passthrough stream.
@@ -17061,10 +17128,10 @@ var app =
 
 	module.exports = PassThrough;
 
-	var Transform = __webpack_require__(72);
+	var Transform = __webpack_require__(71);
 
 	/*<replacement>*/
-	var util = __webpack_require__(63);
+	var util = __webpack_require__(62);
 	util.inherits = __webpack_require__(53);
 	/*</replacement>*/
 
@@ -17081,17 +17148,24 @@ var app =
 	};
 
 /***/ },
+/* 73 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__(66)
+
+
+/***/ },
 /* 74 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(67)
+	module.exports = __webpack_require__(65)
 
 
 /***/ },
 /* 75 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(66)
+	module.exports = __webpack_require__(71)
 
 
 /***/ },
@@ -17103,13 +17177,6 @@ var app =
 
 /***/ },
 /* 77 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__(73)
-
-
-/***/ },
-/* 78 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global, process) {// Copyright Joyent, Inc. and other Node contributors.
@@ -17637,7 +17704,7 @@ var app =
 	}
 	exports.isPrimitive = isPrimitive;
 
-	exports.isBuffer = __webpack_require__(79);
+	exports.isBuffer = __webpack_require__(78);
 
 	function objectToString(o) {
 	  return Object.prototype.toString.call(o);
@@ -17681,7 +17748,7 @@ var app =
 	 *     prototype.
 	 * @param {function} superCtor Constructor function to inherit prototype from.
 	 */
-	exports.inherits = __webpack_require__(80);
+	exports.inherits = __webpack_require__(79);
 
 	exports._extend = function(origin, add) {
 	  // Don't do anything if add isn't an object
@@ -17702,7 +17769,7 @@ var app =
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(12)))
 
 /***/ },
-/* 79 */
+/* 78 */
 /***/ function(module, exports) {
 
 	module.exports = function isBuffer(arg) {
@@ -17713,7 +17780,7 @@ var app =
 	}
 
 /***/ },
-/* 80 */
+/* 79 */
 /***/ function(module, exports) {
 
 	if (typeof Object.create === 'function') {
@@ -17742,7 +17809,7 @@ var app =
 
 
 /***/ },
-/* 81 */
+/* 80 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -17787,7 +17854,7 @@ var app =
 
 
 /***/ },
-/* 82 */
+/* 81 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -17819,13 +17886,13 @@ var app =
 
 
 /***/ },
-/* 83 */
+/* 82 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var util = __webpack_require__(78),
+	var util = __webpack_require__(77),
 	    Stream = __webpack_require__(51).Stream,
-	    types = __webpack_require__(81),
-	    tokens = __webpack_require__(84),
+	    types = __webpack_require__(80),
+	    tokens = __webpack_require__(83),
 	    tokenClasses = Object.keys(tokens),
 	    tokenRegExp = {};
 
@@ -17925,7 +17992,7 @@ var app =
 
 
 /***/ },
-/* 84 */
+/* 83 */
 /***/ function(module, exports) {
 
 	// This file is auto-generated. Do not modify.
@@ -17972,13 +18039,13 @@ var app =
 
 
 /***/ },
-/* 85 */
+/* 84 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var EventEmitter = __webpack_require__(52).EventEmitter,
-	    TokenType = __webpack_require__(81),
-	    BreakType = __webpack_require__(82),
-	    util = __webpack_require__(78);
+	    TokenType = __webpack_require__(80),
+	    BreakType = __webpack_require__(81),
+	    util = __webpack_require__(77);
 
 	function LineBreak() {
 	    EventEmitter.call(this);
@@ -18101,7 +18168,7 @@ var app =
 
 
 /***/ },
-/* 86 */
+/* 85 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -18112,7 +18179,7 @@ var app =
 	};
 	var rect_1 = __webpack_require__(3);
 	var point_1 = __webpack_require__(4);
-	var matrix_stack_1 = __webpack_require__(87);
+	var matrix_stack_1 = __webpack_require__(86);
 	var DirtyRectContext = (function (_super) {
 	    __extends(DirtyRectContext, _super);
 	    function DirtyRectContext() {
@@ -18176,7 +18243,7 @@ var app =
 
 
 /***/ },
-/* 87 */
+/* 86 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -18234,7 +18301,7 @@ var app =
 
 
 /***/ },
-/* 88 */
+/* 87 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -18392,7 +18459,7 @@ var app =
 
 
 /***/ },
-/* 89 */
+/* 88 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -18580,7 +18647,7 @@ var app =
 
 
 /***/ },
-/* 90 */
+/* 89 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -18589,9 +18656,9 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var json_serializer_1 = __webpack_require__(91);
-	var iview_model_1 = __webpack_require__(92);
-	var iview_model_2 = __webpack_require__(92);
+	var json_serializer_1 = __webpack_require__(90);
+	var iview_model_1 = __webpack_require__(91);
+	var iview_model_2 = __webpack_require__(91);
 	;
 	/**
 	 * 数据源。如果指定了value，直接从value获取数据。否则通过path从ViewModel中获取数据。
@@ -18763,7 +18830,7 @@ var app =
 
 
 /***/ },
-/* 91 */
+/* 90 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -18794,7 +18861,7 @@ var app =
 
 
 /***/ },
-/* 92 */
+/* 91 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -18859,7 +18926,7 @@ var app =
 
 
 /***/ },
-/* 93 */
+/* 92 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -18868,7 +18935,7 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var recyclable_creator_1 = __webpack_require__(94);
+	var recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * 可循环的创建器。
 	 */
@@ -18895,7 +18962,7 @@ var app =
 
 
 /***/ },
-/* 94 */
+/* 93 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -18938,7 +19005,7 @@ var app =
 
 
 /***/ },
-/* 95 */
+/* 94 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -18948,7 +19015,7 @@ var app =
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var Events = __webpack_require__(8);
-	var html_element_1 = __webpack_require__(96);
+	var html_element_1 = __webpack_require__(95);
 	var event_detail_1 = __webpack_require__(16);
 	var HtmlEdit = (function (_super) {
 	    __extends(HtmlEdit, _super);
@@ -19055,7 +19122,7 @@ var app =
 
 
 /***/ },
-/* 96 */
+/* 95 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -19173,6 +19240,24 @@ var app =
 	            this.element = null;
 	        }
 	    };
+	    HtmlElement.showColocPicker = function (value, onChange) {
+	        var input = document.getElementById("color-picker");
+	        if (!input) {
+	            input = document.createElement("input");
+	            input.id = "color-picker";
+	            input.type = "color";
+	            input.style.position = "absolute";
+	            ;
+	            input.style.left = "-100px";
+	            input.style.top = "-100px";
+	            document.body.appendChild(input);
+	        }
+	        input.value = value;
+	        input.oninput = function () {
+	            onChange(this.value);
+	        };
+	        input.click();
+	    };
 	    HtmlElement.prototype.create = function (tag) {
 	        this.element = document.createElement(tag);
 	        document.body.appendChild(this.element);
@@ -19186,7 +19271,7 @@ var app =
 
 
 /***/ },
-/* 97 */
+/* 96 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -19197,7 +19282,11 @@ var app =
 	};
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	/**
+	 * @class Page
+	 * 页面管理器中的页面。
+	 */
 	var Page = (function (_super) {
 	    __extends(Page, _super);
 	    function Page(type) {
@@ -19216,7 +19305,7 @@ var app =
 
 
 /***/ },
-/* 98 */
+/* 97 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/// <reference path="../typings/globals/eventemitter3/index.d.ts"/>
@@ -19317,7 +19406,7 @@ var app =
 
 
 /***/ },
-/* 99 */
+/* 98 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -19328,10 +19417,10 @@ var app =
 	};
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
+	 * @class Pages
 	 * 页面管理器。管理多个页面，只有一个页面处于活跃状态，仅该页面可见，可以处理事件。
-	 * value表示该活跃页面的索引。
 	 */
 	var Pages = (function (_super) {
 	    __extends(Pages, _super);
@@ -19342,6 +19431,10 @@ var app =
 	        get: function () {
 	            return this._value;
 	        },
+	        /**
+	         * @property {number} value
+	         * 表示该活跃页面的索引。
+	         */
 	        set: function (value) {
 	            var n = this.children.length - 1;
 	            this._value = Math.max(0, Math.min(value, n));
@@ -19350,10 +19443,6 @@ var app =
 	        enumerable: true,
 	        configurable: true
 	    });
-	    Pages.prototype.setValueByPage = function (page) {
-	        this.value = this.indexOfChild(page);
-	        return this;
-	    };
 	    Object.defineProperty(Pages.prototype, "target", {
 	        get: function () {
 	            if (this.children.length) {
@@ -19369,6 +19458,9 @@ var app =
 	        enumerable: true,
 	        configurable: true
 	    });
+	    Pages.prototype.findEventTargetChild = function (x, y) {
+	        return this.target;
+	    };
 	    Pages.prototype.relayoutChildren = function () {
 	        var r = this.getLayoutRect();
 	        this.children.forEach(function (child) {
@@ -19383,10 +19475,8 @@ var app =
 	        }
 	        return this;
 	    };
-	    Pages.prototype.findEventTargetChild = function (x, y) {
-	        return this.target;
-	    };
 	    Pages.prototype.onReset = function () {
+	        _super.prototype.onReset.call(this);
 	        this.value = 0;
 	    };
 	    Pages.create = function (options) {
@@ -19402,7 +19492,7 @@ var app =
 
 
 /***/ },
-/* 100 */
+/* 99 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -19463,7 +19553,7 @@ var app =
 
 
 /***/ },
-/* 101 */
+/* 100 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -19476,7 +19566,7 @@ var app =
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
 	var image_tile_1 = __webpack_require__(9);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 图片控件。
 	 */
@@ -19557,7 +19647,7 @@ var app =
 
 
 /***/ },
-/* 102 */
+/* 101 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -19568,7 +19658,7 @@ var app =
 	};
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	var Group = (function (_super) {
 	    __extends(Group, _super);
 	    function Group() {
@@ -19587,7 +19677,7 @@ var app =
 
 
 /***/ },
-/* 103 */
+/* 102 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -19596,9 +19686,9 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var window_1 = __webpack_require__(104);
+	var window_1 = __webpack_require__(103);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 对话框。
 	 */
@@ -19621,7 +19711,7 @@ var app =
 
 
 /***/ },
-/* 104 */
+/* 103 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -19633,6 +19723,7 @@ var app =
 	var point_1 = __webpack_require__(4);
 	var widget_1 = __webpack_require__(21);
 	var Events = __webpack_require__(8);
+	var key_event_1 = __webpack_require__(18);
 	(function (WindowType) {
 	    WindowType[WindowType["NORMAL"] = 0] = "NORMAL";
 	    WindowType[WindowType["POPUP"] = 1] = "POPUP";
@@ -19815,8 +19906,12 @@ var app =
 	        if (evt.shiftKey) {
 	            keys += keys ? "+shift" : "shift";
 	        }
-	        var key = String.fromCharCode(evt.keyCode).toLowerCase();
-	        if (key) {
+	        var code = evt.keyCode;
+	        if (code !== key_event_1.KeyEvent.VK_CONTROL
+	            && code !== key_event_1.KeyEvent.VK_ALT
+	            && code !== key_event_1.KeyEvent.VK_COMMAND
+	            && code !== key_event_1.KeyEvent.VK_SHIFT) {
+	            var key = String.fromCharCode(evt.keyCode).toLowerCase();
 	            keys += (keys ? ("+" + key) : key);
 	            var e = this._shortcutEvent;
 	            e.init(Events.SHORTCUT, keys.toLowerCase());
@@ -19869,7 +19964,7 @@ var app =
 
 
 /***/ },
-/* 105 */
+/* 104 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -19880,7 +19975,7 @@ var app =
 	};
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	var Button = (function (_super) {
 	    __extends(Button, _super);
 	    function Button() {
@@ -19899,7 +19994,7 @@ var app =
 
 
 /***/ },
-/* 106 */
+/* 105 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -19909,11 +20004,11 @@ var app =
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var Events = __webpack_require__(8);
-	var button_1 = __webpack_require__(105);
+	var button_1 = __webpack_require__(104);
 	var graphics_1 = __webpack_require__(28);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
-	var progress_bar_1 = __webpack_require__(107);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var progress_bar_1 = __webpack_require__(106);
 	/**
 	 * 滑块控件。拖动滑块可以改变它的值。
 	 */
@@ -20059,7 +20154,7 @@ var app =
 
 
 /***/ },
-/* 107 */
+/* 106 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -20071,7 +20166,7 @@ var app =
 	var widget_1 = __webpack_require__(21);
 	var graphics_1 = __webpack_require__(28);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 进度条的类型有三种：水平，垂直和圆形。
 	 */
@@ -20174,7 +20269,7 @@ var app =
 
 
 /***/ },
-/* 108 */
+/* 107 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -20187,7 +20282,7 @@ var app =
 	var TWEEN = __webpack_require__(22);
 	var graphics_1 = __webpack_require__(28);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 开关控件。
 	 */
@@ -20281,7 +20376,7 @@ var app =
 
 
 /***/ },
-/* 109 */
+/* 108 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -20290,27 +20385,22 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var page_1 = __webpack_require__(97);
+	var page_1 = __webpack_require__(96);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	/**
+	 * @class TabPage
+	 * @extends Widget
+	 * 标签控件上的标签页。它只是一个普通容器控件，需要自己向其中添加子控件。
+	 */
 	var TabPage = (function (_super) {
 	    __extends(TabPage, _super);
 	    function TabPage() {
 	        _super.call(this, TabPage.TYPE);
 	    }
-	    Object.defineProperty(TabPage.prototype, "tabButton", {
-	        get: function () {
-	            return this._tabButton;
-	        },
-	        set: function (value) {
-	            this._tabButton = value;
-	        },
-	        enumerable: true,
-	        configurable: true
-	    });
 	    TabPage.prototype.dispose = function () {
 	        _super.prototype.dispose.call(this);
-	        this._tabButton = null;
+	        this.tabButton = null;
 	    };
 	    TabPage.create = function (options) {
 	        return TabPage.r.create(options);
@@ -20325,7 +20415,7 @@ var app =
 
 
 /***/ },
-/* 110 */
+/* 109 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -20335,8 +20425,8 @@ var app =
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
-	var scroll_view_1 = __webpack_require__(111);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var scroll_view_1 = __webpack_require__(110);
 	var carota = __webpack_require__(29);
 	var rect = carota.rect;
 	var createDoc = carota.document;
@@ -20437,7 +20527,7 @@ var app =
 
 
 /***/ },
-/* 111 */
+/* 110 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/// <reference path="../../typings/globals/scroller/index.d.ts"/>
@@ -20450,12 +20540,12 @@ var app =
 	};
 	var rect_1 = __webpack_require__(3);
 	var point_1 = __webpack_require__(4);
-	var scroller_1 = __webpack_require__(112);
+	var scroller_1 = __webpack_require__(111);
 	var TWEEN = __webpack_require__(22);
 	var Events = __webpack_require__(8);
 	var graphics_1 = __webpack_require__(28);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	var widget_1 = __webpack_require__(21);
 	/**
 	 * 滚动视图，同时支持PC和Mobile风格，通过dragToScroll和slideToScroll参数控制。
@@ -21102,13 +21192,13 @@ var app =
 
 
 /***/ },
-/* 112 */
+/* 111 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (root, factory) {
 	    if (true) {
 	        // AMD
-	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(113), __webpack_require__(114)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(112), __webpack_require__(113)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 	    } else if (typeof exports === 'object') {
 	        // CommonJS
 	        factory(exports, require('./lib/animate'), require('./lib/Scroller'));
@@ -21120,7 +21210,7 @@ var app =
 
 
 /***/ },
-/* 113 */
+/* 112 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
@@ -21357,7 +21447,7 @@ var app =
 
 
 /***/ },
-/* 114 */
+/* 113 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
@@ -21377,7 +21467,7 @@ var app =
 	(function (root, factory) {
 	    if (true) {
 	        // AMD
-	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(113)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(112)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 	    } else if (typeof module === 'object') {
 	        // CommonJS
 	        module.exports = factory(require('./animate'));
@@ -22515,7 +22605,7 @@ var app =
 
 
 /***/ },
-/* 115 */
+/* 114 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -22526,15 +22616,17 @@ var app =
 	};
 	var rect_1 = __webpack_require__(3);
 	var widget_1 = __webpack_require__(21);
-	var button_1 = __webpack_require__(105);
+	var button_1 = __webpack_require__(104);
 	var graphics_1 = __webpack_require__(28);
-	var consts_1 = __webpack_require__(116);
-	var radio_button_1 = __webpack_require__(117);
+	var consts_1 = __webpack_require__(115);
+	var radio_button_1 = __webpack_require__(116);
 	var widget_factory_1 = __webpack_require__(26);
 	var image_tile_1 = __webpack_require__(9);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
-	 * 标签控件上的标签按钮。
+	 * @class TabButton
+	 * @extends Widget
+	 * 标签控件上的标签按钮，一般不需要直接使用它。它其实是单项按钮，只有一个按钮处于active状态下，用来指示当前页面。
 	 */
 	var TabButton = (function (_super) {
 	    __extends(TabButton, _super);
@@ -22542,6 +22634,10 @@ var app =
 	        _super.call(this, TabButton.TYPE);
 	    }
 	    Object.defineProperty(TabButton.prototype, "closeButton", {
+	        /**
+	         * @property {Widget}  closeButton
+	         * 关闭按钮（仅当closable为true时才有效）。
+	         */
 	        get: function () {
 	            return this._closeButton;
 	        },
@@ -22552,6 +22648,10 @@ var app =
 	        get: function () {
 	            return this._cbAtLeft;
 	        },
+	        /**
+	         * @property {boolean}  closeButtonAtLeft
+	         * true表示关闭按钮在左边，false表示关闭按钮在右边。
+	         */
 	        set: function (value) {
 	            this._cbAtLeft = value;
 	            this.relayoutChildren();
@@ -22563,12 +22663,63 @@ var app =
 	        get: function () {
 	            return this._orn;
 	        },
+	        /**
+	         * @property {Orientation}  Orientation
+	         * 按钮上的文字和图标排列的方向。Orientation.H表示水平方向上排列，Orientation.V表示垂直方向上排列。
+	         */
 	        set: function (value) {
 	            this._orn = value;
 	        },
 	        enumerable: true,
 	        configurable: true
 	    });
+	    Object.defineProperty(TabButton.prototype, "closable", {
+	        get: function () {
+	            return !!this._closeButton;
+	        },
+	        /**
+	         * @property {boolean}  closable
+	         * 表示当前标签是否可关闭，如果可关闭，则会显示一个小的关闭按钮。
+	         */
+	        set: function (value) {
+	            if (value && this._closeButton || !value && !this._closeButton) {
+	                return;
+	            }
+	            if (this._closeButton) {
+	                this.removeChild(this._closeButton);
+	                this._closeButton = null;
+	            }
+	            else {
+	                var closeButton = button_1.Button.create();
+	                closeButton.set({ styleType: "tab-button.close" });
+	                this.addChild(closeButton);
+	                this._closeButton = closeButton;
+	            }
+	        },
+	        enumerable: true,
+	        configurable: true
+	    });
+	    Object.defineProperty(TabButton.prototype, "tabPage", {
+	        get: function () {
+	            return this._tabPage;
+	        },
+	        /**
+	         * @property {TabPage} tabPage
+	         * 与当前按钮关联的TabPage。
+	         */
+	        set: function (value) {
+	            this._tabPage = value;
+	        },
+	        enumerable: true,
+	        configurable: true
+	    });
+	    /**
+	     * @method setIcons
+	     * 设置图标。
+	     * @param {string} normalIconURL 正常情况下的图标URL。
+	     * @param {string} currentIconURL 处于active时的图标URL。
+	     * return {TabButton} 控件本身。
+	     */
 	    TabButton.prototype.setIcons = function (normalIconURL, currentIconURL) {
 	        var _this = this;
 	        if (normalIconURL) {
@@ -22589,37 +22740,16 @@ var app =
 	            this._currentIcon = null;
 	        }
 	        this._currentIconURL = currentIconURL ? currentIconURL : null;
+	        return this;
 	    };
-	    Object.defineProperty(TabButton.prototype, "closable", {
-	        get: function () {
-	            return !!this._closeButton;
-	        },
-	        set: function (value) {
-	            if (value && this._closeButton || !value && !this._closeButton) {
-	                return;
-	            }
-	            if (this._closeButton) {
-	                this.removeChild(this._closeButton);
-	                this._closeButton = null;
-	            }
-	            else {
-	                var closeButton = button_1.Button.create();
-	                closeButton.set({ styleType: "tab-button.close" });
-	                this.addChild(closeButton);
-	                this._closeButton = closeButton;
-	            }
-	        },
-	        enumerable: true,
-	        configurable: true
-	    });
 	    TabButton.prototype.relayoutChildren = function () {
 	        if (this._closeButton) {
-	            var x = this.leftPadding;
-	            var y = this.topPadding;
-	            var h = this.h - this.topPadding - this.bottomPadding;
+	            var h = this.h >> 1;
 	            var w = h;
+	            var x = (this.h - h) >> 1;
+	            var y = x;
 	            if (!this.closeButtonAtLeft) {
-	                x = this.w - this.rightPadding - w;
+	                x = this.w - x - w;
 	            }
 	            this._closeButton.moveResizeTo(x, y, w, h);
 	        }
@@ -22641,16 +22771,6 @@ var app =
 	                w += graphics_1.Graphics.measureText(text, font) + style.fontSize;
 	            }
 	            return w;
-	        },
-	        enumerable: true,
-	        configurable: true
-	    });
-	    Object.defineProperty(TabButton.prototype, "tabPage", {
-	        get: function () {
-	            return this._tabPage;
-	        },
-	        set: function (value) {
-	            this._tabPage = value;
 	        },
 	        enumerable: true,
 	        configurable: true
@@ -22736,7 +22856,7 @@ var app =
 
 
 /***/ },
-/* 116 */
+/* 115 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -22807,7 +22927,7 @@ var app =
 
 
 /***/ },
-/* 117 */
+/* 116 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -22816,9 +22936,9 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var check_button_1 = __webpack_require__(118);
+	var check_button_1 = __webpack_require__(117);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 单选按钮。同一个父控件中，只有一个单选按钮被勾选。被勾选时value为true，否则为false。
 	 */
@@ -22850,7 +22970,7 @@ var app =
 
 
 /***/ },
-/* 118 */
+/* 117 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -22862,7 +22982,7 @@ var app =
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
 	var image_tile_1 = __webpack_require__(9);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	var CheckButton = (function (_super) {
 	    __extends(CheckButton, _super);
 	    function CheckButton(type) {
@@ -22951,8 +23071,9 @@ var app =
 	        return this;
 	    };
 	    CheckButton.prototype.dispatchClick = function (evt) {
+	        var oldValue = this.value;
 	        this.value = !this.value;
-	        this.notifyChange();
+	        this.notifyChange(oldValue);
 	        _super.prototype.dispatchClick.call(this, evt);
 	    };
 	    CheckButton.create = function (options) {
@@ -22968,7 +23089,7 @@ var app =
 
 
 /***/ },
-/* 119 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -22978,14 +23099,19 @@ var app =
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var rect_1 = __webpack_require__(3);
-	var pages_1 = __webpack_require__(99);
+	var pages_1 = __webpack_require__(98);
 	var widget_1 = __webpack_require__(21);
-	var tab_page_1 = __webpack_require__(109);
+	var tab_page_1 = __webpack_require__(108);
 	var Events = __webpack_require__(8);
-	var tab_button_1 = __webpack_require__(115);
-	var tab_button_group_1 = __webpack_require__(120);
+	var tab_button_1 = __webpack_require__(114);
+	var tab_button_group_1 = __webpack_require__(119);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	/**
+	 * @class TabControl
+	 * @extends Widget
+	 * 标签控件。
+	 */
 	var TabControl = (function (_super) {
 	    __extends(TabControl, _super);
 	    function TabControl() {
@@ -22995,15 +23121,44 @@ var app =
 	        get: function () {
 	            return this._pages.value;
 	        },
+	        /**
+	         * @property {number} value
+	         * 标签控件的值代表当前标签页的索引。可以修改value来指定当前的标签页，也可以用activePage来指定当前的标签页。
+	         */
 	        set: function (value) {
+	            var oldValue = this.value;
+	            this._value = value;
 	            this._pages.value = value;
 	            this.buttonGroup.value = value;
-	            this._value = value;
+	            if (value !== oldValue) {
+	                this.notifyChange(oldValue);
+	            }
+	        },
+	        enumerable: true,
+	        configurable: true
+	    });
+	    Object.defineProperty(TabControl.prototype, "activePage", {
+	        get: function () {
+	            return (this.pages.children[this.value]);
+	        },
+	        /**
+	         * @property {TabPage} activePage
+	         * 当前的标签页。
+	         */
+	        set: function (tabPage) {
+	            var value = this.pages.indexOfChild(tabPage);
+	            if (value >= 0) {
+	                this.value = value;
+	            }
 	        },
 	        enumerable: true,
 	        configurable: true
 	    });
 	    Object.defineProperty(TabControl.prototype, "pages", {
+	        /**
+	         * @property {Pages} pages
+	         * 标签页的集合。
+	         */
 	        get: function () {
 	            return this._pages;
 	        },
@@ -23011,8 +23166,26 @@ var app =
 	        configurable: true
 	    });
 	    Object.defineProperty(TabControl.prototype, "buttonGroup", {
+	        /**
+	         * @property {TabButtonGroup} buttonGroup
+	         * 标签按钮的集合。
+	         */
 	        get: function () {
 	            return this._buttonGroup;
+	        },
+	        enumerable: true,
+	        configurable: true
+	    });
+	    Object.defineProperty(TabControl.prototype, "expandButton", {
+	        get: function () {
+	            return this.buttonGroup.autoExpand;
+	        },
+	        /**
+	         * @property {boolean} expandButton
+	         * 是否扩展标签按钮的宽度。如果为false，则根据当前的标题和图标计算标签按钮的宽度，否则所有标签按钮平分button group的宽度。
+	         */
+	        set: function (value) {
+	            this.buttonGroup.autoExpand = value;
 	        },
 	        enumerable: true,
 	        configurable: true
@@ -23021,6 +23194,10 @@ var app =
 	        get: function () {
 	            return this._bgAtTop;
 	        },
+	        /**
+	         * @property {boolean} buttonGroupAtTop
+	         * true表示标签按钮组的位置在顶部，否则在底部。
+	         */
 	        set: function (value) {
 	            this._bgAtTop = value;
 	            this.relayoutChildren();
@@ -23032,6 +23209,10 @@ var app =
 	        get: function () {
 	            return this._bgh;
 	        },
+	        /**
+	         * @property {number} buttonGroupHeight
+	         * 标签按钮组的高度。
+	         */
 	        set: function (value) {
 	            this._bgh = value;
 	            this.relayoutChildren();
@@ -23039,6 +23220,46 @@ var app =
 	        enumerable: true,
 	        configurable: true
 	    });
+	    /**
+	     * @method setPageTitle
+	     * 设置指定TabPage的标题。
+	     * return {TabControl} 控件本身。
+	     */
+	    TabControl.prototype.setPageTitle = function (tabPage, title) {
+	        var index = this.pages.indexOfChild(tabPage);
+	        if (index >= 0) {
+	            var button = this.buttonGroup.children[index];
+	            button.text = title;
+	        }
+	        return this;
+	    };
+	    /**
+	     * @method getPageTitle
+	     * 获取指定TabPage的标题。
+	     */
+	    TabControl.prototype.getPageTitle = function (tabPage) {
+	        var index = this.pages.indexOfChild(tabPage);
+	        if (index >= 0) {
+	            var button = this.buttonGroup.children[index];
+	            return button.text;
+	        }
+	        return null;
+	    };
+	    /**
+	     * @method onClosePage
+	     * 在点击标签按钮上的关闭按钮时会调用此函数，子类可以重载本函数，以提供关闭确认之类的功能。
+	     */
+	    TabControl.prototype.onClosePage = function (tabPage) {
+	        this.removePage(tabPage, true);
+	    };
+	    /**
+	     * @method removePage
+	     * 移除指定的标签页，相应的标签按钮也会移出。
+	     * @param {TabPage} tabPage 要移出的标签页。
+	     * @param {boolean} destroy 是否移出该标签页。
+	     *
+	     * return {TabControl} 控件本身。
+	     */
 	    TabControl.prototype.removePage = function (tabPage, destroy) {
 	        if (tabPage) {
 	            var tabButton = tabPage.tabButton;
@@ -23046,7 +23267,19 @@ var app =
 	            this.buttonGroup.removeChild(tabButton, false, destroy);
 	            this.value--;
 	        }
+	        return this;
 	    };
+	    /**
+	     * @method addPage
+	     * 向标签控件中增加一个标签页。
+	     * @param {string} title 标题，作为标签按钮的文本。
+	     * @param {string} normalIconURL 正常时的图标的URL。
+	     * @param {string} currentIconURL 处于当前页时的图标的URL。
+	     * @param {boolean} closable 是否显示关闭按钮。
+	     * @param {boolean} closeButtonAtLeft 如果显示关闭按钮，关闭按钮是否显示在左边。
+	     *
+	     * @return {TabPage} 返回被创建的TabPage。
+	     */
 	    TabControl.prototype.addPage = function (title, normalIconURL, currentIconURL, closable, closeButtonAtLeft) {
 	        if (!this.pages.app) {
 	            this.pages.app = this.app;
@@ -23064,9 +23297,9 @@ var app =
 	        this.buttonGroup.addChild(tabButton);
 	        var tabControl = this;
 	        tabButton.on(Events.CLICK, function (evt) {
-	            tabControl.pages.setValueByPage(this.tabPage);
+	            tabControl.activePage = this.tabPage;
 	            if (closable && this.target && this.target === this.closeButton) {
-	                tabControl.removePage(this.tabPage);
+	                tabControl.onClosePage(this.tabPage);
 	            }
 	        });
 	        this.value = this._value;
@@ -23131,7 +23364,7 @@ var app =
 
 
 /***/ },
-/* 120 */
+/* 119 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -23143,7 +23376,12 @@ var app =
 	var rect_1 = __webpack_require__(3);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	/**
+	 * class TabButtonGroup
+	 * @extends Widget
+	 * 标签控件上的标签按钮分组。一般不需要直接使用。
+	 */
 	var TabButtonGroup = (function (_super) {
 	    __extends(TabButtonGroup, _super);
 	    function TabButtonGroup() {
@@ -23240,7 +23478,7 @@ var app =
 
 
 /***/ },
-/* 121 */
+/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -23249,9 +23487,9 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var rich_text_1 = __webpack_require__(110);
+	var rich_text_1 = __webpack_require__(109);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	var carota = __webpack_require__(29);
 	var createDoc = carota.document;
 	var dom = carota.dom;
@@ -23765,7 +24003,7 @@ var app =
 
 
 /***/ },
-/* 122 */
+/* 121 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -23777,17 +24015,17 @@ var app =
 	var rect_1 = __webpack_require__(3);
 	var point_1 = __webpack_require__(4);
 	var edit_1 = __webpack_require__(19);
-	var button_1 = __webpack_require__(105);
+	var button_1 = __webpack_require__(104);
 	var widget_1 = __webpack_require__(21);
-	var dialog_1 = __webpack_require__(103);
+	var dialog_1 = __webpack_require__(102);
 	var graphics_1 = __webpack_require__(28);
 	var Events = __webpack_require__(8);
-	var list_view_1 = __webpack_require__(123);
-	var list_item_1 = __webpack_require__(125);
+	var list_view_1 = __webpack_require__(122);
+	var list_item_1 = __webpack_require__(124);
 	var widget_factory_1 = __webpack_require__(26);
-	var recyclable_creator_1 = __webpack_require__(94);
+	var recyclable_creator_1 = __webpack_require__(93);
 	var image_tile_1 = __webpack_require__(9);
-	var simple_layouter_1 = __webpack_require__(126);
+	var simple_layouter_1 = __webpack_require__(125);
 	var ComboBoxOption = (function () {
 	    function ComboBoxOption(text, value, imageURL, color) {
 	        this.text = text;
@@ -24197,7 +24435,7 @@ var app =
 
 
 /***/ },
-/* 123 */
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -24207,10 +24445,10 @@ var app =
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var widget_1 = __webpack_require__(21);
-	var scroll_view_1 = __webpack_require__(111);
+	var scroll_view_1 = __webpack_require__(110);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
-	var list_layouter_1 = __webpack_require__(124);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var list_layouter_1 = __webpack_require__(123);
 	var ListView = (function (_super) {
 	    __extends(ListView, _super);
 	    function ListView(type) {
@@ -24311,7 +24549,7 @@ var app =
 
 
 /***/ },
-/* 124 */
+/* 123 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -24321,7 +24559,7 @@ var app =
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var rect_1 = __webpack_require__(3);
-	var layouter_1 = __webpack_require__(89);
+	var layouter_1 = __webpack_require__(88);
 	var TYPE = "list";
 	/**
 	 * 列表布局器。
@@ -24419,7 +24657,7 @@ var app =
 
 
 /***/ },
-/* 125 */
+/* 124 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -24432,7 +24670,7 @@ var app =
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
 	var graphics_1 = __webpack_require__(28);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	var image_tile_1 = __webpack_require__(9);
 	(function (ListItemStyle) {
 	    ListItemStyle[ListItemStyle["NORMAL"] = 0] = "NORMAL";
@@ -24599,7 +24837,7 @@ var app =
 
 
 /***/ },
-/* 126 */
+/* 125 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -24608,7 +24846,7 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var layouter_1 = __webpack_require__(89);
+	var layouter_1 = __webpack_require__(88);
 	var TYPE = "simple";
 	/**
 	 * 简单的布局器。
@@ -24711,7 +24949,7 @@ var app =
 	        this.maxH = -1;
 	    }
 	    SimpleLayouterParam.create = function (x, y, w, h) {
-	        return new SimpleLayouterParam(x, y, w, h);
+	        return new SimpleLayouterParam(x.toString(), y.toString(), w.toString(), h.toString());
 	    };
 	    SimpleLayouterParam.createWithOptions = function (opts) {
 	        var options = opts || {};
@@ -24725,7 +24963,7 @@ var app =
 
 
 /***/ },
-/* 127 */
+/* 126 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -24735,9 +24973,9 @@ var app =
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
-	var grid_layouter_1 = __webpack_require__(128);
-	var scroll_view_1 = __webpack_require__(111);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var grid_layouter_1 = __webpack_require__(127);
+	var scroll_view_1 = __webpack_require__(110);
 	/**
 	 * 网格视图。
 	 */
@@ -24896,7 +25134,7 @@ var app =
 
 
 /***/ },
-/* 128 */
+/* 127 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -24906,7 +25144,7 @@ var app =
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var rect_1 = __webpack_require__(3);
-	var layouter_1 = __webpack_require__(89);
+	var layouter_1 = __webpack_require__(88);
 	var TYPE = "grid";
 	/**
 	 * 网格布局器。
@@ -25043,7 +25281,7 @@ var app =
 
 
 /***/ },
-/* 129 */
+/* 128 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -25057,7 +25295,7 @@ var app =
 	var widget_factory_1 = __webpack_require__(26);
 	var graphics_1 = __webpack_require__(28);
 	var image_tile_1 = __webpack_require__(9);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	var widget_1 = __webpack_require__(21);
 	/**
 	 * 树形视图中，显示的一个子项。
@@ -25294,7 +25532,7 @@ var app =
 
 
 /***/ },
-/* 130 */
+/* 129 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -25303,11 +25541,11 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var tree_item_1 = __webpack_require__(129);
-	var list_view_1 = __webpack_require__(123);
-	var tree_item_data_1 = __webpack_require__(131);
+	var tree_item_1 = __webpack_require__(128);
+	var list_view_1 = __webpack_require__(122);
+	var tree_item_data_1 = __webpack_require__(130);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 树形视图。
 	 */
@@ -25449,7 +25687,7 @@ var app =
 
 
 /***/ },
-/* 131 */
+/* 130 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -25538,7 +25776,7 @@ var app =
 
 
 /***/ },
-/* 132 */
+/* 131 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -25551,17 +25789,17 @@ var app =
 	var TWEEN = __webpack_require__(22);
 	var Events = __webpack_require__(8);
 	var assets_1 = __webpack_require__(13);
-	var main_loop_1 = __webpack_require__(100);
+	var main_loop_1 = __webpack_require__(99);
 	var emitter_1 = __webpack_require__(6);
-	var view_port_1 = __webpack_require__(98);
+	var view_port_1 = __webpack_require__(97);
 	var image_tile_1 = __webpack_require__(9);
-	var theme_manager_1 = __webpack_require__(133);
+	var theme_manager_1 = __webpack_require__(132);
 	var device_info_1 = __webpack_require__(25);
-	var window_manager_mobile_1 = __webpack_require__(134);
-	var window_manager_desktop_1 = __webpack_require__(136);
+	var window_manager_mobile_1 = __webpack_require__(133);
+	var window_manager_desktop_1 = __webpack_require__(135);
 	var inputEventAdapter = __webpack_require__(17);
-	var interaction_request_1 = __webpack_require__(137);
-	var interaction_service_1 = __webpack_require__(139);
+	var interaction_request_1 = __webpack_require__(136);
+	var interaction_service_1 = __webpack_require__(138);
 	/**
 	 * @class Application
 	 * @extends IApplication
@@ -25745,7 +25983,7 @@ var app =
 
 
 /***/ },
-/* 133 */
+/* 132 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -25836,7 +26074,7 @@ var app =
 
 
 /***/ },
-/* 134 */
+/* 133 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -25845,10 +26083,10 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var window_1 = __webpack_require__(104);
-	var window_manager_1 = __webpack_require__(135);
+	var window_1 = __webpack_require__(103);
+	var window_manager_1 = __webpack_require__(134);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 移动应用程序的窗口管理器，所有窗口共享一个Canvas，NormalWindow总是最大化显示。
 	 */
@@ -25961,7 +26199,7 @@ var app =
 
 
 /***/ },
-/* 135 */
+/* 134 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -26030,7 +26268,7 @@ var app =
 
 
 /***/ },
-/* 136 */
+/* 135 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -26039,10 +26277,10 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var window_1 = __webpack_require__(104);
-	var window_manager_1 = __webpack_require__(135);
+	var window_1 = __webpack_require__(103);
+	var window_manager_1 = __webpack_require__(134);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 桌面应用程序的窗口管理器。
 	 */
@@ -26074,11 +26312,11 @@ var app =
 
 
 /***/ },
-/* 137 */
+/* 136 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var interaction_types_1 = __webpack_require__(138);
+	var interaction_types_1 = __webpack_require__(137);
 	/**
 	 * @class InteractionRequest
 	 * <p>在使用MVC/MVVM等模式开发应用程序时，Model或View-Model都不应该直接操作View。
@@ -26297,7 +26535,7 @@ var app =
 
 
 /***/ },
-/* 138 */
+/* 137 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -26318,20 +26556,20 @@ var app =
 
 
 /***/ },
-/* 139 */
+/* 138 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	var emitter_1 = __webpack_require__(6);
 	var Events = __webpack_require__(8);
-	var toast_dialog_1 = __webpack_require__(140);
-	var input_dialog_1 = __webpack_require__(144);
-	var props_dialog_1 = __webpack_require__(145);
-	var choice_dialog_1 = __webpack_require__(170);
-	var progress_dialog_1 = __webpack_require__(171);
-	var confirmation_dialog_1 = __webpack_require__(172);
-	var notification_dialog_1 = __webpack_require__(173);
-	var interaction_types_1 = __webpack_require__(138);
+	var toast_dialog_1 = __webpack_require__(139);
+	var input_dialog_1 = __webpack_require__(143);
+	var props_dialog_1 = __webpack_require__(144);
+	var choice_dialog_1 = __webpack_require__(169);
+	var progress_dialog_1 = __webpack_require__(170);
+	var confirmation_dialog_1 = __webpack_require__(171);
+	var notification_dialog_1 = __webpack_require__(172);
+	var interaction_types_1 = __webpack_require__(137);
 	var InteractionService = (function () {
 	    function InteractionService() {
 	        this._emitter = new emitter_1.Emitter();
@@ -26406,11 +26644,11 @@ var app =
 
 
 /***/ },
-/* 140 */
+/* 139 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var message_box_1 = __webpack_require__(141);
+	var message_box_1 = __webpack_require__(140);
 	var ToastDialog = (function () {
 	    function ToastDialog() {
 	    }
@@ -26424,7 +26662,7 @@ var app =
 
 
 /***/ },
-/* 141 */
+/* 140 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -26433,25 +26671,25 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var group_1 = __webpack_require__(102);
-	var dialog_1 = __webpack_require__(103);
+	var group_1 = __webpack_require__(101);
+	var dialog_1 = __webpack_require__(102);
 	var label_1 = __webpack_require__(20);
 	var edit_1 = __webpack_require__(19);
-	var button_1 = __webpack_require__(105);
+	var button_1 = __webpack_require__(104);
 	var Events = __webpack_require__(8);
 	var graphics_1 = __webpack_require__(28);
-	var list_view_1 = __webpack_require__(123);
-	var progress_bar_1 = __webpack_require__(107);
-	var application_1 = __webpack_require__(132);
+	var list_view_1 = __webpack_require__(122);
+	var progress_bar_1 = __webpack_require__(106);
+	var application_1 = __webpack_require__(131);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var consts_1 = __webpack_require__(116);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
-	var list_item_1 = __webpack_require__(125);
-	var dock_layouter_1 = __webpack_require__(142);
-	var linear_layouter_1 = __webpack_require__(143);
-	var grid_layouter_1 = __webpack_require__(128);
-	var simple_layouter_1 = __webpack_require__(126);
+	var consts_1 = __webpack_require__(115);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var list_item_1 = __webpack_require__(124);
+	var dock_layouter_1 = __webpack_require__(141);
+	var linear_layouter_1 = __webpack_require__(142);
+	var grid_layouter_1 = __webpack_require__(127);
+	var simple_layouter_1 = __webpack_require__(125);
 	var TitleOptions = (function () {
 	    function TitleOptions(text, iconStyleType, hasCloseButton) {
 	        this.h = 0;
@@ -26801,7 +27039,7 @@ var app =
 
 
 /***/ },
-/* 142 */
+/* 141 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -26811,8 +27049,8 @@ var app =
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var Events = __webpack_require__(8);
-	var consts_1 = __webpack_require__(116);
-	var layouter_1 = __webpack_require__(89);
+	var consts_1 = __webpack_require__(115);
+	var layouter_1 = __webpack_require__(88);
 	var TYPE = "dock";
 	/**
 	 * Dock布局器。
@@ -26958,7 +27196,7 @@ var app =
 
 
 /***/ },
-/* 143 */
+/* 142 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -26967,9 +27205,9 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var consts_1 = __webpack_require__(116);
+	var consts_1 = __webpack_require__(115);
 	var utils_1 = __webpack_require__(23);
-	var layouter_1 = __webpack_require__(89);
+	var layouter_1 = __webpack_require__(88);
 	var TYPE_H = "linear-h";
 	var TYPE_V = "linear-v";
 	/**
@@ -27115,10 +27353,10 @@ var app =
 	        return LinearLayouterParam.createWithOptions(options);
 	    };
 	    LinearLayouter.createH = function (spacing) {
-	        return LinearLayouter.createVWithOptions({ spacing: spacing });
+	        return LinearLayouter.createHWithOptions({ spacing: spacing });
 	    };
 	    LinearLayouter.createV = function (spacing) {
-	        return LinearLayouter.createHWithOptions({ spacing: spacing });
+	        return LinearLayouter.createVWithOptions({ spacing: spacing });
 	    };
 	    LinearLayouter.createVWithOptions = function (options) {
 	        var layouter = new LinearLayouter();
@@ -27163,7 +27401,13 @@ var app =
 	        return new LinearLayouterParam(LinearLayouterParam.TYPE, options.w || options.width, options.h || options.height, options.spacing || 0, options.align || consts_1.Align.C, options.position === undefined ? 1 : options.position);
 	    };
 	    LinearLayouterParam.create = function (w, h, spacing, align, position) {
-	        return new LinearLayouterParam(LinearLayouterParam.TYPE, w, h, spacing, align, position);
+	        if (align === undefined) {
+	            align = consts_1.Align.C;
+	        }
+	        if (position === undefined) {
+	            position = 1;
+	        }
+	        return new LinearLayouterParam(LinearLayouterParam.TYPE, w.toString(), h.toString(), spacing || 0, align, position | 0);
 	    };
 	    LinearLayouterParam.createWithOptions = function (opts) {
 	        return LinearLayouterParam.createWithType(LinearLayouterParam.TYPE, opts);
@@ -27178,11 +27422,11 @@ var app =
 
 
 /***/ },
-/* 144 */
+/* 143 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var message_box_1 = __webpack_require__(141);
+	var message_box_1 = __webpack_require__(140);
 	var InputDialog = (function () {
 	    function InputDialog() {
 	    }
@@ -27199,11 +27443,11 @@ var app =
 
 
 /***/ },
-/* 145 */
+/* 144 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var property_dialog_1 = __webpack_require__(146);
+	var property_dialog_1 = __webpack_require__(145);
 	var PropsDialog = (function () {
 	    function PropsDialog() {
 	    }
@@ -27221,7 +27465,7 @@ var app =
 
 
 /***/ },
-/* 146 */
+/* 145 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27230,14 +27474,16 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var application_1 = __webpack_require__(132);
-	var property_page_1 = __webpack_require__(147);
-	var view_model_1 = __webpack_require__(165);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var application_1 = __webpack_require__(131);
+	var property_page_1 = __webpack_require__(146);
+	var view_model_1 = __webpack_require__(164);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	var widget_factory_1 = __webpack_require__(26);
-	var message_box_1 = __webpack_require__(141);
-	var simple_layouter_1 = __webpack_require__(126);
+	var message_box_1 = __webpack_require__(140);
+	var simple_layouter_1 = __webpack_require__(125);
 	/**
+	 * @class PropertyDialog
+	 * @extends Widget
 	 * 属性对话框。
 	 */
 	var PropertyDialog = (function (_super) {
@@ -27290,7 +27536,7 @@ var app =
 
 
 /***/ },
-/* 147 */
+/* 146 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27300,26 +27546,30 @@ var app =
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var Events = __webpack_require__(8);
-	var title_link_1 = __webpack_require__(148);
-	var title_line_1 = __webpack_require__(150);
-	var title_edit_1 = __webpack_require__(152);
-	var title_label_1 = __webpack_require__(153);
-	var title_check_button_1 = __webpack_require__(154);
-	var title_range_1 = __webpack_require__(155);
-	var title_vector_1 = __webpack_require__(157);
+	var title_link_1 = __webpack_require__(147);
+	var title_line_1 = __webpack_require__(149);
+	var title_edit_1 = __webpack_require__(151);
+	var title_label_1 = __webpack_require__(152);
+	var title_range_1 = __webpack_require__(153);
+	var title_vector_1 = __webpack_require__(155);
 	var widget_1 = __webpack_require__(21);
-	var title_slider_1 = __webpack_require__(159);
-	var title_text_area_1 = __webpack_require__(160);
+	var title_slider_1 = __webpack_require__(157);
+	var title_text_area_1 = __webpack_require__(158);
+	var title_check_button_1 = __webpack_require__(159);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
-	var title_choosable_edit_1 = __webpack_require__(161);
-	var props_desc_1 = __webpack_require__(163);
-	var title_combo_box_1 = __webpack_require__(164);
-	var props_desc_2 = __webpack_require__(163);
-	var props_desc_3 = __webpack_require__(163);
-	var props_desc_4 = __webpack_require__(163);
+	var title_choosable_edit_1 = __webpack_require__(160);
+	var props_desc_1 = __webpack_require__(162);
+	var title_combo_box_1 = __webpack_require__(163);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var html_element_1 = __webpack_require__(95);
+	var iview_model_1 = __webpack_require__(91);
+	var props_desc_2 = __webpack_require__(162);
+	var props_desc_3 = __webpack_require__(162);
+	var props_desc_4 = __webpack_require__(162);
 	/**
-	 * 属性编辑页，包装了各种TitleValue。
+	 * @class PropertyPage
+	 * @extends Widget
+	 * 属性编辑页，包装了各种TitleValue，可以直接通过JSON创建属性页。
 	 */
 	var PropertyPage = (function (_super) {
 	    __extends(PropertyPage, _super);
@@ -27330,6 +27580,10 @@ var app =
 	        get: function () {
 	            return this._itemH;
 	        },
+	        /**
+	         * @property {number} itemH
+	         * 每一项的高度。
+	         */
 	        set: function (value) {
 	            this._itemH = value;
 	        },
@@ -27340,6 +27594,10 @@ var app =
 	        get: function () {
 	            return this._titleW;
 	        },
+	        /**
+	         * @property {number} titleW
+	         * 属性的标题的宽度。
+	         */
 	        set: function (value) {
 	            this._titleW = value;
 	        },
@@ -27350,12 +27608,23 @@ var app =
 	        get: function () {
 	            return this._valueW;
 	        },
+	        /**
+	         * @property {number} valueW
+	         * 属性的Value的宽度。
+	         */
 	        set: function (value) {
 	            this._valueW = value;
 	        },
 	        enumerable: true,
 	        configurable: true
 	    });
+	    /**
+	     * @method addLabel
+	     * 增加一个文本控件。
+	     * @param {string} title 标题。
+	     * @param {string} label 文本内容。
+	     * @return {TitleLabel} 返回新创建的TitleLabel控件。
+	     */
 	    PropertyPage.prototype.addLabel = function (title, value) {
 	        var itemH = this.itemH;
 	        var widget = title_label_1.TitleLabel.create({
@@ -27369,6 +27638,13 @@ var app =
 	            this.addChild(widget, true);
 	        return widget;
 	    };
+	    /**
+	     * @method addCheckButton
+	     * 增加一个CheckButton控件。
+	     * @param {string} title 标题。
+	     * @param {string} value CheckButton的值。
+	     * @return {TitleCheckButton} 返回新创建的TitleCheckButton控件。
+	     */
 	    PropertyPage.prototype.addCheckButton = function (title, value) {
 	        var itemH = this.itemH;
 	        var widget = title_check_button_1.TitleCheckButton.create({
@@ -27383,6 +27659,13 @@ var app =
 	            this.addChild(widget, true);
 	        return widget;
 	    };
+	    /**
+	     * @method addLink
+	     * 增加一个超链接控件。
+	     * @param {string} title 标题。
+	     * @param {string} value URL。
+	     * @return {TitleLink} 返回新创建的TitleLink控件。
+	     */
 	    PropertyPage.prototype.addLink = function (title, value) {
 	        var itemH = this.itemH;
 	        var widget = title_link_1.TitleLink.create({
@@ -27396,6 +27679,12 @@ var app =
 	            this.addChild(widget, true);
 	        return widget;
 	    };
+	    /**
+	     * @method addGroupBegin
+	     * 增加一个分组开始控件。
+	     * @param {string} title 标题。
+	     * @return {TitleLine} 返回新创建的TitleLine控件。
+	     */
 	    PropertyPage.prototype.addGroupBegin = function (title) {
 	        var itemH = this.itemH;
 	        var widget = title_line_1.TitleLine.create({
@@ -27408,6 +27697,11 @@ var app =
 	        this.addChild(widget, true);
 	        return widget;
 	    };
+	    /**
+	     * @method addGroupEnd
+	     * 增加一个分组结束控件。
+	     * @return {TitleLine} 返回新创建的TitleLine控件。
+	     */
 	    PropertyPage.prototype.addGroupEnd = function () {
 	        var itemH = this.itemH;
 	        var widget = title_line_1.TitleLine.create({
@@ -27418,6 +27712,14 @@ var app =
 	        this.addChild(widget, true);
 	        return widget;
 	    };
+	    /**
+	     * @method addRange
+	     * 增加一个范围控件。
+	     * @param {string} title 标题。
+	     * @param {number} firstValue 起始值
+	     * @param {number} secondValue 结束值
+	     * @return {TitleRange} 返回新创建的TitleRange控件。
+	     */
 	    PropertyPage.prototype.addRange = function (title, firstValue, secondValue) {
 	        var itemH = this.itemH;
 	        var widget = title_range_1.TitleRange.create({
@@ -27431,6 +27733,16 @@ var app =
 	        this.addChild(widget, true);
 	        return widget;
 	    };
+	    /**
+	     * @method addVector2
+	     * 增加一个二维向量控件。
+	     * @param {string} title 标题。
+	     * @param {number} x X分量。
+	     * @param {number} y Y分量。
+	     * @param {string} xTitle X分量标题。
+	     * @param {string} yTitle X分量标题。
+	     * @return {TitleVector} 返回新创建的TitleVector控件。
+	     */
 	    PropertyPage.prototype.addVector2 = function (title, x, y, xTitle, yTitle) {
 	        var itemH = this.itemH * 2;
 	        var widget = title_vector_1.TitleVector.create({
@@ -27447,6 +27759,18 @@ var app =
 	        this.addChild(widget, true);
 	        return widget;
 	    };
+	    /**
+	     * @method addVector3
+	     * 增加一个三维向量控件。
+	     * @param {string} title 标题。
+	     * @param {number} x X分量。
+	     * @param {number} y Y分量。
+	     * @param {number} z Z分量。
+	     * @param {string} xTitle X分量标题。
+	     * @param {string} yTitle X分量标题。
+	     * @param {string} zTitle Z分量标题。
+	     * @return {TitleVector} 返回新创建的TitleVector控件。
+	     */
 	    PropertyPage.prototype.addVector3 = function (title, x, y, z, xTitle, yTitle, zTitle) {
 	        var itemH = this.itemH * 2;
 	        var widget = title_vector_1.TitleVector.create({
@@ -27463,6 +27787,20 @@ var app =
 	        this.addChild(widget, true);
 	        return widget;
 	    };
+	    /**
+	     * @method addVector4
+	     * 增加一个四维向量控件。
+	     * @param {string} title 标题。
+	     * @param {number} x X分量。
+	     * @param {number} y Y分量。
+	     * @param {number} z Z分量。
+	     * @param {number} w W分量。
+	     * @param {string} xTitle X分量标题。
+	     * @param {string} yTitle X分量标题。
+	     * @param {string} zTitle Z分量标题。
+	     * @param {string} wTitle W分量标题。
+	     * @return {TitleVector} 返回新创建的TitleVector控件。
+	     */
 	    PropertyPage.prototype.addVector4 = function (title, x, y, z, w, xTitle, yTitle, zTitle, wTitle) {
 	        var itemH = this.itemH * 2;
 	        var widget = title_vector_1.TitleVector.create({
@@ -27479,6 +27817,16 @@ var app =
 	        this.addChild(widget, true);
 	        return widget;
 	    };
+	    /**
+	     * @method addEdit
+	     * 增加一个编辑控件。
+	     * @param {string} title 标题。
+	     * @param {string} value 编辑器的值。
+	     * @param {string} inputTips 输入提示。
+	     * @param {string} inputType 输入类型，"text"为文本，"number"为数字。
+	     * @param {Function} inputFilter输入过滤器，对输入的值进行过滤。
+	     * @return {TitleEdit} 返回新创建的TitleEdit控件。
+	     */
 	    PropertyPage.prototype.addEdit = function (title, value, inputTips, inputType, inputFilter) {
 	        var itemH = this.itemH;
 	        var valueW = inputType === "number" ? "50%" : this.valueW;
@@ -27496,6 +27844,32 @@ var app =
 	            this.addChild(widget, true);
 	        return widget;
 	    };
+	    /**
+	     * @method addColorEdit
+	     * 增加一个颜色编辑控件。
+	     * @param {string} title 标题。
+	     * @param {string} value 编辑器的值。
+	     * @param {string} inputTips 输入提示。
+	     * @return {TitleChoosableEdit} 返回新创建的TitleChoosableEdit控件。
+	     */
+	    PropertyPage.prototype.addColorEdit = function (title, value, inputTips) {
+	        var choosableEdit = this.addChoosableEdit(title, value, inputTips);
+	        choosableEdit.onChoose = function () {
+	            html_element_1.HtmlElement.showColocPicker(value || "#FFFFFF", function (newValue) {
+	                choosableEdit.value = newValue;
+	                console.log("new color" + newValue);
+	            });
+	        };
+	        return choosableEdit;
+	    };
+	    /**
+	     * @method addChoosableEdit
+	     * 增加一个可选择的编辑控件。
+	     * @param {string} title 标题。
+	     * @param {string} value 编辑器的值。
+	     * @param {string} inputTips 输入提示。
+	     * @return {TitleChoosableEdit} 返回新创建的TitleChoosableEdit控件。
+	     */
 	    PropertyPage.prototype.addChoosableEdit = function (title, value, inputTips) {
 	        var itemH = this.itemH;
 	        var widget = title_choosable_edit_1.TitleChoosableEdit.create({
@@ -27510,6 +27884,13 @@ var app =
 	            this.addChild(widget, true);
 	        return widget;
 	    };
+	    /**
+	     * @method addComboBox
+	     * 增加一个下拉选择控件。
+	     * @param {string} title 标题。
+	     * @param {string} value 值。
+	     * @return {TitleComboBox} 返回新创建的TitleComboBox控件。
+	     */
 	    PropertyPage.prototype.addComboBox = function (title, value) {
 	        var itemH = this.itemH;
 	        var widget = title_combo_box_1.TitleComboBox.create({
@@ -27523,6 +27904,13 @@ var app =
 	            this.addChild(widget, true);
 	        return widget;
 	    };
+	    /**
+	     * @method addComboBoxEditable
+	     * 增加一个可编辑的下拉选择控件。
+	     * @param {string} title 标题。
+	     * @param {string} value 值。
+	     * @return {TitleComboBoxEditable} 返回新创建的TitleComboBoxEditable控件。
+	     */
 	    PropertyPage.prototype.addComboBoxEditable = function (title, value) {
 	        var itemH = this.itemH;
 	        var widget = title_combo_box_1.TitleComboBoxEditable.create({
@@ -27537,6 +27925,13 @@ var app =
 	            this.addChild(widget, true);
 	        return widget;
 	    };
+	    /**
+	     * @method addSlider
+	     * 增加一个滑块控件。
+	     * @param {string} title 标题。
+	     * @param {string} value 值。
+	     * @return {TitleSlider} 返回新创建的TitleSlider控件。
+	     */
 	    PropertyPage.prototype.addSlider = function (title, value) {
 	        var itemH = this.itemH;
 	        var widget = title_slider_1.TitleSlider.create({
@@ -27550,6 +27945,14 @@ var app =
 	            this.addChild(widget, true);
 	        return widget;
 	    };
+	    /**
+	     * @method addTextArea
+	     * 增加一个多行编辑器。
+	     * @param {string} title 标题。
+	     * @param {string} value 值。
+	     * @param {number} h高度。
+	     * @return {TitleTextArea} 返回新创建的TitleTextArea控件。
+	     */
 	    PropertyPage.prototype.addTextArea = function (title, value, h) {
 	        var itemH = h || (this.itemH * 4);
 	        var widget = title_text_area_1.TitleTextArea.create({
@@ -27563,6 +27966,12 @@ var app =
 	            this.addChild(widget, true);
 	        return widget;
 	    };
+	    /**
+	     * @method findByTitle
+	     * 通过标题查找指定的子控件。
+	     * @param {string} title 标题。
+	     * @return {Widget} 返回子控件或null。
+	     */
 	    PropertyPage.prototype.findByTitle = function (title) {
 	        return this.findChildByName(title);
 	    };
@@ -27574,7 +27983,10 @@ var app =
 	        else if (item.type === props_desc_3.TextPropDesc.TYPE) {
 	            titleValue = this.addEdit(item.name, item.value, item.desc, "text");
 	        }
-	        else if (item.type === props_desc_3.ReadonlyTextPropDesc.TYPE) {
+	        else if (item.type === props_desc_2.ColorPropDesc.TYPE) {
+	            titleValue = this.addColorEdit(item.name, item.value, item.desc);
+	        }
+	        else if (item.type === props_desc_2.ReadonlyTextPropDesc.TYPE) {
 	            titleValue = this.addLabel(item.name, item.value);
 	        }
 	        else if (item.type === props_desc_4.SliderPropDesc.TYPE) {
@@ -27628,7 +28040,8 @@ var app =
 	                value: {
 	                    path: item.path,
 	                    converter: item.converter,
-	                    validationRule: item.validationRule
+	                    validationRule: item.validationRule,
+	                    updateTiming: iview_model_1.toUpdateTiming(item.updateTiming)
 	                }
 	            };
 	            valueWidget.dataBindingRule = bindRule;
@@ -27640,6 +28053,9 @@ var app =
 	            }
 	        }
 	    };
+	    /**
+	     * 通过propsDesc初始化。
+	     */
 	    PropertyPage.prototype.initWithPropsDesc = function (propsDesc) {
 	        var _this = this;
 	        this.removeAllChildren();
@@ -27657,18 +28073,25 @@ var app =
 	            });
 	        }
 	        this.relayoutChildren();
+	        this.dispatchEvent(Events.ChangeEvent.create().init(Events.CHANGE, {}));
 	    };
+	    /**
+	     * 通过JSON初始化。
+	     */
 	    PropertyPage.prototype.initWithJson = function (json) {
 	        var propsDesc = props_desc_3.PropsDesc.create(json);
 	        this.initWithPropsDesc(propsDesc);
 	    };
 	    PropertyPage.prototype.onAddChild = function (child) {
-	        this.reComputeH();
+	        this.recomputeHeight();
 	    };
 	    PropertyPage.prototype.onRemoveChild = function (child) {
-	        this.reComputeH();
+	        this.recomputeHeight();
 	    };
-	    PropertyPage.prototype.reComputeH = function () {
+	    /*
+	     * 根据子控件重新计算本身的高度。
+	     */
+	    PropertyPage.prototype.recomputeHeight = function () {
 	        var h = this.topPadding + this.bottomPadding;
 	        this.children.forEach(function (child) {
 	            h += child.h;
@@ -27694,7 +28117,7 @@ var app =
 	    PropertyPage.create = function (options) {
 	        return PropertyPage.rBin.create(options);
 	    };
-	    PropertyPage.defProps = Object.assign({}, widget_1.Widget.defProps, { _itemH: 30, _titleW: "60px", _valueW: "100%" });
+	    PropertyPage.defProps = Object.assign({}, widget_1.Widget.defProps, { _bp: 5, _itemH: 30, _titleW: "80px", _valueW: "100%" });
 	    PropertyPage.TYPE = "property-page";
 	    PropertyPage.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(PropertyPage);
 	    return PropertyPage;
@@ -27705,7 +28128,7 @@ var app =
 
 
 /***/ },
-/* 148 */
+/* 147 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27716,9 +28139,14 @@ var app =
 	};
 	var Events = __webpack_require__(8);
 	var label_1 = __webpack_require__(20);
-	var title_value_1 = __webpack_require__(149);
+	var title_value_1 = __webpack_require__(148);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	/**
+	 * @class TitleLink
+	 * @extends Widget
+	 * 带标题的超链接。
+	 */
 	var TitleLink = (function (_super) {
 	    __extends(TitleLink, _super);
 	    function TitleLink(type) {
@@ -27751,7 +28179,7 @@ var app =
 
 
 /***/ },
-/* 149 */
+/* 148 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27763,7 +28191,12 @@ var app =
 	var Events = __webpack_require__(8);
 	var label_1 = __webpack_require__(20);
 	var widget_1 = __webpack_require__(21);
-	var linear_layouter_1 = __webpack_require__(143);
+	var linear_layouter_1 = __webpack_require__(142);
+	/**
+	 * @class TitleValue
+	 * @extends Widget
+	 * 带标题控件的基类。
+	 */
 	var TitleValue = (function (_super) {
 	    __extends(TitleValue, _super);
 	    function TitleValue(type) {
@@ -27773,6 +28206,10 @@ var app =
 	        get: function () {
 	            return this._title;
 	        },
+	        /**
+	         * @property {string} title
+	         * 标题。
+	         */
 	        set: function (value) {
 	            this._title = value;
 	        },
@@ -27783,8 +28220,15 @@ var app =
 	        get: function () {
 	            return this._titleW;
 	        },
+	        /**
+	         * @property {string} titleW
+	         * 标题控件的宽度。
+	         */
 	        set: function (value) {
 	            this._titleW = value;
+	            if (this.titleWidget && this.titleWidget.layoutParam) {
+	                this.titleWidget.layoutParam.w = value;
+	            }
 	        },
 	        enumerable: true,
 	        configurable: true
@@ -27793,13 +28237,24 @@ var app =
 	        get: function () {
 	            return this._valueW;
 	        },
+	        /**
+	         * @prproperty {string} valueW
+	         * 值控件的宽度。
+	         */
 	        set: function (value) {
 	            this._valueW = value;
+	            if (this.valueWidget && this.valueWidget.layoutParam) {
+	                this.valueWidget.layoutParam.w = value;
+	            }
 	        },
 	        enumerable: true,
 	        configurable: true
 	    });
 	    Object.defineProperty(TitleValue.prototype, "titleWidget", {
+	        /**
+	         * @property {Widget} titleWidget
+	         * 标题控件。
+	         */
 	        get: function () {
 	            return this._titleWidget;
 	        },
@@ -27807,6 +28262,10 @@ var app =
 	        configurable: true
 	    });
 	    Object.defineProperty(TitleValue.prototype, "valueWidget", {
+	        /**
+	         * @property {Widget} valueWidget
+	         * 值控件。
+	         */
 	        get: function () {
 	            return this._valueWidget;
 	        },
@@ -27826,8 +28285,9 @@ var app =
 	        enumerable: true,
 	        configurable: true
 	    });
-	    /*
-	     * Child must override
+	    /**
+	     * @method createValueWidget
+	     * 创建值控件，子类需要重载此函数。
 	     */
 	    TitleValue.prototype.createValueWidget = function (options) {
 	        return null;
@@ -27887,7 +28347,7 @@ var app =
 
 
 /***/ },
-/* 150 */
+/* 149 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27896,10 +28356,15 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var title_value_1 = __webpack_require__(149);
-	var color_tile_1 = __webpack_require__(151);
+	var title_value_1 = __webpack_require__(148);
+	var color_tile_1 = __webpack_require__(150);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	/**
+	 * @class TitleLine
+	 * @extends Widget
+	 * 带标题的直线，用于属性的分组。
+	 */
 	var TitleLine = (function (_super) {
 	    __extends(TitleLine, _super);
 	    function TitleLine(type) {
@@ -27921,7 +28386,7 @@ var app =
 
 
 /***/ },
-/* 151 */
+/* 150 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27934,8 +28399,8 @@ var app =
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
 	var graphics_1 = __webpack_require__(28);
-	var consts_1 = __webpack_require__(116);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var consts_1 = __webpack_require__(115);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 颜色控件。
 	 */
@@ -28181,7 +28646,7 @@ var app =
 
 
 /***/ },
-/* 152 */
+/* 151 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28191,9 +28656,14 @@ var app =
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var edit_1 = __webpack_require__(19);
-	var title_value_1 = __webpack_require__(149);
+	var title_value_1 = __webpack_require__(148);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	/**
+	 * @class TitleEdit
+	 * @extends Widget
+	 * 带标题的编辑器。
+	 */
 	var TitleEdit = (function (_super) {
 	    __extends(TitleEdit, _super);
 	    function TitleEdit(type) {
@@ -28203,6 +28673,10 @@ var app =
 	        get: function () {
 	            return this._inputFilter;
 	        },
+	        /**
+	         * @property {Function} inputFilter
+	         * 输入过滤器函数。
+	         */
 	        set: function (value) {
 	            this._inputFilter = value;
 	            if (this._valueWidget) {
@@ -28212,27 +28686,35 @@ var app =
 	        enumerable: true,
 	        configurable: true
 	    });
-	    Object.defineProperty(TitleEdit.prototype, "inputType", {
+	    Object.defineProperty(TitleEdit.prototype, "inputTips", {
 	        get: function () {
-	            return this._inputType;
+	            return this._inputTips;
 	        },
+	        /**
+	         * @property {string} inputTips
+	         * 输入提示。
+	         */
 	        set: function (value) {
-	            this._inputType = value;
+	            this._inputTips = value;
 	            if (this._valueWidget) {
-	                this._valueWidget.set({ inputType: value });
+	                this._valueWidget.set({ inputTips: value });
 	            }
 	        },
 	        enumerable: true,
 	        configurable: true
 	    });
-	    Object.defineProperty(TitleEdit.prototype, "inputTips", {
+	    Object.defineProperty(TitleEdit.prototype, "inputType", {
 	        get: function () {
-	            return this._inputTips;
+	            return this._inputType;
 	        },
+	        /**
+	         * @property {string} inputType
+	         * 输入类型。
+	         */
 	        set: function (value) {
-	            this._inputTips = value;
+	            this._inputType = value;
 	            if (this._valueWidget) {
-	                this._valueWidget.set({ inputTips: value });
+	                this._valueWidget.set({ inputType: value });
 	            }
 	        },
 	        enumerable: true,
@@ -28264,7 +28746,7 @@ var app =
 
 
 /***/ },
-/* 153 */
+/* 152 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28274,9 +28756,14 @@ var app =
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var label_1 = __webpack_require__(20);
-	var title_value_1 = __webpack_require__(149);
+	var title_value_1 = __webpack_require__(148);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	/**
+	 * @class TitleLabel
+	 * @extends Widget
+	 * 带标题的文本。
+	 */
 	var TitleLabel = (function (_super) {
 	    __extends(TitleLabel, _super);
 	    function TitleLabel(type) {
@@ -28298,7 +28785,7 @@ var app =
 
 
 /***/ },
-/* 154 */
+/* 153 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28307,44 +28794,15 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var title_value_1 = __webpack_require__(149);
-	var check_button_1 = __webpack_require__(118);
+	var range_edit_1 = __webpack_require__(154);
+	var title_value_1 = __webpack_require__(148);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
-	var TitleCheckButton = (function (_super) {
-	    __extends(TitleCheckButton, _super);
-	    function TitleCheckButton(type) {
-	        _super.call(this, type || TitleCheckButton.TYPE);
-	    }
-	    TitleCheckButton.prototype.createValueWidget = function (options) {
-	        return check_button_1.CheckButton.create(options);
-	    };
-	    TitleCheckButton.create = function (options) {
-	        return TitleCheckButton.recycleBin.create(options);
-	    };
-	    TitleCheckButton.TYPE = "title-check-button";
-	    TitleCheckButton.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleCheckButton);
-	    return TitleCheckButton;
-	}(title_value_1.TitleValue));
-	exports.TitleCheckButton = TitleCheckButton;
-	;
-	widget_factory_1.WidgetFactory.register(TitleCheckButton.TYPE, TitleCheckButton.create);
-
-
-/***/ },
-/* 155 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	var __extends = (this && this.__extends) || function (d, b) {
-	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-	    function __() { this.constructor = d; }
-	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	};
-	var range_edit_1 = __webpack_require__(156);
-	var title_value_1 = __webpack_require__(149);
-	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	/**
+	 * @class TitleRange
+	 * @extends Widget
+	 * 带标题的范围的编辑器。
+	 */
 	var TitleRange = (function (_super) {
 	    __extends(TitleRange, _super);
 	    function TitleRange(type) {
@@ -28366,7 +28824,7 @@ var app =
 
 
 /***/ },
-/* 156 */
+/* 154 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28380,9 +28838,11 @@ var app =
 	var widget_1 = __webpack_require__(21);
 	var Events = __webpack_require__(8);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
-	 * 范围编辑器。
+	 * @class  RangeEdit
+	 * @extends Widget
+	 * 范围编辑器。范围包括first和second两个值。
 	 */
 	var RangeEdit = (function (_super) {
 	    __extends(RangeEdit, _super);
@@ -28397,6 +28857,10 @@ var app =
 	        configurable: true
 	    });
 	    Object.defineProperty(RangeEdit.prototype, "firstEditor", {
+	        /**
+	         * @property {Edit} firstEditor
+	         * 第一个编辑器。
+	         */
 	        get: function () {
 	            return this._firstEditor;
 	        },
@@ -28404,6 +28868,10 @@ var app =
 	        configurable: true
 	    });
 	    Object.defineProperty(RangeEdit.prototype, "secondEditor", {
+	        /**
+	         * @property {Edit} secondEditor
+	         * 第二个编辑器。
+	         */
 	        get: function () {
 	            return this._secondEditor;
 	        },
@@ -28502,7 +28970,7 @@ var app =
 
 
 /***/ },
-/* 157 */
+/* 155 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28511,10 +28979,15 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var vector_edit_1 = __webpack_require__(158);
-	var title_value_1 = __webpack_require__(149);
+	var vector_edit_1 = __webpack_require__(156);
+	var title_value_1 = __webpack_require__(148);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	/**
+	 * @class TitleVector
+	 * @extends Widget
+	 * 带标题的向量编辑器。
+	 */
 	var TitleVector = (function (_super) {
 	    __extends(TitleVector, _super);
 	    function TitleVector(type) {
@@ -28522,7 +28995,7 @@ var app =
 	    }
 	    Object.defineProperty(TitleVector.prototype, "d", {
 	        /**
-	         * dimension
+	         * 向量的维度。
 	         */
 	        get: function () {
 	            return this._d;
@@ -28553,7 +29026,7 @@ var app =
 
 
 /***/ },
-/* 158 */
+/* 156 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28567,9 +29040,11 @@ var app =
 	var widget_1 = __webpack_require__(21);
 	var Events = __webpack_require__(8);
 	var widget_factory_1 = __webpack_require__(26);
-	var recyclable_creator_1 = __webpack_require__(94);
-	var grid_layouter_1 = __webpack_require__(128);
+	var recyclable_creator_1 = __webpack_require__(93);
+	var grid_layouter_1 = __webpack_require__(127);
 	/**
+	 * @class VectorEdit
+	 * @extends Widget
 	 * 范围编辑器。
 	 */
 	var VectorEdit = (function (_super) {
@@ -28581,6 +29056,10 @@ var app =
 	        get: function () {
 	            return this._xTitle;
 	        },
+	        /**
+	         * @property {string} xTitle
+	         * X分量的标题。
+	         */
 	        set: function (value) {
 	            if (value || value === "") {
 	                this._xTitle;
@@ -28594,6 +29073,10 @@ var app =
 	        get: function () {
 	            return this._yTitle;
 	        },
+	        /**
+	         * @property {string} yTitle
+	         * Y分量的标题。
+	         */
 	        set: function (value) {
 	            if (value || value === "") {
 	                this._yTitle;
@@ -28607,6 +29090,10 @@ var app =
 	        get: function () {
 	            return this._zTitle;
 	        },
+	        /**
+	         * @property {string} zTitle
+	         * Z分量的标题。
+	         */
 	        set: function (value) {
 	            if (value || value === "") {
 	                this._zTitle;
@@ -28620,6 +29107,10 @@ var app =
 	        get: function () {
 	            return this._wTitle;
 	        },
+	        /**
+	         * @property {string} wTitle
+	         * W分量的标题。
+	         */
 	        set: function (value) {
 	            if (value || value === "") {
 	                this._wTitle;
@@ -28638,7 +29129,7 @@ var app =
 	    });
 	    Object.defineProperty(VectorEdit.prototype, "d", {
 	        /**
-	         * dimension
+	         * 向量的维度。
 	         */
 	        get: function () {
 	            return this._d;
@@ -28651,6 +29142,10 @@ var app =
 	        configurable: true
 	    });
 	    Object.defineProperty(VectorEdit.prototype, "xEditor", {
+	        /**
+	         * @property {Edit} xEditor
+	         * X分量的编辑器。
+	         */
 	        get: function () {
 	            return this._xEditor;
 	        },
@@ -28658,6 +29153,10 @@ var app =
 	        configurable: true
 	    });
 	    Object.defineProperty(VectorEdit.prototype, "yEditor", {
+	        /**
+	         * @property {Edit} yEditor
+	         * Y分量的编辑器。
+	         */
 	        get: function () {
 	            return this._yEditor;
 	        },
@@ -28665,6 +29164,10 @@ var app =
 	        configurable: true
 	    });
 	    Object.defineProperty(VectorEdit.prototype, "zEditor", {
+	        /**
+	         * @property {Edit} zEditor
+	         * Z分量的编辑器。
+	         */
 	        get: function () {
 	            return this._zEditor;
 	        },
@@ -28672,6 +29175,10 @@ var app =
 	        configurable: true
 	    });
 	    Object.defineProperty(VectorEdit.prototype, "wEditor", {
+	        /**
+	         * @property {Edit} zEditor
+	         * Z分量的编辑器。
+	         */
 	        get: function () {
 	            return this._wEditor;
 	        },
@@ -28797,7 +29304,7 @@ var app =
 
 
 /***/ },
-/* 159 */
+/* 157 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28806,10 +29313,15 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var slider_1 = __webpack_require__(106);
-	var title_value_1 = __webpack_require__(149);
+	var slider_1 = __webpack_require__(105);
+	var title_value_1 = __webpack_require__(148);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	/**
+	 * @class TitleSlider
+	 * @extends Widget
+	 * 带标题的滑块。
+	 */
 	var TitleSlider = (function (_super) {
 	    __extends(TitleSlider, _super);
 	    function TitleSlider(type) {
@@ -28831,7 +29343,7 @@ var app =
 
 
 /***/ },
-/* 160 */
+/* 158 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28841,9 +29353,14 @@ var app =
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var edit_1 = __webpack_require__(19);
-	var title_value_1 = __webpack_require__(149);
+	var title_value_1 = __webpack_require__(148);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	/**
+	 * @class TitleTextArea
+	 * @extends Widget
+	 * 带标题的多行编辑器。
+	 */
 	var TitleTextArea = (function (_super) {
 	    __extends(TitleTextArea, _super);
 	    function TitleTextArea(type) {
@@ -28853,6 +29370,10 @@ var app =
 	        get: function () {
 	            return this._inputTips;
 	        },
+	        /**
+	         * @property {string} inputTips
+	         * 输入提示。
+	         */
 	        set: function (value) {
 	            this._inputTips = value;
 	            if (this._valueWidget) {
@@ -28883,7 +29404,7 @@ var app =
 
 
 /***/ },
-/* 161 */
+/* 159 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28892,10 +29413,54 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var title_value_1 = __webpack_require__(149);
-	var choosable_edit_1 = __webpack_require__(162);
+	var title_value_1 = __webpack_require__(148);
+	var check_button_1 = __webpack_require__(117);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	/**
+	 * @class TitleCheckButton
+	 * @extends Widget
+	 * 带标题的CheckButton。
+	 */
+	var TitleCheckButton = (function (_super) {
+	    __extends(TitleCheckButton, _super);
+	    function TitleCheckButton(type) {
+	        _super.call(this, type || TitleCheckButton.TYPE);
+	    }
+	    TitleCheckButton.prototype.createValueWidget = function (options) {
+	        return check_button_1.CheckButton.create(options);
+	    };
+	    TitleCheckButton.create = function (options) {
+	        return TitleCheckButton.recycleBin.create(options);
+	    };
+	    TitleCheckButton.TYPE = "title-check-button";
+	    TitleCheckButton.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleCheckButton);
+	    return TitleCheckButton;
+	}(title_value_1.TitleValue));
+	exports.TitleCheckButton = TitleCheckButton;
+	;
+	widget_factory_1.WidgetFactory.register(TitleCheckButton.TYPE, TitleCheckButton.create);
+
+
+/***/ },
+/* 160 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var title_value_1 = __webpack_require__(148);
+	var choosable_edit_1 = __webpack_require__(161);
+	var widget_factory_1 = __webpack_require__(26);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	/**
+	 * @class TitleChoosableEdit
+	 * @extends Widget
+	 * 带标题的编辑器，同时提供一个选择按钮，用来实现颜色选择和文件选择等功能。
+	 */
 	var TitleChoosableEdit = (function (_super) {
 	    __extends(TitleChoosableEdit, _super);
 	    function TitleChoosableEdit(type) {
@@ -28906,6 +29471,10 @@ var app =
 	            var edit = this._valueWidget;
 	            return edit.onChoose;
 	        },
+	        /**
+	         * @property {Function} onChoose
+	         * 点击选择按钮时的回调函数。
+	         */
 	        set: function (value) {
 	            var edit = this._valueWidget;
 	            edit.onChoose = value;
@@ -28917,6 +29486,10 @@ var app =
 	        get: function () {
 	            return this._inputTips;
 	        },
+	        /**
+	         * @property {string} inputTips
+	         * 输入提示。
+	         */
 	        set: function (value) {
 	            this._inputTips = value;
 	            if (this._valueWidget) {
@@ -28942,7 +29515,7 @@ var app =
 
 
 /***/ },
-/* 162 */
+/* 161 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28952,12 +29525,14 @@ var app =
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var edit_1 = __webpack_require__(19);
-	var button_1 = __webpack_require__(105);
+	var button_1 = __webpack_require__(104);
 	var widget_1 = __webpack_require__(21);
 	var Events = __webpack_require__(8);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
+	 * @class ChoosableEdit
+	 * @extends Widget
 	 * 编辑器+选择按钮。
 	 */
 	var ChoosableEdit = (function (_super) {
@@ -28985,8 +29560,22 @@ var app =
 	        set: function (value) {
 	            this._value = value;
 	            if (this._edit) {
-	                this._edit.text = value;
+	                var oldValue = this._edit.text;
+	                if (oldValue !== value) {
+	                    this._edit.text = value;
+	                    this._edit.notifyChangeEx(Events.CHANGE, value, oldValue);
+	                }
 	            }
+	        },
+	        enumerable: true,
+	        configurable: true
+	    });
+	    Object.defineProperty(ChoosableEdit.prototype, "dataBindingRule", {
+	        get: function () {
+	            return this._edit.dataBindingRule;
+	        },
+	        set: function (dataBindingRule) {
+	            this._edit.dataBindingRule = dataBindingRule;
 	        },
 	        enumerable: true,
 	        configurable: true
@@ -29041,7 +29630,7 @@ var app =
 
 
 /***/ },
-/* 163 */
+/* 162 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -29052,6 +29641,10 @@ var app =
 	};
 	var Events = __webpack_require__(8);
 	var emitter_1 = __webpack_require__(6);
+	/**
+	 * @class PropDesc
+	 * 属性描述的基类。
+	 */
 	var PropDesc = (function () {
 	    function PropDesc(type) {
 	        this.type = type;
@@ -29083,17 +29676,23 @@ var app =
 	        this.titleW = titleW;
 	        this.valueW = valueW;
 	    };
-	    PropDesc.prototype.setDataBindingRule = function (path, converter, validationRule) {
+	    PropDesc.prototype.setDataBindingRule = function (path, updateTiming, converter, validationRule) {
 	        this.path = path;
 	        this.converter = converter;
 	        this.validationRule = validationRule;
+	        this.updateTiming = updateTiming || "changed";
 	        return this;
 	    };
-	    PropDesc.keys = ["type", "name", "desc", "value", "path", "converter", "validationRule"];
+	    PropDesc.keys = ["type", "name", "desc", "value", "path", "titleW", "valueW", "converter", "validationRule"];
 	    return PropDesc;
 	}());
 	exports.PropDesc = PropDesc;
 	;
+	/**
+	 * @class NumberPropDesc
+	 * @extends PropDesc
+	 * 数值类属性描述。
+	 */
 	var NumberPropDesc = (function (_super) {
 	    __extends(NumberPropDesc, _super);
 	    function NumberPropDesc(min, max) {
@@ -29120,6 +29719,11 @@ var app =
 	}(PropDesc));
 	exports.NumberPropDesc = NumberPropDesc;
 	;
+	/**
+	 * @class TextPropDesc
+	 * @extends PropDesc
+	 * 文本类属性描述。
+	 */
 	var TextPropDesc = (function (_super) {
 	    __extends(TextPropDesc, _super);
 	    function TextPropDesc() {
@@ -29132,6 +29736,28 @@ var app =
 	    return TextPropDesc;
 	}(PropDesc));
 	exports.TextPropDesc = TextPropDesc;
+	/**
+	 * @class ColorPropDesc
+	 * @extends PropDesc
+	 * 颜色类属性描述。
+	 */
+	var ColorPropDesc = (function (_super) {
+	    __extends(ColorPropDesc, _super);
+	    function ColorPropDesc() {
+	        _super.call(this, ColorPropDesc.TYPE);
+	    }
+	    ColorPropDesc.create = function () {
+	        return new ColorPropDesc();
+	    };
+	    ColorPropDesc.TYPE = "color";
+	    return ColorPropDesc;
+	}(PropDesc));
+	exports.ColorPropDesc = ColorPropDesc;
+	/**
+	 * @class LinkPropDesc
+	 * @extends PropDesc
+	 * 超链接类属性描述。
+	 */
 	var LinkPropDesc = (function (_super) {
 	    __extends(LinkPropDesc, _super);
 	    function LinkPropDesc() {
@@ -29144,6 +29770,11 @@ var app =
 	    return LinkPropDesc;
 	}(PropDesc));
 	exports.LinkPropDesc = LinkPropDesc;
+	/**
+	 * @class ReadonlyTextPropDesc
+	 * @extends PropDesc
+	 * 只读文本类属性描述。
+	 */
 	var ReadonlyTextPropDesc = (function (_super) {
 	    __extends(ReadonlyTextPropDesc, _super);
 	    function ReadonlyTextPropDesc() {
@@ -29156,6 +29787,11 @@ var app =
 	    return ReadonlyTextPropDesc;
 	}(PropDesc));
 	exports.ReadonlyTextPropDesc = ReadonlyTextPropDesc;
+	/**
+	 * @class SliderPropDesc
+	 * @extends PropDesc
+	 * Slider类属性描述。
+	 */
 	var SliderPropDesc = (function (_super) {
 	    __extends(SliderPropDesc, _super);
 	    function SliderPropDesc() {
@@ -29168,6 +29804,11 @@ var app =
 	    return SliderPropDesc;
 	}(PropDesc));
 	exports.SliderPropDesc = SliderPropDesc;
+	/**
+	 * @class RangePropDesc
+	 * @extends PropDesc
+	 * 范围类属性描述。
+	 */
 	var RangePropDesc = (function (_super) {
 	    __extends(RangePropDesc, _super);
 	    function RangePropDesc() {
@@ -29180,6 +29821,11 @@ var app =
 	    return RangePropDesc;
 	}(PropDesc));
 	exports.RangePropDesc = RangePropDesc;
+	/**
+	 * @class Vector2PropDesc
+	 * @extends PropDesc
+	 * 2维向量类属性描述。
+	 */
 	var Vector2PropDesc = (function (_super) {
 	    __extends(Vector2PropDesc, _super);
 	    function Vector2PropDesc(xTitle, yTitle) {
@@ -29205,6 +29851,11 @@ var app =
 	    return Vector2PropDesc;
 	}(PropDesc));
 	exports.Vector2PropDesc = Vector2PropDesc;
+	/**
+	 * @class Vector3PropDesc
+	 * @extends PropDesc
+	 * 3维向量类属性描述。
+	 */
 	var Vector3PropDesc = (function (_super) {
 	    __extends(Vector3PropDesc, _super);
 	    function Vector3PropDesc(xTitle, yTitle, zTitle) {
@@ -29233,6 +29884,11 @@ var app =
 	    return Vector3PropDesc;
 	}(PropDesc));
 	exports.Vector3PropDesc = Vector3PropDesc;
+	/**
+	 * @class Vector4PropDesc
+	 * @extends PropDesc
+	 * 4维向量类属性描述。
+	 */
 	var Vector4PropDesc = (function (_super) {
 	    __extends(Vector4PropDesc, _super);
 	    function Vector4PropDesc(xTitle, yTitle, zTitle, wTitle) {
@@ -29264,6 +29920,11 @@ var app =
 	    return Vector4PropDesc;
 	}(PropDesc));
 	exports.Vector4PropDesc = Vector4PropDesc;
+	/**
+	 * @class LinePropDesc
+	 * @extends PropDesc
+	 * 分组类属性描述。
+	 */
 	var LinePropDesc = (function (_super) {
 	    __extends(LinePropDesc, _super);
 	    function LinePropDesc() {
@@ -29276,6 +29937,11 @@ var app =
 	    return LinePropDesc;
 	}(PropDesc));
 	exports.LinePropDesc = LinePropDesc;
+	/**
+	 * @class BoolPropDesc
+	 * @extends PropDesc
+	 * 布尔类属性描述。
+	 */
 	var BoolPropDesc = (function (_super) {
 	    __extends(BoolPropDesc, _super);
 	    function BoolPropDesc() {
@@ -29288,6 +29954,11 @@ var app =
 	    return BoolPropDesc;
 	}(PropDesc));
 	exports.BoolPropDesc = BoolPropDesc;
+	/**
+	 * @class OptionsPropDesc
+	 * @extends PropDesc
+	 * 下拉框类属性描述。
+	 */
 	var OptionsPropDesc = (function (_super) {
 	    __extends(OptionsPropDesc, _super);
 	    function OptionsPropDesc(options) {
@@ -29310,6 +29981,11 @@ var app =
 	    return OptionsPropDesc;
 	}(PropDesc));
 	exports.OptionsPropDesc = OptionsPropDesc;
+	/**
+	 * @class PropsDesc
+	 * @extends Emitter
+	 * 属性组。
+	 */
 	var PropsDesc = (function (_super) {
 	    __extends(PropsDesc, _super);
 	    function PropsDesc() {
@@ -29352,6 +30028,9 @@ var app =
 	            else if (type === TextPropDesc.TYPE) {
 	                desc = TextPropDesc.create();
 	            }
+	            else if (type === ColorPropDesc.TYPE) {
+	                desc = ColorPropDesc.create();
+	            }
 	            else if (type === LinkPropDesc.TYPE) {
 	                desc = LinkPropDesc.create();
 	            }
@@ -29385,7 +30064,7 @@ var app =
 	            }
 	            items.push(desc);
 	            desc.setBasic(data.name, data.value, data.desc, data.titleW, data.valueW);
-	            desc.setDataBindingRule(data.path, data.converter, data.validationRule);
+	            desc.setDataBindingRule(data.path, data.updateTiming, data.converter, data.validationRule);
 	        });
 	        this._items = items;
 	        return this;
@@ -29425,7 +30104,7 @@ var app =
 
 
 /***/ },
-/* 164 */
+/* 163 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -29434,10 +30113,10 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var title_value_1 = __webpack_require__(149);
+	var title_value_1 = __webpack_require__(148);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
-	var combo_box_1 = __webpack_require__(122);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var combo_box_1 = __webpack_require__(121);
 	var TitleComboBoxBase = (function (_super) {
 	    __extends(TitleComboBoxBase, _super);
 	    function TitleComboBoxBase(type) {
@@ -29468,6 +30147,11 @@ var app =
 	    return TitleComboBoxBase;
 	}(title_value_1.TitleValue));
 	exports.TitleComboBoxBase = TitleComboBoxBase;
+	/**
+	 * @class TitleComboBox
+	 * @extends Widget
+	 * 带标题的下拉框。
+	 */
 	var TitleComboBox = (function (_super) {
 	    __extends(TitleComboBox, _super);
 	    function TitleComboBox(type) {
@@ -29486,6 +30170,11 @@ var app =
 	exports.TitleComboBox = TitleComboBox;
 	;
 	widget_factory_1.WidgetFactory.register(TitleComboBox.TYPE, TitleComboBox.create);
+	/**
+	 * @class TitleComboBoxEditable
+	 * @extends Widget
+	 * 带标题的可编辑的下拉框。
+	 */
 	var TitleComboBoxEditable = (function (_super) {
 	    __extends(TitleComboBoxEditable, _super);
 	    function TitleComboBoxEditable(type) {
@@ -29507,7 +30196,7 @@ var app =
 
 
 /***/ },
-/* 165 */
+/* 164 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -29516,7 +30205,7 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var view_model_default_1 = __webpack_require__(166);
+	var view_model_default_1 = __webpack_require__(165);
 	/**
 	 * IViewModel的基本实现。如果不能满足要求，可以重载部分函数。
 	 */
@@ -29536,7 +30225,7 @@ var app =
 
 
 /***/ },
-/* 166 */
+/* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -29545,11 +30234,11 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var pointer = __webpack_require__(167);
+	var pointer = __webpack_require__(166);
 	var emitter_1 = __webpack_require__(6);
 	var Events = __webpack_require__(8);
-	var ivalidation_rule_1 = __webpack_require__(169);
-	var iview_model_1 = __webpack_require__(92);
+	var ivalidation_rule_1 = __webpack_require__(168);
+	var iview_model_1 = __webpack_require__(91);
 	var ViewModelDefault = (function (_super) {
 	    __extends(ViewModelDefault, _super);
 	    function ViewModelDefault(data) {
@@ -29706,12 +30395,12 @@ var app =
 
 
 /***/ },
-/* 167 */
+/* 166 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var each = __webpack_require__(168);
+	var each = __webpack_require__(167);
 	module.exports = api;
 
 
@@ -29923,7 +30612,7 @@ var app =
 
 
 /***/ },
-/* 168 */
+/* 167 */
 /***/ function(module, exports) {
 
 	
@@ -29951,7 +30640,7 @@ var app =
 
 
 /***/ },
-/* 169 */
+/* 168 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -29984,11 +30673,11 @@ var app =
 
 
 /***/ },
-/* 170 */
+/* 169 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var message_box_1 = __webpack_require__(141);
+	var message_box_1 = __webpack_require__(140);
 	var ChoiceDialog = (function () {
 	    function ChoiceDialog() {
 	    }
@@ -30005,11 +30694,11 @@ var app =
 
 
 /***/ },
-/* 171 */
+/* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var message_box_1 = __webpack_require__(141);
+	var message_box_1 = __webpack_require__(140);
 	var ProgressDialog = (function () {
 	    function ProgressDialog() {
 	    }
@@ -30025,11 +30714,11 @@ var app =
 
 
 /***/ },
-/* 172 */
+/* 171 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var message_box_1 = __webpack_require__(141);
+	var message_box_1 = __webpack_require__(140);
 	var ConfirmationDialog = (function () {
 	    function ConfirmationDialog() {
 	    }
@@ -30049,11 +30738,11 @@ var app =
 
 
 /***/ },
-/* 173 */
+/* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var message_box_1 = __webpack_require__(141);
+	var message_box_1 = __webpack_require__(140);
 	var NotificationDialog = (function () {
 	    function NotificationDialog() {
 	    }
@@ -30069,7 +30758,7 @@ var app =
 
 
 /***/ },
-/* 174 */
+/* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30080,7 +30769,7 @@ var app =
 	};
 	var Events = __webpack_require__(8);
 	var key_event_1 = __webpack_require__(18);
-	var behavior_1 = __webpack_require__(88);
+	var behavior_1 = __webpack_require__(87);
 	/**
 	 * Movable Behavior的初始化参数。
 	 */
@@ -30204,7 +30893,7 @@ var app =
 
 
 /***/ },
-/* 175 */
+/* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30215,7 +30904,7 @@ var app =
 	};
 	var Events = __webpack_require__(8);
 	var key_event_1 = __webpack_require__(18);
-	var behavior_1 = __webpack_require__(88);
+	var behavior_1 = __webpack_require__(87);
 	/**
 	 * 让Widget具有拖放功能的拖动功能。
 	 *
@@ -30227,19 +30916,21 @@ var app =
 	    }
 	    Draggable.prototype.init = function (options) {
 	        this.onDrawDragging = function (evt) {
-	            var ctx = evt.ctx;
-	            var win = evt.widget;
-	            var p = win.pointerPosition;
-	            var e = Events.DragEvent.get(Events.DRAGSTART, p.x, p.y);
-	            var image = e.dataTransfer.dragImage;
-	            if (image) {
-	                if (image.draw) {
-	                    image.draw(ctx, p.x, p.y);
+	            if (Events.DragEvent.isDragging) {
+	                var ctx = evt.ctx;
+	                var win = evt.widget;
+	                var p = win.pointerPosition;
+	                var e = Events.DragEvent.get(Events.DRAGSTART, p.x, p.y);
+	                var image = e.dataTransfer.dragImage;
+	                if (image) {
+	                    if (image.draw) {
+	                        image.draw(ctx, p.x, p.y);
+	                    }
 	                }
-	            }
-	            else {
-	                ctx.fillStyle = "green";
-	                ctx.fillRect(p.x, p.y, 10, 10);
+	                else {
+	                    ctx.fillStyle = "green";
+	                    ctx.fillRect(p.x, p.y, 10, 10);
+	                }
 	            }
 	        };
 	    };
@@ -30264,13 +30955,13 @@ var app =
 	    Draggable.prototype.onPointerUp = function (evt) {
 	        if (this.dragging) {
 	            this.dragging = false;
-	            Events.DragEvent.isDragging = false;
 	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DRAGEND, evt.x, evt.y));
 	        }
+	        Events.DragEvent.isDragging = false;
 	        this.widget.win.off(Events.AFTER_DRAW, this.onDrawDragging);
 	    };
 	    Draggable.prototype.onPointerMove = function (evt) {
-	        if (evt.pointerDown && !this.dragging) {
+	        if (evt.pointerDown && !this.dragging && !Events.DragEvent.isDragging) {
 	            this.dragging = true;
 	            Events.DragEvent.isDragging = true;
 	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DRAGSTART, evt.x, evt.y));
@@ -30290,7 +30981,7 @@ var app =
 
 
 /***/ },
-/* 176 */
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30300,7 +30991,7 @@ var app =
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var Events = __webpack_require__(8);
-	var behavior_1 = __webpack_require__(88);
+	var behavior_1 = __webpack_require__(87);
 	/**
 	 * 让Widget可作为拖放功能的Drop目标。
 	 *
@@ -30312,22 +31003,22 @@ var app =
 	    }
 	    Droppable.prototype.onPointerEnter = function (evt) {
 	        if (Events.DragEvent.isDragging) {
-	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DRAGENTER, evt.x, evt.y));
+	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DRAGENTER, evt.localX, evt.localY));
 	        }
 	    };
 	    Droppable.prototype.onPointerLeave = function (evt) {
 	        if (Events.DragEvent.isDragging) {
-	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DRAGLEAVE, evt.x, evt.y));
+	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DRAGLEAVE, evt.localX, evt.localY));
 	        }
 	    };
 	    Droppable.prototype.onPointerUp = function (evt) {
 	        if (Events.DragEvent.isDragging) {
-	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DROP, evt.x, evt.y));
+	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DROP, evt.localX, evt.localY));
 	        }
 	    };
 	    Droppable.prototype.onPointerMove = function (evt) {
 	        if (Events.DragEvent.isDragging) {
-	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DRAGOVER, evt.x, evt.y));
+	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DRAGOVER, evt.localX, evt.localY));
 	        }
 	    };
 	    ;
@@ -30341,7 +31032,7 @@ var app =
 
 
 /***/ },
-/* 177 */
+/* 176 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30353,7 +31044,7 @@ var app =
 	var point_1 = __webpack_require__(4);
 	var Events = __webpack_require__(8);
 	var key_event_1 = __webpack_require__(18);
-	var behavior_1 = __webpack_require__(88);
+	var behavior_1 = __webpack_require__(87);
 	/**
 	 * Resizable Behavior的初始化参数。
 	 */
@@ -30546,7 +31237,7 @@ var app =
 
 
 /***/ },
-/* 178 */
+/* 177 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30557,16 +31248,16 @@ var app =
 	};
 	var rect_1 = __webpack_require__(3);
 	var point_1 = __webpack_require__(4);
-	var dialog_1 = __webpack_require__(103);
+	var dialog_1 = __webpack_require__(102);
 	var graphics_1 = __webpack_require__(28);
-	var list_view_1 = __webpack_require__(123);
+	var list_view_1 = __webpack_require__(122);
 	var Events = __webpack_require__(8);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
 	var image_tile_1 = __webpack_require__(9);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
-	var list_layouter_1 = __webpack_require__(124);
-	var simple_layouter_1 = __webpack_require__(126);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var list_layouter_1 = __webpack_require__(123);
+	var simple_layouter_1 = __webpack_require__(125);
 	var Menu = (function (_super) {
 	    __extends(Menu, _super);
 	    function Menu() {
@@ -30890,6 +31581,7 @@ var app =
 	    MenuItem.prototype.dispose = function () {
 	        _super.prototype.dispose.call(this);
 	        this._icon = null;
+	        this._shortCutStyle = null;
 	        this.onInitSubMenu = null;
 	    };
 	    MenuItem.create = function (options) {
@@ -30909,7 +31601,7 @@ var app =
 
 
 /***/ },
-/* 179 */
+/* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30918,9 +31610,9 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var window_1 = __webpack_require__(104);
+	var window_1 = __webpack_require__(103);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	var WindowNormal = (function (_super) {
 	    __extends(WindowNormal, _super);
 	    function WindowNormal() {
@@ -30940,7 +31632,7 @@ var app =
 
 
 /***/ },
-/* 180 */
+/* 179 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30949,14 +31641,14 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var menu_1 = __webpack_require__(178);
+	var menu_1 = __webpack_require__(177);
 	var point_1 = __webpack_require__(4);
 	var Events = __webpack_require__(8);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
 	var image_tile_1 = __webpack_require__(9);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
-	var linear_layouter_1 = __webpack_require__(143);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var linear_layouter_1 = __webpack_require__(142);
 	var MenuBar = (function (_super) {
 	    __extends(MenuBar, _super);
 	    function MenuBar() {
@@ -31165,6 +31857,120 @@ var app =
 
 
 /***/ },
+/* 180 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var group_1 = __webpack_require__(101);
+	var widget_1 = __webpack_require__(21);
+	var image_tile_1 = __webpack_require__(9);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var linear_layouter_1 = __webpack_require__(142);
+	/**
+	 * @class ToolBarItem
+	 * @extends Widget
+	 * 工具条上的图标按钮。一般不需直接创建，而是调用ToolBar的addItem函数。
+	 */
+	var ToolBarItem = (function (_super) {
+	    __extends(ToolBarItem, _super);
+	    function ToolBarItem(type) {
+	        _super.call(this, ToolBarItem.TYPE);
+	    }
+	    ToolBarItem.prototype.drawImage = function (ctx, style) {
+	        var icon = this.enable ? this.normalIcon : this.disableIcon;
+	        if (icon) {
+	            var r = this.getFgImageRect(style);
+	            icon.draw(ctx, image_tile_1.ImageDrawType.ICON, r.x, r.y, r.w, r.h);
+	        }
+	        return this;
+	    };
+	    ToolBarItem.prototype.onCreated = function () {
+	        _super.prototype.onCreated.call(this);
+	        if (this.normalIconURL && this.disableIconURL) {
+	            this.normalIcon = image_tile_1.ImageTile.create(this.normalIconURL);
+	            this.disableIcon = image_tile_1.ImageTile.create(this.disableIconURL);
+	        }
+	    };
+	    ToolBarItem.prototype.getDefProps = function () {
+	        return ToolBarItem.defProps;
+	    };
+	    ToolBarItem.create = function (options) {
+	        return ToolBarItem.recycleBin.create(options);
+	    };
+	    ;
+	    ToolBarItem.defProps = Object.assign({}, widget_1.Widget.defProps, { normalIconURL: null, disableIconURL: null });
+	    ToolBarItem.TYPE = "tool-bar-item";
+	    ToolBarItem.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ToolBarItem);
+	    return ToolBarItem;
+	}(widget_1.Widget));
+	exports.ToolBarItem = ToolBarItem;
+	/**
+	 * @class ToolBar
+	 * @extends Widget
+	 * 工具条。一般显示在主菜单下方，为用户提供一种便捷的操作。
+	 */
+	var ToolBar = (function (_super) {
+	    __extends(ToolBar, _super);
+	    function ToolBar() {
+	        _super.apply(this, arguments);
+	    }
+	    ToolBar.prototype.onInit = function () {
+	        _super.prototype.onInit.call(this);
+	        this.childrenLayouter = linear_layouter_1.LinearLayouter.createH(0);
+	    };
+	    /**
+	     * @method addSpacer
+	     * 向ToolBar中增加一个占位符。
+	     * @param {number} width 宽度。
+	     *
+	     * return {Widget} 返回增加的控件。
+	     */
+	    ToolBar.prototype.addSpacer = function (width) {
+	        var size = this.h - 2;
+	        var item = group_1.Group.create({
+	            layoutParam: linear_layouter_1.LinearLayouterParam.create(width, size, 1)
+	        });
+	        return this.addChild(item);
+	    };
+	    /**
+	     * @method addItem
+	     * 向ToolBar中增加一个按钮。
+	     * @param {string} cmd 命令名称。
+	     * @param {string} text 文字。
+	     * @param {string} tips 提示。
+	     * @param {normalIconURL} 图标URL。
+	     * @param {disableIconURL} 禁用时的图标URL。
+	     *
+	     * return {Widget} 返回增加的控件。
+	     */
+	    ToolBar.prototype.addItem = function (cmd, text, tips, normalIconURL, disableIconURL) {
+	        var size = this.h - 2;
+	        var item = ToolBarItem.create({
+	            tips: tips,
+	            normalIconURL: normalIconURL,
+	            disableIconURL: disableIconURL,
+	            layoutParam: linear_layouter_1.LinearLayouterParam.create(size, size, 1)
+	        });
+	        item.set({ dataBindingRule: { click: { command: cmd } } });
+	        return this.addChild(item);
+	    };
+	    ToolBar.create = function (options) {
+	        return ToolBar.recycleBin.create(options);
+	    };
+	    ;
+	    ToolBar.TYPE = "tool-bar";
+	    ToolBar.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ToolBar);
+	    return ToolBar;
+	}(widget_1.Widget));
+	exports.ToolBar = ToolBar;
+
+
+/***/ },
 /* 181 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -31179,7 +31985,7 @@ var app =
 	var Events = __webpack_require__(8);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	Chart.helpers.getRelativePosition = function (evt, chart) {
 	    return { x: evt.clientX, y: evt.clientY };
 	};
@@ -58507,7 +59313,7 @@ var app =
 	};
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	var title_content_1 = __webpack_require__(341);
 	var collapsable_title_1 = __webpack_require__(342);
 	/**
@@ -58624,7 +59430,7 @@ var app =
 	var widget_1 = __webpack_require__(21);
 	var Events = __webpack_require__(8);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 一个用来显示标题和内容的控件。通常用于Accordion和PropertySheets的子控件。
 	 */
@@ -58855,7 +59661,7 @@ var app =
 	var rect_1 = __webpack_require__(3);
 	var point_1 = __webpack_require__(4);
 	var widget_1 = __webpack_require__(21);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 可折叠的标题控件，点击折叠图片或双击时折叠或展开。
 	 * 只能用于TitleContent的titleWidget。
@@ -58940,7 +59746,7 @@ var app =
 	};
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var recyclable_creator_1 = __webpack_require__(94);
+	var recyclable_creator_1 = __webpack_require__(93);
 	var Ruler = (function (_super) {
 	    __extends(Ruler, _super);
 	    function Ruler(type) {
@@ -59247,12 +60053,41 @@ var app =
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var scroll_view_1 = __webpack_require__(111);
+	var Events = __webpack_require__(8);
+	var scroll_view_1 = __webpack_require__(110);
 	var widget_factory_1 = __webpack_require__(26);
 	var title_content_1 = __webpack_require__(341);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	var collapsable_title_1 = __webpack_require__(342);
+	var TitlePage = (function (_super) {
+	    __extends(TitlePage, _super);
+	    function TitlePage() {
+	        _super.apply(this, arguments);
+	    }
+	    TitlePage.prototype.onReset = function () {
+	        _super.prototype.onReset.call(this);
+	    };
+	    TitlePage.prototype.relayoutChildren = function () {
+	        var rect = _super.prototype.relayoutChildren.call(this);
+	        if (!this._collapsed) {
+	            this.contentH = this.contentWidget.h;
+	        }
+	        this.reComputeH();
+	        return rect;
+	    };
+	    TitlePage.create = function (options) {
+	        return TitlePage.rb.create(options);
+	    };
+	    TitlePage.TYPE = "title-page";
+	    TitlePage.rb = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitlePage);
+	    return TitlePage;
+	}(title_content_1.TitleContent));
+	exports.TitlePage = TitlePage;
+	;
+	widget_factory_1.WidgetFactory.register(TitlePage.TYPE, TitlePage.create);
 	/**
+	 * @class PropertySheets
+	 * @extends Widget
 	 * 管理多个页面，每个页面可以展开或折叠。
 	 */
 	var PropertySheets = (function (_super) {
@@ -59290,9 +60125,10 @@ var app =
 	     * @returns 返回新增加的TitleContent。
 	     */
 	    PropertySheets.prototype.addPage = function (title, contentWidget) {
+	        var _this = this;
 	        var me = this;
 	        var titleWidget = collapsable_title_1.CollapsableTitle.create({ text: title });
-	        var titleContent = title_content_1.TitleContent.create({
+	        var titleContent = TitlePage.create({
 	            collapsed: true,
 	            titleWidget: titleWidget,
 	            contentWidget: contentWidget,
@@ -59303,6 +60139,9 @@ var app =
 	            me.relayoutChildren();
 	        };
 	        this.addChild(titleContent);
+	        contentWidget.on(Events.CHANGE, function (evt) {
+	            _this.relayoutChildren();
+	        });
 	        return titleContent;
 	    };
 	    PropertySheets.prototype.computeDesireContentHeight = function () {
@@ -59385,9 +60224,9 @@ var app =
 	};
 	var Events = __webpack_require__(8);
 	var delegate_command_1 = __webpack_require__(345);
-	var ivalidation_rule_1 = __webpack_require__(169);
-	var iview_model_1 = __webpack_require__(92);
-	var view_model_default_1 = __webpack_require__(166);
+	var ivalidation_rule_1 = __webpack_require__(168);
+	var iview_model_1 = __webpack_require__(91);
+	var view_model_default_1 = __webpack_require__(165);
 	/**
 	 * 集合ViewModel。delProp/getProp/setProp操作当前的项。
 	 */
@@ -60157,7 +60996,7 @@ var app =
 	};
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 表格中的一行。
 	 */
@@ -60208,10 +61047,10 @@ var app =
 	var rect_1 = __webpack_require__(3);
 	var point_1 = __webpack_require__(4);
 	var range_1 = __webpack_require__(359);
-	var list_view_1 = __webpack_require__(123);
+	var list_view_1 = __webpack_require__(122);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 表格内容区域
 	 */
@@ -60498,7 +61337,7 @@ var app =
 	};
 	var widget_factory_1 = __webpack_require__(26);
 	var passive_scrollable_group_1 = __webpack_require__(361);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 表格左边的行序数。
 	 */
@@ -60668,7 +61507,7 @@ var app =
 	};
 	var widget_factory_1 = __webpack_require__(26);
 	var passive_scrollable_group_1 = __webpack_require__(361);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 表格头
 	 */
@@ -60702,7 +61541,7 @@ var app =
 	var Events = __webpack_require__(8);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	var table_row_1 = __webpack_require__(357);
 	var table_index_1 = __webpack_require__(360);
 	var table_client_1 = __webpack_require__(358);
@@ -61009,7 +61848,7 @@ var app =
 	};
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 表格左边的行序数项。
 	 */
@@ -61044,7 +61883,7 @@ var app =
 	var Events = __webpack_require__(8);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var widget_recyclable_creator_1 = __webpack_require__(92);
 	/**
 	 * 表格头的一项。
 	 */
