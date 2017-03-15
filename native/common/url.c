@@ -12,6 +12,7 @@
 #include <string.h>
 #include "common.h"
 
+static void url_free(url_t *url);
 static char *str_hosttype[] = { "host ipv4", "host ipv6", "host domain", NULL };
 
 static char *mystrndup(const char *str, size_t n)
@@ -72,15 +73,24 @@ void parse_query(url_t *url, char *query)
       }
    }
 }
+
+static url_t* url_create() 
+{
+      url_t *url = (url_t*)calloc(sizeof(url_t), 1);
+      if(url) {
+            url->ref = 1;
+      }
+
+      return url;
+}
+
 url_t *url_parse (const char *str)
 {
    const char *pch;
    char *query;
-   url_t *url;
    query = NULL;
-   if ((url = (url_t *)malloc(sizeof(url_t))) == NULL)
-      return NULL;
-   memset(url, 0, sizeof(url_t));
+   url_t *url = url_create();
+
    if (str && str[0])
    {
       url->href = mystrndup(str, -1);
@@ -244,7 +254,7 @@ __fail:
    return url;
 }
 
-void url_free(url_t *url)
+static void url_free(url_t *url)
 {
    if (!url) return;
    if (url->href) free(url->href);
@@ -268,6 +278,24 @@ void url_free(url_t *url)
    if (url->fragment) free(url->fragment);
    free(url);
 }
+
+url_t *url_ref(url_t *url) {
+      if(url) {
+            url->ref++;
+      }
+
+      return url;
+}
+
+void url_unref(url_t *url) {
+      if(url && url->ref > 0) {
+            url->ref--;
+            if(url->ref < 1) {
+                  url_free(url);
+            }
+      }
+}
+
 
 void url_print(url_t *url)
 {

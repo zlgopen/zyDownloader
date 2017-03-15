@@ -24,8 +24,9 @@ int main(int argc, char* argv[]) {
 		printf("Usage: %s url\n", argv[0]);
 		return 1;
 	}
-	const char* url = argv[1];
-	
+	const char* surl =  argv[1];
+	url_t* url = url_parse(surl);
+
 	socketInit();
 	register_transferers();
 	transferer_t* transferer = transferer_factory_create(url);
@@ -36,10 +37,11 @@ int main(int argc, char* argv[]) {
 		}
 		transferer_destroy(transferer);
 	}else{
-		printf("not supported %s\n", url);
+		printf("not supported %s\n", surl);
 	}
 	socketDeinit();
-
+	url_unref(url);
+	
 	return 0;
 }
 

@@ -2,6 +2,7 @@
 #define FILE_TRANSFERER_H
 
 #include "types_def.h"
+#include "url.h"
 
 BEGIN_C_DECLS
 
@@ -56,7 +57,7 @@ typedef void (*transferer_destroy_t)(transferer_t* t);
  *
  * \retval transferer对象。
 */
-typedef transferer_t* (*transferer_create_t)(const char* url);
+typedef transferer_t* (*transferer_create_t)(url_t* url);
 
 /**
  * \brief 获取transferer对象的属性描述。属性描述主要用于创建设置界面。

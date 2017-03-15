@@ -50,6 +50,7 @@ typedef struct _url
       char *value;
    } *query;
    char *fragment;
+   int ref;
 } url_t;
 
 #ifdef __cplusplus
@@ -58,7 +59,9 @@ extern "C" {
 
 url_t *url_parse(const char *str);
 
-void url_free(url_t *url);
+url_t *url_ref(url_t *url);
+
+void url_unref(url_t *url);
 
 const char* url_get_param(url_t *url, const char* name);
 

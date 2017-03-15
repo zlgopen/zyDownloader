@@ -1,6 +1,7 @@
 #ifndef TRANFERER_FACTORY_H
 #define TRANFERER_FACTORY_H
 
+#include "url.h"
 #include "transferer.h"
 
 BEGIN_C_DECLS
@@ -56,7 +57,7 @@ bool_t transferer_factory_unregister(const transferer_desc_t* transferer_desc);
  *
  * \retval transferer∂‘œÛ
 */
-transferer_t* transferer_factory_create(const char* url);
+transferer_t* transferer_factory_create(url_t* url);
 
 END_C_DECLS
 

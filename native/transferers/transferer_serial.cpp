@@ -86,7 +86,7 @@ static size_t transferer_serial_get_sent_size(transferer_t* t){
 static void transferer_serial_destroy(transferer_t* t){
 	transferer_serial_t* serial = (transferer_serial_t*)t;
 	stream_close(serial->stream);
-	url_free(serial->url);
+	url_unref(serial->url);
 	memset(serial, 0x00, sizeof(transferer_serial_t));
 }
 
@@ -94,18 +94,14 @@ static bool_t transferer_is_valid_url(url_t* url) {
 	return url != NULL && strcmp(s_transferer_serial_creator_desc.name, url->schema) == 0 && url->host != NULL;
 }
 
-transferer_t* transferer_serial_create(const char* surl) {
-	url_t* url = url_parse(surl);
-
+transferer_t* transferer_serial_create(url_t* url) {
+	url_print(url);
 	if(!transferer_is_valid_url(url)) {
-		url_print(url);
-		url_free(url);
 		return NULL;
 	}
-	url_print(url);
 
 	transferer_serial_t* serial = (transferer_serial_t*)calloc(1, sizeof(transferer_serial_t));
-	serial->url =  url;
+	serial->url =  url_ref(url);
 	
 	transferer_t* transferer = (transferer_t*)serial;
 	transferer->start = transferer_serial_start;

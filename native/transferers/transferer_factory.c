@@ -1,4 +1,5 @@
 
+#include "url.h"
 #include "transferer_factory.h"
 
 #define MAX_CREATORS 10
@@ -36,14 +37,17 @@ bool_t transferer_factory_unregister(const transferer_desc_t* transferer_desc) {
 
 }
 
-transferer_t* transferer_factory_create(const char* url) {
+transferer_t* transferer_factory_create(url_t* url) {
 	return_value_if_fail(url != NULL, FALSE);
 	for(size_t i = 0; i < MAX_CREATORS; i++) {
 		const transferer_desc_t* iter = s_factory.creators[i];
 		if(iter) {
 			transferer_t* transferer = iter->create(url);
 			if(transferer) {
+				printf("match %lu %s\n", i, iter->name);
 				return transferer;
+			}else{
+				printf("unmatch %lu %s\n", i, iter->name);
 			}
 		}else{
 			break;

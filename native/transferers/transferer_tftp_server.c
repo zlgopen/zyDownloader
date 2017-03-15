@@ -47,7 +47,7 @@ static size_t transferer_tftp_server_get_sent_size(transferer_t* t){
 
 static void transferer_tftp_server_destroy(transferer_t* t){
 	transferer_tftp_server_t* tftp_server = (transferer_tftp_server_t*)t;
-	url_free(tftp_server->url);
+	url_unref(tftp_server->url);
 	memset(tftp_server, 0x00, sizeof(transferer_tftp_server_t));
 }
 
@@ -55,18 +55,14 @@ static bool_t transferer_is_valid_url(url_t* url) {
 	return url != NULL && strcmp(s_transferer_tftp_server_creator_desc.name, url->schema) == 0 && url->path;
 }
 
-transferer_t* transferer_tftp_server_create(const char* surl) {
-	url_t* url = url_parse(surl);
-
+transferer_t* transferer_tftp_server_create(url_t* url) {
+	url_print(url);
 	if(!transferer_is_valid_url(url)) {
-		url_print(url);
-		url_free(url);
 		return NULL;
 	}
-	url_print(url);
 
 	transferer_tftp_server_t* tftp_server = (transferer_tftp_server_t*)calloc(1, sizeof(transferer_tftp_server_t));
-	tftp_server->url =  url;
+	tftp_server->url =  url_ref(url);
 	
 	transferer_t* transferer = (transferer_t*)tftp_server;
 	transferer->start = transferer_tftp_server_start;

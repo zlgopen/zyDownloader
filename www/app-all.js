@@ -46,7 +46,6 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var app_1 = __webpack_require__(1);
 	function run() {
 	    app_1.App.run();
@@ -59,22 +58,16 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var qtk_1 = __webpack_require__(2);
-	var locales_1 = __webpack_require__(373);
-	var main_model_1 = __webpack_require__(374);
-	var main_window_1 = __webpack_require__(375);
-	var main_view_model_1 = __webpack_require__(376);
+	var locales_1 = __webpack_require__(374);
+	var main_model_1 = __webpack_require__(375);
+	var main_window_1 = __webpack_require__(376);
+	var main_view_model_1 = __webpack_require__(377);
 	var themeDataURL = "assets/theme/default/theme.js";
 	var appThemeDataURL = "assets/theme/default/theme.js";
 	var App = (function (_super) {
@@ -107,7 +100,6 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var rect_1 = __webpack_require__(3);
 	exports.Rect = rect_1.Rect;
 	var point_1 = __webpack_require__(4);
@@ -124,201 +116,201 @@ var app =
 	exports.Label = label_1.Label;
 	var emitter_1 = __webpack_require__(6);
 	exports.Emitter = emitter_1.Emitter;
-	var page_1 = __webpack_require__(96);
+	var page_1 = __webpack_require__(97);
 	exports.Page = page_1.Page;
 	var key_event_1 = __webpack_require__(18);
 	exports.KeyEvent = key_event_1.KeyEvent;
-	var view_port_1 = __webpack_require__(97);
+	var view_port_1 = __webpack_require__(98);
 	exports.ViewPort = view_port_1.ViewPort;
-	var pages_1 = __webpack_require__(98);
+	var pages_1 = __webpack_require__(99);
 	exports.Pages = pages_1.Pages;
-	var main_loop_1 = __webpack_require__(99);
+	var main_loop_1 = __webpack_require__(100);
 	exports.MainLoop = main_loop_1.MainLoop;
 	var string_table_1 = __webpack_require__(24);
 	exports.StringTable = string_table_1.StringTable;
-	var image_1 = __webpack_require__(100);
+	var image_1 = __webpack_require__(101);
 	exports.Image = image_1.Image;
-	var group_1 = __webpack_require__(101);
+	var group_1 = __webpack_require__(102);
 	exports.Group = group_1.Group;
-	var dialog_1 = __webpack_require__(102);
+	var dialog_1 = __webpack_require__(103);
 	exports.Dialog = dialog_1.Dialog;
-	var button_1 = __webpack_require__(104);
+	var button_1 = __webpack_require__(105);
 	exports.Button = button_1.Button;
-	var slider_1 = __webpack_require__(105);
+	var slider_1 = __webpack_require__(106);
 	exports.Slider = slider_1.Slider;
-	var switch_1 = __webpack_require__(107);
+	var switch_1 = __webpack_require__(108);
 	exports.Switch = switch_1.Switch;
-	var matrix_stack_1 = __webpack_require__(86);
+	var matrix_stack_1 = __webpack_require__(87);
 	exports.MatrixStack = matrix_stack_1.MatrixStack;
-	var tab_page_1 = __webpack_require__(108);
+	var tab_page_1 = __webpack_require__(109);
 	exports.TabPage = tab_page_1.TabPage;
-	var rich_text_1 = __webpack_require__(109);
+	var rich_text_1 = __webpack_require__(110);
 	exports.RichText = rich_text_1.RichText;
-	var tab_button_1 = __webpack_require__(114);
+	var tab_button_1 = __webpack_require__(115);
 	exports.TabButton = tab_button_1.TabButton;
-	var tab_control_1 = __webpack_require__(118);
+	var tab_control_1 = __webpack_require__(119);
 	exports.TabControl = tab_control_1.TabControl;
 	var image_tile_1 = __webpack_require__(9);
 	exports.ImageDrawType = image_tile_1.ImageDrawType;
 	exports.ImageTile = image_tile_1.ImageTile;
-	var rich_text_edit_1 = __webpack_require__(120);
+	var rich_text_edit_1 = __webpack_require__(121);
 	exports.RichTextEdit = rich_text_edit_1.RichTextEdit;
-	var tab_button_group_1 = __webpack_require__(119);
+	var tab_button_group_1 = __webpack_require__(120);
 	exports.TabButtonGroup = tab_button_group_1.TabButtonGroup;
-	var combo_box_1 = __webpack_require__(121);
+	var combo_box_1 = __webpack_require__(122);
 	exports.ComboBox = combo_box_1.ComboBox;
 	exports.ComboBoxEditable = combo_box_1.ComboBoxEditable;
-	var grid_view_1 = __webpack_require__(126);
+	var grid_view_1 = __webpack_require__(127);
 	exports.GridView = grid_view_1.GridView;
-	var list_view_1 = __webpack_require__(122);
+	var list_view_1 = __webpack_require__(123);
 	exports.ListView = list_view_1.ListView;
-	var tree_item_1 = __webpack_require__(128);
+	var tree_item_1 = __webpack_require__(129);
 	exports.TreeItem = tree_item_1.TreeItem;
-	var tree_view_1 = __webpack_require__(129);
+	var tree_view_1 = __webpack_require__(130);
 	exports.TreeView = tree_view_1.TreeView;
-	var application_1 = __webpack_require__(131);
+	var application_1 = __webpack_require__(132);
 	exports.Application = application_1.Application;
-	var movable_1 = __webpack_require__(173);
+	var movable_1 = __webpack_require__(174);
 	exports.Movable = movable_1.Movable;
-	var theme_manager_1 = __webpack_require__(132);
+	var theme_manager_1 = __webpack_require__(133);
 	exports.ThemeManager = theme_manager_1.ThemeManager;
-	var draggable_1 = __webpack_require__(174);
+	var draggable_1 = __webpack_require__(175);
 	exports.Draggable = draggable_1.Draggable;
-	var droppable_1 = __webpack_require__(175);
+	var droppable_1 = __webpack_require__(176);
 	exports.Droppable = droppable_1.Droppable;
-	var behavior_1 = __webpack_require__(87);
+	var behavior_1 = __webpack_require__(88);
 	exports.Behavior = behavior_1.Behavior;
 	exports.BehaviorFactory = behavior_1.BehaviorFactory;
-	var resizable_1 = __webpack_require__(176);
+	var resizable_1 = __webpack_require__(177);
 	exports.Resizable = resizable_1.Resizable;
 	exports.ResizableOptions = resizable_1.ResizableOptions;
-	var menu_1 = __webpack_require__(177);
+	var menu_1 = __webpack_require__(178);
 	exports.Menu = menu_1.Menu;
 	exports.MenuItem = menu_1.MenuItem;
-	var radio_button_1 = __webpack_require__(116);
+	var radio_button_1 = __webpack_require__(117);
 	exports.RadioButton = radio_button_1.RadioButton;
-	var tree_item_data_1 = __webpack_require__(130);
+	var tree_item_data_1 = __webpack_require__(131);
 	exports.TreeItemData = tree_item_data_1.TreeItemData;
-	var check_button_1 = __webpack_require__(117);
+	var check_button_1 = __webpack_require__(118);
 	exports.CheckButton = check_button_1.CheckButton;
-	var window_normal_1 = __webpack_require__(178);
+	var window_normal_1 = __webpack_require__(179);
 	exports.WindowNormal = window_normal_1.WindowNormal;
 	var widget_factory_1 = __webpack_require__(26);
 	exports.WidgetFactory = widget_factory_1.WidgetFactory;
-	var menu_bar_1 = __webpack_require__(179);
+	var menu_bar_1 = __webpack_require__(180);
 	exports.MenuBar = menu_bar_1.MenuBar;
 	exports.MenuBarItem = menu_bar_1.MenuBarItem;
-	var tool_bar_1 = __webpack_require__(180);
+	var tool_bar_1 = __webpack_require__(181);
 	exports.ToolBar = tool_bar_1.ToolBar;
 	exports.ToolBarItem = tool_bar_1.ToolBarItem;
-	var color_tile_1 = __webpack_require__(150);
+	var color_tile_1 = __webpack_require__(151);
 	exports.ColorTile = color_tile_1.ColorTile;
 	exports.ColorLine = color_tile_1.ColorLine;
-	var list_item_1 = __webpack_require__(124);
+	var list_item_1 = __webpack_require__(125);
 	exports.ListItem = list_item_1.ListItem;
 	exports.ListItemStyle = list_item_1.ListItemStyle;
-	var chart_view_1 = __webpack_require__(181);
+	var chart_view_1 = __webpack_require__(182);
 	exports.ChartView = chart_view_1.ChartView;
 	var graphics_1 = __webpack_require__(28);
 	exports.RoundType = graphics_1.RoundType;
 	exports.Graphics = graphics_1.Graphics;
-	var accordion_1 = __webpack_require__(340);
+	var accordion_1 = __webpack_require__(341);
 	exports.Accordion = accordion_1.Accordion;
-	var ruler_1 = __webpack_require__(343);
+	var ruler_1 = __webpack_require__(344);
 	exports.VRuler = ruler_1.VRuler;
 	exports.HRuler = ruler_1.HRuler;
-	var title_content_1 = __webpack_require__(341);
+	var title_content_1 = __webpack_require__(342);
 	exports.TitleContent = title_content_1.TitleContent;
-	var title_label_1 = __webpack_require__(152);
+	var title_label_1 = __webpack_require__(153);
 	exports.TitleLabel = title_label_1.TitleLabel;
-	var title_range_1 = __webpack_require__(153);
+	var title_range_1 = __webpack_require__(154);
 	exports.TitleRange = title_range_1.TitleRange;
-	var title_vector_1 = __webpack_require__(155);
+	var title_vector_1 = __webpack_require__(156);
 	exports.TitleVector = title_vector_1.TitleVector;
-	var title_edit_1 = __webpack_require__(151);
+	var title_edit_1 = __webpack_require__(152);
 	exports.TitleEdit = title_edit_1.TitleEdit;
-	var title_slider_1 = __webpack_require__(157);
+	var title_slider_1 = __webpack_require__(158);
 	exports.TitleSlider = title_slider_1.TitleSlider;
-	var property_page_1 = __webpack_require__(146);
+	var property_page_1 = __webpack_require__(147);
 	exports.PropertyPage = property_page_1.PropertyPage;
-	var property_dialog_1 = __webpack_require__(145);
+	var property_dialog_1 = __webpack_require__(146);
 	exports.PropertyDialog = property_dialog_1.PropertyDialog;
-	var range_edit_1 = __webpack_require__(154);
+	var range_edit_1 = __webpack_require__(155);
 	exports.RangeEdit = range_edit_1.RangeEdit;
-	var vector_edit_1 = __webpack_require__(156);
+	var vector_edit_1 = __webpack_require__(157);
 	exports.VectorEdit = vector_edit_1.VectorEdit;
-	var choosable_edit_1 = __webpack_require__(161);
+	var choosable_edit_1 = __webpack_require__(162);
 	exports.ChoosableEdit = choosable_edit_1.ChoosableEdit;
-	var title_text_area_1 = __webpack_require__(158);
+	var title_text_area_1 = __webpack_require__(159);
 	exports.TitleTextArea = title_text_area_1.TitleTextArea;
-	var property_sheets_1 = __webpack_require__(344);
+	var property_sheets_1 = __webpack_require__(345);
 	exports.PropertySheets = property_sheets_1.PropertySheets;
-	var progress_bar_1 = __webpack_require__(106);
+	var progress_bar_1 = __webpack_require__(107);
 	exports.ProgressBarType = progress_bar_1.ProgressBarType;
 	exports.ProgressBar = progress_bar_1.ProgressBar;
-	var title_choosable_edit_1 = __webpack_require__(160);
+	var title_choosable_edit_1 = __webpack_require__(161);
 	exports.TitleChoosableEdit = title_choosable_edit_1.TitleChoosableEdit;
-	var dock_layouter_1 = __webpack_require__(141);
+	var dock_layouter_1 = __webpack_require__(142);
 	exports.DockLayouter = dock_layouter_1.DockLayouter;
 	exports.DockLayouterParam = dock_layouter_1.DockLayouterParam;
-	var grid_layouter_1 = __webpack_require__(127);
+	var grid_layouter_1 = __webpack_require__(128);
 	exports.GridLayouter = grid_layouter_1.GridLayouter;
 	exports.GridLayouterParam = grid_layouter_1.GridLayouterParam;
-	var list_layouter_1 = __webpack_require__(123);
+	var list_layouter_1 = __webpack_require__(124);
 	exports.ListLayouter = list_layouter_1.ListLayouter;
 	exports.ListLayouterParam = list_layouter_1.ListLayouterParam;
-	var simple_layouter_1 = __webpack_require__(125);
+	var simple_layouter_1 = __webpack_require__(126);
 	exports.SimpleLayouter = simple_layouter_1.SimpleLayouter;
 	exports.SimpleLayouterParam = simple_layouter_1.SimpleLayouterParam;
-	var linear_layouter_1 = __webpack_require__(142);
+	var linear_layouter_1 = __webpack_require__(143);
 	exports.LinearLayouter = linear_layouter_1.LinearLayouter;
 	exports.LinearLayouterParam = linear_layouter_1.LinearLayouterParam;
 	var widget_1 = __webpack_require__(21);
 	exports.Widget = widget_1.Widget;
 	exports.WidgetState = widget_1.WidgetState;
 	exports.HitTestResult = widget_1.HitTestResult;
-	var consts_1 = __webpack_require__(115);
+	var consts_1 = __webpack_require__(116);
 	exports.Direction = consts_1.Direction;
 	exports.Align = consts_1.Align;
 	exports.AlignH = consts_1.AlignH;
 	exports.AlignV = consts_1.AlignV;
 	exports.Orientation = consts_1.Orientation;
-	var title_combo_box_1 = __webpack_require__(162);
+	var title_combo_box_1 = __webpack_require__(164);
 	exports.TitleComboBox = title_combo_box_1.TitleComboBox;
 	exports.TitleComboBoxEditable = title_combo_box_1.TitleComboBoxEditable;
-	var message_box_1 = __webpack_require__(140);
+	var message_box_1 = __webpack_require__(141);
 	exports.ButtonOption = message_box_1.ButtonOption;
 	exports.ButtonsOptions = message_box_1.ButtonsOptions;
 	exports.TitleOptions = message_box_1.TitleOptions;
 	exports.MessageBox = message_box_1.MessageBox;
-	var scroll_view_1 = __webpack_require__(110);
+	var scroll_view_1 = __webpack_require__(111);
 	exports.ScrollerBarVisibility = scroll_view_1.ScrollerBarVisibility;
 	exports.ScrollBarStyle = scroll_view_1.ScrollBarStyle;
 	exports.ScrollView = scroll_view_1.ScrollView;
 	var device_info_1 = __webpack_require__(25);
 	exports.DeviceInfo = device_info_1.DeviceInfo;
-	var view_model_1 = __webpack_require__(164);
+	var view_model_1 = __webpack_require__(165);
 	exports.ViewModel = view_model_1.ViewModel;
-	var recyclable_creator_1 = __webpack_require__(93);
+	var recyclable_creator_1 = __webpack_require__(94);
 	exports.RecyclableCreator = recyclable_creator_1.RecyclableCreator;
-	var delegate_command_1 = __webpack_require__(345);
+	var delegate_command_1 = __webpack_require__(346);
 	exports.DelegateCommand = delegate_command_1.DelegateCommand;
-	var collection_view_model_1 = __webpack_require__(346);
+	var collection_view_model_1 = __webpack_require__(347);
 	exports.CollectionViewModel = collection_view_model_1.CollectionViewModel;
-	var delegate_value_converter_1 = __webpack_require__(347);
+	var delegate_value_converter_1 = __webpack_require__(348);
 	exports.DelegateValueConverter = delegate_value_converter_1.DelegateValueConverter;
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	exports.WidgetRecyclableCreator = widget_recyclable_creator_1.WidgetRecyclableCreator;
-	var ivalidation_rule_1 = __webpack_require__(168);
+	var ivalidation_rule_1 = __webpack_require__(169);
 	exports.ValidationResult = ivalidation_rule_1.ValidationResult;
-	var delegate_validation_rule_1 = __webpack_require__(348);
+	var delegate_validation_rule_1 = __webpack_require__(349);
 	exports.DelegateValidationRule = delegate_validation_rule_1.DelegateValidationRule;
-	var binding_rule_1 = __webpack_require__(89);
+	var binding_rule_1 = __webpack_require__(90);
 	exports.BindingRule = binding_rule_1.BindingRule;
 	exports.BindingDataSource = binding_rule_1.BindingDataSource;
 	exports.BindingCommandSource = binding_rule_1.BindingCommandSource;
 	exports.BindingRuleItem = binding_rule_1.BindingRuleItem;
-	var iview_model_1 = __webpack_require__(91);
+	var iview_model_1 = __webpack_require__(92);
 	exports.BindingMode = iview_model_1.BindingMode;
 	var props_desc_1 = __webpack_require__(163);
 	exports.PagePropsDesc = props_desc_1.PagePropsDesc;
@@ -346,64 +338,60 @@ var app =
 	exports.AssetManager = assets_1.AssetManager;
 	exports.AssetGroup = assets_1.AssetGroup;
 	exports.AssetItem = assets_1.AssetItem;
-	var toast_info_1 = __webpack_require__(349);
+	var toast_info_1 = __webpack_require__(350);
 	exports.ToastInfo = toast_info_1.ToastInfo;
-	var input_info_1 = __webpack_require__(350);
+	var input_info_1 = __webpack_require__(351);
 	exports.InputInfo = input_info_1.InputInfo;
-	var props_info_1 = __webpack_require__(351);
+	var props_info_1 = __webpack_require__(352);
 	exports.PropsInfo = props_info_1.PropsInfo;
-	var choice_info_1 = __webpack_require__(352);
+	var choice_info_1 = __webpack_require__(353);
 	exports.ChoiceInfo = choice_info_1.ChoiceInfo;
-	var progress_info_1 = __webpack_require__(353);
+	var progress_info_1 = __webpack_require__(354);
 	exports.ProgressInfo = progress_info_1.ProgressInfo;
-	var confirmation_info_1 = __webpack_require__(354);
+	var confirmation_info_1 = __webpack_require__(355);
 	exports.ConfirmationInfo = confirmation_info_1.ConfirmationInfo;
-	var notification_info_1 = __webpack_require__(355);
+	var notification_info_1 = __webpack_require__(356);
 	exports.NotificationInfo = notification_info_1.NotificationInfo;
-	var interaction_types_1 = __webpack_require__(137);
+	var interaction_types_1 = __webpack_require__(138);
 	exports.InteractionTypes = interaction_types_1.InteractionTypes;
-	var interaction_request_1 = __webpack_require__(136);
+	var interaction_request_1 = __webpack_require__(137);
 	exports.InteractionRequest = interaction_request_1.InteractionRequest;
-	var interaction_service_1 = __webpack_require__(138);
+	var interaction_service_1 = __webpack_require__(139);
 	exports.InteractionService = interaction_service_1.InteractionService;
-	var items_storage_1 = __webpack_require__(356);
+	var items_storage_1 = __webpack_require__(357);
 	exports.ItemsStorage = items_storage_1.ItemsStorage;
-	var table_row_1 = __webpack_require__(357);
+	var table_row_1 = __webpack_require__(358);
 	exports.TableRow = table_row_1.TableRow;
-	var table_client_1 = __webpack_require__(358);
+	var table_client_1 = __webpack_require__(359);
 	exports.TableClient = table_client_1.TableClient;
-	var table_index_1 = __webpack_require__(360);
+	var table_index_1 = __webpack_require__(361);
 	exports.TableIndex = table_index_1.TableIndex;
-	var table_header_1 = __webpack_require__(362);
+	var table_header_1 = __webpack_require__(363);
 	exports.TableHeader = table_header_1.TableHeader;
-	var table_1 = __webpack_require__(363);
+	var table_1 = __webpack_require__(364);
 	exports.Table = table_1.Table;
 	exports.TableColInfo = table_1.TableColInfo;
-	var table_index_item_1 = __webpack_require__(364);
+	var table_index_item_1 = __webpack_require__(365);
 	exports.TableIndexItem = table_index_item_1.TableIndexItem;
-	var table_header_item_1 = __webpack_require__(365);
+	var table_header_item_1 = __webpack_require__(366);
 	exports.TableHeaderItem = table_header_item_1.TableHeaderItem;
-	var delegate_filter_1 = __webpack_require__(366);
+	var delegate_filter_1 = __webpack_require__(367);
 	exports.DelegateFilter = delegate_filter_1.DelegateFilter;
-	var delegate_comparator_1 = __webpack_require__(367);
+	var delegate_comparator_1 = __webpack_require__(368);
 	exports.DelegateComparator = delegate_comparator_1.DelegateComparator;
-	var comparators_1 = __webpack_require__(368);
+	var comparators_1 = __webpack_require__(369);
 	exports.NumberComparator = comparators_1.NumberComparator;
 	exports.StringComparator = comparators_1.StringComparator;
 	exports.RevertComparator = comparators_1.RevertComparator;
 	exports.ObjectPropComparator = comparators_1.ObjectPropComparator;
-	var range_fixer_1 = __webpack_require__(369);
+	var range_fixer_1 = __webpack_require__(370);
 	exports.RangeFixer = range_fixer_1.RangeFixer;
-	var number_fixer_1 = __webpack_require__(370);
+	var number_fixer_1 = __webpack_require__(371);
 	exports.NumberFixer = number_fixer_1.NumberFixer;
-	var vector2_fixer_1 = __webpack_require__(371);
+	var vector2_fixer_1 = __webpack_require__(372);
 	exports.Vector2Fixer = vector2_fixer_1.Vector2Fixer;
-	var vector3_fixer_1 = __webpack_require__(372);
+	var vector3_fixer_1 = __webpack_require__(373);
 	exports.Vector3Fixer = vector3_fixer_1.Vector3Fixer;
-	var html_element_1 = __webpack_require__(95);
-	exports.HtmlElement = html_element_1.HtmlElement;
-	var html_edit_1 = __webpack_require__(94);
-	exports.HtmlEdit = html_edit_1.HtmlEdit;
 
 
 /***/ },
@@ -411,7 +399,6 @@ var app =
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	/**
 	 * @class Rect
 	 * 用左上角坐标、宽度和高度来描述一个矩形区域。
@@ -503,9 +490,9 @@ var app =
 	        var r = new Rect(x || 0, y || 0, w || 0, h || 0);
 	        return r;
 	    };
+	    Rect.rect = Rect.create(0, 0, 0, 0);
 	    return Rect;
 	}());
-	Rect.rect = Rect.create(0, 0, 0, 0);
 	exports.Rect = Rect;
 	;
 
@@ -515,7 +502,6 @@ var app =
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var Point = (function () {
 	    function Point(x, y) {
 	        this.x = x;
@@ -544,9 +530,9 @@ var app =
 	    Point.create = function (x, y) {
 	        return new Point(x, y);
 	    };
+	    Point.point = Point.create(0, 0);
 	    return Point;
 	}());
-	Point.point = Point.create(0, 0);
 	exports.Point = Point;
 	;
 
@@ -557,17 +543,11 @@ var app =
 
 	/// <reference path="../typings/globals/eventemitter3/index.d.ts"/>
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var emitter_1 = __webpack_require__(6);
 	var Events = __webpack_require__(8);
 	var image_tile_1 = __webpack_require__(9);
@@ -577,7 +557,7 @@ var app =
 	var Style = (function (_super) {
 	    __extends(Style, _super);
 	    function Style() {
-	        return _super.call(this) || this;
+	        _super.call(this);
 	    }
 	    Style.prototype.notifyChanged = function () {
 	        this.dispatchEvent({ type: Events.CHANGE });
@@ -1066,9 +1046,9 @@ var app =
 	        ctx.fill();
 	        return;
 	    };
+	    Style.fillStyles = {};
 	    return Style;
 	}(emitter_1.Emitter));
-	Style.fillStyles = {};
 	exports.Style = Style;
 	;
 
@@ -1079,22 +1059,16 @@ var app =
 
 	/// <reference path="../typings/globals/eventemitter3/index.d.ts"/>
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var EventEmitter = __webpack_require__(7);
 	var EmitterImpl = (function (_super) {
 	    __extends(EmitterImpl, _super);
 	    function EmitterImpl() {
-	        return _super.call(this) || this;
+	        _super.call(this);
 	    }
 	    return EmitterImpl;
 	}(EventEmitter));
@@ -1503,17 +1477,11 @@ var app =
 /***/ function(module, exports) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	/**
 	 * 常见事件名称的定义。
 	 */
@@ -1579,7 +1547,7 @@ var app =
 	exports.DROP = "drop";
 	exports.DRAGEND = "dragend";
 	exports.DRAGENTER = "dragenter";
-	exports.DRAGCANCEL = "dragcancel";
+	exports.DRAGEXIT = "dragexit";
 	exports.DRAGLEAVE = "dragleave";
 	exports.DRAGOVER = "dragover";
 	exports.DRAGSTART = "dragstart";
@@ -1644,7 +1612,7 @@ var app =
 	var AnyEvent = (function (_super) {
 	    __extends(AnyEvent, _super);
 	    function AnyEvent() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    AnyEvent.prototype.init = function (type, payload) {
 	        _super.prototype.init.call(this, type);
@@ -1665,7 +1633,7 @@ var app =
 	var InteractionRequestEvent = (function (_super) {
 	    __extends(InteractionRequestEvent, _super);
 	    function InteractionRequestEvent() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    ;
 	    InteractionRequestEvent.prototype.returnResult = function () {
@@ -1691,7 +1659,7 @@ var app =
 	var InputEvent = (function (_super) {
 	    __extends(InputEvent, _super);
 	    function InputEvent() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    InputEvent.prototype.init = function (type, detail) {
 	        _super.prototype.init.call(this, type);
@@ -1708,7 +1676,7 @@ var app =
 	var PointerEvent = (function (_super) {
 	    __extends(PointerEvent, _super);
 	    function PointerEvent() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    PointerEvent.prototype.init = function (type, detail) {
 	        _super.prototype.init.call(this, type, detail);
@@ -1736,7 +1704,7 @@ var app =
 	var WheelEvent = (function (_super) {
 	    __extends(WheelEvent, _super);
 	    function WheelEvent() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    WheelEvent.prototype.init = function (type, detail) {
 	        _super.prototype.init.call(this, type, detail);
@@ -1754,7 +1722,7 @@ var app =
 	var KeyEvent = (function (_super) {
 	    __extends(KeyEvent, _super);
 	    function KeyEvent() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    KeyEvent.prototype.init = function (type, detail) {
 	        _super.prototype.init.call(this, type, detail);
@@ -1772,7 +1740,7 @@ var app =
 	var ShortcutEvent = (function (_super) {
 	    __extends(ShortcutEvent, _super);
 	    function ShortcutEvent() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    ShortcutEvent.prototype.init = function (type, keys) {
 	        _super.prototype.init.call(this, type, {});
@@ -1789,7 +1757,7 @@ var app =
 	var TickEvent = (function (_super) {
 	    __extends(TickEvent, _super);
 	    function TickEvent() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    TickEvent.prototype.init = function (type, detail) {
 	        _super.prototype.init.call(this, type);
@@ -1809,7 +1777,7 @@ var app =
 	var ChangeEvent = (function (_super) {
 	    __extends(ChangeEvent, _super);
 	    function ChangeEvent() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    ChangeEvent.prototype.init = function (type, detail) {
 	        _super.prototype.init.call(this, type);
@@ -1830,7 +1798,7 @@ var app =
 	var PropChangeEvent = (function (_super) {
 	    __extends(PropChangeEvent, _super);
 	    function PropChangeEvent() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    PropChangeEvent.prototype.init = function (type, detail) {
 	        _super.prototype.init.call(this, type, detail);
@@ -1876,9 +1844,8 @@ var app =
 	var DragEvent = (function (_super) {
 	    __extends(DragEvent, _super);
 	    function DragEvent() {
-	        var _this = _super.call(this) || this;
-	        _this.dataTransfer = new DataTransfer();
-	        return _this;
+	        _super.call(this);
+	        this.dataTransfer = new DataTransfer();
 	    }
 	    DragEvent.prototype.init = function (type, detail) {
 	        _super.prototype.init.call(this, type, detail);
@@ -1900,16 +1867,16 @@ var app =
 	        var e = DragEvent.event;
 	        return e.init(type, { x: x, y: y });
 	    };
+	    DragEvent._isDragging = false;
+	    DragEvent.event = new DragEvent();
 	    return DragEvent;
 	}(Event));
-	DragEvent._isDragging = false;
-	DragEvent.event = new DragEvent();
 	exports.DragEvent = DragEvent;
 	;
 	var DrawEvent = (function (_super) {
 	    __extends(DrawEvent, _super);
 	    function DrawEvent() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    DrawEvent.prototype.reset = function (type, ctx, widget) {
 	        _super.prototype.init.call(this, type);
@@ -1920,15 +1887,15 @@ var app =
 	    DrawEvent.get = function () {
 	        return DrawEvent.event;
 	    };
+	    DrawEvent.event = new DrawEvent();
 	    return DrawEvent;
 	}(Event));
-	DrawEvent.event = new DrawEvent();
 	exports.DrawEvent = DrawEvent;
 	;
 	var ApplyTransformEvent = (function (_super) {
 	    __extends(ApplyTransformEvent, _super);
 	    function ApplyTransformEvent() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    ApplyTransformEvent.prototype.reset = function (type, ctx, widget) {
 	        _super.prototype.init.call(this, type);
@@ -1939,15 +1906,15 @@ var app =
 	    ApplyTransformEvent.get = function () {
 	        return ApplyTransformEvent.event;
 	    };
+	    ApplyTransformEvent.event = new ApplyTransformEvent();
 	    return ApplyTransformEvent;
 	}(Event));
-	ApplyTransformEvent.event = new ApplyTransformEvent();
 	exports.ApplyTransformEvent = ApplyTransformEvent;
 	;
 	var ScrollEvent = (function (_super) {
 	    __extends(ScrollEvent, _super);
 	    function ScrollEvent() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    ScrollEvent.prototype.reset = function (type, widget, offsetX, offsetY) {
 	        _super.prototype.init.call(this, type);
@@ -1966,7 +1933,7 @@ var app =
 	var WindowEvent = (function (_super) {
 	    __extends(WindowEvent, _super);
 	    function WindowEvent() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    WindowEvent.prototype.reset = function (type, widget) {
 	        _super.prototype.init.call(this, type);
@@ -1983,7 +1950,7 @@ var app =
 	var ProgressEvent = (function (_super) {
 	    __extends(ProgressEvent, _super);
 	    function ProgressEvent() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    ProgressEvent.prototype.reset = function (progress, total, done) {
 	        _super.prototype.init.call(this, exports.PROGRESS);
@@ -2005,7 +1972,7 @@ var app =
 	var SortEvent = (function (_super) {
 	    __extends(SortEvent, _super);
 	    function SortEvent() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    SortEvent.prototype.init = function (key, isDec) {
 	        _super.prototype.init.call(this, exports.SORT);
@@ -2052,23 +2019,16 @@ var app =
 	/// <reference path="../typings/globals/node/index.d.ts"/>
 	/// <reference path="../typings/globals/eventemitter3/index.d.ts"/>
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	__webpack_require__(10);
 	var path = __webpack_require__(11);
 	var emitter_1 = __webpack_require__(6);
 	var assets_1 = __webpack_require__(13);
 	var Events = __webpack_require__(8);
-	var ImageDrawType;
 	(function (ImageDrawType) {
 	    /**
 	     * 画在填满指定的矩形区域。
@@ -2110,7 +2070,8 @@ var app =
 	     * ICON
 	     */
 	    ImageDrawType[ImageDrawType["ICON"] = 10] = "ICON";
-	})(ImageDrawType = exports.ImageDrawType || (exports.ImageDrawType = {}));
+	})(exports.ImageDrawType || (exports.ImageDrawType = {}));
+	var ImageDrawType = exports.ImageDrawType;
 	/**
 	 * 把多个小的图片合并成一张大图，不但可以减少网路请求和GPU的调用次数，还可以提高内存的利用率。
 	 * ImageTile用来表示大图中的一张小图，QTK中支持下面几种方式：
@@ -2145,18 +2106,17 @@ var app =
 	var ImageTile = (function (_super) {
 	    __extends(ImageTile, _super);
 	    function ImageTile(src) {
-	        var _this = _super.call(this) || this;
-	        _this.x = 0;
-	        _this.y = 0;
-	        _this.w = 0;
-	        _this.h = 0;
-	        _this._id = 0;
-	        _this.img = null;
-	        _this.src = src;
+	        _super.call(this);
+	        this.x = 0;
+	        this.y = 0;
+	        this.w = 0;
+	        this.h = 0;
+	        this._id = 0;
+	        this.img = null;
+	        this.src = src;
 	        if (src) {
-	            _this.create(src);
+	            this.create(src);
 	        }
-	        return _this;
 	    }
 	    ImageTile.prototype.toJson = function () {
 	        return this.src;
@@ -2460,11 +2420,11 @@ var app =
 	        }
 	        return it;
 	    };
+	    ImageTile.scale = 1;
+	    ImageTile.density = 1;
+	    ImageTile.cache = {};
 	    return ImageTile;
 	}(emitter_1.Emitter));
-	ImageTile.scale = 1;
-	ImageTile.density = 1;
-	ImageTile.cache = {};
 	exports.ImageTile = ImageTile;
 	;
 
@@ -3364,18 +3324,13 @@ var app =
 
 	/// <reference path="../typings/globals/node/index.d.ts"/>
 	/// <reference path="../typings/globals/eventemitter3/index.d.ts"/>
+	/// <reference path="../typings/globals/whatwg-fetch/index.d.ts"/>
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	__webpack_require__(10);
 	var path = __webpack_require__(11);
 	var Events = __webpack_require__(8);
@@ -3409,7 +3364,6 @@ var app =
 	 * @enum AssetType
 	 * 资源类型。
 	 */
-	var AssetType;
 	(function (AssetType) {
 	    /**
 	     * @property {number} [AUDIO=1]
@@ -3441,7 +3395,8 @@ var app =
 	     * 文本资源。
 	     */
 	    AssetType[AssetType["TEXT"] = 6] = "TEXT";
-	})(AssetType = exports.AssetType || (exports.AssetType = {}));
+	})(exports.AssetType || (exports.AssetType = {}));
+	var AssetType = exports.AssetType;
 	;
 	/**
 	 * @class AssetManager
@@ -3606,22 +3561,21 @@ var app =
 	var AssetGroup = (function (_super) {
 	    __extends(AssetGroup, _super);
 	    function AssetGroup(items, onProgress) {
-	        var _this = _super.call(this) || this;
-	        _this.event = {
+	        _super.call(this);
+	        this.event = {
 	            total: 0,
 	            loaded: 0,
 	            type: Events.PROGRESS
 	        };
 	        var i = 0;
 	        var n = items.length;
-	        _this.loaded = 0;
-	        _this.total = items.length;
-	        _this.event.total = _this.total;
+	        this.loaded = 0;
+	        this.total = items.length;
+	        this.event.total = this.total;
 	        if (onProgress) {
-	            _this.onProgress(onProgress);
+	            this.onProgress(onProgress);
 	        }
-	        items.forEach(_this.loadOne.bind(_this));
-	        return _this;
+	        items.forEach(this.loadOne.bind(this));
 	    }
 	    /**
 	     * 注册加载进度的回调函数。
@@ -3682,7 +3636,6 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var point_1 = __webpack_require__(4);
 	/**
 	 * 2维矩阵变换
@@ -3802,9 +3755,9 @@ var app =
 	        }
 	        return new Matrix();
 	    };
+	    Matrix.cache = [];
 	    return Matrix;
 	}());
-	Matrix.cache = [];
 	exports.Matrix = Matrix;
 	;
 
@@ -3814,17 +3767,11 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var emitter_1 = __webpack_require__(6);
 	var Events = __webpack_require__(8);
 	var event_detail_1 = __webpack_require__(16);
@@ -3842,31 +3789,30 @@ var app =
 	var Canvas = (function (_super) {
 	    __extends(Canvas, _super);
 	    function Canvas(x, y, w, h, devicePixelRatio, offline) {
-	        var _this = _super.call(this) || this;
-	        _this._x = x || 0;
-	        _this._y = y || 0;
-	        _this._w = w || 0;
-	        _this._h = h || 0;
-	        _this._offline = offline || false;
-	        _this._devicePixelRatio = devicePixelRatio || 1;
-	        var me = _this;
-	        _this.onPointerEvent = function (evt) {
+	        _super.call(this);
+	        this._x = x || 0;
+	        this._y = y || 0;
+	        this._w = w || 0;
+	        this._h = h || 0;
+	        this._offline = offline || false;
+	        this._devicePixelRatio = devicePixelRatio || 1;
+	        var me = this;
+	        this.onPointerEvent = function (evt) {
 	            me.transformXY(evt.detail);
 	            var e = Events.PointerEvent.create(evt.type, evt.detail);
 	            me.dispatchEvent(e);
 	            e.dispose();
 	        };
-	        _this.onKeyEvent = function (evt) {
+	        this.onKeyEvent = function (evt) {
 	            var e = Events.KeyEvent.create(evt.type, evt.detail);
 	            me.dispatchEvent(e);
 	            e.dispose();
 	        };
-	        _this.onWheelEvent = function (evt) {
+	        this.onWheelEvent = function (evt) {
 	            var e = Events.WheelEvent.create(evt.detail);
 	            me.dispatchEvent(e);
 	            e.dispose();
 	        };
-	        return _this;
 	    }
 	    Object.defineProperty(Canvas.prototype, "x", {
 	        /**
@@ -4110,17 +4056,11 @@ var app =
 /***/ function(module, exports) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	/**
 	 * 输入事件的详细信息。
 	 */
@@ -4141,15 +4081,14 @@ var app =
 	var PointerEventDetail = (function (_super) {
 	    __extends(PointerEventDetail, _super);
 	    function PointerEventDetail(id, x, y, altKey, ctrlKey, shiftKey, commandKey) {
-	        var _this = _super.call(this, altKey, ctrlKey, shiftKey, commandKey) || this;
-	        _this.id = id;
-	        _this.x = x;
-	        _this.y = y;
-	        _this.pointerDown = false;
-	        _this.pointerDownX = 0;
-	        _this.pointerDownY = 0;
-	        _this.pointerDownTime = 0;
-	        return _this;
+	        _super.call(this, altKey, ctrlKey, shiftKey, commandKey);
+	        this.id = id;
+	        this.x = x;
+	        this.y = y;
+	        this.pointerDown = false;
+	        this.pointerDownX = 0;
+	        this.pointerDownY = 0;
+	        this.pointerDownTime = 0;
 	    }
 	    /**
 	     * 设置指针按下的状态。
@@ -4176,9 +4115,8 @@ var app =
 	var KeyEventDetail = (function (_super) {
 	    __extends(KeyEventDetail, _super);
 	    function KeyEventDetail(keyCode, altKey, ctrlKey, shiftKey, commandKey) {
-	        var _this = _super.call(this, altKey, ctrlKey, shiftKey, commandKey) || this;
-	        _this.keyCode = keyCode;
-	        return _this;
+	        _super.call(this, altKey, ctrlKey, shiftKey, commandKey);
+	        this.keyCode = keyCode;
 	    }
 	    KeyEventDetail.prototype.dispose = function () {
 	    };
@@ -4196,9 +4134,8 @@ var app =
 	var WheelEventDetail = (function (_super) {
 	    __extends(WheelEventDetail, _super);
 	    function WheelEventDetail(delta, altKey, ctrlKey, shiftKey, commandKey) {
-	        var _this = _super.call(this, altKey, ctrlKey, shiftKey, commandKey) || this;
-	        _this.delta = delta;
-	        return _this;
+	        _super.call(this, altKey, ctrlKey, shiftKey, commandKey);
+	        this.delta = delta;
 	    }
 	    WheelEventDetail.prototype.dispose = function () {
 	    };
@@ -4217,7 +4154,6 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var Events = __webpack_require__(8);
 	var key_event_1 = __webpack_require__(18);
 	var emitter_1 = __webpack_require__(6);
@@ -4236,7 +4172,6 @@ var app =
 	var pointerDownTime = 0;
 	var pointerMoved = false;
 	var globalInputEmitter = new emitter_1.Emitter();
-	var lastClickTime = 0;
 	function dispatchEvent(target, type, detail) {
 	    var realTarget = target;
 	    if (grabs.length) {
@@ -4270,13 +4205,8 @@ var app =
 	        pointerMoved = false;
 	    }
 	    else if (type === Events.POINTER_UP) {
-	        var now = Date.now();
 	        detail.setPointerDown(pointerDown, pointerDownX, pointerDownY, pointerDownTime);
-	        if ((now - lastClickTime) > 500) {
-	            //双击只触发一次click事件。
-	            dispatchEvent(target, Events.CLICK, detail);
-	        }
-	        lastClickTime = now;
+	        dispatchEvent(target, Events.CLICK, detail);
 	        pointerDown = false;
 	        pointerMoved = false;
 	    }
@@ -4515,7 +4445,6 @@ var app =
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	exports.KeyEvent = {
 	    VK_CANCEL: 3,
 	    VK_HELP: 6,
@@ -4645,42 +4574,36 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var rect_1 = __webpack_require__(3);
 	var point_1 = __webpack_require__(4);
 	var label_1 = __webpack_require__(20);
 	var Events = __webpack_require__(8);
 	var key_event_1 = __webpack_require__(18);
-	var html_edit_1 = __webpack_require__(94);
+	var html_edit_1 = __webpack_require__(95);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
 	var graphics_1 = __webpack_require__(28);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * 编辑器。multiLineMode决定是多行编辑器还是单行编辑器。
 	 */
 	var Edit = (function (_super) {
 	    __extends(Edit, _super);
 	    function Edit() {
-	        var _this = _super.call(this, Edit.TYPE) || this;
-	        _this.onWheel = function () {
+	        _super.call(this, Edit.TYPE);
+	        this.onWheel = function () {
 	            var input = this._input;
 	            if (input) {
 	                input.hide();
 	                this.hideEditor();
 	            }
-	        }.bind(_this);
-	        _this.drawInvalidInputTips = function (evt) {
+	        }.bind(this);
+	        this.drawInvalidInputTips = function (evt) {
 	            var win = this.win;
 	            var tm = this._themeManager;
 	            var text = this._validationTips;
@@ -4707,8 +4630,7 @@ var app =
 	            }
 	            graphics_1.Graphics.drawRoundRect(ctx, style.backGroundColor, style.lineColor, style.lineWidth, r.x, r.y, r.w, r.h, style.roundRadius);
 	            graphics_1.Graphics.drawTextSL(ctx, text, style, r);
-	        }.bind(_this);
-	        return _this;
+	        }.bind(this);
 	    }
 	    Object.defineProperty(Edit.prototype, "inputable", {
 	        get: function () {
@@ -4891,11 +4813,11 @@ var app =
 	    Edit.create = function (options) {
 	        return Edit.r.create(options);
 	    };
+	    Edit.defProps = Object.assign({}, label_1.Label.defProps, { _mlm: false, _it: null, _itp: null });
+	    Edit.TYPE = "edit";
+	    Edit.r = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Edit);
 	    return Edit;
 	}(label_1.Label));
-	Edit.defProps = Object.assign({}, label_1.Label.defProps, { _mlm: false, _it: null, _itp: null });
-	Edit.TYPE = "edit";
-	Edit.r = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Edit);
 	exports.Edit = Edit;
 	;
 	widget_factory_1.WidgetFactory.register(Edit.TYPE, Edit.create);
@@ -4906,28 +4828,22 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var widget_1 = __webpack_require__(21);
 	var graphics_1 = __webpack_require__(28);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * 文本控件。
 	 */
 	var Label = (function (_super) {
 	    __extends(Label, _super);
 	    function Label(type) {
-	        return _super.call(this, type || Label.TYPE) || this;
+	        _super.call(this, type || Label.TYPE);
 	    }
 	    /**
 	     * 对文本进行重新排版。
@@ -5018,11 +4934,11 @@ var app =
 	    Label.create = function (options) {
 	        return Label.recycleBin.create(options);
 	    };
+	    Label.defProps = Object.assign({}, widget_1.Widget.defProps, { _mlm: true, _lp: 5, _tp: 5, _rp: 5, _bp: 5 });
+	    Label.TYPE = "label";
+	    Label.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Label);
 	    return Label;
 	}(widget_1.Widget));
-	Label.defProps = Object.assign({}, widget_1.Widget.defProps, { _mlm: true, _lp: 5, _tp: 5, _rp: 5, _bp: 5 });
-	Label.TYPE = "label";
-	Label.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Label);
 	exports.Label = Label;
 	;
 	widget_factory_1.WidgetFactory.register(Label.TYPE, Label.create);
@@ -5035,17 +4951,11 @@ var app =
 	/// <reference path="../../typings/globals/tween.js/index.d.ts"/>
 	/// <reference path="../../typings/globals/eventemitter3/index.d.ts"/>
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var rect_1 = __webpack_require__(3);
 	var style_1 = __webpack_require__(5);
 	var canvas_1 = __webpack_require__(15);
@@ -5056,18 +4966,17 @@ var app =
 	var string_table_1 = __webpack_require__(24);
 	var widget_factory_1 = __webpack_require__(26);
 	var graphics_1 = __webpack_require__(28);
-	var dirty_rect_context_1 = __webpack_require__(85);
+	var dirty_rect_context_1 = __webpack_require__(86);
 	var image_tile_1 = __webpack_require__(9);
-	var behavior_1 = __webpack_require__(87);
-	var layouter_1 = __webpack_require__(88);
-	var binding_rule_1 = __webpack_require__(89);
-	var binding_rule_2 = __webpack_require__(89);
-	var iview_model_1 = __webpack_require__(91);
+	var behavior_1 = __webpack_require__(88);
+	var layouter_1 = __webpack_require__(89);
+	var binding_rule_1 = __webpack_require__(90);
+	var binding_rule_2 = __webpack_require__(90);
+	var iview_model_1 = __webpack_require__(92);
 	/**
 	 * @enum WidgetState
 	 * 控件的状态
 	 */
-	var WidgetState;
 	(function (WidgetState) {
 	    /**
 	     * @property {number}
@@ -5094,13 +5003,13 @@ var app =
 	     * 选中状态。只对部分设备有效。
 	     */
 	    WidgetState[WidgetState["SELECTED"] = 4] = "SELECTED";
-	})(WidgetState = exports.WidgetState || (exports.WidgetState = {}));
+	})(exports.WidgetState || (exports.WidgetState = {}));
+	var WidgetState = exports.WidgetState;
 	;
 	/**
 	 * @enum HitTestResult
 	 * 点击测试结果。
 	 */
-	var HitTestResult;
 	(function (HitTestResult) {
 	    /**
 	     * @property {number}
@@ -5152,7 +5061,8 @@ var app =
 	     * 点击在控件右下角。
 	     */
 	    HitTestResult[HitTestResult["BR"] = 9] = "BR";
-	})(HitTestResult = exports.HitTestResult || (exports.HitTestResult = {}));
+	})(exports.HitTestResult || (exports.HitTestResult = {}));
+	var HitTestResult = exports.HitTestResult;
 	;
 	/**
 	 * @class Widget
@@ -5161,20 +5071,19 @@ var app =
 	var Widget = (function (_super) {
 	    __extends(Widget, _super);
 	    function Widget(type) {
-	        var _this = _super.call(this) || this;
+	        _super.call(this);
 	        ///////////////////////////////////////////
-	        _this.layoutRect = rect_1.Rect.create(0, 0, 0, 0);
-	        _this.eChangeEvent = Events.ChangeEvent.create();
-	        _this.ePropChangeEvent = Events.PropChangeEvent.create();
-	        _this.viewModelChangeFunc = function (evt) {
+	        this.layoutRect = rect_1.Rect.create(0, 0, 0, 0);
+	        this.eChangeEvent = Events.ChangeEvent.create();
+	        this.ePropChangeEvent = Events.PropChangeEvent.create();
+	        this.viewModelChangeFunc = function (evt) {
 	            var viewModel = this._viewModel;
 	            var dataBindingRule = this._dataBindingRule;
 	            if (dataBindingRule && viewModel) {
 	                this.onBindData(viewModel, dataBindingRule);
 	            }
-	        }.bind(_this);
-	        _this.type = type;
-	        return _this;
+	        }.bind(this);
+	        this.type = type;
 	    }
 	    /**
 	     * @method set
@@ -5244,7 +5153,9 @@ var app =
 	     * @return {Point}  屏幕上的坐标。
 	     */
 	    Widget.prototype.toViewPoint = function (p) {
-	        var iter = this;
+	        p.x += this.x;
+	        p.y += this.y;
+	        var iter = this.parent;
 	        while (iter) {
 	            p.x += iter.x;
 	            p.y += iter.y;
@@ -7280,39 +7191,39 @@ var app =
 	    Widget.prototype.selfHitTest = function (x, y) {
 	        return this.hitTest(x, y);
 	    };
+	    Widget.defProps = {
+	        _x: 0,
+	        _y: 0,
+	        _z: 0,
+	        _w: 0,
+	        _h: 0,
+	        _state: 0,
+	        _value: 0,
+	        _enable: true,
+	        _visible: true,
+	        _selected: false,
+	        _opacity: 1,
+	        _scaleX: 1,
+	        _scaleY: 1,
+	        _pivotX: 0.5,
+	        _pivotY: 0.5,
+	        _rotation: 0,
+	        _sensitive: true,
+	        _tips: null,
+	        _text: null,
+	        _name: null,
+	        _hitTestResult: 0,
+	        _isWindow: false,
+	        _mode: 0,
+	        _styleType: null,
+	        _lp: 0,
+	        _tp: 0,
+	        _rp: 0,
+	        _bp: 0
+	    };
+	    Widget.ID = 10000;
 	    return Widget;
 	}(emitter_1.Emitter));
-	Widget.defProps = {
-	    _x: 0,
-	    _y: 0,
-	    _z: 0,
-	    _w: 0,
-	    _h: 0,
-	    _state: 0,
-	    _value: 0,
-	    _enable: true,
-	    _visible: true,
-	    _selected: false,
-	    _opacity: 1,
-	    _scaleX: 1,
-	    _scaleY: 1,
-	    _pivotX: 0.5,
-	    _pivotY: 0.5,
-	    _rotation: 0,
-	    _sensitive: true,
-	    _tips: null,
-	    _text: null,
-	    _name: null,
-	    _hitTestResult: 0,
-	    _isWindow: false,
-	    _mode: 0,
-	    _styleType: null,
-	    _lp: 0,
-	    _tp: 0,
-	    _rp: 0,
-	    _bp: 0
-	};
-	Widget.ID = 10000;
 	exports.Widget = Widget;
 	;
 
@@ -7392,34 +7303,37 @@ var app =
 	})();
 
 
-	// Include a performance.now polyfill.
-	// In node.js, use process.hrtime.
-	if (typeof (window) === 'undefined' && typeof (process) !== 'undefined') {
-		TWEEN.now = function () {
-			var time = process.hrtime();
+	// Include a performance.now polyfill
+	(function () {
+		// In node.js, use process.hrtime.
+		if (this.window === undefined && this.process !== undefined) {
+			TWEEN.now = function () {
+				var time = process.hrtime();
 
-			// Convert [seconds, nanoseconds] to milliseconds.
-			return time[0] * 1000 + time[1] / 1000000;
-		};
-	}
-	// In a browser, use window.performance.now if it is available.
-	else if (typeof (window) !== 'undefined' &&
-	         window.performance !== undefined &&
+				// Convert [seconds, microseconds] to milliseconds.
+				return time[0] * 1000 + time[1] / 1000;
+			};
+		}
+		// In a browser, use window.performance.now if it is available.
+		else if (this.window !== undefined &&
+		         window.performance !== undefined &&
 			 window.performance.now !== undefined) {
-		// This must be bound, because directly assigning this function
-		// leads to an invocation exception in Chrome.
-		TWEEN.now = window.performance.now.bind(window.performance);
-	}
-	// Use Date.now if it is available.
-	else if (Date.now !== undefined) {
-		TWEEN.now = Date.now;
-	}
-	// Otherwise, use 'new Date().getTime()'.
-	else {
-		TWEEN.now = function () {
-			return new Date().getTime();
-		};
-	}
+
+			// This must be bound, because directly assigning this function
+			// leads to an invocation exception in Chrome.
+			TWEEN.now = window.performance.now.bind(window.performance);
+		}
+		// Use Date.now if it is available.
+		else if (Date.now !== undefined) {
+			TWEEN.now = Date.now;
+		}
+		// Otherwise, use 'new Date().getTime()'.
+		else {
+			TWEEN.now = function () {
+				return new Date().getTime();
+			};
+		}
+	})();
 
 
 	TWEEN.Tween = function (object) {
@@ -7430,7 +7344,6 @@ var app =
 		var _valuesStartRepeat = {};
 		var _duration = 1000;
 		var _repeat = 0;
-		var _repeatDelayTime;
 		var _yoyo = false;
 		var _isPlaying = false;
 		var _reversed = false;
@@ -7445,13 +7358,18 @@ var app =
 		var _onCompleteCallback = null;
 		var _onStopCallback = null;
 
-		this.to = function (properties, duration) {
+		// Set all starting values present on the target object
+		for (var field in object) {
+			_valuesStart[field] = parseFloat(object[field], 10);
+		}
 
-			_valuesEnd = properties;
+		this.to = function (properties, duration) {
 
 			if (duration !== undefined) {
 				_duration = duration;
 			}
+
+			_valuesEnd = properties;
 
 			return this;
 
@@ -7484,11 +7402,10 @@ var app =
 
 				// If `to()` specifies a property that doesn't exist in the source object,
 				// we should not set that property in the object
-				if (_object[property] === undefined) {
+				if (_valuesStart[property] === undefined) {
 					continue;
 				}
 
-				// Save the starting value.
 				_valuesStart[property] = _object[property];
 
 				if ((_valuesStart[property] instanceof Array) === false) {
@@ -7513,17 +7430,10 @@ var app =
 			_isPlaying = false;
 
 			if (_onStopCallback !== null) {
-				_onStopCallback.call(_object, _object);
+				_onStopCallback.call(_object);
 			}
 
 			this.stopChainedTweens();
-			return this;
-
-		};
-
-		this.end = function () {
-
-			this.update(_startTime + _duration);
 			return this;
 
 		};
@@ -7546,13 +7456,6 @@ var app =
 		this.repeat = function (times) {
 
 			_repeat = times;
-			return this;
-
-		};
-
-		this.repeatDelay = function (amount) {
-
-			_repeatDelayTime = amount;
 			return this;
 
 		};
@@ -7627,10 +7530,11 @@ var app =
 			if (_onStartCallbackFired === false) {
 
 				if (_onStartCallback !== null) {
-					_onStartCallback.call(_object, _object);
+					_onStartCallback.call(_object);
 				}
 
 				_onStartCallbackFired = true;
+
 			}
 
 			elapsed = (time - _startTime) / _duration;
@@ -7658,9 +7562,9 @@ var app =
 					if (typeof (end) === 'string') {
 
 						if (end.charAt(0) === '+' || end.charAt(0) === '-') {
-							end = start + parseFloat(end);
+							end = start + parseFloat(end, 10);
 						} else {
-							end = parseFloat(end);
+							end = parseFloat(end, 10);
 						}
 					}
 
@@ -7689,7 +7593,7 @@ var app =
 					for (property in _valuesStartRepeat) {
 
 						if (typeof (_valuesEnd[property]) === 'string') {
-							_valuesStartRepeat[property] = _valuesStartRepeat[property] + parseFloat(_valuesEnd[property]);
+							_valuesStartRepeat[property] = _valuesStartRepeat[property] + parseFloat(_valuesEnd[property], 10);
 						}
 
 						if (_yoyo) {
@@ -7707,19 +7611,14 @@ var app =
 						_reversed = !_reversed;
 					}
 
-					if (_repeatDelayTime !== undefined) {
-						_startTime = time + _repeatDelayTime;
-					} else {
-						_startTime = time + _delayTime;
-					}
+					_startTime = time + _delayTime;
 
 					return true;
 
 				} else {
 
 					if (_onCompleteCallback !== null) {
-
-						_onCompleteCallback.call(_object, _object);
+						_onCompleteCallback.call(_object);
 					}
 
 					for (var i = 0, numChainedTweens = _chainedTweens.length; i < numChainedTweens; i++) {
@@ -8213,7 +8112,6 @@ var app =
 	//! stable.js 0.1.5, https://github.com/Two-Screen/stable
 	//! © 2014 Angry Bytes and contributors. MIT licensed.
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	// A stable array sort, because `Array#sort()` is not guaranteed stable.
 	// This is an implementation of merge sort, without recursion.
 	function stableSort(arr, comp) {
@@ -8349,7 +8247,6 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var device_info_1 = __webpack_require__(25);
 	var StringTable = (function () {
 	    function StringTable() {
@@ -8383,9 +8280,9 @@ var app =
 	        var tr = table ? table[str] : str;
 	        return tr ? tr : str;
 	    };
+	    StringTable.table = {};
 	    return StringTable;
 	}());
-	StringTable.table = {};
 	exports.StringTable = StringTable;
 	;
 
@@ -8395,7 +8292,6 @@ var app =
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	/**
 	 * @class DeviceInfo
 	 * 设备信息。可以获取语言，操作系统和浏览器等相关信息(单例对象，直接调用)。
@@ -8431,7 +8327,6 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var factory_1 = __webpack_require__(27);
 	/**
 	 * Widget工厂，注册控件的创建函数和根据控件的类型创建控件。
@@ -8457,9 +8352,9 @@ var app =
 	        widget.fromJson(json);
 	        return widget;
 	    };
+	    WidgetFactory.factory = new factory_1.Factory();
 	    return WidgetFactory;
 	}());
-	WidgetFactory.factory = new factory_1.Factory();
 	exports.WidgetFactory = WidgetFactory;
 
 
@@ -8468,7 +8363,6 @@ var app =
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	/**
 	 * 一个通用的工厂类。
 	 */
@@ -8497,20 +8391,19 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var style_1 = __webpack_require__(5);
 	var carota = __webpack_require__(29);
 	var ut = __webpack_require__(50);
 	var tokenizer = ut.createTokenizerStream();
 	var Token = ut.Token;
 	var Break = ut.Break;
-	var RoundType;
 	(function (RoundType) {
 	    RoundType[RoundType["TL"] = 1] = "TL";
 	    RoundType[RoundType["TR"] = 2] = "TR";
 	    RoundType[RoundType["BL"] = 4] = "BL";
 	    RoundType[RoundType["BR"] = 8] = "BR";
-	})(RoundType = exports.RoundType || (exports.RoundType = {}));
+	})(exports.RoundType || (exports.RoundType = {}));
+	var RoundType = exports.RoundType;
 	;
 	var TextLine = (function () {
 	    function TextLine() {
@@ -8783,9 +8676,9 @@ var app =
 	        ctx.closePath();
 	        ctx.translate(-x, -y);
 	    };
+	    Graphics.canvas = document.createElement("canvas");
 	    return Graphics;
 	}());
-	Graphics.canvas = document.createElement("canvas");
 	exports.Graphics = Graphics;
 	;
 
@@ -11973,11 +11866,11 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	var Stream = __webpack_require__(51).Stream,
-	    util = __webpack_require__(77),
-	    TokenType = __webpack_require__(80),
-	    BreakType = __webpack_require__(81),
-	    tokenizer = __webpack_require__(82),
-	    LineBreak = __webpack_require__(84);
+	    util = __webpack_require__(78),
+	    TokenType = __webpack_require__(81),
+	    BreakType = __webpack_require__(82),
+	    tokenizer = __webpack_require__(83),
+	    LineBreak = __webpack_require__(85);
 
 	function TokenizerStream() {
 	    Stream.call(this);
@@ -12064,10 +11957,10 @@ var app =
 
 	inherits(Stream, EE);
 	Stream.Readable = __webpack_require__(54);
-	Stream.Writable = __webpack_require__(73);
-	Stream.Duplex = __webpack_require__(74);
-	Stream.Transform = __webpack_require__(75);
-	Stream.PassThrough = __webpack_require__(76);
+	Stream.Writable = __webpack_require__(74);
+	Stream.Duplex = __webpack_require__(75);
+	Stream.Transform = __webpack_require__(76);
+	Stream.PassThrough = __webpack_require__(77);
 
 	// Backwards-compat with node 0.4.x
 	Stream.Stream = Stream;
@@ -12514,10 +12407,10 @@ var app =
 	exports = module.exports = __webpack_require__(55);
 	exports.Stream = Stream || exports;
 	exports.Readable = exports;
-	exports.Writable = __webpack_require__(66);
-	exports.Duplex = __webpack_require__(65);
-	exports.Transform = __webpack_require__(71);
-	exports.PassThrough = __webpack_require__(72);
+	exports.Writable = __webpack_require__(67);
+	exports.Duplex = __webpack_require__(66);
+	exports.Transform = __webpack_require__(72);
+	exports.PassThrough = __webpack_require__(73);
 
 	if (!process.browser && process.env.READABLE_STREAM === 'disable' && Stream) {
 	  module.exports = Stream;
@@ -12568,16 +12461,16 @@ var app =
 
 	var Buffer = __webpack_require__(58).Buffer;
 	/*<replacement>*/
-	var bufferShim = __webpack_require__(61);
+	var bufferShim = __webpack_require__(62);
 	/*</replacement>*/
 
 	/*<replacement>*/
-	var util = __webpack_require__(62);
+	var util = __webpack_require__(63);
 	util.inherits = __webpack_require__(53);
 	/*</replacement>*/
 
 	/*<replacement>*/
-	var debugUtil = __webpack_require__(63);
+	var debugUtil = __webpack_require__(64);
 	var debug = void 0;
 	if (debugUtil && debugUtil.debuglog) {
 	  debug = debugUtil.debuglog('stream');
@@ -12586,7 +12479,7 @@ var app =
 	}
 	/*</replacement>*/
 
-	var BufferList = __webpack_require__(64);
+	var BufferList = __webpack_require__(65);
 	var StringDecoder;
 
 	util.inherits(Readable, Stream);
@@ -12606,7 +12499,7 @@ var app =
 	}
 
 	function ReadableState(options, stream) {
-	  Duplex = Duplex || __webpack_require__(65);
+	  Duplex = Duplex || __webpack_require__(66);
 
 	  options = options || {};
 
@@ -12668,14 +12561,14 @@ var app =
 	  this.decoder = null;
 	  this.encoding = null;
 	  if (options.encoding) {
-	    if (!StringDecoder) StringDecoder = __webpack_require__(70).StringDecoder;
+	    if (!StringDecoder) StringDecoder = __webpack_require__(71).StringDecoder;
 	    this.decoder = new StringDecoder(options.encoding);
 	    this.encoding = options.encoding;
 	  }
 	}
 
 	function Readable(options) {
-	  Duplex = Duplex || __webpack_require__(65);
+	  Duplex = Duplex || __webpack_require__(66);
 
 	  if (!(this instanceof Readable)) return new Readable(options);
 
@@ -12778,7 +12671,7 @@ var app =
 
 	// backwards compatibility.
 	Readable.prototype.setEncoding = function (enc) {
-	  if (!StringDecoder) StringDecoder = __webpack_require__(70).StringDecoder;
+	  if (!StringDecoder) StringDecoder = __webpack_require__(71).StringDecoder;
 	  this._readableState.decoder = new StringDecoder(enc);
 	  this._readableState.encoding = enc;
 	  return this;
@@ -13549,7 +13442,7 @@ var app =
 
 	var base64 = __webpack_require__(59)
 	var ieee754 = __webpack_require__(60)
-	var isArray = __webpack_require__(57)
+	var isArray = __webpack_require__(61)
 
 	exports.Buffer = Buffer
 	exports.SlowBuffer = SlowBuffer
@@ -15335,7 +15228,6 @@ var app =
 
 	'use strict'
 
-	exports.byteLength = byteLength
 	exports.toByteArray = toByteArray
 	exports.fromByteArray = fromByteArray
 
@@ -15343,17 +15235,23 @@ var app =
 	var revLookup = []
 	var Arr = typeof Uint8Array !== 'undefined' ? Uint8Array : Array
 
-	var code = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
-	for (var i = 0, len = code.length; i < len; ++i) {
-	  lookup[i] = code[i]
-	  revLookup[code.charCodeAt(i)] = i
+	function init () {
+	  var code = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+	  for (var i = 0, len = code.length; i < len; ++i) {
+	    lookup[i] = code[i]
+	    revLookup[code.charCodeAt(i)] = i
+	  }
+
+	  revLookup['-'.charCodeAt(0)] = 62
+	  revLookup['_'.charCodeAt(0)] = 63
 	}
 
-	revLookup['-'.charCodeAt(0)] = 62
-	revLookup['_'.charCodeAt(0)] = 63
+	init()
 
-	function placeHoldersCount (b64) {
+	function toByteArray (b64) {
+	  var i, j, l, tmp, placeHolders, arr
 	  var len = b64.length
+
 	  if (len % 4 > 0) {
 	    throw new Error('Invalid string. Length must be a multiple of 4')
 	  }
@@ -15363,19 +15261,9 @@ var app =
 	  // represent one byte
 	  // if there is only one, then the three characters before it represent 2 bytes
 	  // this is just a cheap hack to not do indexOf twice
-	  return b64[len - 2] === '=' ? 2 : b64[len - 1] === '=' ? 1 : 0
-	}
+	  placeHolders = b64[len - 2] === '=' ? 2 : b64[len - 1] === '=' ? 1 : 0
 
-	function byteLength (b64) {
 	  // base64 is 4/3 + up to two characters of the original data
-	  return b64.length * 3 / 4 - placeHoldersCount(b64)
-	}
-
-	function toByteArray (b64) {
-	  var i, j, l, tmp, placeHolders, arr
-	  var len = b64.length
-	  placeHolders = placeHoldersCount(b64)
-
 	  arr = new Arr(len * 3 / 4 - placeHolders)
 
 	  // if there are placeholders, only get up to the last complete 4 chars
@@ -15541,6 +15429,17 @@ var app =
 
 /***/ },
 /* 61 */
+/***/ function(module, exports) {
+
+	var toString = {}.toString;
+
+	module.exports = Array.isArray || function (arr) {
+	  return toString.call(arr) == '[object Array]';
+	};
+
+
+/***/ },
+/* 62 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
@@ -15655,7 +15554,7 @@ var app =
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 62 */
+/* 63 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(Buffer) {// Copyright Joyent, Inc. and other Node contributors.
@@ -15769,20 +15668,20 @@ var app =
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(58).Buffer))
 
 /***/ },
-/* 63 */
+/* 64 */
 /***/ function(module, exports) {
 
 	/* (ignored) */
 
 /***/ },
-/* 64 */
+/* 65 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	var Buffer = __webpack_require__(58).Buffer;
 	/*<replacement>*/
-	var bufferShim = __webpack_require__(61);
+	var bufferShim = __webpack_require__(62);
 	/*</replacement>*/
 
 	module.exports = BufferList;
@@ -15844,7 +15743,7 @@ var app =
 	};
 
 /***/ },
-/* 65 */
+/* 66 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// a duplex stream is just a stream that is both readable and writable.
@@ -15871,12 +15770,12 @@ var app =
 	/*</replacement>*/
 
 	/*<replacement>*/
-	var util = __webpack_require__(62);
+	var util = __webpack_require__(63);
 	util.inherits = __webpack_require__(53);
 	/*</replacement>*/
 
 	var Readable = __webpack_require__(55);
-	var Writable = __webpack_require__(66);
+	var Writable = __webpack_require__(67);
 
 	util.inherits(Duplex, Readable);
 
@@ -15924,7 +15823,7 @@ var app =
 	}
 
 /***/ },
-/* 66 */
+/* 67 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process, setImmediate) {// A bit simpler than readable streams.
@@ -15950,13 +15849,13 @@ var app =
 	Writable.WritableState = WritableState;
 
 	/*<replacement>*/
-	var util = __webpack_require__(62);
+	var util = __webpack_require__(63);
 	util.inherits = __webpack_require__(53);
 	/*</replacement>*/
 
 	/*<replacement>*/
 	var internalUtil = {
-	  deprecate: __webpack_require__(69)
+	  deprecate: __webpack_require__(70)
 	};
 	/*</replacement>*/
 
@@ -15973,7 +15872,7 @@ var app =
 
 	var Buffer = __webpack_require__(58).Buffer;
 	/*<replacement>*/
-	var bufferShim = __webpack_require__(61);
+	var bufferShim = __webpack_require__(62);
 	/*</replacement>*/
 
 	util.inherits(Writable, Stream);
@@ -15988,7 +15887,7 @@ var app =
 	}
 
 	function WritableState(options, stream) {
-	  Duplex = Duplex || __webpack_require__(65);
+	  Duplex = Duplex || __webpack_require__(66);
 
 	  options = options || {};
 
@@ -16122,7 +16021,7 @@ var app =
 	}
 
 	function Writable(options) {
-	  Duplex = Duplex || __webpack_require__(65);
+	  Duplex = Duplex || __webpack_require__(66);
 
 	  // Writable ctor is applied to Duplexes, too.
 	  // `realHasInstance` is necessary because using plain `instanceof`
@@ -16481,10 +16380,10 @@ var app =
 	    }
 	  };
 	}
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12), __webpack_require__(67).setImmediate))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12), __webpack_require__(68).setImmediate))
 
 /***/ },
-/* 67 */
+/* 68 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var apply = Function.prototype.apply;
@@ -16537,13 +16436,13 @@ var app =
 	};
 
 	// setimmediate attaches itself to the global object
-	__webpack_require__(68);
+	__webpack_require__(69);
 	exports.setImmediate = setImmediate;
 	exports.clearImmediate = clearImmediate;
 
 
 /***/ },
-/* 68 */
+/* 69 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -16736,7 +16635,7 @@ var app =
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(12)))
 
 /***/ },
-/* 69 */
+/* 70 */
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {
@@ -16810,7 +16709,7 @@ var app =
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 70 */
+/* 71 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// Copyright Joyent, Inc. and other Node contributors.
@@ -17037,7 +16936,7 @@ var app =
 
 
 /***/ },
-/* 71 */
+/* 72 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// a transform stream is a readable/writable stream where you do
@@ -17086,10 +16985,10 @@ var app =
 
 	module.exports = Transform;
 
-	var Duplex = __webpack_require__(65);
+	var Duplex = __webpack_require__(66);
 
 	/*<replacement>*/
-	var util = __webpack_require__(62);
+	var util = __webpack_require__(63);
 	util.inherits = __webpack_require__(53);
 	/*</replacement>*/
 
@@ -17224,7 +17123,7 @@ var app =
 	}
 
 /***/ },
-/* 72 */
+/* 73 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// a passthrough stream.
@@ -17235,10 +17134,10 @@ var app =
 
 	module.exports = PassThrough;
 
-	var Transform = __webpack_require__(71);
+	var Transform = __webpack_require__(72);
 
 	/*<replacement>*/
-	var util = __webpack_require__(62);
+	var util = __webpack_require__(63);
 	util.inherits = __webpack_require__(53);
 	/*</replacement>*/
 
@@ -17255,24 +17154,17 @@ var app =
 	};
 
 /***/ },
-/* 73 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__(66)
-
-
-/***/ },
 /* 74 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(65)
+	module.exports = __webpack_require__(67)
 
 
 /***/ },
 /* 75 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(71)
+	module.exports = __webpack_require__(66)
 
 
 /***/ },
@@ -17284,6 +17176,13 @@ var app =
 
 /***/ },
 /* 77 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__(73)
+
+
+/***/ },
+/* 78 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global, process) {// Copyright Joyent, Inc. and other Node contributors.
@@ -17811,7 +17710,7 @@ var app =
 	}
 	exports.isPrimitive = isPrimitive;
 
-	exports.isBuffer = __webpack_require__(78);
+	exports.isBuffer = __webpack_require__(79);
 
 	function objectToString(o) {
 	  return Object.prototype.toString.call(o);
@@ -17855,7 +17754,7 @@ var app =
 	 *     prototype.
 	 * @param {function} superCtor Constructor function to inherit prototype from.
 	 */
-	exports.inherits = __webpack_require__(79);
+	exports.inherits = __webpack_require__(80);
 
 	exports._extend = function(origin, add) {
 	  // Don't do anything if add isn't an object
@@ -17876,7 +17775,7 @@ var app =
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(12)))
 
 /***/ },
-/* 78 */
+/* 79 */
 /***/ function(module, exports) {
 
 	module.exports = function isBuffer(arg) {
@@ -17887,7 +17786,7 @@ var app =
 	}
 
 /***/ },
-/* 79 */
+/* 80 */
 /***/ function(module, exports) {
 
 	if (typeof Object.create === 'function') {
@@ -17916,7 +17815,7 @@ var app =
 
 
 /***/ },
-/* 80 */
+/* 81 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -17961,7 +17860,7 @@ var app =
 
 
 /***/ },
-/* 81 */
+/* 82 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -17993,13 +17892,13 @@ var app =
 
 
 /***/ },
-/* 82 */
+/* 83 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var util = __webpack_require__(77),
+	var util = __webpack_require__(78),
 	    Stream = __webpack_require__(51).Stream,
-	    types = __webpack_require__(80),
-	    tokens = __webpack_require__(83),
+	    types = __webpack_require__(81),
+	    tokens = __webpack_require__(84),
 	    tokenClasses = Object.keys(tokens),
 	    tokenRegExp = {};
 
@@ -18099,7 +17998,7 @@ var app =
 
 
 /***/ },
-/* 83 */
+/* 84 */
 /***/ function(module, exports) {
 
 	// This file is auto-generated. Do not modify.
@@ -18146,13 +18045,13 @@ var app =
 
 
 /***/ },
-/* 84 */
+/* 85 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var EventEmitter = __webpack_require__(52).EventEmitter,
-	    TokenType = __webpack_require__(80),
-	    BreakType = __webpack_require__(81),
-	    util = __webpack_require__(77);
+	    TokenType = __webpack_require__(81),
+	    BreakType = __webpack_require__(82),
+	    util = __webpack_require__(78);
 
 	function LineBreak() {
 	    EventEmitter.call(this);
@@ -18275,31 +18174,24 @@ var app =
 
 
 /***/ },
-/* 85 */
+/* 86 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var rect_1 = __webpack_require__(3);
 	var point_1 = __webpack_require__(4);
-	var matrix_stack_1 = __webpack_require__(86);
+	var matrix_stack_1 = __webpack_require__(87);
 	var DirtyRectContext = (function (_super) {
 	    __extends(DirtyRectContext, _super);
 	    function DirtyRectContext() {
-	        var _this = _super.call(this) || this;
-	        _this._rect = rect_1.Rect.create(0, 0, 0, 0);
-	        _this.reset();
-	        return _this;
+	        _super.call(this);
+	        this._rect = rect_1.Rect.create(0, 0, 0, 0);
+	        this.reset();
 	    }
 	    DirtyRectContext.prototype.addRect = function (x, y, w, h) {
 	        var p = point_1.Point.point;
@@ -18357,11 +18249,10 @@ var app =
 
 
 /***/ },
-/* 86 */
+/* 87 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var matrix_1 = __webpack_require__(14);
 	var MatrixStack = (function () {
 	    function MatrixStack() {
@@ -18416,11 +18307,10 @@ var app =
 
 
 /***/ },
-/* 87 */
+/* 88 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var Events = __webpack_require__(8);
 	var inputEventAdapter = __webpack_require__(17);
 	/**
@@ -18568,28 +18458,22 @@ var app =
 	        var create = BehaviorFactory.creators[type];
 	        return create ? create(widget, options) : null;
 	    };
+	    BehaviorFactory.creators = {};
 	    return BehaviorFactory;
 	}());
-	BehaviorFactory.creators = {};
 	exports.BehaviorFactory = BehaviorFactory;
 
 
 /***/ },
-/* 88 */
+/* 89 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var factory_1 = __webpack_require__(27);
 	/**
 	 * 子控件布局算法。
@@ -18674,7 +18558,7 @@ var app =
 	var LayouterFactory = (function (_super) {
 	    __extends(LayouterFactory, _super);
 	    function LayouterFactory() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    LayouterFactory.register = function (type, creator) {
 	        return LayouterFactory.factory.register(type, creator);
@@ -18687,9 +18571,9 @@ var app =
 	        layouter.fromJson(json);
 	        return layouter;
 	    };
+	    LayouterFactory.factory = new factory_1.Factory();
 	    return LayouterFactory;
 	}(factory_1.Factory));
-	LayouterFactory.factory = new factory_1.Factory();
 	exports.LayouterFactory = LayouterFactory;
 	/**
 	 * 布局参数。
@@ -18749,7 +18633,7 @@ var app =
 	var LayouterParamFactory = (function (_super) {
 	    __extends(LayouterParamFactory, _super);
 	    function LayouterParamFactory() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    LayouterParamFactory.register = function (type, creator) {
 	        return LayouterParamFactory.factory.register(type, creator);
@@ -18762,31 +18646,25 @@ var app =
 	        layouter.fromJson(json);
 	        return layouter;
 	    };
+	    LayouterParamFactory.factory = new factory_1.Factory();
 	    return LayouterParamFactory;
 	}(factory_1.Factory));
-	LayouterParamFactory.factory = new factory_1.Factory();
 	exports.LayouterParamFactory = LayouterParamFactory;
 
 
 /***/ },
-/* 89 */
+/* 90 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var json_serializer_1 = __webpack_require__(90);
-	var iview_model_1 = __webpack_require__(91);
-	var iview_model_2 = __webpack_require__(91);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var json_serializer_1 = __webpack_require__(91);
+	var iview_model_1 = __webpack_require__(92);
+	var iview_model_2 = __webpack_require__(92);
 	;
 	/**
 	 * 数据源。如果指定了value，直接从value获取数据。否则通过path从ViewModel中获取数据。
@@ -18794,26 +18672,25 @@ var app =
 	var BindingDataSource = (function (_super) {
 	    __extends(BindingDataSource, _super);
 	    function BindingDataSource(path, value, mode, updateTiming, validationRule, converter) {
-	        var _this = _super.call(this) || this;
-	        _this.converter = converter;
-	        _this.type = BindingDataSource.TYPE;
-	        _this.validationRule = validationRule;
-	        _this.mode = mode || iview_model_2.BindingMode.TWO_WAY;
-	        _this.updateTiming = updateTiming !== undefined ? updateTiming : iview_model_2.UpdateTiming.CHANGING;
+	        _super.call(this);
+	        this.converter = converter;
+	        this.type = BindingDataSource.TYPE;
+	        this.validationRule = validationRule;
+	        this.mode = mode || iview_model_2.BindingMode.TWO_WAY;
+	        this.updateTiming = updateTiming !== undefined ? updateTiming : iview_model_2.UpdateTiming.CHANGING;
 	        if (path !== undefined) {
-	            _this.path = path;
+	            this.path = path;
 	        }
 	        if (value !== undefined) {
-	            _this.value = value;
+	            this.value = value;
 	        }
-	        return _this;
 	    }
 	    BindingDataSource.create = function (path, value, mode, updateTiming, validationRule, converter) {
 	        return new BindingDataSource(path, value, mode, updateTiming, validationRule, converter);
 	    };
+	    BindingDataSource.TYPE = "data";
 	    return BindingDataSource;
 	}(json_serializer_1.JsonSerializer));
-	BindingDataSource.TYPE = "data";
 	exports.BindingDataSource = BindingDataSource;
 	;
 	/**
@@ -18822,19 +18699,18 @@ var app =
 	var BindingCommandSource = (function (_super) {
 	    __extends(BindingCommandSource, _super);
 	    function BindingCommandSource(command, commandArgs) {
-	        var _this = _super.call(this) || this;
-	        _this.command = command;
-	        _this.eventHandler = null;
-	        _this.commandArgs = commandArgs;
-	        _this.type = BindingCommandSource.TYPE;
-	        return _this;
+	        _super.call(this);
+	        this.command = command;
+	        this.eventHandler = null;
+	        this.commandArgs = commandArgs;
+	        this.type = BindingCommandSource.TYPE;
 	    }
 	    BindingCommandSource.create = function (command, commandArgs) {
 	        return new BindingCommandSource(command, commandArgs);
 	    };
+	    BindingCommandSource.TYPE = "command";
 	    return BindingCommandSource;
 	}(json_serializer_1.JsonSerializer));
-	BindingCommandSource.TYPE = "command";
 	exports.BindingCommandSource = BindingCommandSource;
 	/**
 	 * 单项数据绑定规则。
@@ -18960,11 +18836,10 @@ var app =
 
 
 /***/ },
-/* 90 */
+/* 91 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	/**
 	 * 把当前对象转换成JSON对象或从JSON对象来初始化当前对象。
 	 */
@@ -18992,17 +18867,15 @@ var app =
 
 
 /***/ },
-/* 91 */
+/* 92 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	;
 	;
 	/**
 	 * 数据绑定模式。
 	 */
-	var BindingMode;
 	(function (BindingMode) {
 	    /**
 	     * 双向数据绑定。
@@ -19024,7 +18897,8 @@ var app =
 	     * 界面数据变化时自动更新ViewModel，ViewModel数据有变化时不更新界面。
 	     */
 	    BindingMode[BindingMode["ONE_WAY_TO_SOURCE"] = 3] = "ONE_WAY_TO_SOURCE";
-	})(BindingMode = exports.BindingMode || (exports.BindingMode = {}));
+	})(exports.BindingMode || (exports.BindingMode = {}));
+	var BindingMode = exports.BindingMode;
 	;
 	var BindingModeNames = ["two-way", "one-way", "one-time", "one-way-to-source"];
 	function toBindingMode(name) {
@@ -19034,7 +18908,6 @@ var app =
 	/**
 	 * 更新ViewModel的时机。
 	 */
-	var UpdateTiming;
 	(function (UpdateTiming) {
 	    /**
 	     * 有变化时立即更新(如编辑器正在输入)。
@@ -19048,7 +18921,8 @@ var app =
 	     * 手动更新。
 	     */
 	    UpdateTiming[UpdateTiming["EXPLICIT"] = 2] = "EXPLICIT";
-	})(UpdateTiming = exports.UpdateTiming || (exports.UpdateTiming = {}));
+	})(exports.UpdateTiming || (exports.UpdateTiming = {}));
+	var UpdateTiming = exports.UpdateTiming;
 	;
 	var UpdateTimingNames = ["changing", "changed", "explicit"];
 	function toUpdateTiming(name) {
@@ -19058,33 +18932,26 @@ var app =
 
 
 /***/ },
-/* 92 */
+/* 93 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var recyclable_creator_1 = __webpack_require__(93);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var recyclable_creator_1 = __webpack_require__(94);
 	/**
 	 * 可循环的创建器。
 	 */
 	var WidgetRecyclableCreator = (function (_super) {
 	    __extends(WidgetRecyclableCreator, _super);
 	    function WidgetRecyclableCreator(ctor) {
-	        var _this = _super.call(this, function () {
+	        _super.call(this, function () {
 	            return new ctor;
-	        }) || this;
-	        _this._type = ctor.TYPE;
-	        return _this;
+	        });
+	        this._type = ctor.TYPE;
 	    }
 	    WidgetRecyclableCreator.prototype.create = function (options) {
 	        var obj = _super.prototype.create.call(this);
@@ -19101,11 +18968,10 @@ var app =
 
 
 /***/ },
-/* 93 */
+/* 94 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	/**
 	 * 可循环的创建器。
 	 */
@@ -19145,31 +19011,24 @@ var app =
 
 
 /***/ },
-/* 94 */
+/* 95 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var Events = __webpack_require__(8);
-	var html_element_1 = __webpack_require__(95);
+	var html_element_1 = __webpack_require__(96);
 	var event_detail_1 = __webpack_require__(16);
 	var HtmlEdit = (function (_super) {
 	    __extends(HtmlEdit, _super);
 	    function HtmlEdit() {
-	        var _this = _super !== null && _super.apply(this, arguments) || this;
-	        _this.changeEvent = Events.ChangeEvent.create();
-	        _this.keyEvent = Events.KeyEvent.create(null, event_detail_1.KeyEventDetail.create(0));
-	        return _this;
+	        _super.apply(this, arguments);
+	        this.changeEvent = Events.ChangeEvent.create();
+	        this.keyEvent = Events.KeyEvent.create(null, event_detail_1.KeyEventDetail.create(0));
 	    }
 	    Object.defineProperty(HtmlEdit.prototype, "inputType", {
 	        set: function (value) {
@@ -19269,26 +19128,20 @@ var app =
 
 
 /***/ },
-/* 95 */
+/* 96 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var emitter_1 = __webpack_require__(6);
 	var HtmlElement = (function (_super) {
 	    __extends(HtmlElement, _super);
 	    function HtmlElement() {
-	        return _super.call(this) || this;
+	        _super.call(this);
 	    }
 	    Object.defineProperty(HtmlElement.prototype, "x", {
 	        get: function () {
@@ -19411,17 +19264,6 @@ var app =
 	        };
 	        input.click();
 	    };
-	    HtmlElement.showFilePicker = function (onChoose, multiple) {
-	        var input = document.createElement("input");
-	        input.type = "file";
-	        input.multiple = multiple || false;
-	        input.onchange = function (e) {
-	            if (input.files && this.files.length) {
-	                onChoose(input.files);
-	            }
-	        };
-	        input.click();
-	    };
 	    HtmlElement.prototype.create = function (tag) {
 	        this.element = document.createElement(tag);
 	        document.body.appendChild(this.element);
@@ -19435,24 +19277,18 @@ var app =
 
 
 /***/ },
-/* 96 */
+/* 97 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * @class Page
 	 * 页面管理器中的页面。
@@ -19460,37 +19296,31 @@ var app =
 	var Page = (function (_super) {
 	    __extends(Page, _super);
 	    function Page(type) {
-	        return _super.call(this, type || Page.TYPE) || this;
+	        _super.call(this, type || Page.TYPE);
 	    }
 	    Page.create = function (options) {
 	        return Page.recycleBin.create(options);
 	    };
+	    Page.TYPE = "page";
+	    Page.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Page);
 	    return Page;
 	}(widget_1.Widget));
-	Page.TYPE = "page";
-	Page.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Page);
 	exports.Page = Page;
 	;
 	widget_factory_1.WidgetFactory.register(Page.TYPE, Page.create);
 
 
 /***/ },
-/* 97 */
+/* 98 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/// <reference path="../typings/globals/eventemitter3/index.d.ts"/>
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var emitter_1 = __webpack_require__(6);
 	var Events = __webpack_require__(8);
 	/**
@@ -19499,7 +19329,7 @@ var app =
 	var ViewPort = (function (_super) {
 	    __extends(ViewPort, _super);
 	    function ViewPort() {
-	        return _super.call(this) || this;
+	        _super.call(this);
 	    }
 	    ViewPort.prototype.getScaleValues = function () {
 	        var scale = (1 / (this.density)).toString();
@@ -19582,24 +19412,18 @@ var app =
 
 
 /***/ },
-/* 98 */
+/* 99 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * @class Pages
 	 * 页面管理器。管理多个页面，只有一个页面处于活跃状态，仅该页面可见，可以处理事件。
@@ -19607,7 +19431,7 @@ var app =
 	var Pages = (function (_super) {
 	    __extends(Pages, _super);
 	    function Pages() {
-	        return _super.call(this, Pages.TYPE) || this;
+	        _super.call(this, Pages.TYPE);
 	    }
 	    Object.defineProperty(Pages.prototype, "value", {
 	        get: function () {
@@ -19647,7 +19471,6 @@ var app =
 	        var r = this.getLayoutRect();
 	        this.children.forEach(function (child) {
 	            child.moveResizeTo(r.x, r.y, r.w, r.h);
-	            child.relayoutChildren();
 	        });
 	        return r;
 	    };
@@ -19665,31 +19488,25 @@ var app =
 	    Pages.create = function (options) {
 	        return Pages.recycleBin.create(options);
 	    };
+	    Pages.TYPE = "pages";
+	    Pages.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Pages);
 	    return Pages;
 	}(widget_1.Widget));
-	Pages.TYPE = "pages";
-	Pages.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Pages);
 	exports.Pages = Pages;
 	;
 	widget_factory_1.WidgetFactory.register(Pages.TYPE, Pages.create);
 
 
 /***/ },
-/* 99 */
+/* 100 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var Events = __webpack_require__(8);
 	var emitter_1 = __webpack_require__(6);
 	/**
@@ -19706,12 +19523,11 @@ var app =
 	var MainLoop = (function (_super) {
 	    __extends(MainLoop, _super);
 	    function MainLoop() {
-	        var _this = _super.call(this) || this;
-	        _this.pendingRedraw = 0;
-	        _this.predrawEvent = Events.TickEvent.create(Events.PRETICK);
-	        _this.drawEvent = Events.TickEvent.create(Events.TICK);
-	        _this.postdrawEvent = Events.TickEvent.create(Events.POSTTICK);
-	        return _this;
+	        _super.call(this);
+	        this.pendingRedraw = 0;
+	        this.predrawEvent = Events.TickEvent.create(Events.PRETICK);
+	        this.drawEvent = Events.TickEvent.create(Events.TICK);
+	        this.postdrawEvent = Events.TickEvent.create(Events.POSTTICK);
 	    }
 	    MainLoop.prototype.requestRedraw = function () {
 	        var _this = this;
@@ -19743,33 +19559,27 @@ var app =
 
 
 /***/ },
-/* 100 */
+/* 101 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var style_1 = __webpack_require__(5);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
 	var image_tile_1 = __webpack_require__(9);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * 图片控件。
 	 */
 	var Image = (function (_super) {
 	    __extends(Image, _super);
 	    function Image() {
-	        return _super.call(this, Image.TYPE) || this;
+	        _super.call(this, Image.TYPE);
 	    }
 	    Object.defineProperty(Image.prototype, "image", {
 	        get: function () {
@@ -19833,49 +19643,13 @@ var app =
 	    Image.create = function (options) {
 	        return Image.recycleBin.create(options);
 	    };
+	    Image.TYPE = "image";
+	    Image.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Image);
 	    return Image;
 	}(widget_1.Widget));
-	Image.TYPE = "image";
-	Image.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Image);
 	exports.Image = Image;
 	;
 	widget_factory_1.WidgetFactory.register(Image.TYPE, Image.create);
-
-
-/***/ },
-/* 101 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var widget_1 = __webpack_require__(21);
-	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
-	var Group = (function (_super) {
-	    __extends(Group, _super);
-	    function Group() {
-	        return _super.call(this, Group.TYPE) || this;
-	    }
-	    Group.create = function (options) {
-	        return Group.recycleBin.create(options);
-	    };
-	    return Group;
-	}(widget_1.Widget));
-	Group.TYPE = "group";
-	Group.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Group);
-	exports.Group = Group;
-	;
-	widget_factory_1.WidgetFactory.register(Group.TYPE, Group.create);
 
 
 /***/ },
@@ -19883,40 +19657,29 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var window_1 = __webpack_require__(103);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
-	/**
-	 * 对话框。
-	 */
-	var Dialog = (function (_super) {
-	    __extends(Dialog, _super);
-	    function Dialog(type) {
-	        var _this = _super.call(this, type || Dialog.TYPE) || this;
-	        _this._windowType = window_1.WindowType.POPUP;
-	        return _this;
+	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var Group = (function (_super) {
+	    __extends(Group, _super);
+	    function Group() {
+	        _super.call(this, Group.TYPE);
 	    }
-	    Dialog.create = function (options) {
-	        return Dialog.recycleBin.create(options);
+	    Group.create = function (options) {
+	        return Group.recycleBin.create(options);
 	    };
-	    return Dialog;
-	}(window_1.Window));
-	Dialog.TYPE = "dialog";
-	Dialog.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Dialog);
-	exports.Dialog = Dialog;
+	    Group.TYPE = "group";
+	    Group.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Group);
+	    return Group;
+	}(widget_1.Widget));
+	exports.Group = Group;
 	;
-	widget_factory_1.WidgetFactory.register(Dialog.TYPE, Dialog.create);
+	widget_factory_1.WidgetFactory.register(Group.TYPE, Group.create);
 
 
 /***/ },
@@ -19924,26 +19687,54 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var window_1 = __webpack_require__(104);
+	var widget_factory_1 = __webpack_require__(26);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
+	/**
+	 * 对话框。
+	 */
+	var Dialog = (function (_super) {
+	    __extends(Dialog, _super);
+	    function Dialog(type) {
+	        _super.call(this, type || Dialog.TYPE);
+	        this._windowType = window_1.WindowType.POPUP;
+	    }
+	    Dialog.create = function (options) {
+	        return Dialog.recycleBin.create(options);
 	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	    Dialog.TYPE = "dialog";
+	    Dialog.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Dialog);
+	    return Dialog;
+	}(window_1.Window));
+	exports.Dialog = Dialog;
+	;
+	widget_factory_1.WidgetFactory.register(Dialog.TYPE, Dialog.create);
+
+
+/***/ },
+/* 104 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var point_1 = __webpack_require__(4);
 	var widget_1 = __webpack_require__(21);
 	var Events = __webpack_require__(8);
 	var key_event_1 = __webpack_require__(18);
-	var WindowType;
 	(function (WindowType) {
 	    WindowType[WindowType["NORMAL"] = 0] = "NORMAL";
 	    WindowType[WindowType["POPUP"] = 1] = "POPUP";
-	})(WindowType = exports.WindowType || (exports.WindowType = {}));
+	})(exports.WindowType || (exports.WindowType = {}));
+	var WindowType = exports.WindowType;
 	;
 	/**
 	 * 窗口的基类。
@@ -19951,9 +19742,8 @@ var app =
 	var Window = (function (_super) {
 	    __extends(Window, _super);
 	    function Window(type) {
-	        var _this = _super.call(this, type) || this;
-	        _this._windowEvent = Events.WindowEvent.create();
-	        return _this;
+	        _super.call(this, type);
+	        this._windowEvent = Events.WindowEvent.create();
 	    }
 	    Object.defineProperty(Window.prototype, "windowType", {
 	        get: function () {
@@ -20180,70 +19970,58 @@ var app =
 
 
 /***/ },
-/* 104 */
+/* 105 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	var Button = (function (_super) {
 	    __extends(Button, _super);
 	    function Button() {
-	        return _super.call(this, Button.TYPE) || this;
+	        _super.call(this, Button.TYPE);
 	    }
 	    Button.create = function (options) {
 	        return Button.recycleBin.create(options);
 	    };
+	    Button.TYPE = "button";
+	    Button.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Button);
 	    return Button;
 	}(widget_1.Widget));
-	Button.TYPE = "button";
-	Button.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Button);
 	exports.Button = Button;
 	;
 	widget_factory_1.WidgetFactory.register(Button.TYPE, Button.create);
 
 
 /***/ },
-/* 105 */
+/* 106 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var Events = __webpack_require__(8);
-	var button_1 = __webpack_require__(104);
+	var button_1 = __webpack_require__(105);
 	var graphics_1 = __webpack_require__(28);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
-	var progress_bar_1 = __webpack_require__(106);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var progress_bar_1 = __webpack_require__(107);
 	/**
 	 * 滑块控件。拖动滑块可以改变它的值。
 	 */
 	var Slider = (function (_super) {
 	    __extends(Slider, _super);
 	    function Slider(type) {
-	        return _super.call(this, type || Slider.TYPE) || this;
+	        _super.call(this, type || Slider.TYPE);
 	    }
 	    Object.defineProperty(Slider.prototype, "inputable", {
 	        get: function () {
@@ -20264,7 +20042,6 @@ var app =
 	                y -= h >> 1;
 	            }
 	            else {
-	                //	y = y;
 	            }
 	            this._value = y / this.h;
 	        }
@@ -20272,7 +20049,6 @@ var app =
 	            var w = this.dragger.w;
 	            var x = this.dragger.x;
 	            if (x < w) {
-	                //	x = x;
 	            }
 	            else if (x < (this.w - 2 * w)) {
 	                x += w >> 1;
@@ -20374,39 +20150,32 @@ var app =
 	    Slider.create = function (options) {
 	        return Slider.r.create(options);
 	    };
+	    Slider.TYPE = "slider";
+	    Slider.r = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Slider);
 	    return Slider;
 	}(progress_bar_1.ProgressBar));
-	Slider.TYPE = "slider";
-	Slider.r = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Slider);
 	exports.Slider = Slider;
 	;
 	widget_factory_1.WidgetFactory.register(Slider.TYPE, Slider.create);
 
 
 /***/ },
-/* 106 */
+/* 107 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var widget_1 = __webpack_require__(21);
 	var graphics_1 = __webpack_require__(28);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * 进度条的类型有三种：水平，垂直和圆形。
 	 */
-	var ProgressBarType;
 	(function (ProgressBarType) {
 	    ProgressBarType[ProgressBarType["H"] = 1] = "H";
 	    ProgressBarType[ProgressBarType["HORIZONTAL"] = 1] = "HORIZONTAL";
@@ -20414,7 +20183,8 @@ var app =
 	    ProgressBarType[ProgressBarType["VERTICAL"] = 2] = "VERTICAL";
 	    ProgressBarType[ProgressBarType["C"] = 3] = "C";
 	    ProgressBarType[ProgressBarType["CIRCLE"] = 3] = "CIRCLE";
-	})(ProgressBarType = exports.ProgressBarType || (exports.ProgressBarType = {}));
+	})(exports.ProgressBarType || (exports.ProgressBarType = {}));
+	var ProgressBarType = exports.ProgressBarType;
 	;
 	/**
 	 * 进度条。value表示进度，取值在0到1之间。
@@ -20422,12 +20192,11 @@ var app =
 	var ProgressBar = (function (_super) {
 	    __extends(ProgressBar, _super);
 	    function ProgressBar(type) {
-	        var _this = _super.call(this, type || ProgressBar.TYPE) || this;
-	        _this.textFormater = function (value) {
+	        _super.call(this, type || ProgressBar.TYPE);
+	        this.textFormater = function (value) {
 	            return Math.round((value * 100)) + "%";
 	        };
-	        _this.barType = ProgressBarType.H;
-	        return _this;
+	        this.barType = ProgressBarType.H;
 	    }
 	    Object.defineProperty(ProgressBar.prototype, "text", {
 	        get: function () {
@@ -20495,44 +20264,38 @@ var app =
 	    ProgressBar.create = function (options) {
 	        return ProgressBar.recycleBin.create(options);
 	    };
+	    ProgressBar.defProps = Object.assign({}, widget_1.Widget.defProps, { barType: ProgressBarType.H });
+	    ProgressBar.TYPE = "progress-bar";
+	    ProgressBar.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ProgressBar);
 	    return ProgressBar;
 	}(widget_1.Widget));
-	ProgressBar.defProps = Object.assign({}, widget_1.Widget.defProps, { barType: ProgressBarType.H });
-	ProgressBar.TYPE = "progress-bar";
-	ProgressBar.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ProgressBar);
 	exports.ProgressBar = ProgressBar;
 	;
 	widget_factory_1.WidgetFactory.register(ProgressBar.TYPE, ProgressBar.create);
 
 
 /***/ },
-/* 107 */
+/* 108 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var widget_1 = __webpack_require__(21);
 	var TWEEN = __webpack_require__(22);
 	var graphics_1 = __webpack_require__(28);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * 开关控件。
 	 */
 	var Switch = (function (_super) {
 	    __extends(Switch, _super);
 	    function Switch() {
-	        return _super.call(this, Switch.TYPE) || this;
+	        _super.call(this, Switch.TYPE);
 	    }
 	    Object.defineProperty(Switch.prototype, "offset", {
 	        get: function () {
@@ -20609,34 +20372,28 @@ var app =
 	    Switch.create = function (options) {
 	        return Switch.recycleBin.create(options);
 	    };
+	    Switch.TYPE = "switch";
+	    Switch.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Switch);
 	    return Switch;
 	}(widget_1.Widget));
-	Switch.TYPE = "switch";
-	Switch.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Switch);
 	exports.Switch = Switch;
 	;
 	widget_factory_1.WidgetFactory.register(Switch.TYPE, Switch.create);
 
 
 /***/ },
-/* 108 */
+/* 109 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var page_1 = __webpack_require__(96);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var page_1 = __webpack_require__(97);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * @class TabPage
 	 * @extends Widget
@@ -20645,7 +20402,7 @@ var app =
 	var TabPage = (function (_super) {
 	    __extends(TabPage, _super);
 	    function TabPage() {
-	        return _super.call(this, TabPage.TYPE) || this;
+	        _super.call(this, TabPage.TYPE);
 	    }
 	    TabPage.prototype.dispose = function () {
 	        _super.prototype.dispose.call(this);
@@ -20654,34 +20411,28 @@ var app =
 	    TabPage.create = function (options) {
 	        return TabPage.r.create(options);
 	    };
+	    TabPage.TYPE = "page";
+	    TabPage.r = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TabPage);
 	    return TabPage;
 	}(page_1.Page));
-	TabPage.TYPE = "page";
-	TabPage.r = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TabPage);
 	exports.TabPage = TabPage;
 	;
 	widget_factory_1.WidgetFactory.register(TabPage.TYPE, TabPage.create);
 
 
 /***/ },
-/* 109 */
+/* 110 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
-	var scroll_view_1 = __webpack_require__(110);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var scroll_view_1 = __webpack_require__(111);
 	var carota = __webpack_require__(29);
 	var rect = carota.rect;
 	var createDoc = carota.document;
@@ -20691,9 +20442,8 @@ var app =
 	var RichText = (function (_super) {
 	    __extends(RichText, _super);
 	    function RichText(type) {
-	        var _this = _super.call(this, type || RichText.TYPE) || this;
-	        _this._verticalAlignment = 'top';
-	        return _this;
+	        _super.call(this, type || RichText.TYPE);
+	        this._verticalAlignment = 'top';
 	    }
 	    RichText.prototype.hasFocus = function () {
 	        return false;
@@ -20773,41 +20523,35 @@ var app =
 	    RichText.create = function (options) {
 	        return RichText.reBin.create(options);
 	    };
+	    RichText.TYPE = "rich-text";
+	    RichText.reBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(RichText);
 	    return RichText;
 	}(scroll_view_1.ScrollView));
-	RichText.TYPE = "rich-text";
-	RichText.reBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(RichText);
 	exports.RichText = RichText;
 	;
 	widget_factory_1.WidgetFactory.register(RichText.TYPE, RichText.create);
 
 
 /***/ },
-/* 110 */
+/* 111 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/// <reference path="../../typings/globals/scroller/index.d.ts"/>
 	/// <reference path="../../typings/globals/tween.js/index.d.ts"/>
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var rect_1 = __webpack_require__(3);
 	var point_1 = __webpack_require__(4);
-	var scroller_1 = __webpack_require__(111);
+	var scroller_1 = __webpack_require__(112);
 	var TWEEN = __webpack_require__(22);
 	var Events = __webpack_require__(8);
 	var graphics_1 = __webpack_require__(28);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	var widget_1 = __webpack_require__(21);
 	/**
 	 * 滚动视图，同时支持PC和Mobile风格，通过dragToScroll和slideToScroll参数控制。
@@ -20815,9 +20559,8 @@ var app =
 	var ScrollView = (function (_super) {
 	    __extends(ScrollView, _super);
 	    function ScrollView(type) {
-	        var _this = _super.call(this, type ? type : ScrollView.TYPE) || this;
-	        _this.isScrollView = true;
-	        return _this;
+	        _super.call(this, type ? type : ScrollView.TYPE);
+	        this.isScrollView = true;
 	    }
 	    Object.defineProperty(ScrollView.prototype, "scrollBarOpacity", {
 	        get: function () {
@@ -21419,19 +21162,19 @@ var app =
 	    ScrollView.create = function (options) {
 	        return ScrollView.recycleBin.create(options);
 	    };
+	    ScrollView.defProps = Object.assign({}, widget_1.Widget.defProps, { _lp: 2, _tp: 2, _rp: 2, _bp: 2 });
+	    ScrollView.TYPE = "scroll-view";
+	    ScrollView.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ScrollView);
 	    return ScrollView;
 	}(widget_1.Widget));
-	ScrollView.defProps = Object.assign({}, widget_1.Widget.defProps, { _lp: 2, _tp: 2, _rp: 2, _bp: 2 });
-	ScrollView.TYPE = "scroll-view";
-	ScrollView.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ScrollView);
 	exports.ScrollView = ScrollView;
 	;
-	var ScrollerBarVisibility;
 	(function (ScrollerBarVisibility) {
 	    ScrollerBarVisibility[ScrollerBarVisibility["INVISIBLE"] = 0] = "INVISIBLE";
 	    ScrollerBarVisibility[ScrollerBarVisibility["AUTO"] = 1] = "AUTO";
 	    ScrollerBarVisibility[ScrollerBarVisibility["ALWAYS"] = 2] = "ALWAYS";
-	})(ScrollerBarVisibility = exports.ScrollerBarVisibility || (exports.ScrollerBarVisibility = {}));
+	})(exports.ScrollerBarVisibility || (exports.ScrollerBarVisibility = {}));
+	var ScrollerBarVisibility = exports.ScrollerBarVisibility;
 	;
 	var ScrollBarStyle = (function () {
 	    function ScrollBarStyle() {
@@ -21455,13 +21198,13 @@ var app =
 
 
 /***/ },
-/* 111 */
+/* 112 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (root, factory) {
 	    if (true) {
 	        // AMD
-	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(112), __webpack_require__(113)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(113), __webpack_require__(114)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 	    } else if (typeof exports === 'object') {
 	        // CommonJS
 	        factory(exports, require('./lib/animate'), require('./lib/Scroller'));
@@ -21473,7 +21216,7 @@ var app =
 
 
 /***/ },
-/* 112 */
+/* 113 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
@@ -21710,7 +21453,7 @@ var app =
 
 
 /***/ },
-/* 113 */
+/* 114 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
@@ -21730,7 +21473,7 @@ var app =
 	(function (root, factory) {
 	    if (true) {
 	        // AMD
-	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(112)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(113)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 	    } else if (typeof module === 'object') {
 	        // CommonJS
 	        module.exports = factory(require('./animate'));
@@ -22868,30 +22611,24 @@ var app =
 
 
 /***/ },
-/* 114 */
+/* 115 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var rect_1 = __webpack_require__(3);
 	var widget_1 = __webpack_require__(21);
-	var button_1 = __webpack_require__(104);
+	var button_1 = __webpack_require__(105);
 	var graphics_1 = __webpack_require__(28);
-	var consts_1 = __webpack_require__(115);
-	var radio_button_1 = __webpack_require__(116);
+	var consts_1 = __webpack_require__(116);
+	var radio_button_1 = __webpack_require__(117);
 	var widget_factory_1 = __webpack_require__(26);
 	var image_tile_1 = __webpack_require__(9);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * @class TabButton
 	 * @extends Widget
@@ -22900,7 +22637,7 @@ var app =
 	var TabButton = (function (_super) {
 	    __extends(TabButton, _super);
 	    function TabButton() {
-	        return _super.call(this, TabButton.TYPE) || this;
+	        _super.call(this, TabButton.TYPE);
 	    }
 	    Object.defineProperty(TabButton.prototype, "closeButton", {
 	        /**
@@ -23113,32 +22850,30 @@ var app =
 	    TabButton.create = function (options) {
 	        return TabButton.re.create(options);
 	    };
+	    TabButton.defProps = Object.assign({}, widget_1.Widget.defProps, { _lp: 2, _tp: 2, _rp: 2, _bp: 2,
+	        _normalIconURL: null, _currentIconURL: null, closable: false, _cbAtLeft: false, _orn: consts_1.Orientation.H });
+	    TabButton.TYPE = "tab-button";
+	    TabButton.re = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TabButton);
 	    return TabButton;
 	}(radio_button_1.RadioButton));
-	TabButton.defProps = Object.assign({}, widget_1.Widget.defProps, { _lp: 2, _tp: 2, _rp: 2, _bp: 2,
-	    _normalIconURL: null, _currentIconURL: null, closable: false, _cbAtLeft: false, _orn: consts_1.Orientation.H });
-	TabButton.TYPE = "tab-button";
-	TabButton.re = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TabButton);
 	exports.TabButton = TabButton;
 	;
 	widget_factory_1.WidgetFactory.register(TabButton.TYPE, TabButton.create);
 
 
 /***/ },
-/* 115 */
+/* 116 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var Orientation;
 	(function (Orientation) {
 	    Orientation[Orientation["V"] = 1] = "V";
 	    Orientation[Orientation["VERTICAL"] = 1] = "VERTICAL";
 	    Orientation[Orientation["H"] = 2] = "H";
 	    Orientation[Orientation["HORIZONTAL"] = 2] = "HORIZONTAL";
-	})(Orientation = exports.Orientation || (exports.Orientation = {}));
+	})(exports.Orientation || (exports.Orientation = {}));
+	var Orientation = exports.Orientation;
 	;
-	var Direction;
 	(function (Direction) {
 	    Direction[Direction["W"] = 1] = "W";
 	    Direction[Direction["WEST"] = 1] = "WEST";
@@ -23156,9 +22891,9 @@ var app =
 	    Direction[Direction["TOP"] = 3] = "TOP";
 	    Direction[Direction["B"] = 4] = "B";
 	    Direction[Direction["BOTTOM"] = 4] = "BOTTOM";
-	})(Direction = exports.Direction || (exports.Direction = {}));
+	})(exports.Direction || (exports.Direction = {}));
+	var Direction = exports.Direction;
 	;
-	var AlignH;
 	(function (AlignH) {
 	    AlignH[AlignH["L"] = 1] = "L";
 	    AlignH[AlignH["LEFT"] = 1] = "LEFT";
@@ -23166,9 +22901,9 @@ var app =
 	    AlignH[AlignH["CENTER"] = 2] = "CENTER";
 	    AlignH[AlignH["R"] = 3] = "R";
 	    AlignH[AlignH["RIGHT"] = 3] = "RIGHT";
-	})(AlignH = exports.AlignH || (exports.AlignH = {}));
+	})(exports.AlignH || (exports.AlignH = {}));
+	var AlignH = exports.AlignH;
 	;
-	var AlignV;
 	(function (AlignV) {
 	    AlignV[AlignV["T"] = 1] = "T";
 	    AlignV[AlignV["TOP"] = 1] = "TOP";
@@ -23176,9 +22911,9 @@ var app =
 	    AlignV[AlignV["MIDDLE"] = 2] = "MIDDLE";
 	    AlignV[AlignV["B"] = 3] = "B";
 	    AlignV[AlignV["BOTTOM"] = 3] = "BOTTOM";
-	})(AlignV = exports.AlignV || (exports.AlignV = {}));
+	})(exports.AlignV || (exports.AlignV = {}));
+	var AlignV = exports.AlignV;
 	;
-	var Align;
 	(function (Align) {
 	    Align[Align["L"] = 1] = "L";
 	    Align[Align["LEFT"] = 1] = "LEFT";
@@ -23192,36 +22927,31 @@ var app =
 	    Align[Align["MIDDLE"] = 2] = "MIDDLE";
 	    Align[Align["B"] = 3] = "B";
 	    Align[Align["BOTTOM"] = 3] = "BOTTOM";
-	})(Align = exports.Align || (exports.Align = {}));
+	})(exports.Align || (exports.Align = {}));
+	var Align = exports.Align;
 	;
 
 
 /***/ },
-/* 116 */
+/* 117 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var check_button_1 = __webpack_require__(117);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var check_button_1 = __webpack_require__(118);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * 单选按钮。同一个父控件中，只有一个单选按钮被勾选。被勾选时value为true，否则为false。
 	 */
 	var RadioButton = (function (_super) {
 	    __extends(RadioButton, _super);
 	    function RadioButton(type) {
-	        return _super.call(this, type || RadioButton.TYPE) || this;
+	        _super.call(this, type || RadioButton.TYPE);
 	    }
 	    Object.defineProperty(RadioButton.prototype, "value", {
 	        get: function () {
@@ -23236,39 +22966,33 @@ var app =
 	    RadioButton.create = function (options) {
 	        return RadioButton.r.create(options);
 	    };
+	    RadioButton.TYPE = "radio-button";
+	    RadioButton.r = widget_recyclable_creator_1.WidgetRecyclableCreator.create(RadioButton);
 	    return RadioButton;
 	}(check_button_1.CheckButton));
-	RadioButton.TYPE = "radio-button";
-	RadioButton.r = widget_recyclable_creator_1.WidgetRecyclableCreator.create(RadioButton);
 	exports.RadioButton = RadioButton;
 	;
 	widget_factory_1.WidgetFactory.register(RadioButton.TYPE, RadioButton.create);
 
 
 /***/ },
-/* 117 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
 	var image_tile_1 = __webpack_require__(9);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	var CheckButton = (function (_super) {
 	    __extends(CheckButton, _super);
 	    function CheckButton(type) {
-	        return _super.call(this, type || CheckButton.TYPE) || this;
+	        _super.call(this, type || CheckButton.TYPE);
 	    }
 	    Object.defineProperty(CheckButton.prototype, "inputable", {
 	        get: function () {
@@ -23361,40 +23085,34 @@ var app =
 	    CheckButton.create = function (options) {
 	        return CheckButton.recycleBin.create(options);
 	    };
+	    CheckButton.TYPE = "check-button";
+	    CheckButton.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(CheckButton);
 	    return CheckButton;
 	}(widget_1.Widget));
-	CheckButton.TYPE = "check-button";
-	CheckButton.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(CheckButton);
 	exports.CheckButton = CheckButton;
 	;
 	widget_factory_1.WidgetFactory.register(CheckButton.TYPE, CheckButton.create);
 
 
 /***/ },
-/* 118 */
+/* 119 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var rect_1 = __webpack_require__(3);
-	var pages_1 = __webpack_require__(98);
+	var pages_1 = __webpack_require__(99);
 	var widget_1 = __webpack_require__(21);
-	var tab_page_1 = __webpack_require__(108);
+	var tab_page_1 = __webpack_require__(109);
 	var Events = __webpack_require__(8);
-	var tab_button_1 = __webpack_require__(114);
-	var tab_button_group_1 = __webpack_require__(119);
+	var tab_button_1 = __webpack_require__(115);
+	var tab_button_group_1 = __webpack_require__(120);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * @class TabControl
 	 * @extends Widget
@@ -23403,7 +23121,7 @@ var app =
 	var TabControl = (function (_super) {
 	    __extends(TabControl, _super);
 	    function TabControl() {
-	        return _super.call(this, TabControl.TYPE) || this;
+	        _super.call(this, TabControl.TYPE);
 	    }
 	    Object.defineProperty(TabControl.prototype, "value", {
 	        get: function () {
@@ -23641,36 +23359,30 @@ var app =
 	    TabControl.create = function (options) {
 	        return TabControl.r.create(options);
 	    };
+	    TabControl.defProps = Object.assign({}, widget_1.Widget.defProps, { _bgh: 30, _bgAtTop: false });
+	    TabControl.TYPE = "tab-control";
+	    TabControl.r = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TabControl);
 	    return TabControl;
 	}(widget_1.Widget));
-	TabControl.defProps = Object.assign({}, widget_1.Widget.defProps, { _bgh: 30, _bgAtTop: false });
-	TabControl.TYPE = "tab-control";
-	TabControl.r = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TabControl);
 	exports.TabControl = TabControl;
 	;
 	widget_factory_1.WidgetFactory.register(TabControl.TYPE, TabControl.create);
 
 
 /***/ },
-/* 119 */
+/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var rect_1 = __webpack_require__(3);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * class TabButtonGroup
 	 * @extends Widget
@@ -23679,7 +23391,7 @@ var app =
 	var TabButtonGroup = (function (_super) {
 	    __extends(TabButtonGroup, _super);
 	    function TabButtonGroup() {
-	        return _super.call(this, TabButtonGroup.TYPE) || this;
+	        _super.call(this, TabButtonGroup.TYPE);
 	    }
 	    Object.defineProperty(TabButtonGroup.prototype, "value", {
 	        get: function () {
@@ -23761,35 +23473,29 @@ var app =
 	    TabButtonGroup.create = function (options) {
 	        return TabButtonGroup.r.create(options);
 	    };
+	    TabButtonGroup.defProps = Object.assign({}, widget_1.Widget.defProps, { _ae: true });
+	    TabButtonGroup.TYPE = "tab-button-group";
+	    TabButtonGroup.r = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TabButtonGroup);
 	    return TabButtonGroup;
 	}(widget_1.Widget));
-	TabButtonGroup.defProps = Object.assign({}, widget_1.Widget.defProps, { _ae: true });
-	TabButtonGroup.TYPE = "tab-button-group";
-	TabButtonGroup.r = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TabButtonGroup);
 	exports.TabButtonGroup = TabButtonGroup;
 	;
 	widget_factory_1.WidgetFactory.register(TabButtonGroup.TYPE, TabButtonGroup.create);
 
 
 /***/ },
-/* 120 */
+/* 121 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var rich_text_1 = __webpack_require__(109);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var rich_text_1 = __webpack_require__(110);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	var carota = __webpack_require__(29);
 	var createDoc = carota.document;
 	var dom = carota.dom;
@@ -23809,23 +23515,22 @@ var app =
 	var RichTextEdit = (function (_super) {
 	    __extends(RichTextEdit, _super);
 	    function RichTextEdit() {
-	        var _this = _super.call(this, RichTextEdit.TYPE) || this;
-	        _this._element = null;
-	        _this._textArea = null;
-	        _this._keyboardX = null;
-	        _this._focusChar = null;
-	        _this._textAreaDiv = null;
-	        _this._keyboardSelect = 0;
-	        _this._textAreaContent = '';
-	        _this._nextKeyboardX = null;
-	        _this._richClipboard = null;
-	        _this._plainClipboard = null;
-	        _this._selectDragStart = null;
-	        _this.focused = false;
-	        _this.cachedWidth = 0;
-	        _this.cachedHeight = 0;
-	        _this.nextCaretToggle = Date.now();
-	        return _this;
+	        _super.call(this, RichTextEdit.TYPE);
+	        this._element = null;
+	        this._textArea = null;
+	        this._keyboardX = null;
+	        this._focusChar = null;
+	        this._textAreaDiv = null;
+	        this._keyboardSelect = 0;
+	        this._textAreaContent = '';
+	        this._nextKeyboardX = null;
+	        this._richClipboard = null;
+	        this._plainClipboard = null;
+	        this._selectDragStart = null;
+	        this.focused = false;
+	        this.cachedWidth = 0;
+	        this.cachedHeight = 0;
+	        this.nextCaretToggle = Date.now();
 	    }
 	    Object.defineProperty(RichTextEdit.prototype, "inputable", {
 	        get: function () {
@@ -24294,45 +23999,39 @@ var app =
 	    RichTextEdit.create = function (options) {
 	        return RichTextEdit.rBin.create(options);
 	    };
+	    RichTextEdit.TYPE = "rich-text-edit";
+	    RichTextEdit.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(RichTextEdit);
 	    return RichTextEdit;
 	}(rich_text_1.RichText));
-	RichTextEdit.TYPE = "rich-text-edit";
-	RichTextEdit.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(RichTextEdit);
 	exports.RichTextEdit = RichTextEdit;
 	;
 	widget_factory_1.WidgetFactory.register(RichTextEdit.TYPE, RichTextEdit.create);
 
 
 /***/ },
-/* 121 */
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var rect_1 = __webpack_require__(3);
 	var point_1 = __webpack_require__(4);
 	var edit_1 = __webpack_require__(19);
-	var button_1 = __webpack_require__(104);
+	var button_1 = __webpack_require__(105);
 	var widget_1 = __webpack_require__(21);
-	var dialog_1 = __webpack_require__(102);
+	var dialog_1 = __webpack_require__(103);
 	var graphics_1 = __webpack_require__(28);
 	var Events = __webpack_require__(8);
-	var list_view_1 = __webpack_require__(122);
-	var list_item_1 = __webpack_require__(124);
+	var list_view_1 = __webpack_require__(123);
+	var list_item_1 = __webpack_require__(125);
 	var widget_factory_1 = __webpack_require__(26);
-	var recyclable_creator_1 = __webpack_require__(93);
+	var recyclable_creator_1 = __webpack_require__(94);
 	var image_tile_1 = __webpack_require__(9);
-	var simple_layouter_1 = __webpack_require__(125);
+	var simple_layouter_1 = __webpack_require__(126);
 	var ComboBoxOption = (function () {
 	    function ComboBoxOption(text, value, imageURL, color) {
 	        this.text = text;
@@ -24348,7 +24047,7 @@ var app =
 	var ComboBoxItem = (function (_super) {
 	    __extends(ComboBoxItem, _super);
 	    function ComboBoxItem() {
-	        return _super.call(this, ComboBoxItem.TYPE) || this;
+	        _super.call(this, ComboBoxItem.TYPE);
 	    }
 	    ComboBoxItem.prototype.onReset = function () {
 	        _super.prototype.onReset.call(this);
@@ -24407,16 +24106,16 @@ var app =
 	    ComboBoxItem.create = function (options) {
 	        return ComboBoxItem.r.create().reset(ComboBoxItem.TYPE, options);
 	    };
+	    ComboBoxItem.TYPE = "combo-box-item";
+	    ComboBoxItem.r = new recyclable_creator_1.RecyclableCreator(function () { return new ComboBoxItem(); });
 	    return ComboBoxItem;
 	}(list_item_1.ListItem));
-	ComboBoxItem.TYPE = "combo-box-item";
-	ComboBoxItem.r = new recyclable_creator_1.RecyclableCreator(function () { return new ComboBoxItem(); });
 	exports.ComboBoxItem = ComboBoxItem;
 	;
 	var ComboBoxBase = (function (_super) {
 	    __extends(ComboBoxBase, _super);
 	    function ComboBoxBase(type) {
-	        return _super.call(this, type) || this;
+	        _super.call(this, type);
 	    }
 	    Object.defineProperty(ComboBoxBase.prototype, "options", {
 	        get: function () {
@@ -24611,15 +24310,15 @@ var app =
 	    ComboBoxBase.prototype.getDefProps = function () {
 	        return ComboBoxBase.defProps;
 	    };
+	    ComboBoxBase.defProps = Object.assign({}, widget_1.Widget.defProps, { _ih: 25, _lp: 2, _rp: 2 });
 	    return ComboBoxBase;
 	}(widget_1.Widget));
-	ComboBoxBase.defProps = Object.assign({}, widget_1.Widget.defProps, { _ih: 25, _lp: 2, _rp: 2 });
 	exports.ComboBoxBase = ComboBoxBase;
 	;
 	var ComboBox = (function (_super) {
 	    __extends(ComboBox, _super);
 	    function ComboBox() {
-	        return _super.call(this, ComboBox.TYPE) || this;
+	        _super.call(this, ComboBox.TYPE);
 	    }
 	    Object.defineProperty(ComboBox.prototype, "customDraw", {
 	        get: function () {
@@ -24661,17 +24360,17 @@ var app =
 	    ComboBox.create = function (options) {
 	        return ComboBox.recycleBin.create().reset(ComboBox.TYPE, options);
 	    };
+	    ComboBox.TYPE = "combo-box";
+	    ComboBox.recycleBin = new recyclable_creator_1.RecyclableCreator(function () { return new ComboBox(); });
 	    return ComboBox;
 	}(ComboBoxBase));
-	ComboBox.TYPE = "combo-box";
-	ComboBox.recycleBin = new recyclable_creator_1.RecyclableCreator(function () { return new ComboBox(); });
 	exports.ComboBox = ComboBox;
 	;
 	widget_factory_1.WidgetFactory.register(ComboBox.TYPE, ComboBox.create);
 	var ComboBoxEditable = (function (_super) {
 	    __extends(ComboBoxEditable, _super);
 	    function ComboBoxEditable() {
-	        return _super.call(this, ComboBoxEditable.TYPE) || this;
+	        _super.call(this, ComboBoxEditable.TYPE);
 	    }
 	    Object.defineProperty(ComboBoxEditable.prototype, "value", {
 	        get: function () {
@@ -24730,42 +24429,36 @@ var app =
 	    ComboBoxEditable.create = function (options) {
 	        return ComboBoxEditable.recycleBin.create().reset(ComboBoxEditable.TYPE, options);
 	    };
+	    ComboBoxEditable.TYPE = "combo-box.editable";
+	    ComboBoxEditable.recycleBin = new recyclable_creator_1.RecyclableCreator(function () {
+	        return new ComboBoxEditable();
+	    });
 	    return ComboBoxEditable;
 	}(ComboBoxBase));
-	ComboBoxEditable.TYPE = "combo-box.editable";
-	ComboBoxEditable.recycleBin = new recyclable_creator_1.RecyclableCreator(function () {
-	    return new ComboBoxEditable();
-	});
 	exports.ComboBoxEditable = ComboBoxEditable;
 	;
 	widget_factory_1.WidgetFactory.register(ComboBoxEditable.TYPE, ComboBoxEditable.create);
 
 
 /***/ },
-/* 122 */
+/* 123 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var widget_1 = __webpack_require__(21);
-	var scroll_view_1 = __webpack_require__(110);
+	var scroll_view_1 = __webpack_require__(111);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
-	var list_layouter_1 = __webpack_require__(123);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var list_layouter_1 = __webpack_require__(124);
 	var ListView = (function (_super) {
 	    __extends(ListView, _super);
 	    function ListView(type) {
-	        return _super.call(this, type || ListView.TYPE) || this;
+	        _super.call(this, type || ListView.TYPE);
 	    }
 	    Object.defineProperty(ListView.prototype, "itemSpacing", {
 	        get: function () {
@@ -24851,34 +24544,28 @@ var app =
 	    ListView.create = function (options) {
 	        return ListView.recycleBinListView.create(options);
 	    };
+	    ListView.defProps = Object.assign({}, widget_1.Widget.defProps, { _ih: 30, _is: 0 });
+	    ListView.TYPE = "list-view";
+	    ListView.recycleBinListView = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ListView);
 	    return ListView;
 	}(scroll_view_1.ScrollView));
-	ListView.defProps = Object.assign({}, widget_1.Widget.defProps, { _ih: 30, _is: 0 });
-	ListView.TYPE = "list-view";
-	ListView.recycleBinListView = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ListView);
 	exports.ListView = ListView;
 	;
 	widget_factory_1.WidgetFactory.register(ListView.TYPE, ListView.create);
 
 
 /***/ },
-/* 123 */
+/* 124 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var rect_1 = __webpack_require__(3);
-	var layouter_1 = __webpack_require__(88);
+	var layouter_1 = __webpack_require__(89);
 	var TYPE = "list";
 	/**
 	 * 列表布局器。
@@ -24886,9 +24573,8 @@ var app =
 	var ListLayouter = (function (_super) {
 	    __extends(ListLayouter, _super);
 	    function ListLayouter() {
-	        var _this = _super.call(this) || this;
-	        _this.rect = rect_1.Rect.create(0, 0, 0, 0);
-	        return _this;
+	        _super.call(this);
+	        this.rect = rect_1.Rect.create(0, 0, 0, 0);
 	    }
 	    Object.defineProperty(ListLayouter.prototype, "type", {
 	        get: function () {
@@ -24958,10 +24644,9 @@ var app =
 	var ListLayouterParam = (function (_super) {
 	    __extends(ListLayouterParam, _super);
 	    function ListLayouterParam(h, spacing) {
-	        var _this = _super.call(this, TYPE) || this;
-	        _this.h = h || 0;
-	        _this.spacing = spacing || 0;
-	        return _this;
+	        _super.call(this, TYPE);
+	        this.h = h || 0;
+	        this.spacing = spacing || 0;
 	    }
 	    ListLayouterParam.create = function (h, spacing) {
 	        return new ListLayouterParam(h, spacing);
@@ -24978,33 +24663,27 @@ var app =
 
 
 /***/ },
-/* 124 */
+/* 125 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var rect_1 = __webpack_require__(3);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
 	var graphics_1 = __webpack_require__(28);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	var image_tile_1 = __webpack_require__(9);
-	var ListItemStyle;
 	(function (ListItemStyle) {
 	    ListItemStyle[ListItemStyle["NORMAL"] = 0] = "NORMAL";
 	    ListItemStyle[ListItemStyle["FIRST"] = 1] = "FIRST";
 	    ListItemStyle[ListItemStyle["LAST"] = 2] = "LAST";
-	})(ListItemStyle = exports.ListItemStyle || (exports.ListItemStyle = {}));
+	})(exports.ListItemStyle || (exports.ListItemStyle = {}));
+	var ListItemStyle = exports.ListItemStyle;
 	;
 	/**
 	 * 列表项。
@@ -25012,7 +24691,7 @@ var app =
 	var ListItem = (function (_super) {
 	    __extends(ListItem, _super);
 	    function ListItem(type) {
-	        return _super.call(this, type || ListItem.TYPE) || this;
+	        _super.call(this, type || ListItem.TYPE);
 	    }
 	    Object.defineProperty(ListItem.prototype, "oddEvenStyle", {
 	        get: function () {
@@ -25101,18 +24780,18 @@ var app =
 	    ListItem.create = function (options) {
 	        return ListItem.recycleBin.create(options);
 	    };
+	    ListItem.defProps = Object.assign({}, widget_1.Widget.defProps, { _oddEvenStyle: false, _iconURL: null });
+	    ListItem.TYPE = "list-item";
+	    ListItem.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ListItem);
 	    return ListItem;
 	}(widget_1.Widget));
-	ListItem.defProps = Object.assign({}, widget_1.Widget.defProps, { _oddEvenStyle: false, _iconURL: null });
-	ListItem.TYPE = "list-item";
-	ListItem.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ListItem);
 	exports.ListItem = ListItem;
 	;
 	widget_factory_1.WidgetFactory.register(ListItem.TYPE, ListItem.create);
 	var ListItemCheckable = (function (_super) {
 	    __extends(ListItemCheckable, _super);
 	    function ListItemCheckable(type) {
-	        return _super.call(this, type || ListItemCheckable.TYPE) || this;
+	        _super.call(this, type || ListItemCheckable.TYPE);
 	    }
 	    Object.defineProperty(ListItemCheckable.prototype, "multiCheckable", {
 	        get: function () {
@@ -25154,32 +24833,26 @@ var app =
 	    ListItemCheckable.create = function (options) {
 	        return ListItemCheckable.rBin.create(options);
 	    };
+	    ListItemCheckable.TYPE = "list-item.checkable";
+	    ListItemCheckable.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ListItemCheckable);
 	    return ListItemCheckable;
 	}(ListItem));
-	ListItemCheckable.TYPE = "list-item.checkable";
-	ListItemCheckable.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ListItemCheckable);
 	exports.ListItemCheckable = ListItemCheckable;
 	;
 	widget_factory_1.WidgetFactory.register(ListItemCheckable.TYPE, ListItemCheckable.create);
 
 
 /***/ },
-/* 125 */
+/* 126 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var layouter_1 = __webpack_require__(88);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var layouter_1 = __webpack_require__(89);
 	var TYPE = "simple";
 	/**
 	 * 简单的布局器。
@@ -25187,7 +24860,7 @@ var app =
 	var SimpleLayouter = (function (_super) {
 	    __extends(SimpleLayouter, _super);
 	    function SimpleLayouter() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    Object.defineProperty(SimpleLayouter.prototype, "type", {
 	        get: function () {
@@ -25271,16 +24944,15 @@ var app =
 	var SimpleLayouterParam = (function (_super) {
 	    __extends(SimpleLayouterParam, _super);
 	    function SimpleLayouterParam(x, y, w, h) {
-	        var _this = _super.call(this, TYPE) || this;
-	        _this.x = x;
-	        _this.y = y;
-	        _this.w = w;
-	        _this.h = h;
-	        _this.minW = -1;
-	        _this.minH = -1;
-	        _this.maxW = -1;
-	        _this.maxH = -1;
-	        return _this;
+	        _super.call(this, TYPE);
+	        this.x = x;
+	        this.y = y;
+	        this.w = w;
+	        this.h = h;
+	        this.minW = -1;
+	        this.minH = -1;
+	        this.maxW = -1;
+	        this.maxH = -1;
 	    }
 	    SimpleLayouterParam.create = function (x, y, w, h) {
 	        return new SimpleLayouterParam(x.toString(), y.toString(), w.toString(), h.toString());
@@ -25297,32 +24969,26 @@ var app =
 
 
 /***/ },
-/* 126 */
+/* 127 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
-	var grid_layouter_1 = __webpack_require__(127);
-	var scroll_view_1 = __webpack_require__(110);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var grid_layouter_1 = __webpack_require__(128);
+	var scroll_view_1 = __webpack_require__(111);
 	/**
 	 * 网格视图。
 	 */
 	var GridView = (function (_super) {
 	    __extends(GridView, _super);
 	    function GridView() {
-	        return _super.call(this, GridView.TYPE) || this;
+	        _super.call(this, GridView.TYPE);
 	    }
 	    Object.defineProperty(GridView.prototype, "cols", {
 	        get: function () {
@@ -25463,34 +25129,28 @@ var app =
 	    GridView.create = function (options) {
 	        return GridView.recycleBinGridView.create(options);
 	    };
+	    GridView.defProps = Object.assign({}, scroll_view_1.ScrollView.defProps, { _cols: 3, _rows: 3, _rowHeight: 0, _colWidth: 0 });
+	    GridView.TYPE = "grid-view";
+	    GridView.recycleBinGridView = widget_recyclable_creator_1.WidgetRecyclableCreator.create(GridView);
 	    return GridView;
 	}(scroll_view_1.ScrollView));
-	GridView.defProps = Object.assign({}, scroll_view_1.ScrollView.defProps, { _cols: 3, _rows: 3, _rowHeight: 0, _colWidth: 0 });
-	GridView.TYPE = "grid-view";
-	GridView.recycleBinGridView = widget_recyclable_creator_1.WidgetRecyclableCreator.create(GridView);
 	exports.GridView = GridView;
 	;
 	widget_factory_1.WidgetFactory.register(GridView.TYPE, GridView.create);
 
 
 /***/ },
-/* 127 */
+/* 128 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var rect_1 = __webpack_require__(3);
-	var layouter_1 = __webpack_require__(88);
+	var layouter_1 = __webpack_require__(89);
 	var TYPE = "grid";
 	/**
 	 * 网格布局器。
@@ -25498,9 +25158,8 @@ var app =
 	var GridLayouter = (function (_super) {
 	    __extends(GridLayouter, _super);
 	    function GridLayouter() {
-	        var _this = _super.call(this) || this;
-	        _this.rect = rect_1.Rect.create(0, 0, 0, 0);
-	        return _this;
+	        _super.call(this);
+	        this.rect = rect_1.Rect.create(0, 0, 0, 0);
 	    }
 	    Object.defineProperty(GridLayouter.prototype, "type", {
 	        get: function () {
@@ -25607,12 +25266,11 @@ var app =
 	var GridLayouterParam = (function (_super) {
 	    __extends(GridLayouterParam, _super);
 	    function GridLayouterParam(row, spanRows, col, spanCols) {
-	        var _this = _super.call(this, TYPE) || this;
-	        _this.row = row >= 0 ? row : -1;
-	        _this.col = col >= 0 ? col : -1;
-	        _this.spanRows = spanRows || 1;
-	        _this.spanCols = spanCols || 1;
-	        return _this;
+	        _super.call(this, TYPE);
+	        this.row = row >= 0 ? row : -1;
+	        this.col = col >= 0 ? col : -1;
+	        this.spanRows = spanRows || 1;
+	        this.spanCols = spanCols || 1;
 	    }
 	    GridLayouterParam.create = function (row, spanRows, col, spanCols) {
 	        return new GridLayouterParam(row, spanRows, col, spanCols);
@@ -25629,27 +25287,21 @@ var app =
 
 
 /***/ },
-/* 128 */
+/* 129 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var rect_1 = __webpack_require__(3);
 	var point_1 = __webpack_require__(4);
 	var widget_factory_1 = __webpack_require__(26);
 	var graphics_1 = __webpack_require__(28);
 	var image_tile_1 = __webpack_require__(9);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	var widget_1 = __webpack_require__(21);
 	/**
 	 * 树形视图中，显示的一个子项。
@@ -25657,7 +25309,7 @@ var app =
 	var TreeItem = (function (_super) {
 	    __extends(TreeItem, _super);
 	    function TreeItem() {
-	        return _super.call(this, TreeItem.TYPE) || this;
+	        _super.call(this, TreeItem.TYPE);
 	    }
 	    Object.defineProperty(TreeItem.prototype, "text", {
 	        /**
@@ -25876,45 +25528,38 @@ var app =
 	    TreeItem.create = function (options) {
 	        return TreeItem.recycleBin.create(options);
 	    };
+	    TreeItem.TYPE = "tree-item";
+	    TreeItem.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TreeItem);
 	    return TreeItem;
 	}(widget_1.Widget));
-	TreeItem.TYPE = "tree-item";
-	TreeItem.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TreeItem);
 	exports.TreeItem = TreeItem;
 	;
 	widget_factory_1.WidgetFactory.register(TreeItem.TYPE, TreeItem.create);
 
 
 /***/ },
-/* 129 */
+/* 130 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var tree_item_1 = __webpack_require__(128);
-	var list_view_1 = __webpack_require__(122);
-	var tree_item_data_1 = __webpack_require__(130);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var tree_item_1 = __webpack_require__(129);
+	var list_view_1 = __webpack_require__(123);
+	var tree_item_data_1 = __webpack_require__(131);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * 树形视图。
 	 */
 	var TreeView = (function (_super) {
 	    __extends(TreeView, _super);
 	    function TreeView() {
-	        var _this = _super.call(this) || this;
-	        _this.type = TreeView.TYPE;
-	        return _this;
+	        _super.call(this);
+	        this.type = TreeView.TYPE;
 	    }
 	    Object.defineProperty(TreeView.prototype, "multiSelectable", {
 	        get: function () {
@@ -26038,31 +25683,25 @@ var app =
 	    TreeView.create = function (options) {
 	        return TreeView.recycleBinTreeView.create(options);
 	    };
+	    TreeView.TYPE = "tree-view";
+	    TreeView.recycleBinTreeView = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TreeView);
 	    return TreeView;
 	}(list_view_1.ListView));
-	TreeView.TYPE = "tree-view";
-	TreeView.recycleBinTreeView = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TreeView);
 	exports.TreeView = TreeView;
 	;
 	widget_factory_1.WidgetFactory.register(TreeView.TYPE, TreeView.create);
 
 
 /***/ },
-/* 130 */
+/* 131 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var utils_1 = __webpack_require__(23);
 	var emitter_1 = __webpack_require__(6);
 	var image_tile_1 = __webpack_require__(9);
@@ -26072,18 +25711,18 @@ var app =
 	var TreeItemData = (function (_super) {
 	    __extends(TreeItemData, _super);
 	    function TreeItemData(text, iconURL, userData) {
-	        var _this = _super.call(this) || this;
-	        _this.userData = userData;
-	        _this.text = text;
+	        _super.call(this);
+	        this.userData = userData;
+	        this.text = text;
 	        if (iconURL) {
-	            _this.icon = image_tile_1.ImageTile.create(iconURL, function (evt) {
+	            this.icon = image_tile_1.ImageTile.create(iconURL, function (evt) {
 	            });
 	        }
 	        else {
-	            _this.icon = null;
+	            this.icon = null;
 	        }
-	        _this.children = [];
-	        return _this;
+	        this.children = [];
+	        return;
 	    }
 	    /**
 	     * 从子节点数组中删除指定的子节点。
@@ -26143,36 +25782,30 @@ var app =
 
 
 /***/ },
-/* 131 */
+/* 132 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var path = __webpack_require__(11);
 	var TWEEN = __webpack_require__(22);
 	var Events = __webpack_require__(8);
 	var assets_1 = __webpack_require__(13);
-	var main_loop_1 = __webpack_require__(99);
+	var main_loop_1 = __webpack_require__(100);
 	var emitter_1 = __webpack_require__(6);
-	var view_port_1 = __webpack_require__(97);
+	var view_port_1 = __webpack_require__(98);
 	var image_tile_1 = __webpack_require__(9);
-	var theme_manager_1 = __webpack_require__(132);
+	var theme_manager_1 = __webpack_require__(133);
 	var device_info_1 = __webpack_require__(25);
-	var window_manager_mobile_1 = __webpack_require__(133);
-	var window_manager_desktop_1 = __webpack_require__(135);
+	var window_manager_mobile_1 = __webpack_require__(134);
+	var window_manager_desktop_1 = __webpack_require__(136);
 	var inputEventAdapter = __webpack_require__(17);
-	var interaction_request_1 = __webpack_require__(136);
-	var interaction_service_1 = __webpack_require__(138);
+	var interaction_request_1 = __webpack_require__(137);
+	var interaction_service_1 = __webpack_require__(139);
 	/**
 	 * @class Application
 	 * @extends IApplication
@@ -26182,13 +25815,12 @@ var app =
 	var Application = (function (_super) {
 	    __extends(Application, _super);
 	    function Application(name) {
-	        var _this = _super.call(this) || this;
-	        _this._name = name;
-	        _this.parseURLParams();
+	        _super.call(this);
+	        this._name = name;
+	        this.parseURLParams();
 	        if (!Application.instance) {
-	            Application.instance = _this;
+	            Application.instance = this;
 	        }
-	        return _this;
 	    }
 	    Object.defineProperty(Application.prototype, "name", {
 	        /**
@@ -26357,11 +25989,10 @@ var app =
 
 
 /***/ },
-/* 132 */
+/* 133 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var style_1 = __webpack_require__(5);
 	var utils_1 = __webpack_require__(23);
 	/**
@@ -26449,32 +26080,26 @@ var app =
 
 
 /***/ },
-/* 133 */
+/* 134 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var window_1 = __webpack_require__(103);
-	var window_manager_1 = __webpack_require__(134);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var window_1 = __webpack_require__(104);
+	var window_manager_1 = __webpack_require__(135);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * 移动应用程序的窗口管理器，所有窗口共享一个Canvas，NormalWindow总是最大化显示。
 	 */
 	var WindowManagerMobile = (function (_super) {
 	    __extends(WindowManagerMobile, _super);
 	    function WindowManagerMobile() {
-	        return _super.call(this, WindowManagerMobile.TYPE) || this;
+	        _super.call(this, WindowManagerMobile.TYPE);
 	    }
 	    Object.defineProperty(WindowManagerMobile.prototype, "target", {
 	        get: function () {
@@ -26570,31 +26195,25 @@ var app =
 	    WindowManagerMobile.create = function (options) {
 	        return WindowManagerMobile.recycleBin.create(options);
 	    };
+	    WindowManagerMobile.TYPE = "window-manager-mobile";
+	    WindowManagerMobile.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(WindowManagerMobile);
 	    return WindowManagerMobile;
 	}(window_manager_1.WindowManager));
-	WindowManagerMobile.TYPE = "window-manager-mobile";
-	WindowManagerMobile.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(WindowManagerMobile);
 	exports.WindowManagerMobile = WindowManagerMobile;
 	;
 	widget_factory_1.WidgetFactory.register(WindowManagerMobile.TYPE, WindowManagerMobile.create);
 
 
 /***/ },
-/* 134 */
+/* 135 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var widget_1 = __webpack_require__(21);
 	var Events = __webpack_require__(8);
 	/**
@@ -26603,7 +26222,7 @@ var app =
 	var WindowManager = (function (_super) {
 	    __extends(WindowManager, _super);
 	    function WindowManager() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    Object.defineProperty(WindowManager.prototype, "windows", {
 	        /**
@@ -26655,32 +26274,26 @@ var app =
 
 
 /***/ },
-/* 135 */
+/* 136 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var window_1 = __webpack_require__(103);
-	var window_manager_1 = __webpack_require__(134);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var window_1 = __webpack_require__(104);
+	var window_manager_1 = __webpack_require__(135);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * 桌面应用程序的窗口管理器。
 	 */
 	var WindowManagerDesktop = (function (_super) {
 	    __extends(WindowManagerDesktop, _super);
 	    function WindowManagerDesktop() {
-	        return _super.call(this, WindowManagerDesktop.TYPE) || this;
+	        _super.call(this, WindowManagerDesktop.TYPE);
 	    }
 	    WindowManagerDesktop.prototype.createCanvas = function () {
 	        return this;
@@ -26695,22 +26308,21 @@ var app =
 	    WindowManagerDesktop.create = function (options) {
 	        return WindowManagerDesktop.recycleBin.create(options);
 	    };
+	    WindowManagerDesktop.TYPE = "window-manager-desktop";
+	    WindowManagerDesktop.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(WindowManagerDesktop);
 	    return WindowManagerDesktop;
 	}(window_manager_1.WindowManager));
-	WindowManagerDesktop.TYPE = "window-manager-desktop";
-	WindowManagerDesktop.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(WindowManagerDesktop);
 	exports.WindowManagerDesktop = WindowManagerDesktop;
 	;
 	widget_factory_1.WidgetFactory.register(WindowManagerDesktop.TYPE, WindowManagerDesktop.create);
 
 
 /***/ },
-/* 136 */
+/* 137 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var interaction_types_1 = __webpack_require__(137);
+	var interaction_types_1 = __webpack_require__(138);
 	/**
 	 * @class InteractionRequest
 	 * <p>在使用MVC/MVVM等模式开发应用程序时，Model或View-Model都不应该直接操作View。
@@ -26929,43 +26541,41 @@ var app =
 
 
 /***/ },
-/* 137 */
+/* 138 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var InteractionTypes = (function () {
 	    function InteractionTypes() {
 	    }
+	    InteractionTypes.PROPS = "props";
+	    InteractionTypes.TOAST = "toast";
+	    InteractionTypes.INPUT = "input";
+	    InteractionTypes.CHOICE = "choice";
+	    InteractionTypes.PROGRESS = "progress";
+	    InteractionTypes.NOTIFICATION = "notification";
+	    InteractionTypes.CONFIRMATION = "confirmation";
 	    return InteractionTypes;
 	}());
-	InteractionTypes.PROPS = "props";
-	InteractionTypes.TOAST = "toast";
-	InteractionTypes.INPUT = "input";
-	InteractionTypes.CHOICE = "choice";
-	InteractionTypes.PROGRESS = "progress";
-	InteractionTypes.NOTIFICATION = "notification";
-	InteractionTypes.CONFIRMATION = "confirmation";
 	exports.InteractionTypes = InteractionTypes;
 	;
 
 
 /***/ },
-/* 138 */
+/* 139 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var emitter_1 = __webpack_require__(6);
 	var Events = __webpack_require__(8);
-	var toast_dialog_1 = __webpack_require__(139);
-	var input_dialog_1 = __webpack_require__(143);
-	var props_dialog_1 = __webpack_require__(144);
-	var choice_dialog_1 = __webpack_require__(169);
-	var progress_dialog_1 = __webpack_require__(170);
-	var confirmation_dialog_1 = __webpack_require__(171);
-	var notification_dialog_1 = __webpack_require__(172);
-	var interaction_types_1 = __webpack_require__(137);
+	var toast_dialog_1 = __webpack_require__(140);
+	var input_dialog_1 = __webpack_require__(144);
+	var props_dialog_1 = __webpack_require__(145);
+	var choice_dialog_1 = __webpack_require__(170);
+	var progress_dialog_1 = __webpack_require__(171);
+	var confirmation_dialog_1 = __webpack_require__(172);
+	var notification_dialog_1 = __webpack_require__(173);
+	var interaction_types_1 = __webpack_require__(138);
 	var InteractionService = (function () {
 	    function InteractionService() {
 	        this._emitter = new emitter_1.Emitter();
@@ -27040,12 +26650,11 @@ var app =
 
 
 /***/ },
-/* 139 */
+/* 140 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var message_box_1 = __webpack_require__(140);
+	var message_box_1 = __webpack_require__(141);
 	var ToastDialog = (function () {
 	    function ToastDialog() {
 	    }
@@ -27059,40 +26668,34 @@ var app =
 
 
 /***/ },
-/* 140 */
+/* 141 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var group_1 = __webpack_require__(101);
-	var dialog_1 = __webpack_require__(102);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var group_1 = __webpack_require__(102);
+	var dialog_1 = __webpack_require__(103);
 	var label_1 = __webpack_require__(20);
 	var edit_1 = __webpack_require__(19);
-	var button_1 = __webpack_require__(104);
+	var button_1 = __webpack_require__(105);
 	var Events = __webpack_require__(8);
 	var graphics_1 = __webpack_require__(28);
-	var list_view_1 = __webpack_require__(122);
-	var progress_bar_1 = __webpack_require__(106);
-	var application_1 = __webpack_require__(131);
+	var list_view_1 = __webpack_require__(123);
+	var progress_bar_1 = __webpack_require__(107);
+	var application_1 = __webpack_require__(132);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var consts_1 = __webpack_require__(115);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
-	var list_item_1 = __webpack_require__(124);
-	var dock_layouter_1 = __webpack_require__(141);
-	var linear_layouter_1 = __webpack_require__(142);
-	var grid_layouter_1 = __webpack_require__(127);
-	var simple_layouter_1 = __webpack_require__(125);
+	var consts_1 = __webpack_require__(116);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var list_item_1 = __webpack_require__(125);
+	var dock_layouter_1 = __webpack_require__(142);
+	var linear_layouter_1 = __webpack_require__(143);
+	var grid_layouter_1 = __webpack_require__(128);
+	var simple_layouter_1 = __webpack_require__(126);
 	var TitleOptions = (function () {
 	    function TitleOptions(text, iconStyleType, hasCloseButton) {
 	        this.h = 0;
@@ -27129,9 +26732,8 @@ var app =
 	var MessageBox = (function (_super) {
 	    __extends(MessageBox, _super);
 	    function MessageBox(type) {
-	        var _this = _super.call(this, type || MessageBox.TYPE) || this;
-	        _this._contentPadding = 10;
-	        return _this;
+	        _super.call(this, type || MessageBox.TYPE);
+	        this._contentPadding = 10;
 	    }
 	    Object.defineProperty(MessageBox.prototype, "title", {
 	        get: function () {
@@ -27307,17 +26909,6 @@ var app =
 	        messageBox.createChildren(titleOptions, buttonsOption, msg);
 	        messageBox.open();
 	    };
-	    MessageBox.showDialog = function (title, w, h, onYes, onNo) {
-	        var app = application_1.Application.get();
-	        var messageBox = MessageBox.create({ app: app, w: w, h: h });
-	        var buttonsOption = new ButtonsOptions();
-	        buttonsOption.buttons.push({ styleType: "button.cancel", text: "Cancel", onClick: onNo });
-	        buttonsOption.buttons.push({ styleType: "button.ok", text: "Yes", onClick: onYes });
-	        var titleOptions = new TitleOptions(title, null, false);
-	        messageBox.createChildren(titleOptions, buttonsOption, null);
-	        messageBox.open();
-	        return messageBox;
-	    };
 	    MessageBox.showToast = function (msg, duration, w) {
 	        var app = application_1.Application.get();
 	        var vp = app.getViewPort();
@@ -27441,37 +27032,31 @@ var app =
 	    MessageBox.create = function (options) {
 	        return MessageBox.rBin.create(options);
 	    };
+	    MessageBox.TITLE_H = 25;
+	    MessageBox.BUTTONS_H = 40;
+	    MessageBox.MSG_FONT_SIZE = 12;
+	    MessageBox.TYPE = "messagebox";
+	    MessageBox.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(MessageBox);
 	    return MessageBox;
 	}(dialog_1.Dialog));
-	MessageBox.TITLE_H = 25;
-	MessageBox.BUTTONS_H = 40;
-	MessageBox.MSG_FONT_SIZE = 12;
-	MessageBox.TYPE = "messagebox";
-	MessageBox.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(MessageBox);
 	exports.MessageBox = MessageBox;
 	;
 	widget_factory_1.WidgetFactory.register(MessageBox.TYPE, MessageBox.create);
 
 
 /***/ },
-/* 141 */
+/* 142 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var Events = __webpack_require__(8);
-	var consts_1 = __webpack_require__(115);
-	var layouter_1 = __webpack_require__(88);
+	var consts_1 = __webpack_require__(116);
+	var layouter_1 = __webpack_require__(89);
 	var TYPE = "dock";
 	/**
 	 * Dock布局器。
@@ -27479,7 +27064,7 @@ var app =
 	var DockLayouter = (function (_super) {
 	    __extends(DockLayouter, _super);
 	    function DockLayouter() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    Object.defineProperty(DockLayouter.prototype, "type", {
 	        get: function () {
@@ -27574,10 +27159,9 @@ var app =
 	var DockLayouterParam = (function (_super) {
 	    __extends(DockLayouterParam, _super);
 	    function DockLayouterParam(position, size) {
-	        var _this = _super.call(this, TYPE) || this;
-	        _this.size = size;
-	        _this.position = position;
-	        return _this;
+	        _super.call(this, TYPE);
+	        this.size = size;
+	        this.position = position;
 	    }
 	    Object.defineProperty(DockLayouterParam.prototype, "widget", {
 	        set: function (widget) {
@@ -27618,24 +27202,18 @@ var app =
 
 
 /***/ },
-/* 142 */
+/* 143 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var consts_1 = __webpack_require__(115);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var consts_1 = __webpack_require__(116);
 	var utils_1 = __webpack_require__(23);
-	var layouter_1 = __webpack_require__(88);
+	var layouter_1 = __webpack_require__(89);
 	var TYPE_H = "linear-h";
 	var TYPE_V = "linear-v";
 	/**
@@ -27644,7 +27222,7 @@ var app =
 	var LinearLayouter = (function (_super) {
 	    __extends(LinearLayouter, _super);
 	    function LinearLayouter() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    Object.defineProperty(LinearLayouter.prototype, "type", {
 	        get: function () {
@@ -27817,17 +27395,13 @@ var app =
 	var LinearLayouterParam = (function (_super) {
 	    __extends(LinearLayouterParam, _super);
 	    function LinearLayouterParam(type, w, h, spacing, align, position) {
-	        var _this = _super.call(this, type || LinearLayouterParam.TYPE) || this;
-	        _this.w = w || "100%";
-	        _this.h = h || "100%";
-	        _this.align = align;
-	        _this.spacing = spacing;
-	        _this.position = position;
-	        return _this;
+	        _super.call(this, type || LinearLayouterParam.TYPE);
+	        this.w = w || "100%";
+	        this.h = h || "100%";
+	        this.align = align;
+	        this.spacing = spacing;
+	        this.position = position;
 	    }
-	    LinearLayouterParam.createWithOptions = function (opts) {
-	        return LinearLayouterParam.createWithType(LinearLayouterParam.TYPE, opts);
-	    };
 	    LinearLayouterParam.createWithType = function (type, opts) {
 	        var options = opts || {};
 	        return new LinearLayouterParam(LinearLayouterParam.TYPE, options.w || options.width, options.h || options.height, options.spacing || 0, options.align || consts_1.Align.C, options.position === undefined ? 1 : options.position);
@@ -27841,22 +27415,24 @@ var app =
 	        }
 	        return new LinearLayouterParam(LinearLayouterParam.TYPE, w.toString(), h.toString(), spacing || 0, align, position | 0);
 	    };
+	    LinearLayouterParam.createWithOptions = function (opts) {
+	        return LinearLayouterParam.createWithType(LinearLayouterParam.TYPE, opts);
+	    };
+	    LinearLayouterParam.TYPE = "linear";
+	    LinearLayouterParam.defParam = LinearLayouterParam.createWithOptions(null);
 	    return LinearLayouterParam;
 	}(layouter_1.LayouterParam));
-	LinearLayouterParam.TYPE = "linear";
-	LinearLayouterParam.defParam = LinearLayouterParam.createWithOptions(null);
 	exports.LinearLayouterParam = LinearLayouterParam;
 	;
 	layouter_1.LayouterParamFactory.register(LinearLayouterParam.TYPE, LinearLayouterParam.createWithOptions);
 
 
 /***/ },
-/* 143 */
+/* 144 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var message_box_1 = __webpack_require__(140);
+	var message_box_1 = __webpack_require__(141);
 	var InputDialog = (function () {
 	    function InputDialog() {
 	    }
@@ -27873,12 +27449,11 @@ var app =
 
 
 /***/ },
-/* 144 */
+/* 145 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var property_dialog_1 = __webpack_require__(145);
+	var property_dialog_1 = __webpack_require__(146);
 	var PropsDialog = (function () {
 	    function PropsDialog() {
 	    }
@@ -27896,28 +27471,22 @@ var app =
 
 
 /***/ },
-/* 145 */
+/* 146 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var application_1 = __webpack_require__(131);
-	var property_page_1 = __webpack_require__(146);
-	var view_model_1 = __webpack_require__(164);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var application_1 = __webpack_require__(132);
+	var property_page_1 = __webpack_require__(147);
+	var view_model_1 = __webpack_require__(165);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	var widget_factory_1 = __webpack_require__(26);
-	var message_box_1 = __webpack_require__(140);
-	var simple_layouter_1 = __webpack_require__(125);
+	var message_box_1 = __webpack_require__(141);
+	var simple_layouter_1 = __webpack_require__(126);
 	/**
 	 * @class PropertyDialog
 	 * @extends Widget
@@ -27926,7 +27495,7 @@ var app =
 	var PropertyDialog = (function (_super) {
 	    __extends(PropertyDialog, _super);
 	    function PropertyDialog() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    PropertyDialog.prototype.createChildren = function (titleOptions, buttonsOptions, content) {
 	        _super.prototype.createChildren.call(this, titleOptions, buttonsOptions, content);
@@ -27964,51 +27533,42 @@ var app =
 	    PropertyDialog.create = function (options) {
 	        return PropertyDialog.rb.create(options);
 	    };
+	    PropertyDialog.TYPE = "property-dialog";
+	    PropertyDialog.rb = widget_recyclable_creator_1.WidgetRecyclableCreator.create(PropertyDialog);
 	    return PropertyDialog;
 	}(message_box_1.MessageBox));
-	PropertyDialog.TYPE = "property-dialog";
-	PropertyDialog.rb = widget_recyclable_creator_1.WidgetRecyclableCreator.create(PropertyDialog);
 	exports.PropertyDialog = PropertyDialog;
 	widget_factory_1.WidgetFactory.register(PropertyDialog.TYPE, PropertyDialog.create);
 
 
 /***/ },
-/* 146 */
+/* 147 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var Events = __webpack_require__(8);
-	var title_link_1 = __webpack_require__(147);
-	var title_line_1 = __webpack_require__(149);
-	var title_edit_1 = __webpack_require__(151);
-	var title_label_1 = __webpack_require__(152);
-	var title_range_1 = __webpack_require__(153);
-	var title_vector_1 = __webpack_require__(155);
-	var group_1 = __webpack_require__(101);
-	var button_1 = __webpack_require__(104);
+	var title_link_1 = __webpack_require__(148);
+	var title_line_1 = __webpack_require__(150);
+	var title_edit_1 = __webpack_require__(152);
+	var title_label_1 = __webpack_require__(153);
+	var title_range_1 = __webpack_require__(154);
+	var title_vector_1 = __webpack_require__(156);
 	var widget_1 = __webpack_require__(21);
-	var title_slider_1 = __webpack_require__(157);
-	var title_text_area_1 = __webpack_require__(158);
-	var title_check_button_1 = __webpack_require__(159);
+	var title_slider_1 = __webpack_require__(158);
+	var title_text_area_1 = __webpack_require__(159);
+	var title_check_button_1 = __webpack_require__(160);
 	var widget_factory_1 = __webpack_require__(26);
-	var title_choosable_edit_1 = __webpack_require__(160);
-	var title_combo_box_1 = __webpack_require__(162);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
-	var simple_layouter_1 = __webpack_require__(125);
-	var html_element_1 = __webpack_require__(95);
-	var iview_model_1 = __webpack_require__(91);
+	var title_choosable_edit_1 = __webpack_require__(161);
 	var props_desc_1 = __webpack_require__(163);
+	var title_combo_box_1 = __webpack_require__(164);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var html_element_1 = __webpack_require__(96);
+	var iview_model_1 = __webpack_require__(92);
 	var props_desc_2 = __webpack_require__(163);
 	var props_desc_3 = __webpack_require__(163);
 	var props_desc_4 = __webpack_require__(163);
@@ -28020,7 +27580,7 @@ var app =
 	var PropertyPage = (function (_super) {
 	    __extends(PropertyPage, _super);
 	    function PropertyPage() {
-	        return _super.call(this, PropertyPage.TYPE) || this;
+	        _super.call(this, PropertyPage.TYPE);
 	    }
 	    Object.defineProperty(PropertyPage.prototype, "itemH", {
 	        get: function () {
@@ -28082,25 +27642,6 @@ var app =
 	        });
 	        widget.value = value,
 	            this.addChild(widget, true);
-	        return widget;
-	    };
-	    /**
-	     * @method addButton
-	     * 增加一个按钮控件。
-	     * @param {string} title 标题。
-	     * @param {string} command 文本内容。
-	     * @return {Button} 返回新创建的Button控件。
-	     */
-	    PropertyPage.prototype.addButton = function (text, command, width) {
-	        var group = group_1.Group.create({ h: this.itemH });
-	        group.childrenLayouter = simple_layouter_1.SimpleLayouter.create();
-	        var widget = button_1.Button.create({
-	            text: text,
-	            dataBindingRule: { click: { command: command } }
-	        });
-	        widget.layoutParam = simple_layouter_1.SimpleLayouterParam.create("c", "m", width || "50%", "90%");
-	        this.addChild(group, true);
-	        group.addChild(widget, false);
 	        return widget;
 	    };
 	    /**
@@ -28445,34 +27986,25 @@ var app =
 	        if (item.type === props_desc_3.NumberPropDesc.TYPE) {
 	            titleValue = this.addEdit(item.name, item.value, item.desc, "number");
 	        }
-	        else if (item.type === props_desc_2.ButtonPropDesc.TYPE) {
-	            this.addButton(item.name, item.command, item.titleW);
-	        }
 	        else if (item.type === props_desc_3.TextPropDesc.TYPE) {
-	            var lines = item.lines;
-	            if (lines > 1) {
-	                titleValue = this.addTextArea(item.name, item.value, lines * 12);
-	            }
-	            else {
-	                titleValue = this.addEdit(item.name, item.value, item.desc, "text");
-	            }
+	            titleValue = this.addEdit(item.name, item.value, item.desc, "text");
 	        }
-	        else if (item.type === props_desc_1.ColorPropDesc.TYPE) {
+	        else if (item.type === props_desc_2.ColorPropDesc.TYPE) {
 	            titleValue = this.addColorEdit(item.name, item.value, item.desc);
 	        }
-	        else if (item.type === props_desc_1.ReadonlyTextPropDesc.TYPE) {
+	        else if (item.type === props_desc_2.ReadonlyTextPropDesc.TYPE) {
 	            titleValue = this.addLabel(item.name, item.value);
 	        }
 	        else if (item.type === props_desc_4.SliderPropDesc.TYPE) {
 	            titleValue = this.addSlider(item.name, item.value);
 	        }
-	        else if (item.type === props_desc_2.LinkPropDesc.TYPE) {
+	        else if (item.type === props_desc_1.LinkPropDesc.TYPE) {
 	            titleValue = this.addLink(item.name, item.value);
 	        }
-	        else if (item.type === props_desc_2.BoolPropDesc.TYPE) {
+	        else if (item.type === props_desc_1.BoolPropDesc.TYPE) {
 	            titleValue = this.addCheckButton(item.name, item.value);
 	        }
-	        else if (item.type === props_desc_2.LinePropDesc.TYPE) {
+	        else if (item.type === props_desc_1.LinePropDesc.TYPE) {
 	            if (item.name) {
 	                titleValue = this.addGroupBegin(item.name);
 	            }
@@ -28503,7 +28035,7 @@ var app =
 	            var value = item.value || { x: 0, y: 0, z: 0 };
 	            titleValue = this.addVector3(item.name, value.x, value.y, value.z, p3.xTitle, p3.yTitle, p3.zTitle);
 	        }
-	        else if (item.type === props_desc_1.Vector4PropDesc.TYPE) {
+	        else if (item.type === props_desc_2.Vector4PropDesc.TYPE) {
 	            var p4 = item;
 	            var value = item.value || { x: 0, y: 0, z: 0, w: 0 };
 	            titleValue = this.addVector4(item.name, value.x, value.y, value.z, value.w, p4.xTitle, p4.yTitle, p4.zTitle, p4.wTitle);
@@ -28591,37 +28123,31 @@ var app =
 	    PropertyPage.create = function (options) {
 	        return PropertyPage.rBin.create(options);
 	    };
+	    PropertyPage.defProps = Object.assign({}, widget_1.Widget.defProps, { _bp: 5, _itemH: 30, _titleW: "80px", _valueW: "100%" });
+	    PropertyPage.TYPE = "property-page";
+	    PropertyPage.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(PropertyPage);
 	    return PropertyPage;
 	}(widget_1.Widget));
-	PropertyPage.defProps = Object.assign({}, widget_1.Widget.defProps, { _bp: 5, _itemH: 30, _titleW: "80px", _valueW: "100%" });
-	PropertyPage.TYPE = "property-page";
-	PropertyPage.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(PropertyPage);
 	exports.PropertyPage = PropertyPage;
 	;
 	widget_factory_1.WidgetFactory.register(PropertyPage.TYPE, PropertyPage.create);
 
 
 /***/ },
-/* 147 */
+/* 148 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var Events = __webpack_require__(8);
 	var label_1 = __webpack_require__(20);
-	var title_value_1 = __webpack_require__(148);
+	var title_value_1 = __webpack_require__(149);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * @class TitleLink
 	 * @extends Widget
@@ -28630,7 +28156,7 @@ var app =
 	var TitleLink = (function (_super) {
 	    __extends(TitleLink, _super);
 	    function TitleLink(type) {
-	        return _super.call(this, type || TitleLink.TYPE) || this;
+	        _super.call(this, type || TitleLink.TYPE);
 	    }
 	    TitleLink.prototype.createValueWidget = function (options) {
 	        var link = label_1.Label.create(options);
@@ -28649,35 +28175,29 @@ var app =
 	    TitleLink.create = function (options) {
 	        return TitleLink.recycleBin.create(options);
 	    };
+	    TitleLink.TYPE = "title-link";
+	    TitleLink.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleLink);
 	    return TitleLink;
 	}(title_value_1.TitleValue));
-	TitleLink.TYPE = "title-link";
-	TitleLink.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleLink);
 	exports.TitleLink = TitleLink;
 	;
 	widget_factory_1.WidgetFactory.register(TitleLink.TYPE, TitleLink.create);
 
 
 /***/ },
-/* 148 */
+/* 149 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var Events = __webpack_require__(8);
 	var label_1 = __webpack_require__(20);
 	var widget_1 = __webpack_require__(21);
-	var linear_layouter_1 = __webpack_require__(142);
+	var linear_layouter_1 = __webpack_require__(143);
 	/**
 	 * @class TitleValue
 	 * @extends Widget
@@ -28686,7 +28206,7 @@ var app =
 	var TitleValue = (function (_super) {
 	    __extends(TitleValue, _super);
 	    function TitleValue(type) {
-	        return _super.call(this, type) || this;
+	        _super.call(this, type);
 	    }
 	    Object.defineProperty(TitleValue.prototype, "title", {
 	        get: function () {
@@ -28824,34 +28344,28 @@ var app =
 	        this._titleWidget = null;
 	        this._valueWidget = null;
 	    };
+	    TitleValue.defProps = Object.assign({}, widget_1.Widget.defProps, { _lp: 2, _tp: 2, _rp: 2, _bp: 2,
+	        _title: null, _titleW: 80, _valueW: 60 });
 	    return TitleValue;
 	}(widget_1.Widget));
-	TitleValue.defProps = Object.assign({}, widget_1.Widget.defProps, { _lp: 2, _tp: 2, _rp: 2, _bp: 2,
-	    _title: null, _titleW: 80, _valueW: 60 });
 	exports.TitleValue = TitleValue;
 	;
 
 
 /***/ },
-/* 149 */
+/* 150 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var title_value_1 = __webpack_require__(148);
-	var color_tile_1 = __webpack_require__(150);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var title_value_1 = __webpack_require__(149);
+	var color_tile_1 = __webpack_require__(151);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * @class TitleLine
 	 * @extends Widget
@@ -28860,7 +28374,7 @@ var app =
 	var TitleLine = (function (_super) {
 	    __extends(TitleLine, _super);
 	    function TitleLine(type) {
-	        return _super.call(this, type || TitleLine.TYPE) || this;
+	        _super.call(this, type || TitleLine.TYPE);
 	    }
 	    TitleLine.prototype.createValueWidget = function (options) {
 	        return color_tile_1.ColorLine.create({ styleType: "title.line" });
@@ -28868,44 +28382,38 @@ var app =
 	    TitleLine.create = function (options) {
 	        return TitleLine.recycleBin.create(options);
 	    };
+	    TitleLine.TYPE = "title-line";
+	    TitleLine.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleLine);
 	    return TitleLine;
 	}(title_value_1.TitleValue));
-	TitleLine.TYPE = "title-line";
-	TitleLine.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleLine);
 	exports.TitleLine = TitleLine;
 	;
 	widget_factory_1.WidgetFactory.register(TitleLine.TYPE, TitleLine.create);
 
 
 /***/ },
-/* 150 */
+/* 151 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var style_1 = __webpack_require__(5);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
 	var graphics_1 = __webpack_require__(28);
-	var consts_1 = __webpack_require__(115);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var consts_1 = __webpack_require__(116);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * 颜色控件。
 	 */
 	var Color = (function (_super) {
 	    __extends(Color, _super);
 	    function Color(type) {
-	        return _super.call(this, type) || this;
+	        _super.call(this, type);
 	    }
 	    Object.defineProperty(Color.prototype, "color", {
 	        get: function () {
@@ -28979,7 +28487,7 @@ var app =
 	var ColorTile = (function (_super) {
 	    __extends(ColorTile, _super);
 	    function ColorTile() {
-	        return _super.call(this, ColorTile.TYPE) || this;
+	        _super.call(this, ColorTile.TYPE);
 	    }
 	    Object.defineProperty(ColorTile.prototype, "color", {
 	        get: function () {
@@ -29004,17 +28512,17 @@ var app =
 	    ColorTile.create = function (options) {
 	        return ColorTile.recycleBin.create(options);
 	    };
+	    ColorTile.TYPE = "color-tile";
+	    ColorTile.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ColorTile);
 	    return ColorTile;
 	}(Color));
-	ColorTile.TYPE = "color-tile";
-	ColorTile.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ColorTile);
 	exports.ColorTile = ColorTile;
 	;
 	widget_factory_1.WidgetFactory.register(ColorTile.TYPE, ColorTile.create);
 	var ColorLine = (function (_super) {
 	    __extends(ColorLine, _super);
 	    function ColorLine() {
-	        return _super.call(this, ColorLine.TYPE) || this;
+	        _super.call(this, ColorLine.TYPE);
 	    }
 	    Object.defineProperty(ColorLine.prototype, "color", {
 	        get: function () {
@@ -29134,35 +28642,29 @@ var app =
 	    ColorLine.create = function (options) {
 	        return ColorLine.recycleBin.create(options);
 	    };
+	    ColorLine.TYPE = "color-tile";
+	    ColorLine.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ColorLine);
 	    return ColorLine;
 	}(Color));
-	ColorLine.TYPE = "color-tile";
-	ColorLine.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ColorLine);
 	exports.ColorLine = ColorLine;
 	;
 	widget_factory_1.WidgetFactory.register(ColorLine.TYPE, ColorLine.create);
 
 
 /***/ },
-/* 151 */
+/* 152 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var edit_1 = __webpack_require__(19);
-	var title_value_1 = __webpack_require__(148);
+	var title_value_1 = __webpack_require__(149);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * @class TitleEdit
 	 * @extends Widget
@@ -29171,7 +28673,7 @@ var app =
 	var TitleEdit = (function (_super) {
 	    __extends(TitleEdit, _super);
 	    function TitleEdit(type) {
-	        return _super.call(this, type || TitleEdit.TYPE) || this;
+	        _super.call(this, type || TitleEdit.TYPE);
 	    }
 	    Object.defineProperty(TitleEdit.prototype, "inputFilter", {
 	        get: function () {
@@ -29240,35 +28742,29 @@ var app =
 	    TitleEdit.create = function (options) {
 	        return TitleEdit.recycleBin.create(options);
 	    };
+	    TitleEdit.TYPE = "title-edit";
+	    TitleEdit.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleEdit);
 	    return TitleEdit;
 	}(title_value_1.TitleValue));
-	TitleEdit.TYPE = "title-edit";
-	TitleEdit.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleEdit);
 	exports.TitleEdit = TitleEdit;
 	;
 	widget_factory_1.WidgetFactory.register(TitleEdit.TYPE, TitleEdit.create);
 
 
 /***/ },
-/* 152 */
+/* 153 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var label_1 = __webpack_require__(20);
-	var title_value_1 = __webpack_require__(148);
+	var title_value_1 = __webpack_require__(149);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * @class TitleLabel
 	 * @extends Widget
@@ -29277,7 +28773,7 @@ var app =
 	var TitleLabel = (function (_super) {
 	    __extends(TitleLabel, _super);
 	    function TitleLabel(type) {
-	        return _super.call(this, type || TitleLabel.TYPE) || this;
+	        _super.call(this, type || TitleLabel.TYPE);
 	    }
 	    TitleLabel.prototype.createValueWidget = function (options) {
 	        return label_1.Label.create(options);
@@ -29285,35 +28781,29 @@ var app =
 	    TitleLabel.create = function (options) {
 	        return TitleLabel.recycleBin.create(options);
 	    };
+	    TitleLabel.TYPE = "title-label";
+	    TitleLabel.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleLabel);
 	    return TitleLabel;
 	}(title_value_1.TitleValue));
-	TitleLabel.TYPE = "title-label";
-	TitleLabel.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleLabel);
 	exports.TitleLabel = TitleLabel;
 	;
 	widget_factory_1.WidgetFactory.register(TitleLabel.TYPE, TitleLabel.create);
 
 
 /***/ },
-/* 153 */
+/* 154 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var range_edit_1 = __webpack_require__(154);
-	var title_value_1 = __webpack_require__(148);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var range_edit_1 = __webpack_require__(155);
+	var title_value_1 = __webpack_require__(149);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * @class TitleRange
 	 * @extends Widget
@@ -29322,7 +28812,7 @@ var app =
 	var TitleRange = (function (_super) {
 	    __extends(TitleRange, _super);
 	    function TitleRange(type) {
-	        return _super.call(this, type || TitleRange.TYPE) || this;
+	        _super.call(this, type || TitleRange.TYPE);
 	    }
 	    TitleRange.prototype.createValueWidget = function (options) {
 	        return range_edit_1.RangeEdit.create(options);
@@ -29330,37 +28820,31 @@ var app =
 	    TitleRange.create = function (options) {
 	        return TitleRange.recycleBin.create(options);
 	    };
+	    TitleRange.TYPE = "title-range";
+	    TitleRange.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleRange);
 	    return TitleRange;
 	}(title_value_1.TitleValue));
-	TitleRange.TYPE = "title-range";
-	TitleRange.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleRange);
 	exports.TitleRange = TitleRange;
 	;
 	widget_factory_1.WidgetFactory.register(TitleRange.TYPE, TitleRange.create);
 
 
 /***/ },
-/* 154 */
+/* 155 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var label_1 = __webpack_require__(20);
 	var edit_1 = __webpack_require__(19);
 	var widget_1 = __webpack_require__(21);
 	var Events = __webpack_require__(8);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * @class  RangeEdit
 	 * @extends Widget
@@ -29369,7 +28853,7 @@ var app =
 	var RangeEdit = (function (_super) {
 	    __extends(RangeEdit, _super);
 	    function RangeEdit() {
-	        return _super.call(this, RangeEdit.TYPE) || this;
+	        _super.call(this, RangeEdit.TYPE);
 	    }
 	    Object.defineProperty(RangeEdit.prototype, "inputable", {
 	        get: function () {
@@ -29482,35 +28966,29 @@ var app =
 	    RangeEdit.create = function (options) {
 	        return RangeEdit.rBin.create(options);
 	    };
+	    RangeEdit.TYPE = "range.edit";
+	    RangeEdit.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(RangeEdit);
 	    return RangeEdit;
 	}(widget_1.Widget));
-	RangeEdit.TYPE = "range.edit";
-	RangeEdit.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(RangeEdit);
 	exports.RangeEdit = RangeEdit;
 	;
 	widget_factory_1.WidgetFactory.register(RangeEdit.TYPE, RangeEdit.create);
 
 
 /***/ },
-/* 155 */
+/* 156 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var vector_edit_1 = __webpack_require__(156);
-	var title_value_1 = __webpack_require__(148);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var vector_edit_1 = __webpack_require__(157);
+	var title_value_1 = __webpack_require__(149);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * @class TitleVector
 	 * @extends Widget
@@ -29519,7 +28997,7 @@ var app =
 	var TitleVector = (function (_super) {
 	    __extends(TitleVector, _super);
 	    function TitleVector(type) {
-	        return _super.call(this, type || TitleVector.TYPE) || this;
+	        _super.call(this, type || TitleVector.TYPE);
 	    }
 	    Object.defineProperty(TitleVector.prototype, "d", {
 	        /**
@@ -29544,38 +29022,32 @@ var app =
 	        widget.reset(TitleVector.TYPE, options);
 	        return widget;
 	    };
+	    TitleVector.TYPE = "title-vector";
+	    TitleVector.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleVector);
 	    return TitleVector;
 	}(title_value_1.TitleValue));
-	TitleVector.TYPE = "title-vector";
-	TitleVector.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleVector);
 	exports.TitleVector = TitleVector;
 	;
 	widget_factory_1.WidgetFactory.register(TitleVector.TYPE, TitleVector.create);
 
 
 /***/ },
-/* 156 */
+/* 157 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var label_1 = __webpack_require__(20);
 	var edit_1 = __webpack_require__(19);
 	var widget_1 = __webpack_require__(21);
 	var Events = __webpack_require__(8);
 	var widget_factory_1 = __webpack_require__(26);
-	var recyclable_creator_1 = __webpack_require__(93);
-	var grid_layouter_1 = __webpack_require__(127);
+	var recyclable_creator_1 = __webpack_require__(94);
+	var grid_layouter_1 = __webpack_require__(128);
 	/**
 	 * @class VectorEdit
 	 * @extends Widget
@@ -29584,7 +29056,7 @@ var app =
 	var VectorEdit = (function (_super) {
 	    __extends(VectorEdit, _super);
 	    function VectorEdit() {
-	        return _super.call(this, VectorEdit.TYPE) || this;
+	        _super.call(this, VectorEdit.TYPE);
 	    }
 	    Object.defineProperty(VectorEdit.prototype, "xTitle", {
 	        get: function () {
@@ -29825,38 +29297,32 @@ var app =
 	    VectorEdit.create = function (options) {
 	        return VectorEdit.rBin.create().reset(VectorEdit.TYPE, options);
 	    };
+	    VectorEdit.defProps = Object.assign({}, widget_1.Widget.defProps, { _d: 2, _xTitle: "X", _yTitle: "Y", _zTitle: "Z", _wTitle: "W" });
+	    VectorEdit.TYPE = "vector.edit";
+	    VectorEdit.rBin = new recyclable_creator_1.RecyclableCreator(function () {
+	        return new VectorEdit();
+	    });
 	    return VectorEdit;
 	}(widget_1.Widget));
-	VectorEdit.defProps = Object.assign({}, widget_1.Widget.defProps, { _d: 2, _xTitle: "X", _yTitle: "Y", _zTitle: "Z", _wTitle: "W" });
-	VectorEdit.TYPE = "vector.edit";
-	VectorEdit.rBin = new recyclable_creator_1.RecyclableCreator(function () {
-	    return new VectorEdit();
-	});
 	exports.VectorEdit = VectorEdit;
 	;
 	widget_factory_1.WidgetFactory.register(VectorEdit.TYPE, VectorEdit.create);
 
 
 /***/ },
-/* 157 */
+/* 158 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var slider_1 = __webpack_require__(105);
-	var title_value_1 = __webpack_require__(148);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var slider_1 = __webpack_require__(106);
+	var title_value_1 = __webpack_require__(149);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * @class TitleSlider
 	 * @extends Widget
@@ -29865,7 +29331,7 @@ var app =
 	var TitleSlider = (function (_super) {
 	    __extends(TitleSlider, _super);
 	    function TitleSlider(type) {
-	        return _super.call(this, type || TitleSlider.TYPE) || this;
+	        _super.call(this, type || TitleSlider.TYPE);
 	    }
 	    TitleSlider.prototype.createValueWidget = function (options) {
 	        return slider_1.Slider.create(options);
@@ -29873,35 +29339,29 @@ var app =
 	    TitleSlider.create = function (options) {
 	        return TitleSlider.recycleBin.create(options);
 	    };
+	    TitleSlider.TYPE = "title-slider";
+	    TitleSlider.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleSlider);
 	    return TitleSlider;
 	}(title_value_1.TitleValue));
-	TitleSlider.TYPE = "title-slider";
-	TitleSlider.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleSlider);
 	exports.TitleSlider = TitleSlider;
 	;
 	widget_factory_1.WidgetFactory.register(TitleSlider.TYPE, TitleSlider.create);
 
 
 /***/ },
-/* 158 */
+/* 159 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var edit_1 = __webpack_require__(19);
-	var title_value_1 = __webpack_require__(148);
+	var title_value_1 = __webpack_require__(149);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * @class TitleTextArea
 	 * @extends Widget
@@ -29910,7 +29370,7 @@ var app =
 	var TitleTextArea = (function (_super) {
 	    __extends(TitleTextArea, _super);
 	    function TitleTextArea(type) {
-	        return _super.call(this, type || TitleTextArea.TYPE) || this;
+	        _super.call(this, type || TitleTextArea.TYPE);
 	    }
 	    Object.defineProperty(TitleTextArea.prototype, "inputTips", {
 	        get: function () {
@@ -29929,67 +29389,40 @@ var app =
 	        enumerable: true,
 	        configurable: true
 	    });
-	    TitleTextArea.prototype.relayoutChildren = function () {
-	        this.requestRedraw();
-	        var titleWidget = this.titleWidget;
-	        var valueWidget = this.valueWidget;
-	        var w = this.w - this.leftPadding - this.topPadding;
-	        if (titleWidget && valueWidget) {
-	            titleWidget.x = this.leftPadding;
-	            titleWidget.y = this.topPadding;
-	            titleWidget.w = w;
-	            titleWidget.h = 20;
-	            valueWidget.x = this.leftPadding;
-	            valueWidget.y = titleWidget.y + titleWidget.h;
-	            valueWidget.w = w;
-	            this.h = valueWidget.y + valueWidget.h + this.bottomPadding;
-	        }
-	        return this.getLayoutRect();
-	    };
-	    TitleTextArea.prototype.onCreated = function () {
-	        _super.prototype.onCreated.call(this);
-	        this.valueWidget.h = this.h;
-	    };
 	    TitleTextArea.prototype.createValueWidget = function (options) {
 	        var opts = options || {};
 	        if (this._inputTips) {
 	            opts.inputTips = this._inputTips;
 	        }
-	        opts.multiLineMode = true;
+	        opts.multiLines = true;
 	        return edit_1.Edit.create(opts);
 	    };
 	    TitleTextArea.create = function (options) {
 	        return TitleTextArea.recycleBin.create(options);
 	    };
+	    TitleTextArea.TYPE = "title-text-area";
+	    TitleTextArea.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleTextArea);
 	    return TitleTextArea;
 	}(title_value_1.TitleValue));
-	TitleTextArea.TYPE = "title-text-area";
-	TitleTextArea.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleTextArea);
 	exports.TitleTextArea = TitleTextArea;
 	;
 	widget_factory_1.WidgetFactory.register(TitleTextArea.TYPE, TitleTextArea.create);
 
 
 /***/ },
-/* 159 */
+/* 160 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var title_value_1 = __webpack_require__(148);
-	var check_button_1 = __webpack_require__(117);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var title_value_1 = __webpack_require__(149);
+	var check_button_1 = __webpack_require__(118);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * @class TitleCheckButton
 	 * @extends Widget
@@ -29998,7 +29431,7 @@ var app =
 	var TitleCheckButton = (function (_super) {
 	    __extends(TitleCheckButton, _super);
 	    function TitleCheckButton(type) {
-	        return _super.call(this, type || TitleCheckButton.TYPE) || this;
+	        _super.call(this, type || TitleCheckButton.TYPE);
 	    }
 	    TitleCheckButton.prototype.createValueWidget = function (options) {
 	        return check_button_1.CheckButton.create(options);
@@ -30006,35 +29439,29 @@ var app =
 	    TitleCheckButton.create = function (options) {
 	        return TitleCheckButton.recycleBin.create(options);
 	    };
+	    TitleCheckButton.TYPE = "title-check-button";
+	    TitleCheckButton.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleCheckButton);
 	    return TitleCheckButton;
 	}(title_value_1.TitleValue));
-	TitleCheckButton.TYPE = "title-check-button";
-	TitleCheckButton.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleCheckButton);
 	exports.TitleCheckButton = TitleCheckButton;
 	;
 	widget_factory_1.WidgetFactory.register(TitleCheckButton.TYPE, TitleCheckButton.create);
 
 
 /***/ },
-/* 160 */
+/* 161 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var title_value_1 = __webpack_require__(148);
-	var choosable_edit_1 = __webpack_require__(161);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var title_value_1 = __webpack_require__(149);
+	var choosable_edit_1 = __webpack_require__(162);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * @class TitleChoosableEdit
 	 * @extends Widget
@@ -30043,7 +29470,7 @@ var app =
 	var TitleChoosableEdit = (function (_super) {
 	    __extends(TitleChoosableEdit, _super);
 	    function TitleChoosableEdit(type) {
-	        return _super.call(this, type || TitleChoosableEdit.TYPE) || this;
+	        _super.call(this, type || TitleChoosableEdit.TYPE);
 	    }
 	    Object.defineProperty(TitleChoosableEdit.prototype, "onChoose", {
 	        get: function () {
@@ -30084,37 +29511,31 @@ var app =
 	    TitleChoosableEdit.create = function (options) {
 	        return TitleChoosableEdit.recycleBin.create(options);
 	    };
+	    TitleChoosableEdit.TYPE = "title-choosable-edit";
+	    TitleChoosableEdit.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleChoosableEdit);
 	    return TitleChoosableEdit;
 	}(title_value_1.TitleValue));
-	TitleChoosableEdit.TYPE = "title-choosable-edit";
-	TitleChoosableEdit.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleChoosableEdit);
 	exports.TitleChoosableEdit = TitleChoosableEdit;
 	;
 	widget_factory_1.WidgetFactory.register(TitleChoosableEdit.TYPE, TitleChoosableEdit.create);
 
 
 /***/ },
-/* 161 */
+/* 162 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var edit_1 = __webpack_require__(19);
-	var button_1 = __webpack_require__(104);
+	var button_1 = __webpack_require__(105);
 	var widget_1 = __webpack_require__(21);
 	var Events = __webpack_require__(8);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * @class ChoosableEdit
 	 * @extends Widget
@@ -30123,7 +29544,7 @@ var app =
 	var ChoosableEdit = (function (_super) {
 	    __extends(ChoosableEdit, _super);
 	    function ChoosableEdit() {
-	        return _super.call(this, ChoosableEdit.TYPE) || this;
+	        _super.call(this, ChoosableEdit.TYPE);
 	    }
 	    Object.defineProperty(ChoosableEdit.prototype, "inputTips", {
 	        get: function () {
@@ -30205,111 +29626,13 @@ var app =
 	    ChoosableEdit.create = function (options) {
 	        return ChoosableEdit.rBin.create(options);
 	    };
+	    ChoosableEdit.TYPE = "choosable.edit";
+	    ChoosableEdit.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ChoosableEdit);
 	    return ChoosableEdit;
 	}(widget_1.Widget));
-	ChoosableEdit.TYPE = "choosable.edit";
-	ChoosableEdit.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ChoosableEdit);
 	exports.ChoosableEdit = ChoosableEdit;
 	;
 	widget_factory_1.WidgetFactory.register(ChoosableEdit.TYPE, ChoosableEdit.create);
-
-
-/***/ },
-/* 162 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var title_value_1 = __webpack_require__(148);
-	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
-	var combo_box_1 = __webpack_require__(121);
-	var TitleComboBoxBase = (function (_super) {
-	    __extends(TitleComboBoxBase, _super);
-	    function TitleComboBoxBase(type) {
-	        return _super.call(this, type) || this;
-	    }
-	    Object.defineProperty(TitleComboBoxBase.prototype, "itemH", {
-	        get: function () {
-	            var comboBox = this._valueWidget;
-	            return comboBox.itemH;
-	        },
-	        set: function (value) {
-	            var comboBox = this._valueWidget;
-	            comboBox.itemH = value;
-	        },
-	        enumerable: true,
-	        configurable: true
-	    });
-	    TitleComboBoxBase.prototype.resetOptions = function () {
-	        var comboBox = this._valueWidget;
-	        comboBox.resetOptions();
-	        return this;
-	    };
-	    TitleComboBoxBase.prototype.addOption = function (text, value, imageURL, color) {
-	        var comboBox = this._valueWidget;
-	        comboBox.addOption(text, value, imageURL, color);
-	        return this;
-	    };
-	    return TitleComboBoxBase;
-	}(title_value_1.TitleValue));
-	exports.TitleComboBoxBase = TitleComboBoxBase;
-	/**
-	 * @class TitleComboBox
-	 * @extends Widget
-	 * 带标题的下拉框。
-	 */
-	var TitleComboBox = (function (_super) {
-	    __extends(TitleComboBox, _super);
-	    function TitleComboBox(type) {
-	        return _super.call(this, type || TitleComboBox.TYPE) || this;
-	    }
-	    TitleComboBox.prototype.createValueWidget = function (options) {
-	        return combo_box_1.ComboBox.create(options);
-	    };
-	    TitleComboBox.create = function (options) {
-	        return TitleComboBox.recycleBin.create(options);
-	    };
-	    return TitleComboBox;
-	}(TitleComboBoxBase));
-	TitleComboBox.TYPE = "title-combo-box";
-	TitleComboBox.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleComboBox);
-	exports.TitleComboBox = TitleComboBox;
-	;
-	widget_factory_1.WidgetFactory.register(TitleComboBox.TYPE, TitleComboBox.create);
-	/**
-	 * @class TitleComboBoxEditable
-	 * @extends Widget
-	 * 带标题的可编辑的下拉框。
-	 */
-	var TitleComboBoxEditable = (function (_super) {
-	    __extends(TitleComboBoxEditable, _super);
-	    function TitleComboBoxEditable(type) {
-	        return _super.call(this, type || TitleComboBoxEditable.TYPE) || this;
-	    }
-	    TitleComboBoxEditable.prototype.createValueWidget = function (options) {
-	        return combo_box_1.ComboBoxEditable.create(options);
-	    };
-	    TitleComboBoxEditable.create = function (options) {
-	        return TitleComboBoxEditable.recycleBin.create(options);
-	    };
-	    return TitleComboBoxEditable;
-	}(TitleComboBoxBase));
-	TitleComboBoxEditable.TYPE = "title-combo-box-editable";
-	TitleComboBoxEditable.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleComboBoxEditable);
-	exports.TitleComboBoxEditable = TitleComboBoxEditable;
-	;
-	widget_factory_1.WidgetFactory.register(TitleComboBoxEditable.TYPE, TitleComboBoxEditable.create);
 
 
 /***/ },
@@ -30317,17 +29640,11 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var Events = __webpack_require__(8);
 	var emitter_1 = __webpack_require__(6);
 	/**
@@ -30372,9 +29689,9 @@ var app =
 	        this.updateTiming = updateTiming || "changed";
 	        return this;
 	    };
+	    PropDesc.keys = ["type", "name", "desc", "value", "path", "titleW", "valueW", "converter", "validationRule"];
 	    return PropDesc;
 	}());
-	PropDesc.keys = ["type", "name", "desc", "value", "path", "titleW", "valueW", "converter", "validationRule"];
 	exports.PropDesc = PropDesc;
 	;
 	/**
@@ -30385,10 +29702,9 @@ var app =
 	var NumberPropDesc = (function (_super) {
 	    __extends(NumberPropDesc, _super);
 	    function NumberPropDesc(min, max) {
-	        var _this = _super.call(this, NumberPropDesc.TYPE) || this;
-	        _this.min = min;
-	        _this.max = max;
-	        return _this;
+	        _super.call(this, NumberPropDesc.TYPE);
+	        this.min = min;
+	        this.max = max;
 	    }
 	    NumberPropDesc.prototype.toJson = function () {
 	        var json = _super.prototype.toJson.call(this);
@@ -30404,9 +29720,9 @@ var app =
 	    NumberPropDesc.create = function (min, max) {
 	        return new NumberPropDesc(min, max);
 	    };
+	    NumberPropDesc.TYPE = "number";
 	    return NumberPropDesc;
 	}(PropDesc));
-	NumberPropDesc.TYPE = "number";
 	exports.NumberPropDesc = NumberPropDesc;
 	;
 	/**
@@ -30416,37 +29732,16 @@ var app =
 	 */
 	var TextPropDesc = (function (_super) {
 	    __extends(TextPropDesc, _super);
-	    function TextPropDesc(lines) {
-	        var _this = _super.call(this, TextPropDesc.TYPE) || this;
-	        _this.lines = lines || 1;
-	        return _this;
+	    function TextPropDesc() {
+	        _super.call(this, TextPropDesc.TYPE);
 	    }
-	    TextPropDesc.create = function (lines) {
-	        return new TextPropDesc(lines);
+	    TextPropDesc.create = function () {
+	        return new TextPropDesc();
 	    };
+	    TextPropDesc.TYPE = "text";
 	    return TextPropDesc;
 	}(PropDesc));
-	TextPropDesc.TYPE = "text";
 	exports.TextPropDesc = TextPropDesc;
-	/**
-	 * @class ButtonPropDesc
-	 * @extends PropDesc
-	 * 文本类属性描述。
-	 */
-	var ButtonPropDesc = (function (_super) {
-	    __extends(ButtonPropDesc, _super);
-	    function ButtonPropDesc(command) {
-	        var _this = _super.call(this, ButtonPropDesc.TYPE) || this;
-	        _this.command = command;
-	        return _this;
-	    }
-	    ButtonPropDesc.create = function (command) {
-	        return new ButtonPropDesc(command);
-	    };
-	    return ButtonPropDesc;
-	}(PropDesc));
-	ButtonPropDesc.TYPE = "button";
-	exports.ButtonPropDesc = ButtonPropDesc;
 	/**
 	 * @class ColorPropDesc
 	 * @extends PropDesc
@@ -30455,14 +29750,14 @@ var app =
 	var ColorPropDesc = (function (_super) {
 	    __extends(ColorPropDesc, _super);
 	    function ColorPropDesc() {
-	        return _super.call(this, ColorPropDesc.TYPE) || this;
+	        _super.call(this, ColorPropDesc.TYPE);
 	    }
 	    ColorPropDesc.create = function () {
 	        return new ColorPropDesc();
 	    };
+	    ColorPropDesc.TYPE = "color";
 	    return ColorPropDesc;
 	}(PropDesc));
-	ColorPropDesc.TYPE = "color";
 	exports.ColorPropDesc = ColorPropDesc;
 	/**
 	 * @class LinkPropDesc
@@ -30472,14 +29767,14 @@ var app =
 	var LinkPropDesc = (function (_super) {
 	    __extends(LinkPropDesc, _super);
 	    function LinkPropDesc() {
-	        return _super.call(this, LinkPropDesc.TYPE) || this;
+	        _super.call(this, LinkPropDesc.TYPE);
 	    }
 	    LinkPropDesc.create = function () {
 	        return new LinkPropDesc();
 	    };
+	    LinkPropDesc.TYPE = "link";
 	    return LinkPropDesc;
 	}(PropDesc));
-	LinkPropDesc.TYPE = "link";
 	exports.LinkPropDesc = LinkPropDesc;
 	/**
 	 * @class ReadonlyTextPropDesc
@@ -30489,14 +29784,14 @@ var app =
 	var ReadonlyTextPropDesc = (function (_super) {
 	    __extends(ReadonlyTextPropDesc, _super);
 	    function ReadonlyTextPropDesc() {
-	        return _super.call(this, ReadonlyTextPropDesc.TYPE) || this;
+	        _super.call(this, ReadonlyTextPropDesc.TYPE);
 	    }
 	    ReadonlyTextPropDesc.create = function () {
 	        return new ReadonlyTextPropDesc();
 	    };
+	    ReadonlyTextPropDesc.TYPE = "text-readonly";
 	    return ReadonlyTextPropDesc;
 	}(PropDesc));
-	ReadonlyTextPropDesc.TYPE = "text-readonly";
 	exports.ReadonlyTextPropDesc = ReadonlyTextPropDesc;
 	/**
 	 * @class SliderPropDesc
@@ -30506,14 +29801,14 @@ var app =
 	var SliderPropDesc = (function (_super) {
 	    __extends(SliderPropDesc, _super);
 	    function SliderPropDesc() {
-	        return _super.call(this, SliderPropDesc.TYPE) || this;
+	        _super.call(this, SliderPropDesc.TYPE);
 	    }
 	    SliderPropDesc.create = function () {
 	        return new SliderPropDesc();
 	    };
+	    SliderPropDesc.TYPE = "slider";
 	    return SliderPropDesc;
 	}(PropDesc));
-	SliderPropDesc.TYPE = "slider";
 	exports.SliderPropDesc = SliderPropDesc;
 	/**
 	 * @class RangePropDesc
@@ -30523,14 +29818,14 @@ var app =
 	var RangePropDesc = (function (_super) {
 	    __extends(RangePropDesc, _super);
 	    function RangePropDesc() {
-	        return _super.call(this, RangePropDesc.TYPE) || this;
+	        _super.call(this, RangePropDesc.TYPE);
 	    }
 	    RangePropDesc.create = function () {
 	        return new RangePropDesc();
 	    };
+	    RangePropDesc.TYPE = "range";
 	    return RangePropDesc;
 	}(PropDesc));
-	RangePropDesc.TYPE = "range";
 	exports.RangePropDesc = RangePropDesc;
 	/**
 	 * @class Vector2PropDesc
@@ -30540,10 +29835,9 @@ var app =
 	var Vector2PropDesc = (function (_super) {
 	    __extends(Vector2PropDesc, _super);
 	    function Vector2PropDesc(xTitle, yTitle) {
-	        var _this = _super.call(this, Vector2PropDesc.TYPE) || this;
-	        _this.xTitle = xTitle;
-	        _this.yTitle = yTitle;
-	        return _this;
+	        _super.call(this, Vector2PropDesc.TYPE);
+	        this.xTitle = xTitle;
+	        this.yTitle = yTitle;
 	    }
 	    Vector2PropDesc.prototype.toJson = function () {
 	        var json = _super.prototype.toJson.call(this);
@@ -30559,9 +29853,9 @@ var app =
 	    Vector2PropDesc.create = function (xTitle, yTitle) {
 	        return new Vector2PropDesc(xTitle, yTitle);
 	    };
+	    Vector2PropDesc.TYPE = "vector2";
 	    return Vector2PropDesc;
 	}(PropDesc));
-	Vector2PropDesc.TYPE = "vector2";
 	exports.Vector2PropDesc = Vector2PropDesc;
 	/**
 	 * @class Vector3PropDesc
@@ -30571,11 +29865,10 @@ var app =
 	var Vector3PropDesc = (function (_super) {
 	    __extends(Vector3PropDesc, _super);
 	    function Vector3PropDesc(xTitle, yTitle, zTitle) {
-	        var _this = _super.call(this, Vector3PropDesc.TYPE) || this;
-	        _this.xTitle = xTitle;
-	        _this.yTitle = yTitle;
-	        _this.zTitle = zTitle;
-	        return _this;
+	        _super.call(this, Vector3PropDesc.TYPE);
+	        this.xTitle = xTitle;
+	        this.yTitle = yTitle;
+	        this.zTitle = zTitle;
 	    }
 	    Vector3PropDesc.prototype.toJson = function () {
 	        var json = _super.prototype.toJson.call(this);
@@ -30593,9 +29886,9 @@ var app =
 	    Vector3PropDesc.create = function (xTitle, yTitle, zTitle) {
 	        return new Vector3PropDesc(xTitle, yTitle, zTitle);
 	    };
+	    Vector3PropDesc.TYPE = "vector3";
 	    return Vector3PropDesc;
 	}(PropDesc));
-	Vector3PropDesc.TYPE = "vector3";
 	exports.Vector3PropDesc = Vector3PropDesc;
 	/**
 	 * @class Vector4PropDesc
@@ -30605,12 +29898,11 @@ var app =
 	var Vector4PropDesc = (function (_super) {
 	    __extends(Vector4PropDesc, _super);
 	    function Vector4PropDesc(xTitle, yTitle, zTitle, wTitle) {
-	        var _this = _super.call(this, Vector4PropDesc.TYPE) || this;
-	        _this.xTitle = xTitle;
-	        _this.yTitle = yTitle;
-	        _this.zTitle = zTitle;
-	        _this.wTitle = wTitle;
-	        return _this;
+	        _super.call(this, Vector4PropDesc.TYPE);
+	        this.xTitle = xTitle;
+	        this.yTitle = yTitle;
+	        this.zTitle = zTitle;
+	        this.wTitle = wTitle;
 	    }
 	    Vector4PropDesc.prototype.toJson = function () {
 	        var json = _super.prototype.toJson.call(this);
@@ -30630,9 +29922,9 @@ var app =
 	    Vector4PropDesc.create = function (xTitle, yTitle, zTitle, wTitle) {
 	        return new Vector4PropDesc(xTitle, yTitle, zTitle, wTitle);
 	    };
+	    Vector4PropDesc.TYPE = "vector4";
 	    return Vector4PropDesc;
 	}(PropDesc));
-	Vector4PropDesc.TYPE = "vector4";
 	exports.Vector4PropDesc = Vector4PropDesc;
 	/**
 	 * @class LinePropDesc
@@ -30642,14 +29934,14 @@ var app =
 	var LinePropDesc = (function (_super) {
 	    __extends(LinePropDesc, _super);
 	    function LinePropDesc() {
-	        return _super.call(this, LinePropDesc.TYPE) || this;
+	        _super.call(this, LinePropDesc.TYPE);
 	    }
 	    LinePropDesc.create = function () {
 	        return new LinePropDesc();
 	    };
+	    LinePropDesc.TYPE = "line";
 	    return LinePropDesc;
 	}(PropDesc));
-	LinePropDesc.TYPE = "line";
 	exports.LinePropDesc = LinePropDesc;
 	/**
 	 * @class BoolPropDesc
@@ -30659,14 +29951,14 @@ var app =
 	var BoolPropDesc = (function (_super) {
 	    __extends(BoolPropDesc, _super);
 	    function BoolPropDesc() {
-	        return _super.call(this, BoolPropDesc.TYPE) || this;
+	        _super.call(this, BoolPropDesc.TYPE);
 	    }
 	    BoolPropDesc.create = function () {
 	        return new BoolPropDesc();
 	    };
+	    BoolPropDesc.TYPE = "bool";
 	    return BoolPropDesc;
 	}(PropDesc));
-	BoolPropDesc.TYPE = "bool";
 	exports.BoolPropDesc = BoolPropDesc;
 	/**
 	 * @class OptionsPropDesc
@@ -30676,9 +29968,8 @@ var app =
 	var OptionsPropDesc = (function (_super) {
 	    __extends(OptionsPropDesc, _super);
 	    function OptionsPropDesc(options) {
-	        var _this = _super.call(this, OptionsPropDesc.TYPE) || this;
-	        _this.options = options;
-	        return _this;
+	        _super.call(this, OptionsPropDesc.TYPE);
+	        this.options = options;
 	    }
 	    OptionsPropDesc.prototype.toJson = function () {
 	        var json = _super.prototype.toJson.call(this);
@@ -30692,9 +29983,9 @@ var app =
 	    OptionsPropDesc.create = function (options) {
 	        return new OptionsPropDesc(options);
 	    };
+	    OptionsPropDesc.TYPE = "options";
 	    return OptionsPropDesc;
 	}(PropDesc));
-	OptionsPropDesc.TYPE = "options";
 	exports.OptionsPropDesc = OptionsPropDesc;
 	/**
 	 * @class PropsDesc
@@ -30704,7 +29995,7 @@ var app =
 	var PropsDesc = (function (_super) {
 	    __extends(PropsDesc, _super);
 	    function PropsDesc() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    PropsDesc.prototype.notifyChange = function () {
 	        var e = Events.ChangeEvent.create().init(Events.CHANGE, { value: null });
@@ -30741,7 +30032,7 @@ var app =
 	                desc = SliderPropDesc.create();
 	            }
 	            else if (type === TextPropDesc.TYPE) {
-	                desc = TextPropDesc.create(data.lines);
+	                desc = TextPropDesc.create();
 	            }
 	            else if (type === ColorPropDesc.TYPE) {
 	                desc = ColorPropDesc.create();
@@ -30772,9 +30063,6 @@ var app =
 	            }
 	            else if (type === BoolPropDesc.TYPE) {
 	                desc = BoolPropDesc.create();
-	            }
-	            else if (type === ButtonPropDesc.TYPE) {
-	                desc = ButtonPropDesc.create(data.command);
 	            }
 	            else {
 	                console.log("not supported:" + type);
@@ -30826,25 +30114,111 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var title_value_1 = __webpack_require__(149);
+	var widget_factory_1 = __webpack_require__(26);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var combo_box_1 = __webpack_require__(122);
+	var TitleComboBoxBase = (function (_super) {
+	    __extends(TitleComboBoxBase, _super);
+	    function TitleComboBoxBase(type) {
+	        _super.call(this, type);
+	    }
+	    Object.defineProperty(TitleComboBoxBase.prototype, "itemH", {
+	        get: function () {
+	            var comboBox = this._valueWidget;
+	            return comboBox.itemH;
+	        },
+	        set: function (value) {
+	            var comboBox = this._valueWidget;
+	            comboBox.itemH = value;
+	        },
+	        enumerable: true,
+	        configurable: true
+	    });
+	    TitleComboBoxBase.prototype.resetOptions = function () {
+	        var comboBox = this._valueWidget;
+	        comboBox.resetOptions();
+	        return this;
 	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var view_model_default_1 = __webpack_require__(165);
+	    TitleComboBoxBase.prototype.addOption = function (text, value, imageURL, color) {
+	        var comboBox = this._valueWidget;
+	        comboBox.addOption(text, value, imageURL, color);
+	        return this;
+	    };
+	    return TitleComboBoxBase;
+	}(title_value_1.TitleValue));
+	exports.TitleComboBoxBase = TitleComboBoxBase;
+	/**
+	 * @class TitleComboBox
+	 * @extends Widget
+	 * 带标题的下拉框。
+	 */
+	var TitleComboBox = (function (_super) {
+	    __extends(TitleComboBox, _super);
+	    function TitleComboBox(type) {
+	        _super.call(this, type || TitleComboBox.TYPE);
+	    }
+	    TitleComboBox.prototype.createValueWidget = function (options) {
+	        return combo_box_1.ComboBox.create(options);
+	    };
+	    TitleComboBox.create = function (options) {
+	        return TitleComboBox.recycleBin.create(options);
+	    };
+	    TitleComboBox.TYPE = "title-combo-box";
+	    TitleComboBox.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleComboBox);
+	    return TitleComboBox;
+	}(TitleComboBoxBase));
+	exports.TitleComboBox = TitleComboBox;
+	;
+	widget_factory_1.WidgetFactory.register(TitleComboBox.TYPE, TitleComboBox.create);
+	/**
+	 * @class TitleComboBoxEditable
+	 * @extends Widget
+	 * 带标题的可编辑的下拉框。
+	 */
+	var TitleComboBoxEditable = (function (_super) {
+	    __extends(TitleComboBoxEditable, _super);
+	    function TitleComboBoxEditable(type) {
+	        _super.call(this, type || TitleComboBoxEditable.TYPE);
+	    }
+	    TitleComboBoxEditable.prototype.createValueWidget = function (options) {
+	        return combo_box_1.ComboBoxEditable.create(options);
+	    };
+	    TitleComboBoxEditable.create = function (options) {
+	        return TitleComboBoxEditable.recycleBin.create(options);
+	    };
+	    TitleComboBoxEditable.TYPE = "title-combo-box-editable";
+	    TitleComboBoxEditable.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleComboBoxEditable);
+	    return TitleComboBoxEditable;
+	}(TitleComboBoxBase));
+	exports.TitleComboBoxEditable = TitleComboBoxEditable;
+	;
+	widget_factory_1.WidgetFactory.register(TitleComboBoxEditable.TYPE, TitleComboBoxEditable.create);
+
+
+/***/ },
+/* 165 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var view_model_default_1 = __webpack_require__(166);
 	/**
 	 * IViewModel的基本实现。如果不能满足要求，可以重载部分函数。
 	 */
 	var ViewModel = (function (_super) {
 	    __extends(ViewModel, _super);
 	    function ViewModel() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    ViewModel.create = function (data) {
 	        var viewModel = new ViewModel(data);
@@ -30857,38 +30231,31 @@ var app =
 
 
 /***/ },
-/* 165 */
+/* 166 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var pointer = __webpack_require__(166);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var pointer = __webpack_require__(167);
 	var emitter_1 = __webpack_require__(6);
 	var Events = __webpack_require__(8);
-	var ivalidation_rule_1 = __webpack_require__(168);
-	var iview_model_1 = __webpack_require__(91);
+	var ivalidation_rule_1 = __webpack_require__(169);
+	var iview_model_1 = __webpack_require__(92);
 	var ViewModelDefault = (function (_super) {
 	    __extends(ViewModelDefault, _super);
 	    function ViewModelDefault(data) {
-	        var _this = _super.call(this) || this;
-	        _this._commands = {};
-	        _this._converters = {};
-	        _this._data = data || {};
-	        _this._validationRules = {};
-	        _this.isCollection = false;
-	        _this._bindingMode = iview_model_1.BindingMode.TWO_WAY;
-	        _this._ePropChange = Events.PropChangeEvent.create();
-	        return _this;
+	        _super.call(this);
+	        this._commands = {};
+	        this._converters = {};
+	        this._data = data || {};
+	        this._validationRules = {};
+	        this.isCollection = false;
+	        this._bindingMode = iview_model_1.BindingMode.TWO_WAY;
+	        this._ePropChange = Events.PropChangeEvent.create();
 	    }
 	    Object.defineProperty(ViewModelDefault.prototype, "data", {
 	        get: function () {
@@ -31034,12 +30401,12 @@ var app =
 
 
 /***/ },
-/* 166 */
+/* 167 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var each = __webpack_require__(167);
+	var each = __webpack_require__(168);
 	module.exports = api;
 
 
@@ -31251,7 +30618,7 @@ var app =
 
 
 /***/ },
-/* 167 */
+/* 168 */
 /***/ function(module, exports) {
 
 	
@@ -31279,11 +30646,10 @@ var app =
 
 
 /***/ },
-/* 168 */
+/* 169 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	/**
 	 * 数据有效性检查的结果。
 	 */
@@ -31298,27 +30664,26 @@ var app =
 	    ValidationResult.create = function (code, message) {
 	        return new ValidationResult(code, message);
 	    };
+	    /**
+	     * 数据有效时，可以共用的结果，不能在运行时修改。
+	     */
+	    ValidationResult.validResult = ValidationResult.create(0, "valid");
+	    /**
+	     * 数据无效时，可以共用的结果，不能在运行时修改。
+	     */
+	    ValidationResult.invalidResult = ValidationResult.create(-1, "invalid");
 	    return ValidationResult;
 	}());
-	/**
-	 * 数据有效时，可以共用的结果，不能在运行时修改。
-	 */
-	ValidationResult.validResult = ValidationResult.create(0, "valid");
-	/**
-	 * 数据无效时，可以共用的结果，不能在运行时修改。
-	 */
-	ValidationResult.invalidResult = ValidationResult.create(-1, "invalid");
 	exports.ValidationResult = ValidationResult;
 	;
 
 
 /***/ },
-/* 169 */
+/* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var message_box_1 = __webpack_require__(140);
+	var message_box_1 = __webpack_require__(141);
 	var ChoiceDialog = (function () {
 	    function ChoiceDialog() {
 	    }
@@ -31335,12 +30700,11 @@ var app =
 
 
 /***/ },
-/* 170 */
+/* 171 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var message_box_1 = __webpack_require__(140);
+	var message_box_1 = __webpack_require__(141);
 	var ProgressDialog = (function () {
 	    function ProgressDialog() {
 	    }
@@ -31356,12 +30720,11 @@ var app =
 
 
 /***/ },
-/* 171 */
+/* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var message_box_1 = __webpack_require__(140);
+	var message_box_1 = __webpack_require__(141);
 	var ConfirmationDialog = (function () {
 	    function ConfirmationDialog() {
 	    }
@@ -31381,12 +30744,11 @@ var app =
 
 
 /***/ },
-/* 172 */
+/* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var message_box_1 = __webpack_require__(140);
+	var message_box_1 = __webpack_require__(141);
 	var NotificationDialog = (function () {
 	    function NotificationDialog() {
 	    }
@@ -31402,24 +30764,18 @@ var app =
 
 
 /***/ },
-/* 173 */
+/* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var Events = __webpack_require__(8);
 	var key_event_1 = __webpack_require__(18);
-	var behavior_1 = __webpack_require__(87);
+	var behavior_1 = __webpack_require__(88);
 	/**
 	 * Movable Behavior的初始化参数。
 	 */
@@ -31449,12 +30805,11 @@ var app =
 	var Movable = (function (_super) {
 	    __extends(Movable, _super);
 	    function Movable(widget, options) {
-	        var _this = _super.call(this, Movable.TYPE, widget, options) || this;
-	        _this.movingEvent = { type: Events.MOVING };
-	        _this.moveEndEvent = { type: Events.MOVE_END };
-	        _this.moveBeginEvent = { type: Events.MOVE_BEGIN };
-	        _this.moveCancelEvent = { type: Events.MOVE_CANCEL };
-	        return _this;
+	        _super.call(this, Movable.TYPE, widget, options);
+	        this.movingEvent = { type: Events.MOVING };
+	        this.moveEndEvent = { type: Events.MOVE_END };
+	        this.moveBeginEvent = { type: Events.MOVE_BEGIN };
+	        this.moveCancelEvent = { type: Events.MOVE_CANCEL };
 	    }
 	    Movable.prototype.init = function (options) {
 	        this.options = new MovableOptions(options);
@@ -31534,9 +30889,9 @@ var app =
 	        }
 	    };
 	    ;
+	    Movable.TYPE = "movable";
 	    return Movable;
 	}(behavior_1.Behavior));
-	Movable.TYPE = "movable";
 	exports.Movable = Movable;
 	behavior_1.BehaviorFactory.register(Movable.TYPE, function (widget, options) {
 	    return new Movable(widget, options);
@@ -31544,24 +30899,18 @@ var app =
 
 
 /***/ },
-/* 174 */
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var Events = __webpack_require__(8);
 	var key_event_1 = __webpack_require__(18);
-	var behavior_1 = __webpack_require__(87);
+	var behavior_1 = __webpack_require__(88);
 	/**
 	 * 让Widget具有拖放功能的拖动功能。
 	 *
@@ -31569,7 +30918,7 @@ var app =
 	var Draggable = (function (_super) {
 	    __extends(Draggable, _super);
 	    function Draggable(widget, options) {
-	        return _super.call(this, Draggable.TYPE, widget, options) || this;
+	        _super.call(this, Draggable.TYPE, widget, options);
 	    }
 	    Draggable.prototype.init = function (options) {
 	        this.onDrawDragging = function (evt) {
@@ -31597,7 +30946,7 @@ var app =
 	        widget.win.requestRedraw();
 	        Events.DragEvent.isDragging = false;
 	        widget.win.off(Events.AFTER_DRAW, this.onDrawDragging);
-	        widget.dispatchEvent(Events.DragEvent.get(Events.DRAGCANCEL, p.x, p.y));
+	        widget.dispatchEvent(Events.DragEvent.get(Events.DRAGEND, p.x, p.y));
 	    };
 	    Draggable.prototype.onKeyDownGlobal = function (evt) {
 	        var keyCode = evt.detail.keyCode;
@@ -31628,85 +30977,12 @@ var app =
 	        }
 	    };
 	    ;
+	    Draggable.TYPE = "draggable";
 	    return Draggable;
 	}(behavior_1.Behavior));
-	Draggable.TYPE = "draggable";
 	exports.Draggable = Draggable;
 	behavior_1.BehaviorFactory.register(Draggable.TYPE, function (widget, options) {
 	    return new Draggable(widget, options);
-	});
-
-
-/***/ },
-/* 175 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var Events = __webpack_require__(8);
-	var key_event_1 = __webpack_require__(18);
-	var behavior_1 = __webpack_require__(87);
-	/**
-	 * 让Widget可作为拖放功能的Drop目标。
-	 *
-	 */
-	var Droppable = (function (_super) {
-	    __extends(Droppable, _super);
-	    function Droppable(widget, options) {
-	        return _super.call(this, Droppable.TYPE, widget, options) || this;
-	    }
-	    Droppable.prototype.onPointerEnter = function (evt) {
-	        if (Events.DragEvent.isDragging) {
-	            this.dragging = true;
-	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DRAGENTER, evt.localX, evt.localY));
-	        }
-	    };
-	    Droppable.prototype.onPointerLeave = function (evt) {
-	        if (Events.DragEvent.isDragging) {
-	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DRAGLEAVE, evt.localX, evt.localY));
-	            this.dragging = false;
-	        }
-	    };
-	    Droppable.prototype.onPointerUp = function (evt) {
-	        if (Events.DragEvent.isDragging) {
-	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DROP, evt.localX, evt.localY));
-	            Events.DragEvent.isDragging = false;
-	            this.dragging = false;
-	        }
-	    };
-	    Droppable.prototype.onPointerMove = function (evt) {
-	        if (Events.DragEvent.isDragging) {
-	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DRAGOVER, evt.localX, evt.localY));
-	        }
-	    };
-	    Droppable.prototype.onCancelled = function () {
-	        var p = this.widget.win.pointerPosition;
-	        this.widget.dispatchEvent(Events.DragEvent.get(Events.DRAGCANCEL, p.x, p.y));
-	        this.dragging = false;
-	    };
-	    Droppable.prototype.onKeyDownGlobal = function (evt) {
-	        var keyCode = evt.detail.keyCode;
-	        if (keyCode === key_event_1.KeyEvent.VK_ESCAPE && this.dragging) {
-	            this.onCancelled();
-	        }
-	    };
-	    ;
-	    return Droppable;
-	}(behavior_1.Behavior));
-	Droppable.TYPE = "droppable";
-	exports.Droppable = Droppable;
-	behavior_1.BehaviorFactory.register(Droppable.TYPE, function (widget, options) {
-	    return new Droppable(widget, options);
 	});
 
 
@@ -31715,21 +30991,66 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var Events = __webpack_require__(8);
+	var behavior_1 = __webpack_require__(88);
+	/**
+	 * 让Widget可作为拖放功能的Drop目标。
+	 *
+	 */
+	var Droppable = (function (_super) {
+	    __extends(Droppable, _super);
+	    function Droppable(widget, options) {
+	        _super.call(this, Droppable.TYPE, widget, options);
+	    }
+	    Droppable.prototype.onPointerEnter = function (evt) {
+	        if (Events.DragEvent.isDragging) {
+	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DRAGENTER, evt.localX, evt.localY));
+	        }
 	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	    Droppable.prototype.onPointerLeave = function (evt) {
+	        if (Events.DragEvent.isDragging) {
+	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DRAGLEAVE, evt.localX, evt.localY));
+	        }
+	    };
+	    Droppable.prototype.onPointerUp = function (evt) {
+	        if (Events.DragEvent.isDragging) {
+	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DROP, evt.localX, evt.localY));
+	        }
+	    };
+	    Droppable.prototype.onPointerMove = function (evt) {
+	        if (Events.DragEvent.isDragging) {
+	            this.widget.dispatchEvent(Events.DragEvent.get(Events.DRAGOVER, evt.localX, evt.localY));
+	        }
+	    };
+	    ;
+	    Droppable.TYPE = "droppable";
+	    return Droppable;
+	}(behavior_1.Behavior));
+	exports.Droppable = Droppable;
+	behavior_1.BehaviorFactory.register(Droppable.TYPE, function (widget, options) {
+	    return new Droppable(widget, options);
+	});
+
+
+/***/ },
+/* 177 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var point_1 = __webpack_require__(4);
 	var Events = __webpack_require__(8);
 	var key_event_1 = __webpack_require__(18);
-	var behavior_1 = __webpack_require__(87);
+	var behavior_1 = __webpack_require__(88);
 	/**
 	 * Resizable Behavior的初始化参数。
 	 */
@@ -31758,13 +31079,12 @@ var app =
 	var Resizable = (function (_super) {
 	    __extends(Resizable, _super);
 	    function Resizable(widget, options, type) {
-	        var _this = _super.call(this, type || Resizable.TYPE, widget, options) || this;
-	        _this.resizingEvent = { type: Events.RESIZING };
-	        _this.resizeEndEvent = { type: Events.RESIZE_END };
-	        _this.resizeBeginEvent = { type: Events.RESIZE_BEGIN };
-	        _this.resizeCancelEvent = { type: Events.RESIZE_CANCEL };
-	        _this.border = 5;
-	        return _this;
+	        _super.call(this, type || Resizable.TYPE, widget, options);
+	        this.resizingEvent = { type: Events.RESIZING };
+	        this.resizeEndEvent = { type: Events.RESIZE_END };
+	        this.resizeBeginEvent = { type: Events.RESIZE_BEGIN };
+	        this.resizeCancelEvent = { type: Events.RESIZE_CANCEL };
+	        this.border = 5;
 	    }
 	    Resizable.prototype.init = function (options) {
 	        this.options = new ResizableOptions(options);
@@ -31913,9 +31233,9 @@ var app =
 	            }
 	        }
 	    };
+	    Resizable.TYPE = "resizable";
 	    return Resizable;
 	}(behavior_1.Behavior));
-	Resizable.TYPE = "resizable";
 	exports.Resizable = Resizable;
 	behavior_1.BehaviorFactory.register(Resizable.TYPE, function (widget, options) {
 	    return new Resizable(widget, options);
@@ -31923,37 +31243,31 @@ var app =
 
 
 /***/ },
-/* 177 */
+/* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var rect_1 = __webpack_require__(3);
 	var point_1 = __webpack_require__(4);
-	var dialog_1 = __webpack_require__(102);
+	var dialog_1 = __webpack_require__(103);
 	var graphics_1 = __webpack_require__(28);
-	var list_view_1 = __webpack_require__(122);
+	var list_view_1 = __webpack_require__(123);
 	var Events = __webpack_require__(8);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
 	var image_tile_1 = __webpack_require__(9);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
-	var list_layouter_1 = __webpack_require__(123);
-	var simple_layouter_1 = __webpack_require__(125);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var list_layouter_1 = __webpack_require__(124);
+	var simple_layouter_1 = __webpack_require__(126);
 	var Menu = (function (_super) {
 	    __extends(Menu, _super);
 	    function Menu() {
-	        return _super.call(this, Menu.TYPE) || this;
+	        _super.call(this, Menu.TYPE);
 	    }
 	    Object.defineProperty(Menu.prototype, "openedMenu", {
 	        get: function () {
@@ -32144,16 +31458,16 @@ var app =
 	    Menu.create = function (options) {
 	        return Menu.r.create(options);
 	    };
+	    Menu.TYPE = "menu";
+	    Menu.r = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Menu);
 	    return Menu;
 	}(dialog_1.Dialog));
-	Menu.TYPE = "menu";
-	Menu.r = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Menu);
 	exports.Menu = Menu;
 	;
 	var MenuItem = (function (_super) {
 	    __extends(MenuItem, _super);
 	    function MenuItem() {
-	        return _super.call(this, MenuItem.TYPE) || this;
+	        _super.call(this, MenuItem.TYPE);
 	    }
 	    Object.defineProperty(MenuItem.prototype, "iconURL", {
 	        set: function (value) {
@@ -32279,13 +31593,13 @@ var app =
 	    MenuItem.create = function (options) {
 	        return MenuItem.recycleBin.create(options);
 	    };
+	    MenuItem.defProps = Object.assign({}, widget_1.Widget.defProps, { _iconURL: null,
+	        checkable: false, shortcut: null, _lp: 2, _rp: 4
+	    });
+	    MenuItem.TYPE = "menu-item";
+	    MenuItem.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(MenuItem);
 	    return MenuItem;
 	}(widget_1.Widget));
-	MenuItem.defProps = Object.assign({}, widget_1.Widget.defProps, { _iconURL: null,
-	    checkable: false, shortcut: null, _lp: 2, _rp: 4
-	});
-	MenuItem.TYPE = "menu-item";
-	MenuItem.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(MenuItem);
 	exports.MenuItem = MenuItem;
 	;
 	widget_factory_1.WidgetFactory.register(Menu.TYPE, Menu.create);
@@ -32293,71 +31607,58 @@ var app =
 
 
 /***/ },
-/* 178 */
+/* 179 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var window_1 = __webpack_require__(103);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var window_1 = __webpack_require__(104);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	var WindowNormal = (function (_super) {
 	    __extends(WindowNormal, _super);
 	    function WindowNormal() {
-	        var _this = _super.call(this, WindowNormal.TYPE) || this;
-	        _this._windowType = window_1.WindowType.NORMAL;
-	        return _this;
+	        _super.call(this, WindowNormal.TYPE);
+	        this._windowType = window_1.WindowType.NORMAL;
 	    }
 	    WindowNormal.create = function (options) {
 	        return WindowNormal.recycleBin.create(options);
 	    };
+	    WindowNormal.TYPE = "window-normal";
+	    WindowNormal.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(WindowNormal);
 	    return WindowNormal;
 	}(window_1.Window));
-	WindowNormal.TYPE = "window-normal";
-	WindowNormal.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(WindowNormal);
 	exports.WindowNormal = WindowNormal;
 	;
 	widget_factory_1.WidgetFactory.register(WindowNormal.TYPE, WindowNormal.create);
 
 
 /***/ },
-/* 179 */
+/* 180 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var menu_1 = __webpack_require__(177);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var menu_1 = __webpack_require__(178);
 	var point_1 = __webpack_require__(4);
 	var Events = __webpack_require__(8);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
 	var image_tile_1 = __webpack_require__(9);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
-	var linear_layouter_1 = __webpack_require__(142);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var linear_layouter_1 = __webpack_require__(143);
 	var MenuBar = (function (_super) {
 	    __extends(MenuBar, _super);
 	    function MenuBar() {
-	        return _super.call(this, MenuBar.TYPE) || this;
+	        _super.call(this, MenuBar.TYPE);
 	    }
 	    Object.defineProperty(MenuBar.prototype, "openedMenu", {
 	        get: function () {
@@ -32459,17 +31760,17 @@ var app =
 	    MenuBar.create = function (options) {
 	        return MenuBar.recycleBin.create(options);
 	    };
+	    MenuBar.defProps = Object.assign({}, widget_1.Widget.defProps, { _itemWidth: 40 });
+	    MenuBar.TYPE = "menu-bar";
+	    MenuBar.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(MenuBar);
 	    return MenuBar;
 	}(widget_1.Widget));
-	MenuBar.defProps = Object.assign({}, widget_1.Widget.defProps, { _itemWidth: 40 });
-	MenuBar.TYPE = "menu-bar";
-	MenuBar.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(MenuBar);
 	exports.MenuBar = MenuBar;
 	;
 	var MenuBarItem = (function (_super) {
 	    __extends(MenuBarItem, _super);
 	    function MenuBarItem() {
-	        return _super.call(this, MenuBarItem.TYPE) || this;
+	        _super.call(this, MenuBarItem.TYPE);
 	    }
 	    MenuBarItem.prototype.setIcons = function (normalIconURL, overIconURL, activeIconURL, disableIconURL, checkedIconURL) {
 	        var redraw = this.requestRedraw.bind(this);
@@ -32548,13 +31849,13 @@ var app =
 	    MenuBarItem.create = function (options) {
 	        return MenuBarItem.recycleBin.create(options);
 	    };
+	    MenuBarItem.defProps = Object.assign({}, widget_1.Widget.defProps, {
+	        _normalIconURL: null, _overIconURL: null, _activeIconURL: null, _disableIconURL: null, _checkedIconURL: null
+	    });
+	    MenuBarItem.TYPE = "menu-bar-item";
+	    MenuBarItem.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(MenuBarItem);
 	    return MenuBarItem;
 	}(widget_1.Widget));
-	MenuBarItem.defProps = Object.assign({}, widget_1.Widget.defProps, {
-	    _normalIconURL: null, _overIconURL: null, _activeIconURL: null, _disableIconURL: null, _checkedIconURL: null
-	});
-	MenuBarItem.TYPE = "menu-bar-item";
-	MenuBarItem.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(MenuBarItem);
 	exports.MenuBarItem = MenuBarItem;
 	;
 	widget_factory_1.WidgetFactory.register(MenuBar.TYPE, MenuBar.create);
@@ -32562,26 +31863,20 @@ var app =
 
 
 /***/ },
-/* 180 */
+/* 181 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var group_1 = __webpack_require__(101);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var group_1 = __webpack_require__(102);
 	var widget_1 = __webpack_require__(21);
 	var image_tile_1 = __webpack_require__(9);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
-	var linear_layouter_1 = __webpack_require__(142);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var linear_layouter_1 = __webpack_require__(143);
 	/**
 	 * @class ToolBarItem
 	 * @extends Widget
@@ -32590,7 +31885,7 @@ var app =
 	var ToolBarItem = (function (_super) {
 	    __extends(ToolBarItem, _super);
 	    function ToolBarItem(type) {
-	        return _super.call(this, ToolBarItem.TYPE) || this;
+	        _super.call(this, ToolBarItem.TYPE);
 	    }
 	    ToolBarItem.prototype.drawImage = function (ctx, style) {
 	        var icon = this.enable ? this.normalIcon : this.disableIcon;
@@ -32614,11 +31909,11 @@ var app =
 	        return ToolBarItem.recycleBin.create(options);
 	    };
 	    ;
+	    ToolBarItem.defProps = Object.assign({}, widget_1.Widget.defProps, { normalIconURL: null, disableIconURL: null });
+	    ToolBarItem.TYPE = "tool-bar-item";
+	    ToolBarItem.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ToolBarItem);
 	    return ToolBarItem;
 	}(widget_1.Widget));
-	ToolBarItem.defProps = Object.assign({}, widget_1.Widget.defProps, { normalIconURL: null, disableIconURL: null });
-	ToolBarItem.TYPE = "tool-bar-item";
-	ToolBarItem.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ToolBarItem);
 	exports.ToolBarItem = ToolBarItem;
 	/**
 	 * @class ToolBar
@@ -32628,7 +31923,7 @@ var app =
 	var ToolBar = (function (_super) {
 	    __extends(ToolBar, _super);
 	    function ToolBar() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    ToolBar.prototype.onInit = function () {
 	        _super.prototype.onInit.call(this);
@@ -32674,35 +31969,29 @@ var app =
 	        return ToolBar.recycleBin.create(options);
 	    };
 	    ;
+	    ToolBar.TYPE = "tool-bar";
+	    ToolBar.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ToolBar);
 	    return ToolBar;
 	}(widget_1.Widget));
-	ToolBar.TYPE = "tool-bar";
-	ToolBar.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ToolBar);
 	exports.ToolBar = ToolBar;
 
 
 /***/ },
-/* 181 */
+/* 182 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	__webpack_require__(182);
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	__webpack_require__(183);
 	var point_1 = __webpack_require__(4);
 	var Events = __webpack_require__(8);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	Chart.helpers.getRelativePosition = function (evt, chart) {
 	    return { x: evt.clientX, y: evt.clientY };
 	};
@@ -32718,7 +32007,7 @@ var app =
 	var ChartView = (function (_super) {
 	    __extends(ChartView, _super);
 	    function ChartView() {
-	        return _super.call(this, ChartView.TYPE) || this;
+	        _super.call(this, ChartView.TYPE);
 	    }
 	    Object.defineProperty(ChartView.prototype, "config", {
 	        get: function () {
@@ -32817,27 +32106,26 @@ var app =
 	    ChartView.create = function (options) {
 	        return ChartView.recycleBin.create(options);
 	    };
+	    ChartView.TYPE = "chart-view";
+	    ChartView.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ChartView);
 	    return ChartView;
 	}(widget_1.Widget));
-	ChartView.TYPE = "chart-view";
-	ChartView.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(ChartView);
 	exports.ChartView = ChartView;
 	;
 	widget_factory_1.WidgetFactory.register(ChartView.TYPE, ChartView.create);
 
 
 /***/ },
-/* 182 */
+/* 183 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
 	 * @namespace Chart
 	 */
-	var Chart = __webpack_require__(183)();
+	var Chart = __webpack_require__(184)();
 
-	__webpack_require__(184)(Chart);
-	__webpack_require__(190)(Chart);
-	__webpack_require__(192)(Chart);
+	__webpack_require__(185)(Chart);
+	__webpack_require__(191)(Chart);
 	__webpack_require__(193)(Chart);
 	__webpack_require__(194)(Chart);
 	__webpack_require__(195)(Chart);
@@ -32851,41 +32139,42 @@ var app =
 	__webpack_require__(203)(Chart);
 	__webpack_require__(204)(Chart);
 	__webpack_require__(205)(Chart);
-
 	__webpack_require__(206)(Chart);
+
 	__webpack_require__(207)(Chart);
 	__webpack_require__(208)(Chart);
 	__webpack_require__(209)(Chart);
-
 	__webpack_require__(210)(Chart);
+
 	__webpack_require__(211)(Chart);
 	__webpack_require__(212)(Chart);
 	__webpack_require__(213)(Chart);
 	__webpack_require__(214)(Chart);
 	__webpack_require__(215)(Chart);
+	__webpack_require__(216)(Chart);
 
 	// Controllers must be loaded after elements
 	// See Chart.core.datasetController.dataElementType
-	__webpack_require__(327)(Chart);
 	__webpack_require__(328)(Chart);
 	__webpack_require__(329)(Chart);
 	__webpack_require__(330)(Chart);
 	__webpack_require__(331)(Chart);
 	__webpack_require__(332)(Chart);
-
 	__webpack_require__(333)(Chart);
+
 	__webpack_require__(334)(Chart);
 	__webpack_require__(335)(Chart);
 	__webpack_require__(336)(Chart);
 	__webpack_require__(337)(Chart);
 	__webpack_require__(338)(Chart);
 	__webpack_require__(339)(Chart);
+	__webpack_require__(340)(Chart);
 
 	window.Chart = module.exports = Chart;
 
 
 /***/ },
-/* 183 */
+/* 184 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -32894,8 +32183,8 @@ var app =
 
 		// Occupy the global variable of Chart, and create a simple base class
 		var Chart = function(item, config) {
-			this.construct(item, config);
-			return this;
+			this.controller = new Chart.Controller(item, config, this);
+			return this.controller;
 		};
 
 		// Globally expose the defaults to allow for user updating/changing
@@ -32947,14 +32236,14 @@ var app =
 
 
 /***/ },
-/* 184 */
+/* 185 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* global window: false */
 	/* global document: false */
 	'use strict';
 
-	var color = __webpack_require__(185);
+	var color = __webpack_require__(186);
 
 	module.exports = function(Chart) {
 		// Global Chart helpers object for utility methods and classes
@@ -33863,21 +33152,19 @@ var app =
 			ctx.quadraticCurveTo(x, y, x + radius, y);
 			ctx.closePath();
 		};
-
-		helpers.color = !color?
-			function(value) {
+		helpers.color = function(c) {
+			if (!color) {
 				console.error('Color.js not found!');
-				return value;
-			} :
-			function(value) {
-				/* global CanvasGradient */
-				if (value instanceof CanvasGradient) {
-					value = Chart.defaults.global.defaultColor;
-				}
+				return c;
+			}
 
-				return color(value);
-			};
+			/* global CanvasGradient */
+			if (c instanceof CanvasGradient) {
+				return color(Chart.defaults.global.defaultColor);
+			}
 
+			return color(c);
+		};
 		helpers.isArray = Array.isArray?
 			function(obj) {
 				return Array.isArray(obj);
@@ -33909,9 +33196,9 @@ var app =
 
 			return true;
 		};
-		helpers.callback = function(fn, args, thisArg) {
+		helpers.callCallback = function(fn, args, _tArg) {
 			if (fn && typeof fn.call === 'function') {
-				fn.apply(thisArg, args);
+				fn.apply(_tArg, args);
 			}
 		};
 		helpers.getHoverColor = function(colorValue) {
@@ -33920,24 +33207,16 @@ var app =
 				colorValue :
 				helpers.color(colorValue).saturate(0.5).darken(0.1).rgbString();
 		};
-
-		/**
-		 * Provided for backward compatibility, use Chart.helpers#callback instead.
-		 * @function Chart.helpers#callCallback
-		 * @deprecated since version 2.6.0
-		 * @todo remove at version 3
-		 */
-		helpers.callCallback = helpers.callback;
 	};
 
 
 /***/ },
-/* 185 */
+/* 186 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* MIT license */
-	var convert = __webpack_require__(186);
-	var string = __webpack_require__(188);
+	var convert = __webpack_require__(187);
+	var string = __webpack_require__(189);
 
 	var Color = function (obj) {
 		if (obj instanceof Color) {
@@ -33947,7 +33226,6 @@ var app =
 			return new Color(obj);
 		}
 
-		this.valid = false;
 		this.values = {
 			rgb: [0, 0, 0],
 			hsl: [0, 0, 0],
@@ -33967,6 +33245,8 @@ var app =
 				this.setValues('hsl', vals);
 			} else if (vals = string.getHwb(obj)) {
 				this.setValues('hwb', vals);
+			} else {
+				throw new Error('Unable to parse color from string "' + obj + '"');
 			}
 		} else if (typeof obj === 'object') {
 			vals = obj;
@@ -33980,14 +33260,13 @@ var app =
 				this.setValues('hwb', vals);
 			} else if (vals.c !== undefined || vals.cyan !== undefined) {
 				this.setValues('cmyk', vals);
+			} else {
+				throw new Error('Unable to parse color from object ' + JSON.stringify(obj));
 			}
 		}
 	};
 
 	Color.prototype = {
-		isValid: function () {
-			return this.valid;
-		},
 		rgb: function () {
 			return this.setSpace('rgb', arguments);
 		},
@@ -34331,8 +33610,6 @@ var app =
 		var alpha = 1;
 		var i;
 
-		this.valid = true;
-
 		if (space === 'alpha') {
 			alpha = vals;
 		} else if (vals.length) {
@@ -34423,10 +33700,10 @@ var app =
 
 
 /***/ },
-/* 186 */
+/* 187 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var conversions = __webpack_require__(187);
+	var conversions = __webpack_require__(188);
 
 	var convert = function() {
 	   return new Converter();
@@ -34520,7 +33797,7 @@ var app =
 	module.exports = convert;
 
 /***/ },
-/* 187 */
+/* 188 */
 /***/ function(module, exports) {
 
 	/* MIT license */
@@ -35224,11 +34501,11 @@ var app =
 
 
 /***/ },
-/* 188 */
+/* 189 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* MIT license */
-	var colorNames = __webpack_require__(189);
+	var colorNames = __webpack_require__(190);
 
 	module.exports = {
 	   getRgba: getRgba,
@@ -35451,7 +34728,7 @@ var app =
 
 
 /***/ },
-/* 189 */
+/* 190 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -35606,14 +34883,14 @@ var app =
 	};
 
 /***/ },
-/* 190 */
+/* 191 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	// By default, select the browser (DOM) platform.
 	// @TODO Make possible to select another platform at build time.
-	var implementation = __webpack_require__(191);
+	var implementation = __webpack_require__(192);
 
 	module.exports = function(Chart) {
 		/**
@@ -35681,7 +34958,7 @@ var app =
 
 
 /***/ },
-/* 191 */
+/* 192 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -35778,11 +35055,11 @@ var app =
 			return canvas;
 		}
 
-		function createEvent(type, chart, x, y, nativeEvent) {
+		function createEvent(type, chart, x, y, native) {
 			return {
 				type: type,
 				chart: chart,
-				native: nativeEvent || null,
+				native: native || null,
 				x: x !== undefined? x : null,
 				y: y !== undefined? y : null,
 			};
@@ -35926,24 +35203,24 @@ var app =
 			},
 
 			addEventListener: function(chart, type, listener) {
-				var canvas = chart.canvas;
+				var canvas = chart.chart.canvas;
 				if (type === 'resize') {
 					// Note: the resize event is not supported on all browsers.
-					addResizeListener(canvas.parentNode, listener, chart);
+					addResizeListener(canvas.parentNode, listener, chart.chart);
 					return;
 				}
 
 				var stub = listener._chartjs || (listener._chartjs = {});
 				var proxies = stub.proxies || (stub.proxies = {});
 				var proxy = proxies[chart.id + '_' + type] = function(event) {
-					listener(fromNativeEvent(event, chart));
+					listener(fromNativeEvent(event, chart.chart));
 				};
 
 				helpers.addEvent(canvas, type, proxy);
 			},
 
 			removeEventListener: function(chart, type, listener) {
-				var canvas = chart.canvas;
+				var canvas = chart.chart.canvas;
 				if (type === 'resize') {
 					// Note: the resize event is not supported on all browsers.
 					removeResizeListener(canvas.parentNode, listener);
@@ -35964,7 +35241,7 @@ var app =
 
 
 /***/ },
-/* 192 */
+/* 193 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -36094,131 +35371,6 @@ var app =
 
 
 /***/ },
-/* 193 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var color = __webpack_require__(185);
-
-	module.exports = function(Chart) {
-
-		var helpers = Chart.helpers;
-
-		function interpolate(start, view, model, ease) {
-			var keys = Object.keys(model);
-			var i, ilen, key, actual, origin, target, type, c0, c1;
-
-			for (i=0, ilen=keys.length; i<ilen; ++i) {
-				key = keys[i];
-
-				target = model[key];
-
-				// if a value is added to the model after pivot() has been called, the view
-				// doesn't contain it, so let's initialize the view to the target value.
-				if (!view.hasOwnProperty(key)) {
-					view[key] = target;
-				}
-
-				actual = view[key];
-
-				if (actual === target || key[0] === '_') {
-					continue;
-				}
-
-				if (!start.hasOwnProperty(key)) {
-					start[key] = actual;
-				}
-
-				origin = start[key];
-
-				type = typeof(target);
-
-				if (type === typeof(origin)) {
-					if (type === 'string') {
-						c0 = color(origin);
-						if (c0.valid) {
-							c1 = color(target);
-							if (c1.valid) {
-								view[key] = c1.mix(c0, ease).rgbString();
-								continue;
-							}
-						}
-					} else if (type === 'number' && isFinite(origin) && isFinite(target)) {
-						view[key] = origin + (target - origin) * ease;
-						continue;
-					}
-				}
-
-				view[key] = target;
-			}
-		}
-
-		Chart.elements = {};
-
-		Chart.Element = function(configuration) {
-			helpers.extend(this, configuration);
-			this.initialize.apply(this, arguments);
-		};
-
-		helpers.extend(Chart.Element.prototype, {
-
-			initialize: function() {
-				this.hidden = false;
-			},
-
-			pivot: function() {
-				var me = this;
-				if (!me._view) {
-					me._view = helpers.clone(me._model);
-				}
-				me._start = {};
-				return me;
-			},
-
-			transition: function(ease) {
-				var me = this;
-				var model = me._model;
-				var start = me._start;
-				var view = me._view;
-
-				// No animation -> No Transition
-				if (!model || ease === 1) {
-					me._view = model;
-					me._start = null;
-					return me;
-				}
-
-				if (!view) {
-					view = me._view = {};
-				}
-
-				if (!start) {
-					start = me._start = {};
-				}
-
-				interpolate(start, view, model, ease);
-
-				return me;
-			},
-
-			tooltipPosition: function() {
-				return {
-					x: this._model.x,
-					y: this._model.y
-				};
-			},
-
-			hasValue: function() {
-				return helpers.isNumber(this._model.x) && helpers.isNumber(this._model.y);
-			}
-		});
-
-		Chart.Element.extend = helpers.inherits;
-	};
-
-
-/***/ },
 /* 194 */
 /***/ function(module, exports) {
 
@@ -36227,6 +35379,7 @@ var app =
 	module.exports = function(Chart) {
 
 		var helpers = Chart.helpers;
+		var noop = helpers.noop;
 
 		Chart.defaults.global.plugins = {};
 
@@ -36309,15 +35462,15 @@ var app =
 			},
 
 			/**
-			 * Calls enabled plugins for `chart` on the specified hook and with the given args.
+			 * Calls enabled plugins for chart, on the specified extension and with the given args.
 			 * This method immediately returns as soon as a plugin explicitly returns false. The
 			 * returned value can be used, for instance, to interrupt the current action.
-			 * @param {Object} chart - The chart instance for which plugins should be called.
-			 * @param {String} hook - The name of the plugin method to call (e.g. 'beforeUpdate').
-			 * @param {Array} [args] - Extra arguments to apply to the hook call.
+			 * @param {Object} chart chart instance for which plugins should be called.
+			 * @param {String} extension the name of the plugin method to call (e.g. 'beforeUpdate').
+			 * @param {Array} [args] extra arguments to apply to the extension call.
 			 * @returns {Boolean} false if any of the plugins return false, else returns true.
 			 */
-			notify: function(chart, hook, args) {
+			notify: function(chart, extension, args) {
 				var descriptors = this.descriptors(chart);
 				var ilen = descriptors.length;
 				var i, descriptor, plugin, params, method;
@@ -36325,7 +35478,7 @@ var app =
 				for (i=0; i<ilen; ++i) {
 					descriptor = descriptors[i];
 					plugin = descriptor.plugin;
-					method = plugin[hook];
+					method = plugin[extension];
 					if (typeof method === 'function') {
 						params = [chart].concat(args || []);
 						params.push(descriptor.options);
@@ -36385,218 +35538,147 @@ var app =
 		};
 
 		/**
-		 * Plugin extension hooks.
-		 * @interface IPlugin
+		 * Plugin extension methods.
+		 * @interface Chart.PluginBase
 		 * @since 2.1.0
 		 */
-		/**
-		 * @method IPlugin#beforeInit
-		 * @desc Called before initializing `chart`.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {Object} options - The plugin options.
-		 */
-		/**
-		 * @method IPlugin#afterInit
-		 * @desc Called after `chart` has been initialized and before the first update.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {Object} options - The plugin options.
-		 */
-		/**
-		 * @method IPlugin#beforeUpdate
-		 * @desc Called before updating `chart`. If any plugin returns `false`, the update
-		 * is cancelled (and thus subsequent render(s)) until another `update` is triggered.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {Object} options - The plugin options.
-		 * @returns {Boolean} `false` to cancel the chart update.
-		 */
-		/**
-		 * @method IPlugin#afterUpdate
-		 * @desc Called after `chart` has been updated and before rendering. Note that this
-		 * hook will not be called if the chart update has been previously cancelled.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {Object} options - The plugin options.
-		 */
-		/**
-		 * @method IPlugin#beforeDatasetsUpdate
-	 	 * @desc Called before updating the `chart` datasets. If any plugin returns `false`,
-		 * the datasets update is cancelled until another `update` is triggered.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {Object} options - The plugin options.
-		 * @returns {Boolean} false to cancel the datasets update.
-		 * @since version 2.1.5
-		 */
-		/**
-		 * @method IPlugin#afterDatasetsUpdate
-		 * @desc Called after the `chart` datasets have been updated. Note that this hook
-		 * will not be called if the datasets update has been previously cancelled.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {Object} options - The plugin options.
-		 * @since version 2.1.5
-		 */
-		/**
-		 * @method IPlugin#beforeDatasetUpdate
-	 	 * @desc Called before updating the `chart` dataset at the given `args.index`. If any plugin
-		 * returns `false`, the datasets update is cancelled until another `update` is triggered.
-		 * @param {Chart} chart - The chart instance.
-		 * @param {Object} args - The call arguments.
-		 * @param {Object} args.index - The dataset index.
-		 * @param {Number} args.meta - The dataset metadata.
-		 * @param {Object} options - The plugin options.
-		 * @returns {Boolean} `false` to cancel the chart datasets drawing.
-		 */
-		/**
-		 * @method IPlugin#afterDatasetUpdate
-	 	 * @desc Called after the `chart` datasets at the given `args.index` has been updated. Note
-		 * that this hook will not be called if the datasets update has been previously cancelled.
-		 * @param {Chart} chart - The chart instance.
-		 * @param {Object} args - The call arguments.
-		 * @param {Object} args.index - The dataset index.
-		 * @param {Number} args.meta - The dataset metadata.
-		 * @param {Object} options - The plugin options.
-		 */
-		/**
-		 * @method IPlugin#beforeLayout
-		 * @desc Called before laying out `chart`. If any plugin returns `false`,
-		 * the layout update is cancelled until another `update` is triggered.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {Object} options - The plugin options.
-		 * @returns {Boolean} `false` to cancel the chart layout.
-		 */
-		/**
-		 * @method IPlugin#afterLayout
-		 * @desc Called after the `chart` has been layed out. Note that this hook will not
-		 * be called if the layout update has been previously cancelled.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {Object} options - The plugin options.
-		 */
-		/**
-		 * @method IPlugin#beforeRender
-		 * @desc Called before rendering `chart`. If any plugin returns `false`,
-		 * the rendering is cancelled until another `render` is triggered.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {Object} options - The plugin options.
-		 * @returns {Boolean} `false` to cancel the chart rendering.
-		 */
-		/**
-		 * @method IPlugin#afterRender
-		 * @desc Called after the `chart` has been fully rendered (and animation completed). Note
-		 * that this hook will not be called if the rendering has been previously cancelled.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {Object} options - The plugin options.
-		 */
-		/**
-		 * @method IPlugin#beforeDraw
-		 * @desc Called before drawing `chart` at every animation frame specified by the given
-		 * easing value. If any plugin returns `false`, the frame drawing is cancelled until
-		 * another `render` is triggered.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {Number} easingValue - The current animation value, between 0.0 and 1.0.
-		 * @param {Object} options - The plugin options.
-		 * @returns {Boolean} `false` to cancel the chart drawing.
-		 */
-		/**
-		 * @method IPlugin#afterDraw
-		 * @desc Called after the `chart` has been drawn for the specific easing value. Note
-		 * that this hook will not be called if the drawing has been previously cancelled.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {Number} easingValue - The current animation value, between 0.0 and 1.0.
-		 * @param {Object} options - The plugin options.
-		 */
-		/**
-		 * @method IPlugin#beforeDatasetsDraw
-	 	 * @desc Called before drawing the `chart` datasets. If any plugin returns `false`,
-		 * the datasets drawing is cancelled until another `render` is triggered.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {Number} easingValue - The current animation value, between 0.0 and 1.0.
-		 * @param {Object} options - The plugin options.
-		 * @returns {Boolean} `false` to cancel the chart datasets drawing.
-		 */
-		/**
-		 * @method IPlugin#afterDatasetsDraw
-		 * @desc Called after the `chart` datasets have been drawn. Note that this hook
-		 * will not be called if the datasets drawing has been previously cancelled.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {Number} easingValue - The current animation value, between 0.0 and 1.0.
-		 * @param {Object} options - The plugin options.
-		 */
-		/**
-		 * @method IPlugin#beforeDatasetDraw
-	 	 * @desc Called before drawing the `chart` dataset at the given `args.index` (datasets
-		 * are drawn in the reverse order). If any plugin returns `false`, the datasets drawing
-		 * is cancelled until another `render` is triggered.
-		 * @param {Chart} chart - The chart instance.
-		 * @param {Object} args - The call arguments.
-		 * @param {Object} args.index - The dataset index.
-		 * @param {Number} args.meta - The dataset metadata.
-		 * @param {Number} args.easingValue - The current animation value, between 0.0 and 1.0.
-		 * @param {Object} options - The plugin options.
-		 * @returns {Boolean} `false` to cancel the chart datasets drawing.
-		 */
-		/**
-		 * @method IPlugin#afterDatasetDraw
-	 	 * @desc Called after the `chart` datasets at the given `args.index` have been drawn
-		 * (datasets are drawn in the reverse order). Note that this hook will not be called
-		 * if the datasets drawing has been previously cancelled.
-		 * @param {Chart} chart - The chart instance.
-		 * @param {Object} args - The call arguments.
-		 * @param {Object} args.index - The dataset index.
-		 * @param {Number} args.meta - The dataset metadata.
-		 * @param {Number} args.easingValue - The current animation value, between 0.0 and 1.0.
-		 * @param {Object} options - The plugin options.
-		 */
-		/**
-		 * @method IPlugin#beforeEvent
-	 	 * @desc Called before processing the specified `event`. If any plugin returns `false`,
-		 * the event will be discarded.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {IEvent} event - The event object.
-		 * @param {Object} options - The plugin options.
-		 */
-		/**
-		 * @method IPlugin#afterEvent
-		 * @desc Called after the `event` has been consumed. Note that this hook
-		 * will not be called if the `event` has been previously discarded.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {IEvent} event - The event object.
-		 * @param {Object} options - The plugin options.
-		 */
-		/**
-		 * @method IPlugin#resize
-		 * @desc Called after the chart as been resized.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {Number} size - The new canvas display size (eq. canvas.style width & height).
-		 * @param {Object} options - The plugin options.
-		 */
-		/**
-		 * @method IPlugin#destroy
-		 * @desc Called after the chart as been destroyed.
-		 * @param {Chart.Controller} chart - The chart instance.
-		 * @param {Object} options - The plugin options.
-		 */
+		Chart.PluginBase = helpers.inherits({
+			// Called at start of chart init
+			beforeInit: noop,
+
+			// Called at end of chart init
+			afterInit: noop,
+
+			// Called at start of update
+			beforeUpdate: noop,
+
+			// Called at end of update
+			afterUpdate: noop,
+
+			// Called at start of draw
+			beforeDraw: noop,
+
+			// Called at end of draw
+			afterDraw: noop,
+
+			// Called during destroy
+			destroy: noop
+		});
 
 		/**
 		 * Provided for backward compatibility, use Chart.plugins instead
 		 * @namespace Chart.pluginService
 		 * @deprecated since version 2.1.5
-		 * @todo remove at version 3
-		 * @private
+		 * TODO remove me at version 3
 		 */
 		Chart.pluginService = Chart.plugins;
-
-		/**
-		 * Provided for backward compatibility, inheriting from Chart.PlugingBase has no
-		 * effect, instead simply create/register plugins via plain JavaScript objects.
-		 * @interface Chart.PluginBase
-		 * @deprecated since version 2.5.0
-		 * @todo remove at version 3
-		 * @private
-		 */
-		Chart.PluginBase = Chart.Element.extend({});
 	};
 
 
 /***/ },
 /* 195 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	module.exports = function(Chart) {
+
+		var helpers = Chart.helpers;
+
+		Chart.elements = {};
+
+		Chart.Element = function(configuration) {
+			helpers.extend(this, configuration);
+			this.initialize.apply(this, arguments);
+		};
+
+		helpers.extend(Chart.Element.prototype, {
+
+			initialize: function() {
+				this.hidden = false;
+			},
+
+			pivot: function() {
+				var me = this;
+				if (!me._view) {
+					me._view = helpers.clone(me._model);
+				}
+				me._start = helpers.clone(me._view);
+				return me;
+			},
+
+			transition: function(ease) {
+				var me = this;
+
+				if (!me._view) {
+					me._view = helpers.clone(me._model);
+				}
+
+				// No animation -> No Transition
+				if (ease === 1) {
+					me._view = me._model;
+					me._start = null;
+					return me;
+				}
+
+				if (!me._start) {
+					me.pivot();
+				}
+
+				helpers.each(me._model, function(value, key) {
+
+					if (key[0] === '_') {
+						// Only non-underscored properties
+					// Init if doesn't exist
+					} else if (!me._view.hasOwnProperty(key)) {
+						if (typeof value === 'number' && !isNaN(me._view[key])) {
+							me._view[key] = value * ease;
+						} else {
+							me._view[key] = value;
+						}
+					// No unnecessary computations
+					} else if (value === me._view[key]) {
+						// It's the same! Woohoo!
+					// Color transitions if possible
+					} else if (typeof value === 'string') {
+						try {
+							var color = helpers.color(me._model[key]).mix(helpers.color(me._start[key]), ease);
+							me._view[key] = color.rgbString();
+						} catch (err) {
+							me._view[key] = value;
+						}
+					// Number transitions
+					} else if (typeof value === 'number') {
+						var startVal = me._start[key] !== undefined && isNaN(me._start[key]) === false ? me._start[key] : 0;
+						me._view[key] = ((me._model[key] - startVal) * ease) + startVal;
+					// Everything else
+					} else {
+						me._view[key] = value;
+					}
+				}, me);
+
+				return me;
+			},
+
+			tooltipPosition: function() {
+				return {
+					x: this._model.x,
+					y: this._model.y
+				};
+			},
+
+			hasValue: function() {
+				return helpers.isNumber(this._model.x) && helpers.isNumber(this._model.y);
+			}
+		});
+
+		Chart.Element.extend = helpers.inherits;
+
+	};
+
+
+/***/ },
+/* 196 */
 /***/ function(module, exports) {
 
 	/* global window: false */
@@ -36614,14 +35696,13 @@ var app =
 		};
 
 		Chart.Animation = Chart.Element.extend({
-			chart: null, // the animation associated chart instance
-			currentStep: 0, // the current animation step
+			currentStep: null, // the current animation step
 			numSteps: 60, // default number of steps
 			easing: '', // the easing to use for this animation
 			render: null, // render function used by the animation service
 
 			onAnimationProgress: null, // user specified callback to fire on each step of the animation
-			onAnimationComplete: null, // user specified callback to fire when the animation finishes
+			onAnimationComplete: null // user specified callback to fire when the animation finishes
 		});
 
 		Chart.animationService = {
@@ -36631,47 +35712,48 @@ var app =
 			request: null,
 
 			/**
-			 * @param {Chart} chart - The chart to animate.
-			 * @param {Chart.Animation} animation - The animation that we will animate.
-			 * @param {Number} duration - The animation duration in ms.
-			 * @param {Boolean} lazy - if true, the chart is not marked as animating to enable more responsive interactions
+			 * @function Chart.animationService.addAnimation
+			 * @param chartInstance {ChartController} the chart to animate
+			 * @param animationObject {IAnimation} the animation that we will animate
+			 * @param duration {Number} length of animation in ms
+			 * @param lazy {Boolean} if true, the chart is not marked as animating to enable more responsive interactions
 			 */
-			addAnimation: function(chart, animation, duration, lazy) {
-				var animations = this.animations;
-				var i, ilen;
-
-				animation.chart = chart;
+			addAnimation: function(chartInstance, animationObject, duration, lazy) {
+				var me = this;
 
 				if (!lazy) {
-					chart.animating = true;
+					chartInstance.animating = true;
 				}
 
-				for (i=0, ilen=animations.length; i < ilen; ++i) {
-					if (animations[i].chart === chart) {
-						animations[i] = animation;
+				for (var index = 0; index < me.animations.length; ++index) {
+					if (me.animations[index].chartInstance === chartInstance) {
+						// replacing an in progress animation
+						me.animations[index].animationObject = animationObject;
 						return;
 					}
 				}
 
-				animations.push(animation);
+				me.animations.push({
+					chartInstance: chartInstance,
+					animationObject: animationObject
+				});
 
 				// If there are no animations queued, manually kickstart a digest, for lack of a better word
-				if (animations.length === 1) {
-					this.requestAnimationFrame();
+				if (me.animations.length === 1) {
+					me.requestAnimationFrame();
 				}
 			},
-
-			cancelAnimation: function(chart) {
-				var index = helpers.findIndex(this.animations, function(animation) {
-					return animation.chart === chart;
+			// Cancel the animation for a given chart instance
+			cancelAnimation: function(chartInstance) {
+				var index = helpers.findIndex(this.animations, function(animationWrapper) {
+					return animationWrapper.chartInstance === chartInstance;
 				});
 
 				if (index !== -1) {
 					this.animations.splice(index, 1);
-					chart.animating = false;
+					chartInstance.animating = false;
 				}
 			},
-
 			requestAnimationFrame: function() {
 				var me = this;
 				if (me.request === null) {
@@ -36684,12 +35766,9 @@ var app =
 					});
 				}
 			},
-
-			/**
-			 * @private
-			 */
 			startDigest: function() {
 				var me = this;
+
 				var startTime = Date.now();
 				var framesToDrop = 0;
 
@@ -36698,79 +35777,53 @@ var app =
 					me.dropFrames = me.dropFrames % 1;
 				}
 
-				me.advance(1 + framesToDrop);
+				var i = 0;
+				while (i < me.animations.length) {
+					if (me.animations[i].animationObject.currentStep === null) {
+						me.animations[i].animationObject.currentStep = 0;
+					}
+
+					me.animations[i].animationObject.currentStep += 1 + framesToDrop;
+
+					if (me.animations[i].animationObject.currentStep > me.animations[i].animationObject.numSteps) {
+						me.animations[i].animationObject.currentStep = me.animations[i].animationObject.numSteps;
+					}
+
+					me.animations[i].animationObject.render(me.animations[i].chartInstance, me.animations[i].animationObject);
+					if (me.animations[i].animationObject.onAnimationProgress && me.animations[i].animationObject.onAnimationProgress.call) {
+						me.animations[i].animationObject.onAnimationProgress.call(me.animations[i].chartInstance, me.animations[i]);
+					}
+
+					if (me.animations[i].animationObject.currentStep === me.animations[i].animationObject.numSteps) {
+						if (me.animations[i].animationObject.onAnimationComplete && me.animations[i].animationObject.onAnimationComplete.call) {
+							me.animations[i].animationObject.onAnimationComplete.call(me.animations[i].chartInstance, me.animations[i]);
+						}
+
+						// executed the last frame. Remove the animation.
+						me.animations[i].chartInstance.animating = false;
+
+						me.animations.splice(i, 1);
+					} else {
+						++i;
+					}
+				}
 
 				var endTime = Date.now();
+				var dropFrames = (endTime - startTime) / me.frameDuration;
 
-				me.dropFrames += (endTime - startTime) / me.frameDuration;
+				me.dropFrames += dropFrames;
 
 				// Do we have more stuff to animate?
 				if (me.animations.length > 0) {
 					me.requestAnimationFrame();
 				}
-			},
-
-			/**
-			 * @private
-			 */
-			advance: function(count) {
-				var animations = this.animations;
-				var animation, chart;
-				var i = 0;
-
-				while (i < animations.length) {
-					animation = animations[i];
-					chart = animation.chart;
-
-					animation.currentStep = (animation.currentStep || 0) + count;
-					animation.currentStep = Math.min(animation.currentStep, animation.numSteps);
-
-					helpers.callback(animation.render, [chart, animation], chart);
-					helpers.callback(animation.onAnimationProgress, [animation], chart);
-
-					if (animation.currentStep >= animation.numSteps) {
-						helpers.callback(animation.onAnimationComplete, [animation], chart);
-						chart.animating = false;
-						animations.splice(i, 1);
-					} else {
-						++i;
-					}
-				}
 			}
 		};
-
-		/**
-		 * Provided for backward compatibility, use Chart.Animation instead
-		 * @prop Chart.Animation#animationObject
-		 * @deprecated since version 2.6.0
-		 * @todo remove at version 3
-		 */
-		Object.defineProperty(Chart.Animation.prototype, 'animationObject', {
-			get: function() {
-				return this;
-			}
-		});
-
-		/**
-		 * Provided for backward compatibility, use Chart.Animation#chart instead
-		 * @prop Chart.Animation#chartInstance
-		 * @deprecated since version 2.6.0
-		 * @todo remove at version 3
-		 */
-		Object.defineProperty(Chart.Animation.prototype, 'chartInstance', {
-			get: function() {
-				return this.chart;
-			},
-			set: function(value) {
-				this.chart = value;
-			}
-		});
-
 	};
 
 
 /***/ },
-/* 196 */
+/* 197 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -36778,7 +35831,6 @@ var app =
 	module.exports = function(Chart) {
 
 		var helpers = Chart.helpers;
-		var plugins = Chart.plugins;
 		var platform = Chart.platform;
 
 		// Create a dictionary of chart types, to allow for extension of existing types
@@ -36813,7 +35865,7 @@ var app =
 
 		/**
 		 * Updates the config of the chart
-		 * @param chart {Chart} chart to update the options for
+		 * @param chart {Chart.Controller} chart to update the options for
 		 */
 		function updateConfig(chart) {
 			var newOptions = chart.options;
@@ -36831,81 +35883,64 @@ var app =
 			chart.tooltip._options = newOptions.tooltips;
 		}
 
-		function positionIsHorizontal(position) {
-			return position === 'top' || position === 'bottom';
-		}
+		/**
+		 * @class Chart.Controller
+		 * The main controller of a chart.
+		 */
+		Chart.Controller = function(item, config, instance) {
+			var me = this;
 
-		helpers.extend(Chart.prototype, /** @lends Chart */ {
-			/**
-			 * @private
-			 */
-			construct: function(item, config) {
-				var me = this;
+			config = initConfig(config);
 
-				config = initConfig(config);
+			var context = platform.acquireContext(item, config);
+			var canvas = context && context.canvas;
+			var height = canvas && canvas.height;
+			var width = canvas && canvas.width;
 
-				var context = platform.acquireContext(item, config);
-				var canvas = context && context.canvas;
-				var height = canvas && canvas.height;
-				var width = canvas && canvas.width;
+			instance.ctx = context;
+			instance.canvas = canvas;
+			instance.config = config;
+			instance.width = width;
+			instance.height = height;
+			instance.aspectRatio = height? width / height : null;
 
-				me.id = helpers.uid();
-				me.ctx = context;
-				me.canvas = canvas;
-				me.config = config;
-				me.width = width;
-				me.height = height;
-				me.aspectRatio = height? width / height : null;
-				me.options = config.options;
-				me._bufferedRender = false;
+			me.id = helpers.uid();
+			me.chart = instance;
+			me.config = config;
+			me.options = config.options;
+			me._bufferedRender = false;
 
-				/**
-				 * Provided for backward compatibility, Chart and Chart.Controller have been merged,
-				 * the "instance" still need to be defined since it might be called from plugins.
-				 * @prop Chart#chart
-				 * @deprecated since version 2.6.0
-				 * @todo remove at version 3
-				 * @private
-				 */
-				me.chart = me;
-				me.controller = me;  // chart.chart.controller #inception
+			// Add the chart instance to the global namespace
+			Chart.instances[me.id] = me;
 
-				// Add the chart instance to the global namespace
-				Chart.instances[me.id] = me;
-
-				// Define alias to the config data: `chart.data === chart.config.data`
-				Object.defineProperty(me, 'data', {
-					get: function() {
-						return me.config.data;
-					},
-					set: function(value) {
-						me.config.data = value;
-					}
-				});
-
-				if (!context || !canvas) {
-					// The given item is not a compatible context2d element, let's return before finalizing
-					// the chart initialization but after setting basic chart / controller properties that
-					// can help to figure out that the chart is not valid (e.g chart.canvas !== null);
-					// https://github.com/chartjs/Chart.js/issues/2807
-					console.error("Failed to create chart: can't acquire context from the given item");
-					return;
+			Object.defineProperty(me, 'data', {
+				get: function() {
+					return me.config.data;
 				}
+			});
 
-				me.initialize();
-				me.update();
-			},
+			if (!context || !canvas) {
+				// The given item is not a compatible context2d element, let's return before finalizing
+				// the chart initialization but after setting basic chart / controller properties that
+				// can help to figure out that the chart is not valid (e.g chart.canvas !== null);
+				// https://github.com/chartjs/Chart.js/issues/2807
+				console.error("Failed to create chart: can't acquire context from the given item");
+				return me;
+			}
 
-			/**
-			 * @private
-			 */
+			me.initialize();
+
+			return me;
+		};
+
+		helpers.extend(Chart.Controller.prototype, /** @lends Chart.Controller */ {
 			initialize: function() {
 				var me = this;
 
 				// Before init plugin notification
-				plugins.notify(me, 'beforeInit');
+				Chart.plugins.notify(me, 'beforeInit');
 
-				helpers.retinaScale(me);
+				helpers.retinaScale(me.chart);
 
 				me.bindEvents();
 
@@ -36914,19 +35949,24 @@ var app =
 					me.resize(true);
 				}
 
-				// Make sure scales have IDs and are built before we build any controllers.
+				// Make sure controllers are built first so that each dataset is bound to an axis before the scales
+				// are built
 				me.ensureScalesHaveIDs();
+				me.buildOrUpdateControllers();
 				me.buildScales();
+				me.updateLayout();
+				me.resetElements();
 				me.initToolTip();
+				me.update();
 
 				// After init plugin notification
-				plugins.notify(me, 'afterInit');
+				Chart.plugins.notify(me, 'afterInit');
 
 				return me;
 			},
 
 			clear: function() {
-				helpers.clear(this);
+				helpers.clear(this.chart);
 				return this;
 			},
 
@@ -36938,30 +35978,31 @@ var app =
 
 			resize: function(silent) {
 				var me = this;
+				var chart = me.chart;
 				var options = me.options;
-				var canvas = me.canvas;
-				var aspectRatio = (options.maintainAspectRatio && me.aspectRatio) || null;
+				var canvas = chart.canvas;
+				var aspectRatio = (options.maintainAspectRatio && chart.aspectRatio) || null;
 
 				// the canvas render width and height will be casted to integers so make sure that
 				// the canvas display style uses the same integer values to avoid blurring effect.
 				var newWidth = Math.floor(helpers.getMaximumWidth(canvas));
 				var newHeight = Math.floor(aspectRatio? newWidth / aspectRatio : helpers.getMaximumHeight(canvas));
 
-				if (me.width === newWidth && me.height === newHeight) {
+				if (chart.width === newWidth && chart.height === newHeight) {
 					return;
 				}
 
-				canvas.width = me.width = newWidth;
-				canvas.height = me.height = newHeight;
+				canvas.width = chart.width = newWidth;
+				canvas.height = chart.height = newHeight;
 				canvas.style.width = newWidth + 'px';
 				canvas.style.height = newHeight + 'px';
 
-				helpers.retinaScale(me);
+				helpers.retinaScale(chart);
 
 				if (!silent) {
 					// Notify any plugins about the resize
 					var newSize = {width: newWidth, height: newHeight};
-					plugins.notify(me, 'resize', [newSize]);
+					Chart.plugins.notify(me, 'resize', [newSize]);
 
 					// Notify of resize
 					if (me.options.onResize) {
@@ -37003,21 +36044,16 @@ var app =
 				if (options.scales) {
 					items = items.concat(
 						(options.scales.xAxes || []).map(function(xAxisOptions) {
-							return {options: xAxisOptions, dtype: 'category', dposition: 'bottom'};
+							return {options: xAxisOptions, dtype: 'category'};
 						}),
 						(options.scales.yAxes || []).map(function(yAxisOptions) {
-							return {options: yAxisOptions, dtype: 'linear', dposition: 'left'};
+							return {options: yAxisOptions, dtype: 'linear'};
 						})
 					);
 				}
 
 				if (options.scale) {
-					items.push({
-						options: options.scale,
-						dtype: 'radialLinear',
-						isDefault: true,
-						dposition: 'chartArea'
-					});
+					items.push({options: options.scale, dtype: 'radialLinear', isDefault: true});
 				}
 
 				helpers.each(items, function(item) {
@@ -37028,14 +36064,10 @@ var app =
 						return;
 					}
 
-					if (positionIsHorizontal(scaleOptions.position) !== positionIsHorizontal(item.dposition)) {
-						scaleOptions.position = item.dposition;
-					}
-
 					var scale = new scaleClass({
 						id: scaleOptions.id,
 						options: scaleOptions,
-						ctx: me.ctx,
+						ctx: me.chart.ctx,
 						chart: me
 					});
 
@@ -37050,6 +36082,10 @@ var app =
 				});
 
 				Chart.scaleService.addScalesToLayout(this);
+			},
+
+			updateLayout: function() {
+				Chart.layoutService.update(this, this.chart.width, this.chart.height);
 			},
 
 			buildOrUpdateControllers: function() {
@@ -37087,6 +36123,7 @@ var app =
 
 			/**
 			 * Reset the elements of all datasets
+			 * @method resetElements
 			 * @private
 			 */
 			resetElements: function() {
@@ -37098,20 +36135,19 @@ var app =
 
 			/**
 			* Resets the chart back to it's state before the initial animation
+			* @method reset
 			*/
 			reset: function() {
 				this.resetElements();
 				this.tooltip.initialize();
 			},
 
+
 			update: function(animationDuration, lazy) {
 				var me = this;
 
 				updateConfig(me);
-
-				if (plugins.notify(me, 'beforeUpdate') === false) {
-					return;
-				}
+				Chart.plugins.notify(me, 'beforeUpdate');
 
 				// In case the entire data object changed
 				me.tooltip._data = me.data;
@@ -37124,7 +36160,10 @@ var app =
 					me.getDatasetMeta(datasetIndex).controller.buildOrUpdateElements();
 				}, me);
 
-				me.updateLayout();
+				Chart.layoutService.update(me, me.chart.width, me.chart.height);
+
+				// Apply changes to the datasets that require the scales to have been calculated i.e BorderColor changes
+				Chart.plugins.notify(me, 'afterScaleUpdate');
 
 				// Can only reset the new controllers after the scales have been updated
 				helpers.each(newControllers, function(controller) {
@@ -37134,7 +36173,7 @@ var app =
 				me.updateDatasets();
 
 				// Do this before render so that any plugins that need final scale updates can use it
-				plugins.notify(me, 'afterUpdate');
+				Chart.plugins.notify(me, 'afterUpdate');
 
 				if (me._bufferedRender) {
 					me._bufferedRequest = {
@@ -37147,202 +36186,109 @@ var app =
 			},
 
 			/**
-			 * Updates the chart layout unless a plugin returns `false` to the `beforeLayout`
-			 * hook, in which case, plugins will not be called on `afterLayout`.
-			 * @private
+			 * @method beforeDatasetsUpdate
+			 * @description Called before all datasets are updated. If a plugin returns false,
+			 * the datasets update will be cancelled until another chart update is triggered.
+			 * @param {Object} instance the chart instance being updated.
+			 * @returns {Boolean} false to cancel the datasets update.
+			 * @memberof Chart.PluginBase
+			 * @since version 2.1.5
+			 * @instance
 			 */
-			updateLayout: function() {
-				var me = this;
-
-				if (plugins.notify(me, 'beforeLayout') === false) {
-					return;
-				}
-
-				Chart.layoutService.update(this, this.width, this.height);
-
-				/**
-				 * Provided for backward compatibility, use `afterLayout` instead.
-				 * @method IPlugin#afterScaleUpdate
-				 * @deprecated since version 2.5.0
-				 * @todo remove at version 3
-				 * @private
-				 */
-				plugins.notify(me, 'afterScaleUpdate');
-				plugins.notify(me, 'afterLayout');
-			},
 
 			/**
-			 * Updates all datasets unless a plugin returns `false` to the `beforeDatasetsUpdate`
-			 * hook, in which case, plugins will not be called on `afterDatasetsUpdate`.
-			 * @private
+			 * @method afterDatasetsUpdate
+			 * @description Called after all datasets have been updated. Note that this
+			 * extension will not be called if the datasets update has been cancelled.
+			 * @param {Object} instance the chart instance being updated.
+			 * @memberof Chart.PluginBase
+			 * @since version 2.1.5
+			 * @instance
+			 */
+
+			/**
+			 * Updates all datasets unless a plugin returns false to the beforeDatasetsUpdate
+			 * extension, in which case no datasets will be updated and the afterDatasetsUpdate
+			 * notification will be skipped.
+			 * @protected
+			 * @instance
 			 */
 			updateDatasets: function() {
 				var me = this;
+				var i, ilen;
 
-				if (plugins.notify(me, 'beforeDatasetsUpdate') === false) {
-					return;
+				if (Chart.plugins.notify(me, 'beforeDatasetsUpdate')) {
+					for (i = 0, ilen = me.data.datasets.length; i < ilen; ++i) {
+						me.getDatasetMeta(i).controller.update();
+					}
+
+					Chart.plugins.notify(me, 'afterDatasetsUpdate');
 				}
-
-				for (var i = 0, ilen = me.data.datasets.length; i < ilen; ++i) {
-					me.updateDataset(i);
-				}
-
-				plugins.notify(me, 'afterDatasetsUpdate');
-			},
-
-			/**
-			 * Updates dataset at index unless a plugin returns `false` to the `beforeDatasetUpdate`
-			 * hook, in which case, plugins will not be called on `afterDatasetUpdate`.
-			 * @private
-			 */
-			updateDataset: function(index) {
-				var me = this;
-				var meta = me.getDatasetMeta(index);
-				var args = {
-					meta: meta,
-					index: index
-				};
-
-				if (plugins.notify(me, 'beforeDatasetUpdate', [args]) === false) {
-					return;
-				}
-
-				meta.controller.update();
-
-				plugins.notify(me, 'afterDatasetUpdate', [args]);
 			},
 
 			render: function(duration, lazy) {
 				var me = this;
-
-				if (plugins.notify(me, 'beforeRender') === false) {
-					return;
-				}
+				Chart.plugins.notify(me, 'beforeRender');
 
 				var animationOptions = me.options.animation;
-				var onComplete = function(animation) {
-					plugins.notify(me, 'afterRender');
-					helpers.callback(animationOptions && animationOptions.onComplete, [animation], me);
-				};
-
 				if (animationOptions && ((typeof duration !== 'undefined' && duration !== 0) || (typeof duration === 'undefined' && animationOptions.duration !== 0))) {
-					var animation = new Chart.Animation({
-						numSteps: (duration || animationOptions.duration) / 16.66, // 60 fps
-						easing: animationOptions.easing,
+					var animation = new Chart.Animation();
+					animation.numSteps = (duration || animationOptions.duration) / 16.66; // 60 fps
+					animation.easing = animationOptions.easing;
 
-						render: function(chart, animationObject) {
-							var easingFunction = helpers.easingEffects[animationObject.easing];
-							var currentStep = animationObject.currentStep;
-							var stepDecimal = currentStep / animationObject.numSteps;
+					// render function
+					animation.render = function(chartInstance, animationObject) {
+						var easingFunction = helpers.easingEffects[animationObject.easing];
+						var stepDecimal = animationObject.currentStep / animationObject.numSteps;
+						var easeDecimal = easingFunction(stepDecimal);
 
-							chart.draw(easingFunction(stepDecimal), stepDecimal, currentStep);
-						},
+						chartInstance.draw(easeDecimal, stepDecimal, animationObject.currentStep);
+					};
 
-						onAnimationProgress: animationOptions.onProgress,
-						onAnimationComplete: onComplete
-					});
+					// user events
+					animation.onAnimationProgress = animationOptions.onProgress;
+					animation.onAnimationComplete = animationOptions.onComplete;
 
 					Chart.animationService.addAnimation(me, animation, duration, lazy);
 				} else {
 					me.draw();
-
-					// See https://github.com/chartjs/Chart.js/issues/3781
-					onComplete(new Chart.Animation({numSteps: 0, chart: me}));
+					if (animationOptions && animationOptions.onComplete && animationOptions.onComplete.call) {
+						animationOptions.onComplete.call(me);
+					}
 				}
-
 				return me;
 			},
 
-			draw: function(easingValue) {
+			draw: function(ease) {
 				var me = this;
-
+				var easingDecimal = ease || 1;
 				me.clear();
 
-				if (easingValue === undefined || easingValue === null) {
-					easingValue = 1;
-				}
-
-				me.transition(easingValue);
-
-				if (plugins.notify(me, 'beforeDraw', [easingValue]) === false) {
-					return;
-				}
+				Chart.plugins.notify(me, 'beforeDraw', [easingDecimal]);
 
 				// Draw all the scales
 				helpers.each(me.boxes, function(box) {
 					box.draw(me.chartArea);
 				}, me);
-
 				if (me.scale) {
 					me.scale.draw();
 				}
 
-				me.drawDatasets(easingValue);
+				Chart.plugins.notify(me, 'beforeDatasetsDraw', [easingDecimal]);
+
+				// Draw each dataset via its respective controller (reversed to support proper line stacking)
+				helpers.each(me.data.datasets, function(dataset, datasetIndex) {
+					if (me.isDatasetVisible(datasetIndex)) {
+						me.getDatasetMeta(datasetIndex).controller.draw(ease);
+					}
+				}, me, true);
+
+				Chart.plugins.notify(me, 'afterDatasetsDraw', [easingDecimal]);
 
 				// Finally draw the tooltip
-				me.tooltip.draw();
+				me.tooltip.transition(easingDecimal).draw();
 
-				plugins.notify(me, 'afterDraw', [easingValue]);
-			},
-
-			/**
-			 * @private
-			 */
-			transition: function(easingValue) {
-				var me = this;
-
-				for (var i=0, ilen=(me.data.datasets || []).length; i<ilen; ++i) {
-					if (me.isDatasetVisible(i)) {
-						me.getDatasetMeta(i).controller.transition(easingValue);
-					}
-				}
-
-				me.tooltip.transition(easingValue);
-			},
-
-			/**
-			 * Draws all datasets unless a plugin returns `false` to the `beforeDatasetsDraw`
-			 * hook, in which case, plugins will not be called on `afterDatasetsDraw`.
-			 * @private
-			 */
-			drawDatasets: function(easingValue) {
-				var me = this;
-
-				if (plugins.notify(me, 'beforeDatasetsDraw', [easingValue]) === false) {
-					return;
-				}
-
-				// Draw datasets reversed to support proper line stacking
-				for (var i=(me.data.datasets || []).length - 1; i >= 0; --i) {
-					if (me.isDatasetVisible(i)) {
-						me.drawDataset(i, easingValue);
-					}
-				}
-
-				plugins.notify(me, 'afterDatasetsDraw', [easingValue]);
-			},
-
-			/**
-			 * Draws dataset at index unless a plugin returns `false` to the `beforeDatasetDraw`
-			 * hook, in which case, plugins will not be called on `afterDatasetDraw`.
-			 * @private
-			 */
-			drawDataset: function(index, easingValue) {
-				var me = this;
-				var meta = me.getDatasetMeta(index);
-				var args = {
-					meta: meta,
-					index: index,
-					easingValue: easingValue
-				};
-
-				if (plugins.notify(me, 'beforeDatasetDraw', [args]) === false) {
-					return;
-				}
-
-				meta.controller.draw(easingValue);
-
-				plugins.notify(me, 'afterDatasetDraw', [args]);
+				Chart.plugins.notify(me, 'afterDraw', [easingDecimal]);
 			},
 
 			// Get the single element that was clicked on
@@ -37419,7 +36365,7 @@ var app =
 
 			destroy: function() {
 				var me = this;
-				var canvas = me.canvas;
+				var canvas = me.chart.canvas;
 				var meta, i, ilen;
 
 				me.stop();
@@ -37435,26 +36381,26 @@ var app =
 
 				if (canvas) {
 					me.unbindEvents();
-					helpers.clear(me);
-					platform.releaseContext(me.ctx);
-					me.canvas = null;
-					me.ctx = null;
+					helpers.clear(me.chart);
+					platform.releaseContext(me.chart.ctx);
+					me.chart.canvas = null;
+					me.chart.ctx = null;
 				}
 
-				plugins.notify(me, 'destroy');
+				Chart.plugins.notify(me, 'destroy');
 
 				delete Chart.instances[me.id];
 			},
 
 			toBase64Image: function() {
-				return this.canvas.toDataURL.apply(this.canvas, arguments);
+				return this.chart.canvas.toDataURL.apply(this.chart.canvas, arguments);
 			},
 
 			initToolTip: function() {
 				var me = this;
 				me.tooltip = new Chart.Tooltip({
-					_chart: me,
-					_chartInstance: me,            // deprecated, backward compatibility
+					_chart: me.chart,
+					_chartInstance: me,
 					_data: me.data,
 					_options: me.options.tooltips
 				}, me);
@@ -37524,10 +36470,7 @@ var app =
 			eventHandler: function(e) {
 				var me = this;
 				var tooltip = me.tooltip;
-
-				if (plugins.notify(me, 'beforeEvent', [e]) === false) {
-					return;
-				}
+				var hoverOptions = me.options.hover;
 
 				// Buffer any update calls so that renders do not occur
 				me._bufferedRender = true;
@@ -37535,8 +36478,7 @@ var app =
 
 				var changed = me.handleEvent(e);
 				changed |= tooltip && tooltip.handleEvent(e);
-
-				plugins.notify(me, 'afterEvent', [e]);
+				changed |= Chart.plugins.notify(me, 'onEvent', [e]);
 
 				var bufferedRequest = me._bufferedRequest;
 				if (bufferedRequest) {
@@ -37548,7 +36490,7 @@ var app =
 
 					// We only need to render at this point. Updating will cause scales to be
 					// recomputed generating flicker & using more memory than necessary.
-					me.render(me.options.hover.animationDuration, true);
+					me.render(hoverOptions.animationDuration, true);
 				}
 
 				me._bufferedRender = false;
@@ -37609,20 +36551,11 @@ var app =
 				return changed;
 			}
 		});
-
-		/**
-		 * Provided for backward compatibility, use Chart instead.
-		 * @class Chart.Controller
-		 * @deprecated since version 2.6.0
-		 * @todo remove at version 3
-		 * @private
-		 */
-		Chart.Controller = Chart;
 	};
 
 
 /***/ },
-/* 197 */
+/* 198 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -37775,7 +36708,7 @@ var app =
 				var me = this;
 				var type = me.datasetElementType;
 				return type && new type({
-					_chart: me.chart,
+					_chart: me.chart.chart,
 					_datasetIndex: me.index
 				});
 			},
@@ -37784,7 +36717,7 @@ var app =
 				var me = this;
 				var type = me.dataElementType;
 				return type && new type({
-					_chart: me.chart,
+					_chart: me.chart.chart,
 					_datasetIndex: me.index,
 					_index: index
 				});
@@ -37835,33 +36768,12 @@ var app =
 
 			update: helpers.noop,
 
-			transition: function(easingValue) {
-				var meta = this.getMeta();
-				var elements = meta.data || [];
-				var ilen = elements.length;
-				var i = 0;
-
-				for (; i<ilen; ++i) {
-					elements[i].transition(easingValue);
-				}
-
-				if (meta.dataset) {
-					meta.dataset.transition(easingValue);
-				}
-			},
-
-			draw: function() {
-				var meta = this.getMeta();
-				var elements = meta.data || [];
-				var ilen = elements.length;
-				var i = 0;
-
-				if (meta.dataset) {
-					meta.dataset.draw();
-				}
-
-				for (; i<ilen; ++i) {
-					elements[i].draw();
+			draw: function(ease) {
+				var easingDecimal = ease || 1;
+				var i, len;
+				var metaData = this.getMeta().data;
+				for (i = 0, len = metaData.length; i < len; ++i) {
+					metaData[i].transition(easingDecimal).draw();
 				}
 			},
 
@@ -37958,7 +36870,7 @@ var app =
 
 
 /***/ },
-/* 198 */
+/* 199 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -37967,95 +36879,35 @@ var app =
 
 		var helpers = Chart.helpers;
 
-		function filterByPosition(array, position) {
-			return helpers.where(array, function(v) {
-				return v.position === position;
-			});
-		}
-
-		function sortByWeight(array, reverse) {
-			array.forEach(function(v, i) {
-				v._tmpIndex_ = i;
-				return v;
-			});
-			array.sort(function(a, b) {
-				var v0 = reverse ? b : a;
-				var v1 = reverse ? a : b;
-				return v0.weight === v1.weight ?
-					v0._tmpIndex_ - v1._tmpIndex_ :
-					v0.weight - v1.weight;
-			});
-			array.forEach(function(v) {
-				delete v._tmpIndex_;
-			});
-		}
-
-		/**
-		 * @interface ILayoutItem
-		 * @prop {String} position - The position of the item in the chart layout. Possible values are
-		 * 'left', 'top', 'right', 'bottom', and 'chartArea'
-		 * @prop {Number} weight - The weight used to sort the item. Higher weights are further away from the chart area
-		 * @prop {Boolean} fullWidth - if true, and the item is horizontal, then push vertical boxes down
-		 * @prop {Function} isHorizontal - returns true if the layout item is horizontal (ie. top or bottom)
-		 * @prop {Function} update - Takes two parameters: width and height. Returns size of item
-		 * @prop {Function} getPadding -  Returns an object with padding on the edges
-		 * @prop {Number} width - Width of item. Must be valid after update()
-		 * @prop {Number} height - Height of item. Must be valid after update()
-		 * @prop {Number} left - Left edge of the item. Set by layout system and cannot be used in update
-		 * @prop {Number} top - Top edge of the item. Set by layout system and cannot be used in update
-		 * @prop {Number} right - Right edge of the item. Set by layout system and cannot be used in update
-		 * @prop {Number} bottom - Bottom edge of the item. Set by layout system and cannot be used in update
-		 */
-
 		// The layout service is very self explanatory.  It's responsible for the layout within a chart.
 		// Scales, Legends and Plugins all rely on the layout service and can easily register to be placed anywhere they need
 		// It is this service's responsibility of carrying out that layout.
 		Chart.layoutService = {
 			defaults: {},
 
-			/**
-			 * Register a box to a chart.
-			 * A box is simply a reference to an object that requires layout. eg. Scales, Legend, Title.
-			 * @param {Chart} chart - the chart to use
-			 * @param {ILayoutItem} layoutItem - the item to add to be layed out
-			 */
-			addBox: function(chart, layoutItem) {
-				if (!chart.boxes) {
-					chart.boxes = [];
+			// Register a box to a chartInstance. A box is simply a reference to an object that requires layout. eg. Scales, Legend, Plugins.
+			addBox: function(chartInstance, box) {
+				if (!chartInstance.boxes) {
+					chartInstance.boxes = [];
 				}
-
-				// Ensure that all layout items have a weight
-				if (!layoutItem.weight) {
-					layoutItem.weight = 0;
-				}
-				chart.boxes.push(layoutItem);
+				chartInstance.boxes.push(box);
 			},
 
-			/**
-			 * Remove a layoutItem from a chart
-			 * @param {Chart} chart - the chart to remove the box from
-			 * @param {Object} layoutItem - the item to remove from the layout
-			 */
-			removeBox: function(chart, layoutItem) {
-				var index = chart.boxes? chart.boxes.indexOf(layoutItem) : -1;
-				if (index !== -1) {
-					chart.boxes.splice(index, 1);
+			removeBox: function(chartInstance, box) {
+				if (!chartInstance.boxes) {
+					return;
 				}
+				chartInstance.boxes.splice(chartInstance.boxes.indexOf(box), 1);
 			},
 
-			/**
-			 * Fits boxes of the given chart into the given size by having each box measure itself
-			 * then running a fitting algorithm
-			 * @param {Chart} chart - the chart
-			 * @param {Number} width - the width to fit into
-			 * @param {Number} height - the height to fit into
-			 */
-			update: function(chart, width, height) {
-				if (!chart) {
+			// The most important function
+			update: function(chartInstance, width, height) {
+
+				if (!chartInstance) {
 					return;
 				}
 
-				var layoutOptions = chart.options.layout;
+				var layoutOptions = chartInstance.options.layout;
 				var padding = layoutOptions ? layoutOptions.padding : null;
 
 				var leftPadding = 0;
@@ -38076,17 +36928,31 @@ var app =
 					bottomPadding = padding.bottom || 0;
 				}
 
-				var leftBoxes = filterByPosition(chart.boxes, 'left');
-				var rightBoxes = filterByPosition(chart.boxes, 'right');
-				var topBoxes = filterByPosition(chart.boxes, 'top');
-				var bottomBoxes = filterByPosition(chart.boxes, 'bottom');
-				var chartAreaBoxes = filterByPosition(chart.boxes, 'chartArea');
+				var leftBoxes = helpers.where(chartInstance.boxes, function(box) {
+					return box.options.position === 'left';
+				});
+				var rightBoxes = helpers.where(chartInstance.boxes, function(box) {
+					return box.options.position === 'right';
+				});
+				var topBoxes = helpers.where(chartInstance.boxes, function(box) {
+					return box.options.position === 'top';
+				});
+				var bottomBoxes = helpers.where(chartInstance.boxes, function(box) {
+					return box.options.position === 'bottom';
+				});
 
-				// Sort boxes by weight. A higher weight is further away from the chart area
-				sortByWeight(leftBoxes, true);
-				sortByWeight(rightBoxes, false);
-				sortByWeight(topBoxes, true);
-				sortByWeight(bottomBoxes, false);
+				// Boxes that overlay the chartarea such as the radialLinear scale
+				var chartAreaBoxes = helpers.where(chartInstance.boxes, function(box) {
+					return box.options.position === 'chartArea';
+				});
+
+				// Ensure that full width boxes are at the very top / bottom
+				topBoxes.sort(function(a, b) {
+					return (b.options.fullWidth ? 1 : 0) - (a.options.fullWidth ? 1 : 0);
+				});
+				bottomBoxes.sort(function(a, b) {
+					return (a.options.fullWidth ? 1 : 0) - (b.options.fullWidth ? 1 : 0);
+				});
 
 				// Essentially we now have any number of boxes on each of the 4 sides.
 				// Our canvas looks like the following.
@@ -38147,7 +37013,7 @@ var app =
 					var isHorizontal = box.isHorizontal();
 
 					if (isHorizontal) {
-						minSize = box.update(box.fullWidth ? chartWidth : maxChartAreaWidth, horizontalBoxHeight);
+						minSize = box.update(box.options.fullWidth ? chartWidth : maxChartAreaWidth, horizontalBoxHeight);
 						maxChartAreaHeight -= minSize.height;
 					} else {
 						minSize = box.update(verticalBoxWidth, chartAreaHeight);
@@ -38210,7 +37076,7 @@ var app =
 
 							// Don't use min size here because of label rotation. When the labels are rotated, their rotation highly depends
 							// on the margin. Sometimes they need to increase in size slightly
-							box.update(box.fullWidth ? chartWidth : maxChartAreaWidth, chartHeight / 2, scaleMargin);
+							box.update(box.options.fullWidth ? chartWidth : maxChartAreaWidth, chartHeight / 2, scaleMargin);
 						} else {
 							box.update(minBoxSize.minSize.width, maxChartAreaHeight);
 						}
@@ -38306,13 +37172,13 @@ var app =
 					});
 
 					helpers.each(topBoxes, function(box) {
-						if (!box.fullWidth) {
+						if (!box.options.fullWidth) {
 							box.width = newMaxChartAreaWidth;
 						}
 					});
 
 					helpers.each(bottomBoxes, function(box) {
-						if (!box.fullWidth) {
+						if (!box.options.fullWidth) {
 							box.width = newMaxChartAreaWidth;
 						}
 					});
@@ -38327,8 +37193,8 @@ var app =
 
 				function placeBox(box) {
 					if (box.isHorizontal()) {
-						box.left = box.fullWidth ? leftPadding : totalLeftBoxesWidth;
-						box.right = box.fullWidth ? width - rightPadding : totalLeftBoxesWidth + maxChartAreaWidth;
+						box.left = box.options.fullWidth ? leftPadding : totalLeftBoxesWidth;
+						box.right = box.options.fullWidth ? width - rightPadding : totalLeftBoxesWidth + maxChartAreaWidth;
 						box.top = top;
 						box.bottom = top + box.height;
 
@@ -38357,7 +37223,7 @@ var app =
 				helpers.each(bottomBoxes, placeBox);
 
 				// Step 8
-				chart.chartArea = {
+				chartInstance.chartArea = {
 					left: totalLeftBoxesWidth,
 					top: totalTopBoxesHeight,
 					right: totalLeftBoxesWidth + maxChartAreaWidth,
@@ -38366,10 +37232,10 @@ var app =
 
 				// Step 9
 				helpers.each(chartAreaBoxes, function(box) {
-					box.left = chart.chartArea.left;
-					box.top = chart.chartArea.top;
-					box.right = chart.chartArea.right;
-					box.bottom = chart.chartArea.bottom;
+					box.left = chartInstance.chartArea.left;
+					box.top = chartInstance.chartArea.top;
+					box.right = chartInstance.chartArea.right;
+					box.bottom = chartInstance.chartArea.bottom;
 
 					box.update(maxChartAreaWidth, maxChartAreaHeight);
 				});
@@ -38379,7 +37245,7 @@ var app =
 
 
 /***/ },
-/* 199 */
+/* 200 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -38414,13 +37280,10 @@ var app =
 					defaults[type] = helpers.extend(defaults[type], additions);
 				}
 			},
-			addScalesToLayout: function(chart) {
+			addScalesToLayout: function(chartInstance) {
 				// Adds each scale to the chart.boxes array to be sized accordingly
-				helpers.each(chart.scales, function(scale) {
-					// Set ILayoutItem parameters for backwards compatibility
-					scale.fullWidth = scale.options.fullWidth;
-					scale.position = scale.options.position;
-					Chart.layoutService.addBox(chart, scale);
+				helpers.each(chartInstance.scales, function(scale) {
+					Chart.layoutService.addBox(chartInstance, scale);
 				});
 			}
 		};
@@ -38428,7 +37291,7 @@ var app =
 
 
 /***/ },
-/* 200 */
+/* 201 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -38642,7 +37505,7 @@ var app =
 
 
 /***/ },
-/* 201 */
+/* 202 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -38740,7 +37603,7 @@ var app =
 			// Any function can be extended by the scale type
 
 			beforeUpdate: function() {
-				helpers.callback(this.options.beforeUpdate, [this]);
+				helpers.callCallback(this.options.beforeUpdate, [this]);
 			},
 			update: function(maxWidth, maxHeight, margins) {
 				var me = this;
@@ -38793,13 +37656,13 @@ var app =
 
 			},
 			afterUpdate: function() {
-				helpers.callback(this.options.afterUpdate, [this]);
+				helpers.callCallback(this.options.afterUpdate, [this]);
 			},
 
 			//
 
 			beforeSetDimensions: function() {
-				helpers.callback(this.options.beforeSetDimensions, [this]);
+				helpers.callCallback(this.options.beforeSetDimensions, [this]);
 			},
 			setDimensions: function() {
 				var me = this;
@@ -38824,29 +37687,29 @@ var app =
 				me.paddingBottom = 0;
 			},
 			afterSetDimensions: function() {
-				helpers.callback(this.options.afterSetDimensions, [this]);
+				helpers.callCallback(this.options.afterSetDimensions, [this]);
 			},
 
 			// Data limits
 			beforeDataLimits: function() {
-				helpers.callback(this.options.beforeDataLimits, [this]);
+				helpers.callCallback(this.options.beforeDataLimits, [this]);
 			},
 			determineDataLimits: helpers.noop,
 			afterDataLimits: function() {
-				helpers.callback(this.options.afterDataLimits, [this]);
+				helpers.callCallback(this.options.afterDataLimits, [this]);
 			},
 
 			//
 			beforeBuildTicks: function() {
-				helpers.callback(this.options.beforeBuildTicks, [this]);
+				helpers.callCallback(this.options.beforeBuildTicks, [this]);
 			},
 			buildTicks: helpers.noop,
 			afterBuildTicks: function() {
-				helpers.callback(this.options.afterBuildTicks, [this]);
+				helpers.callCallback(this.options.afterBuildTicks, [this]);
 			},
 
 			beforeTickToLabelConversion: function() {
-				helpers.callback(this.options.beforeTickToLabelConversion, [this]);
+				helpers.callCallback(this.options.beforeTickToLabelConversion, [this]);
 			},
 			convertTicksToLabels: function() {
 				var me = this;
@@ -38855,13 +37718,13 @@ var app =
 				me.ticks = me.ticks.map(tickOpts.userCallback || tickOpts.callback);
 			},
 			afterTickToLabelConversion: function() {
-				helpers.callback(this.options.afterTickToLabelConversion, [this]);
+				helpers.callCallback(this.options.afterTickToLabelConversion, [this]);
 			},
 
 			//
 
 			beforeCalculateTickRotation: function() {
-				helpers.callback(this.options.beforeCalculateTickRotation, [this]);
+				helpers.callCallback(this.options.beforeCalculateTickRotation, [this]);
 			},
 			calculateTickRotation: function() {
 				var me = this;
@@ -38904,13 +37767,13 @@ var app =
 				me.labelRotation = labelRotation;
 			},
 			afterCalculateTickRotation: function() {
-				helpers.callback(this.options.afterCalculateTickRotation, [this]);
+				helpers.callCallback(this.options.afterCalculateTickRotation, [this]);
 			},
 
 			//
 
 			beforeFit: function() {
-				helpers.callback(this.options.beforeFit, [this]);
+				helpers.callCallback(this.options.beforeFit, [this]);
 			},
 			fit: function() {
 				var me = this;
@@ -39028,7 +37891,7 @@ var app =
 			},
 
 			afterFit: function() {
-				helpers.callback(this.options.afterFit, [this]);
+				helpers.callCallback(this.options.afterFit, [this]);
 			},
 
 			// Shared Methods
@@ -39167,6 +38030,12 @@ var app =
 
 				if (isHorizontal) {
 					skipRatio = false;
+
+					// Only calculate the skip ratio with the half width of longestRotateLabel if we got an actual rotation
+					// See #2584
+					if (isRotated) {
+						longestRotatedLabel /= 2;
+					}
 
 					if ((longestRotatedLabel + optionTicks.autoSkipPadding) * me.ticks.length > (me.width - (me.paddingLeft + me.paddingRight))) {
 						skipRatio = 1 + Math.floor(((longestRotatedLabel + optionTicks.autoSkipPadding) * me.ticks.length) / (me.width - (me.paddingLeft + me.paddingRight)));
@@ -39401,7 +38270,7 @@ var app =
 
 
 /***/ },
-/* 202 */
+/* 203 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -39424,6 +38293,7 @@ var app =
 
 		var noop = helpers.noop;
 		Chart.Title = Chart.Element.extend({
+
 			initialize: function(config) {
 				var me = this;
 				helpers.extend(me, config);
@@ -39586,47 +38456,39 @@ var app =
 			}
 		});
 
-		function createNewTitleBlockAndAttach(chart, titleOpts) {
+		function createNewTitleBlockAndAttach(chartInstance, titleOpts) {
 			var title = new Chart.Title({
-				ctx: chart.ctx,
+				ctx: chartInstance.chart.ctx,
 				options: titleOpts,
-				chart: chart,
-
-				// ILayoutItem parameters
-				weight: 2000, // greater than legend to be above
-				position: titleOpts.position,
-				fullWidth: titleOpts.fullWidth,
+				chart: chartInstance
 			});
-			chart.titleBlock = title;
-			Chart.layoutService.addBox(chart, title);
+			chartInstance.titleBlock = title;
+			Chart.layoutService.addBox(chartInstance, title);
 		}
 
 		// Register the title plugin
 		Chart.plugins.register({
-			id: 'title',
-
-			beforeInit: function(chart) {
-				var titleOpts = chart.options.title;
+			beforeInit: function(chartInstance) {
+				var titleOpts = chartInstance.options.title;
 
 				if (titleOpts) {
-					createNewTitleBlockAndAttach(chart, titleOpts);
+					createNewTitleBlockAndAttach(chartInstance, titleOpts);
 				}
 			},
-			beforeUpdate: function(chart) {
-				var titleOpts = chart.options.title;
-				var titleBlock = chart.titleBlock;
+			beforeUpdate: function(chartInstance) {
+				var titleOpts = chartInstance.options.title;
 
 				if (titleOpts) {
 					titleOpts = helpers.configMerge(Chart.defaults.global.title, titleOpts);
 
-					if (titleBlock) {
-						titleBlock.options = titleOpts;
+					if (chartInstance.titleBlock) {
+						chartInstance.titleBlock.options = titleOpts;
 					} else {
-						createNewTitleBlockAndAttach(chart, titleOpts);
+						createNewTitleBlockAndAttach(chartInstance, titleOpts);
 					}
-				} else if (titleBlock) {
-					Chart.layoutService.removeBox(chart, titleBlock);
-					delete chart.titleBlock;
+				} else {
+					Chart.layoutService.removeBox(chartInstance, chartInstance.titleBlock);
+					delete chartInstance.titleBlock;
 				}
 			}
 		});
@@ -39634,7 +38496,7 @@ var app =
 
 
 /***/ },
-/* 203 */
+/* 204 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -40130,52 +38992,43 @@ var app =
 			}
 		});
 
-		function createNewLegendAndAttach(chart, legendOpts) {
+		function createNewLegendAndAttach(chartInstance, legendOpts) {
 			var legend = new Chart.Legend({
-				ctx: chart.ctx,
+				ctx: chartInstance.chart.ctx,
 				options: legendOpts,
-				chart: chart,
-
-				// ILayoutItem parameters for layout service
-				// pick a large number to ensure we are on the outside after any axes
-				weight: 1000,
-				position: legendOpts.position,
-				fullWidth: legendOpts.fullWidth,
+				chart: chartInstance
 			});
-			chart.legend = legend;
-			Chart.layoutService.addBox(chart, legend);
+			chartInstance.legend = legend;
+			Chart.layoutService.addBox(chartInstance, legend);
 		}
 
 		// Register the legend plugin
 		Chart.plugins.register({
-			id: 'legend',
-
-			beforeInit: function(chart) {
-				var legendOpts = chart.options.legend;
+			beforeInit: function(chartInstance) {
+				var legendOpts = chartInstance.options.legend;
 
 				if (legendOpts) {
-					createNewLegendAndAttach(chart, legendOpts);
+					createNewLegendAndAttach(chartInstance, legendOpts);
 				}
 			},
-			beforeUpdate: function(chart) {
-				var legendOpts = chart.options.legend;
-				var legend = chart.legend;
+			beforeUpdate: function(chartInstance) {
+				var legendOpts = chartInstance.options.legend;
 
 				if (legendOpts) {
 					legendOpts = helpers.configMerge(Chart.defaults.global.legend, legendOpts);
 
-					if (legend) {
-						legend.options = legendOpts;
+					if (chartInstance.legend) {
+						chartInstance.legend.options = legendOpts;
 					} else {
-						createNewLegendAndAttach(chart, legendOpts);
+						createNewLegendAndAttach(chartInstance, legendOpts);
 					}
-				} else if (legend) {
-					Chart.layoutService.removeBox(chart, legend);
-					delete chart.legend;
+				} else {
+					Chart.layoutService.removeBox(chartInstance, chartInstance.legend);
+					delete chartInstance.legend;
 				}
 			},
-			afterEvent: function(chart, e) {
-				var legend = chart.legend;
+			onEvent: function(chartInstance, e) {
+				var legend = chartInstance.legend;
 				if (legend) {
 					legend.handleEvent(e);
 				}
@@ -40185,7 +39038,7 @@ var app =
 
 
 /***/ },
-/* 204 */
+/* 205 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -40289,7 +39142,7 @@ var app =
 		}
 
 		function indexMode(chart, e, options) {
-			var position = getRelativePosition(e, chart);
+			var position = getRelativePosition(e, chart.chart);
 			var distanceMetric = function(pt1, pt2) {
 				return Math.abs(pt1.x - pt2.x);
 			};
@@ -40332,7 +39185,7 @@ var app =
 			// Helper function for different modes
 			modes: {
 				single: function(chart, e) {
-					var position = getRelativePosition(e, chart);
+					var position = getRelativePosition(e, chart.chart);
 					var elements = [];
 
 					parseVisibleItems(chart, function(element) {
@@ -40348,8 +39201,6 @@ var app =
 				/**
 				 * @function Chart.Interaction.modes.label
 				 * @deprecated since version 2.4.0
-		 		 * @todo remove at version 3
-				 * @private
 				 */
 				label: indexMode,
 
@@ -40375,7 +39226,7 @@ var app =
 				 * @return {Chart.Element[]} Array of elements that are under the point. If none are found, an empty array is returned
 				 */
 				dataset: function(chart, e, options) {
-					var position = getRelativePosition(e, chart);
+					var position = getRelativePosition(e, chart.chart);
 					var items = options.intersect ? getIntersectItems(chart, position) : getNearestItems(chart, position, false);
 
 					if (items.length > 0) {
@@ -40388,8 +39239,6 @@ var app =
 				/**
 				 * @function Chart.Interaction.modes.x-axis
 				 * @deprecated since version 2.4.0. Use index mode and intersect == true
-				 * @todo remove at version 3
-				 * @private
 				 */
 				'x-axis': function(chart, e) {
 					return indexMode(chart, e, true);
@@ -40404,7 +39253,7 @@ var app =
 				 * @return {Chart.Element[]} Array of elements that are under the point. If none are found, an empty array is returned
 				 */
 				point: function(chart, e) {
-					var position = getRelativePosition(e, chart);
+					var position = getRelativePosition(e, chart.chart);
 					return getIntersectItems(chart, position);
 				},
 
@@ -40417,7 +39266,7 @@ var app =
 				 * @return {Chart.Element[]} Array of elements that are under the point. If none are found, an empty array is returned
 				 */
 				nearest: function(chart, e, options) {
-					var position = getRelativePosition(e, chart);
+					var position = getRelativePosition(e, chart.chart);
 					var nearestItems = getNearestItems(chart, position, options.intersect);
 
 					// We have multiple items at the same distance from the event. Now sort by smallest
@@ -40449,7 +39298,7 @@ var app =
 				 * @return {Chart.Element[]} Array of elements that are under the point. If none are found, an empty array is returned
 				 */
 				x: function(chart, e, options) {
-					var position = getRelativePosition(e, chart);
+					var position = getRelativePosition(e, chart.chart);
 					var items = [];
 					var intersectsItem = false;
 
@@ -40480,7 +39329,7 @@ var app =
 				 * @return {Chart.Element[]} Array of elements that are under the point. If none are found, an empty array is returned
 				 */
 				y: function(chart, e, options) {
-					var position = getRelativePosition(e, chart);
+					var position = getRelativePosition(e, chart.chart);
 					var items = [];
 					var intersectsItem = false;
 
@@ -40507,7 +39356,7 @@ var app =
 
 
 /***/ },
-/* 205 */
+/* 206 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -40550,8 +39399,6 @@ var app =
 			cornerRadius: 6,
 			multiKeyBackground: '#fff',
 			displayColors: true,
-			borderColor: 'rgba(0,0,0,0)',
-			borderWidth: 0,
 			callbacks: {
 				// Args are: (tooltipItems, data)
 				beforeTitle: helpers.noop,
@@ -40581,16 +39428,11 @@ var app =
 				// Args are: (tooltipItem, data)
 				beforeLabel: helpers.noop,
 				label: function(tooltipItem, data) {
-					var label = data.datasets[tooltipItem.datasetIndex].label || '';
-
-					if (label) {
-						label += ': ';
-					}
-					label += tooltipItem.yLabel;
-					return label;
+					var datasetLabel = data.datasets[tooltipItem.datasetIndex].label || '';
+					return datasetLabel + ': ' + tooltipItem.yLabel;
 				},
-				labelColor: function(tooltipItem, chart) {
-					var meta = chart.getDatasetMeta(tooltipItem.datasetIndex);
+				labelColor: function(tooltipItem, chartInstance) {
+					var meta = chartInstance.getDatasetMeta(tooltipItem.datasetIndex);
 					var activeElement = meta.data[tooltipItem.index];
 					var view = activeElement._view;
 					return {
@@ -40690,9 +39532,7 @@ var app =
 				backgroundColor: tooltipOpts.backgroundColor,
 				opacity: 0,
 				legendColorBackground: tooltipOpts.multiKeyBackground,
-				displayColors: tooltipOpts.displayColors,
-				borderColor: tooltipOpts.borderColor,
-				borderWidth: tooltipOpts.borderWidth
+				displayColors: tooltipOpts.displayColors
 			};
 		}
 
@@ -40770,7 +39610,7 @@ var app =
 		function determineAlignment(tooltip, size) {
 			var model = tooltip._model;
 			var chart = tooltip._chart;
-			var chartArea = tooltip._chart.chartArea;
+			var chartArea = tooltip._chartInstance.chartArea;
 			var xAlign = 'center';
 			var yAlign = 'center';
 
@@ -40973,6 +39813,7 @@ var app =
 				var active = me._active;
 
 				var data = me._data;
+				var chartInstance = me._chartInstance;
 
 				// In the case where active.length === 0 we need to keep these at existing values for good animations
 				var alignment = {
@@ -41021,7 +39862,7 @@ var app =
 
 					// Determine colors for boxes
 					helpers.each(tooltipItems, function(tooltipItem) {
-						labelColors.push(opts.callbacks.labelColor.call(me, tooltipItem, me._chart));
+						labelColors.push(opts.callbacks.labelColor.call(me, tooltipItem, chartInstance));
 					});
 
 					// Build the Text Lines
@@ -41068,16 +39909,9 @@ var app =
 
 				return me;
 			},
-			drawCaret: function(tooltipPoint, size) {
-				var ctx = this._chart.ctx;
+			drawCaret: function(tooltipPoint, size, opacity) {
 				var vm = this._view;
-				var caretPosition = this.getCaretPosition(tooltipPoint, size, vm);
-
-				ctx.lineTo(caretPosition.x1, caretPosition.y1);
-				ctx.lineTo(caretPosition.x2, caretPosition.y2);
-				ctx.lineTo(caretPosition.x3, caretPosition.y3);
-			},
-			getCaretPosition: function(tooltipPoint, size, vm) {
+				var ctx = this._chart.ctx;
 				var x1, x2, x3;
 				var y1, y2, y3;
 				var caretSize = vm.caretSize;
@@ -41090,37 +39924,35 @@ var app =
 					height = size.height;
 
 				if (yAlign === 'center') {
-					y2 = ptY + (height / 2);
-
+					// Left or right side
 					if (xAlign === 'left') {
 						x1 = ptX;
 						x2 = x1 - caretSize;
 						x3 = x1;
-
-						y1 = y2 + caretSize;
-						y3 = y2 - caretSize;
 					} else {
 						x1 = ptX + width;
 						x2 = x1 + caretSize;
 						x3 = x1;
-
-						y1 = y2 - caretSize;
-						y3 = y2 + caretSize;
 					}
+
+					y2 = ptY + (height / 2);
+					y1 = y2 - caretSize;
+					y3 = y2 + caretSize;
 				} else {
 					if (xAlign === 'left') {
-						x2 = ptX + cornerRadius + (caretSize);
-						x1 = x2 - caretSize;
+						x1 = ptX + cornerRadius;
+						x2 = x1 + caretSize;
 						x3 = x2 + caretSize;
 					} else if (xAlign === 'right') {
-						x2 = ptX + width - cornerRadius - caretSize;
-						x1 = x2 - caretSize;
-						x3 = x2 + caretSize;
+						x1 = ptX + width - cornerRadius;
+						x2 = x1 - caretSize;
+						x3 = x2 - caretSize;
 					} else {
 						x2 = ptX + (width / 2);
 						x1 = x2 - caretSize;
 						x3 = x2 + caretSize;
 					}
+
 					if (yAlign === 'top') {
 						y1 = ptY;
 						y2 = y1 - caretSize;
@@ -41129,13 +39961,16 @@ var app =
 						y1 = ptY + height;
 						y2 = y1 + caretSize;
 						y3 = y1;
-						// invert drawing order
-						var tmp = x3;
-						x3 = x1;
-						x1 = tmp;
 					}
 				}
-				return {x1: x1, x2: x2, x3: x3, y1: y1, y2: y2, y3: y3};
+
+				ctx.fillStyle = mergeOpacity(vm.backgroundColor, opacity);
+				ctx.beginPath();
+				ctx.moveTo(x1, y1);
+				ctx.lineTo(x2, y2);
+				ctx.lineTo(x3, y3);
+				ctx.closePath();
+				ctx.fill();
 			},
 			drawTitle: function(pt, vm, ctx, opacity) {
 				var title = vm.title;
@@ -41241,45 +40076,8 @@ var app =
 			},
 			drawBackground: function(pt, vm, ctx, tooltipSize, opacity) {
 				ctx.fillStyle = mergeOpacity(vm.backgroundColor, opacity);
-				ctx.strokeStyle = mergeOpacity(vm.borderColor, opacity);
-				ctx.lineWidth = vm.borderWidth;
-				var xAlign = vm.xAlign;
-				var yAlign = vm.yAlign;
-				var x = pt.x;
-				var y = pt.y;
-				var width = tooltipSize.width;
-				var height = tooltipSize.height;
-				var radius = vm.cornerRadius;
-
-				ctx.beginPath();
-				ctx.moveTo(x + radius, y);
-				if (yAlign === 'top') {
-					this.drawCaret(pt, tooltipSize);
-				}
-				ctx.lineTo(x + width - radius, y);
-				ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
-				if (yAlign === 'center' && xAlign === 'right') {
-					this.drawCaret(pt, tooltipSize);
-				}
-				ctx.lineTo(x + width, y + height - radius);
-				ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
-				if (yAlign === 'bottom') {
-					this.drawCaret(pt, tooltipSize);
-				}
-				ctx.lineTo(x + radius, y + height);
-				ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
-				if (yAlign === 'center' && xAlign === 'left') {
-					this.drawCaret(pt, tooltipSize);
-				}
-				ctx.lineTo(x, y + radius);
-				ctx.quadraticCurveTo(x, y, x + radius, y);
-				ctx.closePath();
-
+				helpers.drawRoundedRectangle(ctx, pt.x, pt.y, tooltipSize.width, tooltipSize.height, vm.cornerRadius);
 				ctx.fill();
-
-				if (vm.borderWidth > 0) {
-					ctx.stroke();
-				}
 			},
 			draw: function() {
 				var ctx = this._chart.ctx;
@@ -41304,6 +40102,9 @@ var app =
 				if (this._options.enabled) {
 					// Draw Background
 					this.drawBackground(pt, vm, ctx, tooltipSize, opacity);
+
+					// Draw Caret
+					this.drawCaret(pt, tooltipSize, opacity);
 
 					// Draw Title, Body, and Footer
 					pt.x += vm.xPadding;
@@ -41337,17 +40138,11 @@ var app =
 				if (e.type === 'mouseout') {
 					me._active = [];
 				} else {
-					me._active = me._chart.getElementsAtEventForMode(e, options.mode, options);
+					me._active = me._chartInstance.getElementsAtEventForMode(e, options.mode, options);
 				}
 
 				// Remember Last Actives
 				changed = !helpers.arrayEquals(me._active, me._lastActive);
-
-				// If tooltip didn't change, do not handle the target event
-				if (!changed) {
-					return false;
-				}
-
 				me._lastActive = me._active;
 
 				if (options.enabled || options.custom) {
@@ -41447,7 +40242,7 @@ var app =
 
 
 /***/ },
-/* 206 */
+/* 207 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -41557,7 +40352,7 @@ var app =
 
 
 /***/ },
-/* 207 */
+/* 208 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -41747,7 +40542,7 @@ var app =
 
 
 /***/ },
-/* 208 */
+/* 209 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -41853,7 +40648,7 @@ var app =
 
 
 /***/ },
-/* 209 */
+/* 210 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -42067,7 +40862,7 @@ var app =
 
 
 /***/ },
-/* 210 */
+/* 211 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -42171,7 +40966,7 @@ var app =
 
 
 /***/ },
-/* 211 */
+/* 212 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -42302,7 +41097,7 @@ var app =
 
 
 /***/ },
-/* 212 */
+/* 213 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -42319,7 +41114,6 @@ var app =
 		};
 
 		var LinearScale = Chart.LinearScaleBase.extend({
-
 			determineDataLimits: function() {
 				var me = this;
 				var opts = me.options;
@@ -42327,8 +41121,6 @@ var app =
 				var data = chart.data;
 				var datasets = data.datasets;
 				var isHorizontal = me.isHorizontal();
-				var DEFAULT_MIN = 0;
-				var DEFAULT_MAX = 1;
 
 				function IDMatches(meta) {
 					return isHorizontal ? meta.xAxisID === me.id : meta.yAxisID === me.id;
@@ -42431,9 +41223,6 @@ var app =
 					});
 				}
 
-				me.min = isFinite(me.min) ? me.min : DEFAULT_MIN;
-				me.max = isFinite(me.max) ? me.max : DEFAULT_MAX;
-
 				// Common base implementation to handle ticks.min, ticks.max, ticks.beginAtZero
 				this.handleTickRangeOptions();
 			},
@@ -42498,7 +41287,7 @@ var app =
 
 
 /***/ },
-/* 213 */
+/* 214 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -42748,7 +41537,7 @@ var app =
 
 
 /***/ },
-/* 214 */
+/* 215 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -42763,16 +41552,13 @@ var app =
 
 			// Boolean - Whether to animate scaling the chart from the centre
 			animate: true,
+			lineArc: false,
 			position: 'chartArea',
 
 			angleLines: {
 				display: true,
 				color: 'rgba(0, 0, 0, 0.1)',
 				lineWidth: 1
-			},
-
-			gridLines: {
-				circular: false
 			},
 
 			// label settings
@@ -42793,9 +41579,6 @@ var app =
 			},
 
 			pointLabels: {
-				// Boolean - if true, show point labels
-				display: true,
-
 				// Number - Point label font size in pixels
 				fontSize: 10,
 
@@ -42807,8 +41590,7 @@ var app =
 		};
 
 		function getValueCount(scale) {
-			var opts = scale.options;
-			return opts.angleLines.display || opts.pointLabels.display ? scale.chart.data.labels.length : 0;
+			return !scale.options.lineArc ? scale.chart.data.labels.length : 0;
 		}
 
 		function getPointLabelFontOptions(scale) {
@@ -43013,22 +41795,19 @@ var app =
 					ctx.stroke();
 					ctx.closePath();
 				}
+				// Extra 3px out for some label spacing
+				var pointLabelPosition = scale.getPointPosition(i, outerDistance + 5);
 
-				if (pointLabelOpts.display) {
-					// Extra 3px out for some label spacing
-					var pointLabelPosition = scale.getPointPosition(i, outerDistance + 5);
+				// Keep this in loop since we may support array properties here
+				var pointLabelFontColor = getValueOrDefault(pointLabelOpts.fontColor, globalDefaults.defaultFontColor);
+				ctx.font = plFont.font;
+				ctx.fillStyle = pointLabelFontColor;
 
-					// Keep this in loop since we may support array properties here
-					var pointLabelFontColor = getValueOrDefault(pointLabelOpts.fontColor, globalDefaults.defaultFontColor);
-					ctx.font = plFont.font;
-					ctx.fillStyle = pointLabelFontColor;
-
-					var angleRadians = scale.getIndexAngle(i);
-					var angle = helpers.toDegrees(angleRadians);
-					ctx.textAlign = getTextAlignForAngle(angle);
-					adjustPointPositionForLabelHeight(angle, scale._pointLabelSizes[i], pointLabelPosition);
-					fillText(ctx, scale.pointLabels[i] || '', pointLabelPosition, plFont.size);
-				}
+				var angleRadians = scale.getIndexAngle(i);
+				var angle = helpers.toDegrees(angleRadians);
+				ctx.textAlign = getTextAlignForAngle(angle);
+				adjustPointPositionForLabelHeight(angle, scale._pointLabelSizes[i], pointLabelPosition);
+				fillText(ctx, scale.pointLabels[i] || '', pointLabelPosition, plFont.size);
 			}
 		}
 
@@ -43037,7 +41816,7 @@ var app =
 			ctx.strokeStyle = helpers.getValueAtIndexOrDefault(gridLineOpts.color, index - 1);
 			ctx.lineWidth = helpers.getValueAtIndexOrDefault(gridLineOpts.lineWidth, index - 1);
 
-			if (scale.options.gridLines.circular) {
+			if (scale.options.lineArc) {
 				// Draw circular arcs between the points
 				ctx.beginPath();
 				ctx.arc(scale.xCenter, scale.yCenter, radius, 0, Math.PI * 2);
@@ -43128,10 +41907,10 @@ var app =
 				return +this.getRightValue(this.chart.data.datasets[datasetIndex].data[index]);
 			},
 			fit: function() {
-				if (this.options.pointLabels.display) {
-					fitWithPointLabels(this);
-				} else {
+				if (this.options.lineArc) {
 					fit(this);
+				} else {
+					fitWithPointLabels(this);
 				}
 			},
 			/**
@@ -43265,7 +42044,7 @@ var app =
 						}
 					});
 
-					if (opts.angleLines.display || opts.pointLabels.display) {
+					if (!opts.lineArc) {
 						drawPointLabels(me);
 					}
 				}
@@ -43277,13 +42056,13 @@ var app =
 
 
 /***/ },
-/* 215 */
+/* 216 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* global window: false */
 	'use strict';
 
-	var moment = __webpack_require__(216);
+	var moment = __webpack_require__(217);
 	moment = typeof(moment) === 'function' ? moment : window.moment;
 
 	module.exports = function(Chart) {
@@ -43358,6 +42137,17 @@ var app =
 
 				Chart.Scale.prototype.initialize.call(this);
 			},
+			getLabelMoment: function(datasetIndex, index) {
+				if (datasetIndex === null || index === null) {
+					return null;
+				}
+
+				if (typeof this.labelMoments[datasetIndex] !== 'undefined') {
+					return this.labelMoments[datasetIndex][index];
+				}
+
+				return null;
+			},
 			getLabelDiff: function(datasetIndex, index) {
 				var me = this;
 				if (datasetIndex === null || index === null) {
@@ -43385,26 +42175,23 @@ var app =
 				var me = this;
 				me.labelMoments = [];
 
-				function appendLabel(array, label) {
-					var labelMoment = me.parseTime(label);
-					if (labelMoment.isValid()) {
-						if (me.options.time.round) {
-							labelMoment.startOf(me.options.time.round);
-						}
-						array.push(labelMoment);
-					}
-				}
-
 				// Only parse these once. If the dataset does not have data as x,y pairs, we will use
 				// these
 				var scaleLabelMoments = [];
 				if (me.chart.data.labels && me.chart.data.labels.length > 0) {
 					helpers.each(me.chart.data.labels, function(label) {
-						appendLabel(scaleLabelMoments, label);
+						var labelMoment = me.parseTime(label);
+
+						if (labelMoment.isValid()) {
+							if (me.options.time.round) {
+								labelMoment.startOf(me.options.time.round);
+							}
+							scaleLabelMoments.push(labelMoment);
+						}
 					}, me);
 
-					me.firstTick = moment.min(scaleLabelMoments);
-					me.lastTick = moment.max(scaleLabelMoments);
+					me.firstTick = moment.min.call(me, scaleLabelMoments);
+					me.lastTick = moment.max.call(me, scaleLabelMoments);
 				} else {
 					me.firstTick = null;
 					me.lastTick = null;
@@ -43412,19 +42199,25 @@ var app =
 
 				helpers.each(me.chart.data.datasets, function(dataset, datasetIndex) {
 					var momentsForDataset = [];
+					var datasetVisible = me.chart.isDatasetVisible(datasetIndex);
 
 					if (typeof dataset.data[0] === 'object' && dataset.data[0] !== null) {
 						helpers.each(dataset.data, function(value) {
-							appendLabel(momentsForDataset, me.getRightValue(value));
-						}, me);
+							var labelMoment = me.parseTime(me.getRightValue(value));
 
-						if (me.chart.isDatasetVisible(datasetIndex)) {
-							// May have gone outside the scale ranges, make sure we keep the first and last ticks updated
-							var min = moment.min(momentsForDataset);
-							var max = moment.max(momentsForDataset);
-							me.firstTick = me.firstTick !== null ? moment.min(me.firstTick, min) : min;
-							me.lastTick = me.lastTick !== null ? moment.max(me.lastTick, max) : max;
-						}
+							if (labelMoment.isValid()) {
+								if (me.options.time.round) {
+									labelMoment.startOf(me.options.time.round);
+								}
+								momentsForDataset.push(labelMoment);
+
+								if (datasetVisible) {
+									// May have gone outside the scale ranges, make sure we keep the first and last ticks updated
+									me.firstTick = me.firstTick !== null ? moment.min(me.firstTick, labelMoment) : labelMoment;
+									me.lastTick = me.lastTick !== null ? moment.max(me.lastTick, labelMoment) : labelMoment;
+								}
+							}
+						}, me);
 					} else {
 						// We have no labels. Use the ones from the scale
 						momentsForDataset = scaleLabelMoments;
@@ -43448,12 +42241,43 @@ var app =
 			},
 			buildLabelDiffs: function() {
 				var me = this;
+				me.labelDiffs = [];
+				var scaleLabelDiffs = [];
+				// Parse common labels once
+				if (me.chart.data.labels && me.chart.data.labels.length > 0) {
+					helpers.each(me.chart.data.labels, function(label) {
+						var labelMoment = me.parseTime(label);
 
-				me.labelDiffs = me.labelMoments.map(function(datasetLabels) {
-					return datasetLabels.map(function(label) {
-						return label.diff(me.firstTick, me.tickUnit, true);
-					});
-				});
+						if (labelMoment.isValid()) {
+							if (me.options.time.round) {
+								labelMoment.startOf(me.options.time.round);
+							}
+							scaleLabelDiffs.push(labelMoment.diff(me.firstTick, me.tickUnit, true));
+						}
+					}, me);
+				}
+
+				helpers.each(me.chart.data.datasets, function(dataset) {
+					var diffsForDataset = [];
+
+					if (typeof dataset.data[0] === 'object' && dataset.data[0] !== null) {
+						helpers.each(dataset.data, function(value) {
+							var labelMoment = me.parseTime(me.getRightValue(value));
+
+							if (labelMoment.isValid()) {
+								if (me.options.time.round) {
+									labelMoment.startOf(me.options.time.round);
+								}
+								diffsForDataset.push(labelMoment.diff(me.firstTick, me.tickUnit, true));
+							}
+						}, me);
+					} else {
+						// We have no labels. Use common ones
+						diffsForDataset = scaleLabelDiffs;
+					}
+
+					me.labelDiffs.push(diffsForDataset);
+				}, me);
 			},
 			buildTicks: function() {
 				var me = this;
@@ -43694,7 +42518,7 @@ var app =
 
 
 /***/ },
-/* 216 */
+/* 217 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {//! moment.js
@@ -45511,7 +44335,7 @@ var app =
 	            module && module.exports) {
 	        try {
 	            oldLocale = globalLocale._abbr;
-	            __webpack_require__(218)("./" + name);
+	            __webpack_require__(219)("./" + name);
 	            // because defineLocale currently also sets the global locale, we
 	            // want to undo that for lazy loaded locales
 	            getSetGlobalLocale(oldLocale);
@@ -47999,10 +46823,10 @@ var app =
 
 	})));
 
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(217)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(218)(module)))
 
 /***/ },
-/* 217 */
+/* 218 */
 /***/ function(module, exports) {
 
 	module.exports = function(module) {
@@ -48018,226 +46842,226 @@ var app =
 
 
 /***/ },
-/* 218 */
+/* 219 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var map = {
-		"./af": 219,
-		"./af.js": 219,
-		"./ar": 220,
-		"./ar-dz": 221,
-		"./ar-dz.js": 221,
-		"./ar-ly": 222,
-		"./ar-ly.js": 222,
-		"./ar-ma": 223,
-		"./ar-ma.js": 223,
-		"./ar-sa": 224,
-		"./ar-sa.js": 224,
-		"./ar-tn": 225,
-		"./ar-tn.js": 225,
-		"./ar.js": 220,
-		"./az": 226,
-		"./az.js": 226,
-		"./be": 227,
-		"./be.js": 227,
-		"./bg": 228,
-		"./bg.js": 228,
-		"./bn": 229,
-		"./bn.js": 229,
-		"./bo": 230,
-		"./bo.js": 230,
-		"./br": 231,
-		"./br.js": 231,
-		"./bs": 232,
-		"./bs.js": 232,
-		"./ca": 233,
-		"./ca.js": 233,
-		"./cs": 234,
-		"./cs.js": 234,
-		"./cv": 235,
-		"./cv.js": 235,
-		"./cy": 236,
-		"./cy.js": 236,
-		"./da": 237,
-		"./da.js": 237,
-		"./de": 238,
-		"./de-at": 239,
-		"./de-at.js": 239,
-		"./de.js": 238,
-		"./dv": 240,
-		"./dv.js": 240,
-		"./el": 241,
-		"./el.js": 241,
-		"./en-au": 242,
-		"./en-au.js": 242,
-		"./en-ca": 243,
-		"./en-ca.js": 243,
-		"./en-gb": 244,
-		"./en-gb.js": 244,
-		"./en-ie": 245,
-		"./en-ie.js": 245,
-		"./en-nz": 246,
-		"./en-nz.js": 246,
-		"./eo": 247,
-		"./eo.js": 247,
-		"./es": 248,
-		"./es-do": 249,
-		"./es-do.js": 249,
-		"./es.js": 248,
-		"./et": 250,
-		"./et.js": 250,
-		"./eu": 251,
-		"./eu.js": 251,
-		"./fa": 252,
-		"./fa.js": 252,
-		"./fi": 253,
-		"./fi.js": 253,
-		"./fo": 254,
-		"./fo.js": 254,
-		"./fr": 255,
-		"./fr-ca": 256,
-		"./fr-ca.js": 256,
-		"./fr-ch": 257,
-		"./fr-ch.js": 257,
-		"./fr.js": 255,
-		"./fy": 258,
-		"./fy.js": 258,
-		"./gd": 259,
-		"./gd.js": 259,
-		"./gl": 260,
-		"./gl.js": 260,
-		"./he": 261,
-		"./he.js": 261,
-		"./hi": 262,
-		"./hi.js": 262,
-		"./hr": 263,
-		"./hr.js": 263,
-		"./hu": 264,
-		"./hu.js": 264,
-		"./hy-am": 265,
-		"./hy-am.js": 265,
-		"./id": 266,
-		"./id.js": 266,
-		"./is": 267,
-		"./is.js": 267,
-		"./it": 268,
-		"./it.js": 268,
-		"./ja": 269,
-		"./ja.js": 269,
-		"./jv": 270,
-		"./jv.js": 270,
-		"./ka": 271,
-		"./ka.js": 271,
-		"./kk": 272,
-		"./kk.js": 272,
-		"./km": 273,
-		"./km.js": 273,
-		"./ko": 274,
-		"./ko.js": 274,
-		"./ky": 275,
-		"./ky.js": 275,
-		"./lb": 276,
-		"./lb.js": 276,
-		"./lo": 277,
-		"./lo.js": 277,
-		"./lt": 278,
-		"./lt.js": 278,
-		"./lv": 279,
-		"./lv.js": 279,
-		"./me": 280,
-		"./me.js": 280,
-		"./mi": 281,
-		"./mi.js": 281,
-		"./mk": 282,
-		"./mk.js": 282,
-		"./ml": 283,
-		"./ml.js": 283,
-		"./mr": 284,
-		"./mr.js": 284,
-		"./ms": 285,
-		"./ms-my": 286,
-		"./ms-my.js": 286,
-		"./ms.js": 285,
-		"./my": 287,
-		"./my.js": 287,
-		"./nb": 288,
-		"./nb.js": 288,
-		"./ne": 289,
-		"./ne.js": 289,
-		"./nl": 290,
-		"./nl-be": 291,
-		"./nl-be.js": 291,
-		"./nl.js": 290,
-		"./nn": 292,
-		"./nn.js": 292,
-		"./pa-in": 293,
-		"./pa-in.js": 293,
-		"./pl": 294,
-		"./pl.js": 294,
-		"./pt": 295,
-		"./pt-br": 296,
-		"./pt-br.js": 296,
-		"./pt.js": 295,
-		"./ro": 297,
-		"./ro.js": 297,
-		"./ru": 298,
-		"./ru.js": 298,
-		"./se": 299,
-		"./se.js": 299,
-		"./si": 300,
-		"./si.js": 300,
-		"./sk": 301,
-		"./sk.js": 301,
-		"./sl": 302,
-		"./sl.js": 302,
-		"./sq": 303,
-		"./sq.js": 303,
-		"./sr": 304,
-		"./sr-cyrl": 305,
-		"./sr-cyrl.js": 305,
-		"./sr.js": 304,
-		"./ss": 306,
-		"./ss.js": 306,
-		"./sv": 307,
-		"./sv.js": 307,
-		"./sw": 308,
-		"./sw.js": 308,
-		"./ta": 309,
-		"./ta.js": 309,
-		"./te": 310,
-		"./te.js": 310,
-		"./tet": 311,
-		"./tet.js": 311,
-		"./th": 312,
-		"./th.js": 312,
-		"./tl-ph": 313,
-		"./tl-ph.js": 313,
-		"./tlh": 314,
-		"./tlh.js": 314,
-		"./tr": 315,
-		"./tr.js": 315,
-		"./tzl": 316,
-		"./tzl.js": 316,
-		"./tzm": 317,
-		"./tzm-latn": 318,
-		"./tzm-latn.js": 318,
-		"./tzm.js": 317,
-		"./uk": 319,
-		"./uk.js": 319,
-		"./uz": 320,
-		"./uz.js": 320,
-		"./vi": 321,
-		"./vi.js": 321,
-		"./x-pseudo": 322,
-		"./x-pseudo.js": 322,
-		"./yo": 323,
-		"./yo.js": 323,
-		"./zh-cn": 324,
-		"./zh-cn.js": 324,
-		"./zh-hk": 325,
-		"./zh-hk.js": 325,
-		"./zh-tw": 326,
-		"./zh-tw.js": 326
+		"./af": 220,
+		"./af.js": 220,
+		"./ar": 221,
+		"./ar-dz": 222,
+		"./ar-dz.js": 222,
+		"./ar-ly": 223,
+		"./ar-ly.js": 223,
+		"./ar-ma": 224,
+		"./ar-ma.js": 224,
+		"./ar-sa": 225,
+		"./ar-sa.js": 225,
+		"./ar-tn": 226,
+		"./ar-tn.js": 226,
+		"./ar.js": 221,
+		"./az": 227,
+		"./az.js": 227,
+		"./be": 228,
+		"./be.js": 228,
+		"./bg": 229,
+		"./bg.js": 229,
+		"./bn": 230,
+		"./bn.js": 230,
+		"./bo": 231,
+		"./bo.js": 231,
+		"./br": 232,
+		"./br.js": 232,
+		"./bs": 233,
+		"./bs.js": 233,
+		"./ca": 234,
+		"./ca.js": 234,
+		"./cs": 235,
+		"./cs.js": 235,
+		"./cv": 236,
+		"./cv.js": 236,
+		"./cy": 237,
+		"./cy.js": 237,
+		"./da": 238,
+		"./da.js": 238,
+		"./de": 239,
+		"./de-at": 240,
+		"./de-at.js": 240,
+		"./de.js": 239,
+		"./dv": 241,
+		"./dv.js": 241,
+		"./el": 242,
+		"./el.js": 242,
+		"./en-au": 243,
+		"./en-au.js": 243,
+		"./en-ca": 244,
+		"./en-ca.js": 244,
+		"./en-gb": 245,
+		"./en-gb.js": 245,
+		"./en-ie": 246,
+		"./en-ie.js": 246,
+		"./en-nz": 247,
+		"./en-nz.js": 247,
+		"./eo": 248,
+		"./eo.js": 248,
+		"./es": 249,
+		"./es-do": 250,
+		"./es-do.js": 250,
+		"./es.js": 249,
+		"./et": 251,
+		"./et.js": 251,
+		"./eu": 252,
+		"./eu.js": 252,
+		"./fa": 253,
+		"./fa.js": 253,
+		"./fi": 254,
+		"./fi.js": 254,
+		"./fo": 255,
+		"./fo.js": 255,
+		"./fr": 256,
+		"./fr-ca": 257,
+		"./fr-ca.js": 257,
+		"./fr-ch": 258,
+		"./fr-ch.js": 258,
+		"./fr.js": 256,
+		"./fy": 259,
+		"./fy.js": 259,
+		"./gd": 260,
+		"./gd.js": 260,
+		"./gl": 261,
+		"./gl.js": 261,
+		"./he": 262,
+		"./he.js": 262,
+		"./hi": 263,
+		"./hi.js": 263,
+		"./hr": 264,
+		"./hr.js": 264,
+		"./hu": 265,
+		"./hu.js": 265,
+		"./hy-am": 266,
+		"./hy-am.js": 266,
+		"./id": 267,
+		"./id.js": 267,
+		"./is": 268,
+		"./is.js": 268,
+		"./it": 269,
+		"./it.js": 269,
+		"./ja": 270,
+		"./ja.js": 270,
+		"./jv": 271,
+		"./jv.js": 271,
+		"./ka": 272,
+		"./ka.js": 272,
+		"./kk": 273,
+		"./kk.js": 273,
+		"./km": 274,
+		"./km.js": 274,
+		"./ko": 275,
+		"./ko.js": 275,
+		"./ky": 276,
+		"./ky.js": 276,
+		"./lb": 277,
+		"./lb.js": 277,
+		"./lo": 278,
+		"./lo.js": 278,
+		"./lt": 279,
+		"./lt.js": 279,
+		"./lv": 280,
+		"./lv.js": 280,
+		"./me": 281,
+		"./me.js": 281,
+		"./mi": 282,
+		"./mi.js": 282,
+		"./mk": 283,
+		"./mk.js": 283,
+		"./ml": 284,
+		"./ml.js": 284,
+		"./mr": 285,
+		"./mr.js": 285,
+		"./ms": 286,
+		"./ms-my": 287,
+		"./ms-my.js": 287,
+		"./ms.js": 286,
+		"./my": 288,
+		"./my.js": 288,
+		"./nb": 289,
+		"./nb.js": 289,
+		"./ne": 290,
+		"./ne.js": 290,
+		"./nl": 291,
+		"./nl-be": 292,
+		"./nl-be.js": 292,
+		"./nl.js": 291,
+		"./nn": 293,
+		"./nn.js": 293,
+		"./pa-in": 294,
+		"./pa-in.js": 294,
+		"./pl": 295,
+		"./pl.js": 295,
+		"./pt": 296,
+		"./pt-br": 297,
+		"./pt-br.js": 297,
+		"./pt.js": 296,
+		"./ro": 298,
+		"./ro.js": 298,
+		"./ru": 299,
+		"./ru.js": 299,
+		"./se": 300,
+		"./se.js": 300,
+		"./si": 301,
+		"./si.js": 301,
+		"./sk": 302,
+		"./sk.js": 302,
+		"./sl": 303,
+		"./sl.js": 303,
+		"./sq": 304,
+		"./sq.js": 304,
+		"./sr": 305,
+		"./sr-cyrl": 306,
+		"./sr-cyrl.js": 306,
+		"./sr.js": 305,
+		"./ss": 307,
+		"./ss.js": 307,
+		"./sv": 308,
+		"./sv.js": 308,
+		"./sw": 309,
+		"./sw.js": 309,
+		"./ta": 310,
+		"./ta.js": 310,
+		"./te": 311,
+		"./te.js": 311,
+		"./tet": 312,
+		"./tet.js": 312,
+		"./th": 313,
+		"./th.js": 313,
+		"./tl-ph": 314,
+		"./tl-ph.js": 314,
+		"./tlh": 315,
+		"./tlh.js": 315,
+		"./tr": 316,
+		"./tr.js": 316,
+		"./tzl": 317,
+		"./tzl.js": 317,
+		"./tzm": 318,
+		"./tzm-latn": 319,
+		"./tzm-latn.js": 319,
+		"./tzm.js": 318,
+		"./uk": 320,
+		"./uk.js": 320,
+		"./uz": 321,
+		"./uz.js": 321,
+		"./vi": 322,
+		"./vi.js": 322,
+		"./x-pseudo": 323,
+		"./x-pseudo.js": 323,
+		"./yo": 324,
+		"./yo.js": 324,
+		"./zh-cn": 325,
+		"./zh-cn.js": 325,
+		"./zh-hk": 326,
+		"./zh-hk.js": 326,
+		"./zh-tw": 327,
+		"./zh-tw.js": 327
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -48250,11 +47074,11 @@ var app =
 	};
 	webpackContext.resolve = webpackContextResolve;
 	module.exports = webpackContext;
-	webpackContext.id = 218;
+	webpackContext.id = 219;
 
 
 /***/ },
-/* 219 */
+/* 220 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -48262,7 +47086,7 @@ var app =
 	//! author : Werner Mollentze : https://github.com/wernerm
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -48332,7 +47156,7 @@ var app =
 
 
 /***/ },
-/* 220 */
+/* 221 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -48342,7 +47166,7 @@ var app =
 	//! author : forabi https://github.com/forabi
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -48479,7 +47303,7 @@ var app =
 
 
 /***/ },
-/* 221 */
+/* 222 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -48487,7 +47311,7 @@ var app =
 	//! author : Noureddine LOUAHEDJ : https://github.com/noureddineme
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -48543,7 +47367,7 @@ var app =
 
 
 /***/ },
-/* 222 */
+/* 223 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -48551,7 +47375,7 @@ var app =
 	//! author : Ali Hmer: https://github.com/kikoanis
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -48674,7 +47498,7 @@ var app =
 
 
 /***/ },
-/* 223 */
+/* 224 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -48683,7 +47507,7 @@ var app =
 	//! author : Abdel Said : https://github.com/abdelsaid
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -48739,7 +47563,7 @@ var app =
 
 
 /***/ },
-/* 224 */
+/* 225 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -48747,7 +47571,7 @@ var app =
 	//! author : Suhail Alkowaileet : https://github.com/xsoh
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -48849,7 +47673,7 @@ var app =
 
 
 /***/ },
-/* 225 */
+/* 226 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -48857,7 +47681,7 @@ var app =
 	//! author : Nader Toukabri : https://github.com/naderio
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -48913,7 +47737,7 @@ var app =
 
 
 /***/ },
-/* 226 */
+/* 227 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -48921,7 +47745,7 @@ var app =
 	//! author : topchiyev : https://github.com/topchiyev
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49023,7 +47847,7 @@ var app =
 
 
 /***/ },
-/* 227 */
+/* 228 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49033,7 +47857,7 @@ var app =
 	//! Author : Menelion Elensúle : https://github.com/Oire
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49162,7 +47986,7 @@ var app =
 
 
 /***/ },
-/* 228 */
+/* 229 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49170,7 +47994,7 @@ var app =
 	//! author : Krasen Borisov : https://github.com/kraz
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49257,7 +48081,7 @@ var app =
 
 
 /***/ },
-/* 229 */
+/* 230 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49265,7 +48089,7 @@ var app =
 	//! author : Kaushik Gandhi : https://github.com/kaushikgandhi
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49381,7 +48205,7 @@ var app =
 
 
 /***/ },
-/* 230 */
+/* 231 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49389,7 +48213,7 @@ var app =
 	//! author : Thupten N. Chakrishar : https://github.com/vajradog
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49505,7 +48329,7 @@ var app =
 
 
 /***/ },
-/* 231 */
+/* 232 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49513,7 +48337,7 @@ var app =
 	//! author : Jean-Baptiste Le Duigou : https://github.com/jbleduigou
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49618,7 +48442,7 @@ var app =
 
 
 /***/ },
-/* 232 */
+/* 233 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49627,7 +48451,7 @@ var app =
 	//! based on (hr) translation by Bojan Marković
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49766,7 +48590,7 @@ var app =
 
 
 /***/ },
-/* 233 */
+/* 234 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49774,7 +48598,7 @@ var app =
 	//! author : Juan G. Hurtado : https://github.com/juanghurtado
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -49852,7 +48676,7 @@ var app =
 
 
 /***/ },
-/* 234 */
+/* 235 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -49860,7 +48684,7 @@ var app =
 	//! author : petrbela : https://github.com/petrbela
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50029,7 +48853,7 @@ var app =
 
 
 /***/ },
-/* 235 */
+/* 236 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50037,7 +48861,7 @@ var app =
 	//! author : Anatoly Mironov : https://github.com/mirontoli
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50097,7 +48921,7 @@ var app =
 
 
 /***/ },
-/* 236 */
+/* 237 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50106,7 +48930,7 @@ var app =
 	//! author : https://github.com/ryangreaves
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50183,7 +49007,7 @@ var app =
 
 
 /***/ },
-/* 237 */
+/* 238 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50191,7 +49015,7 @@ var app =
 	//! author : Ulrik Nielsen : https://github.com/mrbase
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50248,7 +49072,7 @@ var app =
 
 
 /***/ },
-/* 238 */
+/* 239 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50258,7 +49082,7 @@ var app =
 	//! author : Mikolaj Dadela : https://github.com/mik01aj
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50331,7 +49155,7 @@ var app =
 
 
 /***/ },
-/* 239 */
+/* 240 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50342,7 +49166,7 @@ var app =
 	//! author : Mikolaj Dadela : https://github.com/mik01aj
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50415,7 +49239,7 @@ var app =
 
 
 /***/ },
-/* 240 */
+/* 241 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50423,7 +49247,7 @@ var app =
 	//! author : Jawish Hameed : https://github.com/jawish
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50520,7 +49344,7 @@ var app =
 
 
 /***/ },
-/* 241 */
+/* 242 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50528,7 +49352,7 @@ var app =
 	//! author : Aggelos Karalias : https://github.com/mehiel
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50623,7 +49447,7 @@ var app =
 
 
 /***/ },
-/* 242 */
+/* 243 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50631,7 +49455,7 @@ var app =
 	//! author : Jared Morse : https://github.com/jarcoal
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50695,7 +49519,7 @@ var app =
 
 
 /***/ },
-/* 243 */
+/* 244 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50703,7 +49527,7 @@ var app =
 	//! author : Jonathan Abourbih : https://github.com/jonbca
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50763,7 +49587,7 @@ var app =
 
 
 /***/ },
-/* 244 */
+/* 245 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50771,7 +49595,7 @@ var app =
 	//! author : Chris Gedrim : https://github.com/chrisgedrim
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50835,7 +49659,7 @@ var app =
 
 
 /***/ },
-/* 245 */
+/* 246 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50843,7 +49667,7 @@ var app =
 	//! author : Chris Cartlidge : https://github.com/chriscartlidge
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50907,7 +49731,7 @@ var app =
 
 
 /***/ },
-/* 246 */
+/* 247 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50915,7 +49739,7 @@ var app =
 	//! author : Luke McGregor : https://github.com/lukemcgregor
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -50979,7 +49803,7 @@ var app =
 
 
 /***/ },
-/* 247 */
+/* 248 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -50989,7 +49813,7 @@ var app =
 	//!          Se ne, bonvolu korekti kaj avizi min por ke mi povas lerni!
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51057,7 +49881,7 @@ var app =
 
 
 /***/ },
-/* 248 */
+/* 249 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51065,7 +49889,7 @@ var app =
 	//! author : Julio Napurí : https://github.com/julionc
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51143,14 +49967,14 @@ var app =
 
 
 /***/ },
-/* 249 */
+/* 250 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
 	//! locale : Spanish (Dominican Republic) [es-do]
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51228,7 +50052,7 @@ var app =
 
 
 /***/ },
-/* 250 */
+/* 251 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51237,7 +50061,7 @@ var app =
 	//! improvements : Illimar Tambek : https://github.com/ragulka
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51313,7 +50137,7 @@ var app =
 
 
 /***/ },
-/* 251 */
+/* 252 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51321,7 +50145,7 @@ var app =
 	//! author : Eneko Illarramendi : https://github.com/eillarra
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51384,7 +50208,7 @@ var app =
 
 
 /***/ },
-/* 252 */
+/* 253 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51392,7 +50216,7 @@ var app =
 	//! author : Ebrahim Byagowi : https://github.com/ebraminio
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51496,7 +50320,7 @@ var app =
 
 
 /***/ },
-/* 253 */
+/* 254 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51504,7 +50328,7 @@ var app =
 	//! author : Tarmo Aidantausta : https://github.com/bleadof
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51608,7 +50432,7 @@ var app =
 
 
 /***/ },
-/* 254 */
+/* 255 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51616,7 +50440,7 @@ var app =
 	//! author : Ragnar Johannesen : https://github.com/ragnar123
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51673,7 +50497,7 @@ var app =
 
 
 /***/ },
-/* 255 */
+/* 256 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51681,7 +50505,7 @@ var app =
 	//! author : John Fischer : https://github.com/jfroffice
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51742,7 +50566,7 @@ var app =
 
 
 /***/ },
-/* 256 */
+/* 257 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51750,7 +50574,7 @@ var app =
 	//! author : Jonathan Abourbih : https://github.com/jonbca
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51807,7 +50631,7 @@ var app =
 
 
 /***/ },
-/* 257 */
+/* 258 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51815,7 +50639,7 @@ var app =
 	//! author : Gaspard Bucher : https://github.com/gaspard
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51876,7 +50700,7 @@ var app =
 
 
 /***/ },
-/* 258 */
+/* 259 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51884,7 +50708,7 @@ var app =
 	//! author : Robin van der Vliet : https://github.com/robin0van0der0v
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -51954,7 +50778,7 @@ var app =
 
 
 /***/ },
-/* 259 */
+/* 260 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -51962,7 +50786,7 @@ var app =
 	//! author : Jon Ashdown : https://github.com/jonashdown
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52035,7 +50859,7 @@ var app =
 
 
 /***/ },
-/* 260 */
+/* 261 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52043,7 +50867,7 @@ var app =
 	//! author : Juan G. Hurtado : https://github.com/juanghurtado
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52117,7 +50941,7 @@ var app =
 
 
 /***/ },
-/* 261 */
+/* 262 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52127,7 +50951,7 @@ var app =
 	//! author : Tal Ater : https://github.com/TalAter
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52221,7 +51045,7 @@ var app =
 
 
 /***/ },
-/* 262 */
+/* 263 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52229,7 +51053,7 @@ var app =
 	//! author : Mayank Singhal : https://github.com/mayanksinghal
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52350,7 +51174,7 @@ var app =
 
 
 /***/ },
-/* 263 */
+/* 264 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52358,7 +51182,7 @@ var app =
 	//! author : Bojan Marković : https://github.com/bmarkovic
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52500,7 +51324,7 @@ var app =
 
 
 /***/ },
-/* 264 */
+/* 265 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52508,7 +51332,7 @@ var app =
 	//! author : Adam Brunner : https://github.com/adambrunner
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52614,7 +51438,7 @@ var app =
 
 
 /***/ },
-/* 265 */
+/* 266 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52622,7 +51446,7 @@ var app =
 	//! author : Armendarabyan : https://github.com/armendarabyan
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52714,7 +51538,7 @@ var app =
 
 
 /***/ },
-/* 266 */
+/* 267 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52723,7 +51547,7 @@ var app =
 	//! reference: http://id.wikisource.org/wiki/Pedoman_Umum_Ejaan_Bahasa_Indonesia_yang_Disempurnakan
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52802,7 +51626,7 @@ var app =
 
 
 /***/ },
-/* 267 */
+/* 268 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52810,7 +51634,7 @@ var app =
 	//! author : Hinrik Örn Sigurðsson : https://github.com/hinrik
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -52934,7 +51758,7 @@ var app =
 
 
 /***/ },
-/* 268 */
+/* 269 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -52943,7 +51767,7 @@ var app =
 	//! author: Mattia Larentis: https://github.com/nostalgiaz
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53009,7 +51833,7 @@ var app =
 
 
 /***/ },
-/* 269 */
+/* 270 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53017,7 +51841,7 @@ var app =
 	//! author : LI Long : https://github.com/baryon
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53090,7 +51914,7 @@ var app =
 
 
 /***/ },
-/* 270 */
+/* 271 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53099,7 +51923,7 @@ var app =
 	//! reference: http://jv.wikipedia.org/wiki/Basa_Jawa
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53178,7 +52002,7 @@ var app =
 
 
 /***/ },
-/* 271 */
+/* 272 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53186,7 +52010,7 @@ var app =
 	//! author : Irakli Janiashvili : https://github.com/irakli-janiashvili
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53272,7 +52096,7 @@ var app =
 
 
 /***/ },
-/* 272 */
+/* 273 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53280,7 +52104,7 @@ var app =
 	//! authors : Nurlan Rakhimzhanov : https://github.com/nurlan
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53364,7 +52188,7 @@ var app =
 
 
 /***/ },
-/* 273 */
+/* 274 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53372,7 +52196,7 @@ var app =
 	//! author : Kruy Vanna : https://github.com/kruyvanna
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53427,7 +52251,7 @@ var app =
 
 
 /***/ },
-/* 274 */
+/* 275 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53436,7 +52260,7 @@ var app =
 	//! author : Jeeeyul Lee <jeeeyul@gmail.com>
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53497,7 +52321,7 @@ var app =
 
 
 /***/ },
-/* 275 */
+/* 276 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53505,7 +52329,7 @@ var app =
 	//! author : Chyngyz Arystan uulu : https://github.com/chyngyz
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53590,7 +52414,7 @@ var app =
 
 
 /***/ },
-/* 276 */
+/* 277 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53599,7 +52423,7 @@ var app =
 	//! author : David Raison : https://github.com/kwisatz
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53732,7 +52556,7 @@ var app =
 
 
 /***/ },
-/* 277 */
+/* 278 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53740,7 +52564,7 @@ var app =
 	//! author : Ryan Hart : https://github.com/ryanhart2
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53807,7 +52631,7 @@ var app =
 
 
 /***/ },
-/* 278 */
+/* 279 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53815,7 +52639,7 @@ var app =
 	//! author : Mindaugas Mozūras : https://github.com/mmozuras
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -53929,7 +52753,7 @@ var app =
 
 
 /***/ },
-/* 279 */
+/* 280 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -53938,7 +52762,7 @@ var app =
 	//! author : Jānis Elmeris : https://github.com/JanisE
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54031,7 +52855,7 @@ var app =
 
 
 /***/ },
-/* 280 */
+/* 281 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54039,7 +52863,7 @@ var app =
 	//! author : Miodrag Nikač <miodrag@restartit.me> : https://github.com/miodragnikac
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54147,7 +52971,7 @@ var app =
 
 
 /***/ },
-/* 281 */
+/* 282 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54155,7 +52979,7 @@ var app =
 	//! author : John Corrigan <robbiecloset@gmail.com> : https://github.com/johnideal
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54216,7 +53040,7 @@ var app =
 
 
 /***/ },
-/* 282 */
+/* 283 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54224,7 +53048,7 @@ var app =
 	//! author : Borislav Mickov : https://github.com/B0k0
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54311,7 +53135,7 @@ var app =
 
 
 /***/ },
-/* 283 */
+/* 284 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54319,7 +53143,7 @@ var app =
 	//! author : Floyd Pink : https://github.com/floydpink
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54397,7 +53221,7 @@ var app =
 
 
 /***/ },
-/* 284 */
+/* 285 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54406,7 +53230,7 @@ var app =
 	//! author : Vivek Athalye : https://github.com/vnathalye
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54561,7 +53385,7 @@ var app =
 
 
 /***/ },
-/* 285 */
+/* 286 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54569,7 +53393,7 @@ var app =
 	//! author : Weldan Jamili : https://github.com/weldan
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54648,7 +53472,7 @@ var app =
 
 
 /***/ },
-/* 286 */
+/* 287 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54657,7 +53481,7 @@ var app =
 	//! author : Weldan Jamili : https://github.com/weldan
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54736,7 +53560,7 @@ var app =
 
 
 /***/ },
-/* 287 */
+/* 288 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54746,7 +53570,7 @@ var app =
 	//! author : Tin Aung Lin : https://github.com/thanyawzinmin
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54837,7 +53661,7 @@ var app =
 
 
 /***/ },
-/* 288 */
+/* 289 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54846,7 +53670,7 @@ var app =
 	//!           Sigurd Gartmann : https://github.com/sigurdga
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -54905,7 +53729,7 @@ var app =
 
 
 /***/ },
-/* 289 */
+/* 290 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -54913,7 +53737,7 @@ var app =
 	//! author : suvash : https://github.com/suvash
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55033,7 +53857,7 @@ var app =
 
 
 /***/ },
-/* 290 */
+/* 291 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55042,7 +53866,7 @@ var app =
 	//! author : Jacob Middag : https://github.com/middagj
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55124,7 +53948,7 @@ var app =
 
 
 /***/ },
-/* 291 */
+/* 292 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55133,7 +53957,7 @@ var app =
 	//! author : Jacob Middag : https://github.com/middagj
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55215,7 +54039,7 @@ var app =
 
 
 /***/ },
-/* 292 */
+/* 293 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55223,7 +54047,7 @@ var app =
 	//! author : https://github.com/mechuwind
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55280,7 +54104,7 @@ var app =
 
 
 /***/ },
-/* 293 */
+/* 294 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55288,7 +54112,7 @@ var app =
 	//! author : Harpreet Singh : https://github.com/harpreetkhalsagtbit
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55409,7 +54233,7 @@ var app =
 
 
 /***/ },
-/* 294 */
+/* 295 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55417,7 +54241,7 @@ var app =
 	//! author : Rafal Hirsz : https://github.com/evoL
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55519,7 +54343,7 @@ var app =
 
 
 /***/ },
-/* 295 */
+/* 296 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55527,7 +54351,7 @@ var app =
 	//! author : Jefferson : https://github.com/jalex79
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55589,7 +54413,7 @@ var app =
 
 
 /***/ },
-/* 296 */
+/* 297 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55597,7 +54421,7 @@ var app =
 	//! author : Caio Ribeiro Pereira : https://github.com/caio-ribeiro-pereira
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55655,7 +54479,7 @@ var app =
 
 
 /***/ },
-/* 297 */
+/* 298 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55664,7 +54488,7 @@ var app =
 	//! author : Valentin Agachi : https://github.com/avaly
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55735,7 +54559,7 @@ var app =
 
 
 /***/ },
-/* 298 */
+/* 299 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55745,7 +54569,7 @@ var app =
 	//! author : Коренберг Марк : https://github.com/socketpair
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55923,7 +54747,7 @@ var app =
 
 
 /***/ },
-/* 299 */
+/* 300 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55931,7 +54755,7 @@ var app =
 	//! authors : Bård Rolstad Henriksen : https://github.com/karamell
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -55989,7 +54813,7 @@ var app =
 
 
 /***/ },
-/* 300 */
+/* 301 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -55997,7 +54821,7 @@ var app =
 	//! author : Sampath Sitinamaluwa : https://github.com/sampathsris
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -56065,7 +54889,7 @@ var app =
 
 
 /***/ },
-/* 301 */
+/* 302 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56074,7 +54898,7 @@ var app =
 	//! based on work of petrbela : https://github.com/petrbela
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -56220,7 +55044,7 @@ var app =
 
 
 /***/ },
-/* 302 */
+/* 303 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56228,7 +55052,7 @@ var app =
 	//! author : Robert Sedovšek : https://github.com/sedovsek
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -56387,7 +55211,7 @@ var app =
 
 
 /***/ },
-/* 303 */
+/* 304 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56397,7 +55221,7 @@ var app =
 	//! author : Oerd Cukalla : https://github.com/oerd
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -56462,7 +55286,7 @@ var app =
 
 
 /***/ },
-/* 304 */
+/* 305 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56470,7 +55294,7 @@ var app =
 	//! author : Milan Janačković<milanjanackovic@gmail.com> : https://github.com/milan-j
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -56577,7 +55401,7 @@ var app =
 
 
 /***/ },
-/* 305 */
+/* 306 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56585,7 +55409,7 @@ var app =
 	//! author : Milan Janačković<milanjanackovic@gmail.com> : https://github.com/milan-j
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -56692,7 +55516,7 @@ var app =
 
 
 /***/ },
-/* 306 */
+/* 307 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56700,7 +55524,7 @@ var app =
 	//! author : Nicolai Davies<mail@nicolai.io> : https://github.com/nicolaidavies
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -56786,7 +55610,7 @@ var app =
 
 
 /***/ },
-/* 307 */
+/* 308 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56794,7 +55618,7 @@ var app =
 	//! author : Jens Alm : https://github.com/ulmus
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -56860,7 +55684,7 @@ var app =
 
 
 /***/ },
-/* 308 */
+/* 309 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56868,7 +55692,7 @@ var app =
 	//! author : Fahad Kassim : https://github.com/fadsel
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -56924,7 +55748,7 @@ var app =
 
 
 /***/ },
-/* 309 */
+/* 310 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -56932,7 +55756,7 @@ var app =
 	//! author : Arjunkumar Krishnamoorthy : https://github.com/tk120404
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57059,7 +55883,7 @@ var app =
 
 
 /***/ },
-/* 310 */
+/* 311 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57067,7 +55891,7 @@ var app =
 	//! author : Krishna Chaitanya Thota : https://github.com/kcthota
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57153,7 +55977,7 @@ var app =
 
 
 /***/ },
-/* 311 */
+/* 312 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57162,7 +55986,7 @@ var app =
 	//! author : Onorio De J. Afonso : https://github.com/marobo
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57226,7 +56050,7 @@ var app =
 
 
 /***/ },
-/* 312 */
+/* 313 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57234,7 +56058,7 @@ var app =
 	//! author : Kridsada Thanabulpong : https://github.com/sirn
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57298,7 +56122,7 @@ var app =
 
 
 /***/ },
-/* 313 */
+/* 314 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57306,7 +56130,7 @@ var app =
 	//! author : Dan Hagman : https://github.com/hagmandan
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57365,7 +56189,7 @@ var app =
 
 
 /***/ },
-/* 314 */
+/* 315 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57373,7 +56197,7 @@ var app =
 	//! author : Dominika Kruk : https://github.com/amaranthrose
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57490,7 +56314,7 @@ var app =
 
 
 /***/ },
-/* 315 */
+/* 316 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57499,7 +56323,7 @@ var app =
 	//!           Burak Yiğit Kaya: https://github.com/BYK
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57585,7 +56409,7 @@ var app =
 
 
 /***/ },
-/* 316 */
+/* 317 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57594,7 +56418,7 @@ var app =
 	//! author : Iustì Canun
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57681,7 +56505,7 @@ var app =
 
 
 /***/ },
-/* 317 */
+/* 318 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57689,7 +56513,7 @@ var app =
 	//! author : Abdel Said : https://github.com/abdelsaid
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57744,7 +56568,7 @@ var app =
 
 
 /***/ },
-/* 318 */
+/* 319 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57752,7 +56576,7 @@ var app =
 	//! author : Abdel Said : https://github.com/abdelsaid
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57807,7 +56631,7 @@ var app =
 
 
 /***/ },
-/* 319 */
+/* 320 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57816,7 +56640,7 @@ var app =
 	//! Author : Menelion Elensúle : https://github.com/Oire
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -57958,7 +56782,7 @@ var app =
 
 
 /***/ },
-/* 320 */
+/* 321 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -57966,7 +56790,7 @@ var app =
 	//! author : Sardor Muminov : https://github.com/muminoff
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -58021,7 +56845,7 @@ var app =
 
 
 /***/ },
-/* 321 */
+/* 322 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58029,7 +56853,7 @@ var app =
 	//! author : Bang Nguyen : https://github.com/bangnk
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -58105,7 +56929,7 @@ var app =
 
 
 /***/ },
-/* 322 */
+/* 323 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58113,7 +56937,7 @@ var app =
 	//! author : Andrew Hood : https://github.com/andrewhood125
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -58178,7 +57002,7 @@ var app =
 
 
 /***/ },
-/* 323 */
+/* 324 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58186,7 +57010,7 @@ var app =
 	//! author : Atolagbe Abisoye : https://github.com/andela-batolagbe
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -58243,7 +57067,7 @@ var app =
 
 
 /***/ },
-/* 324 */
+/* 325 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58252,7 +57076,7 @@ var app =
 	//! author : Zeno Zeng : https://github.com/zenozeng
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -58375,7 +57199,7 @@ var app =
 
 
 /***/ },
-/* 325 */
+/* 326 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58385,7 +57209,7 @@ var app =
 	//! author : Konstantin : https://github.com/skfd
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -58485,7 +57309,7 @@ var app =
 
 
 /***/ },
-/* 326 */
+/* 327 */
 /***/ function(module, exports, __webpack_require__) {
 
 	//! moment.js locale configuration
@@ -58494,7 +57318,7 @@ var app =
 	//! author : Chris Lam : https://github.com/hehachris
 
 	;(function (global, factory) {
-	    true ? factory(__webpack_require__(216)) :
+	    true ? factory(__webpack_require__(217)) :
 	   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
 	   factory(global.moment)
 	}(this, (function (moment) { 'use strict';
@@ -58594,7 +57418,7 @@ var app =
 
 
 /***/ },
-/* 327 */
+/* 328 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -58765,16 +57589,10 @@ var app =
 				var me = this;
 				var meta = me.getMeta();
 				var xScale = me.getScaleForId(meta.xAxisID);
-				var options = xScale.options;
-				var maxBarThickness = options.maxBarThickness || Infinity;
-				var barWidth;
-
-				if (options.barThickness) {
-					return options.barThickness;
+				if (xScale.options.barThickness) {
+					return xScale.options.barThickness;
 				}
-
-				barWidth = options.stacked ? ruler.categoryWidth * options.barPercentage : ruler.barWidth;
-				return Math.min(barWidth, maxBarThickness);
+				return ruler.barWidth;
 			},
 
 			// Get stack index from the given dataset index accounting for stacks and the fact that not all bars are visible
@@ -58805,10 +57623,6 @@ var app =
 				var stackIndex = me.getStackIndex(datasetIndex);
 				var leftTick = xScale.getPixelForValue(null, index, datasetIndex, me.chart.isCombo);
 				leftTick -= me.chart.isCombo ? (ruler.tickWidth / 2) : 0;
-
-				if (xScale.options.stacked) {
-					return leftTick + (ruler.categoryWidth / 2) + ruler.categorySpacing;
-				}
 
 				return leftTick +
 					(ruler.barWidth / 2) +
@@ -58853,23 +57667,21 @@ var app =
 				return yScale.getPixelForValue(value);
 			},
 
-			draw: function() {
+			draw: function(ease) {
 				var me = this;
-				var chart = me.chart;
-				var elements = me.getMeta().data;
+				var easingDecimal = ease || 1;
+				var metaData = me.getMeta().data;
 				var dataset = me.getDataset();
-				var ilen = elements.length;
-				var i = 0;
-				var d;
+				var i, len;
 
-				Chart.canvasHelpers.clipArea(chart.ctx, chart.chartArea);
-				for (; i<ilen; ++i) {
-					d = dataset.data[i];
+				Chart.canvasHelpers.clipArea(me.chart.chart.ctx, me.chart.chartArea);
+				for (i = 0, len = metaData.length; i < len; ++i) {
+					var d = dataset.data[i];
 					if (d !== null && d !== undefined && !isNaN(d)) {
-						elements[i].draw();
+						metaData[i].transition(easingDecimal).draw();
 					}
 				}
-				Chart.canvasHelpers.unclipArea(chart.ctx);
+				Chart.canvasHelpers.unclipArea(me.chart.chart.ctx);
 			},
 
 			setHoverStyle: function(rectangle) {
@@ -59070,16 +57882,10 @@ var app =
 				var me = this;
 				var meta = me.getMeta();
 				var yScale = me.getScaleForId(meta.yAxisID);
-				var options = yScale.options;
-				var maxBarThickness = options.maxBarThickness || Infinity;
-				var barHeight;
-
-				if (options.barThickness) {
-					return options.barThickness;
+				if (yScale.options.barThickness) {
+					return yScale.options.barThickness;
 				}
-
-				barHeight = options.stacked ? ruler.categoryHeight * options.barPercentage : ruler.barHeight;
-				return Math.min(barHeight, maxBarThickness);
+				return ruler.barHeight;
 			},
 
 			// Get stack index from the given dataset index accounting for stacks and the fact that not all bars are visible
@@ -59146,10 +57952,6 @@ var app =
 				var topTick = yScale.getPixelForValue(null, index, datasetIndex, me.chart.isCombo);
 				topTick -= me.chart.isCombo ? (ruler.tickHeight / 2) : 0;
 
-				if (yScale.options.stacked) {
-					return topTick + (ruler.categoryHeight / 2) + ruler.categorySpacing;
-				}
-
 				return topTick +
 					(ruler.barHeight / 2) +
 					ruler.categorySpacing +
@@ -59162,7 +57964,7 @@ var app =
 
 
 /***/ },
-/* 328 */
+/* 329 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -59290,7 +58092,7 @@ var app =
 
 
 /***/ },
-/* 329 */
+/* 330 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -59486,7 +58288,7 @@ var app =
 				meta.total = me.calculateTotal();
 
 				me.outerRadius = chart.outerRadius - (chart.radiusLength * me.getRingIndex(me.index));
-				me.innerRadius = Math.max(me.outerRadius - chart.radiusLength, 0);
+				me.innerRadius = me.outerRadius - chart.radiusLength;
 
 				helpers.each(meta.data, function(arc, index) {
 					me.updateElement(arc, index, reset);
@@ -59599,7 +58401,7 @@ var app =
 
 
 /***/ },
-/* 330 */
+/* 331 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -59884,26 +58686,28 @@ var app =
 				}
 			},
 
-			draw: function() {
+			draw: function(ease) {
 				var me = this;
-				var chart = me.chart;
 				var meta = me.getMeta();
 				var points = meta.data || [];
-				var area = chart.chartArea;
-				var ilen = points.length;
-				var i = 0;
+				var easingDecimal = ease || 1;
+				var i, ilen;
 
-				Chart.canvasHelpers.clipArea(chart.ctx, area);
-
-				if (lineEnabled(me.getDataset(), chart.options)) {
-					meta.dataset.draw();
+				// Transition Point Locations
+				for (i=0, ilen=points.length; i<ilen; ++i) {
+					points[i].transition(easingDecimal);
 				}
 
-				Chart.canvasHelpers.unclipArea(chart.ctx);
+				Chart.canvasHelpers.clipArea(me.chart.chart.ctx, me.chart.chartArea);
+				// Transition and Draw the line
+				if (lineEnabled(me.getDataset(), me.chart.options)) {
+					meta.dataset.transition(easingDecimal).draw();
+				}
+				Chart.canvasHelpers.unclipArea(me.chart.chart.ctx);
 
 				// Draw the points
-				for (; i<ilen; ++i) {
-					points[i].draw(area);
+				for (i=0, ilen=points.length; i<ilen; ++i) {
+					points[i].draw(me.chart.chartArea);
 				}
 			},
 
@@ -59942,7 +58746,7 @@ var app =
 
 
 /***/ },
-/* 331 */
+/* 332 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -59955,15 +58759,7 @@ var app =
 
 			scale: {
 				type: 'radialLinear',
-				angleLines: {
-					display: false
-				},
-				gridLines: {
-					circular: true
-				},
-				pointLabels: {
-					display: false
-				},
+				lineArc: true, // so that lines are circular
 				ticks: {
 					beginAtZero: true
 				}
@@ -60171,7 +58967,7 @@ var app =
 
 
 /***/ },
-/* 332 */
+/* 333 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -60310,6 +59106,24 @@ var app =
 				});
 			},
 
+			draw: function(ease) {
+				var meta = this.getMeta();
+				var easingDecimal = ease || 1;
+
+				// Transition Point Locations
+				helpers.each(meta.data, function(point) {
+					point.transition(easingDecimal);
+				});
+
+				// Transition and Draw the line
+				meta.dataset.transition(easingDecimal).draw();
+
+				// Draw the points
+				helpers.each(meta.data, function(point) {
+					point.draw();
+				});
+			},
+
 			setHoverStyle: function(point) {
 				// Point
 				var dataset = this.chart.data.datasets[point._datasetIndex];
@@ -60340,7 +59154,7 @@ var app =
 
 
 /***/ },
-/* 333 */
+/* 334 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -60357,7 +59171,7 @@ var app =
 
 
 /***/ },
-/* 334 */
+/* 335 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -60373,7 +59187,7 @@ var app =
 
 
 /***/ },
-/* 335 */
+/* 336 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -60390,7 +59204,7 @@ var app =
 
 
 /***/ },
-/* 336 */
+/* 337 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -60407,7 +59221,7 @@ var app =
 
 
 /***/ },
-/* 337 */
+/* 338 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -60424,7 +59238,7 @@ var app =
 
 
 /***/ },
-/* 338 */
+/* 339 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -60441,7 +59255,7 @@ var app =
 
 
 /***/ },
-/* 339 */
+/* 340 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -60494,33 +59308,27 @@ var app =
 
 
 /***/ },
-/* 340 */
+/* 341 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
-	var title_content_1 = __webpack_require__(341);
-	var collapsable_title_1 = __webpack_require__(342);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var title_content_1 = __webpack_require__(342);
+	var collapsable_title_1 = __webpack_require__(343);
 	/**
 	 * 手风琴控件。它有多个页面，在每一时刻只展开一个。
 	 */
 	var Accordion = (function (_super) {
 	    __extends(Accordion, _super);
 	    function Accordion() {
-	        return _super.call(this, Accordion.TYPE) || this;
+	        _super.call(this, Accordion.TYPE);
 	    }
 	    Object.defineProperty(Accordion.prototype, "titleH", {
 	        get: function () {
@@ -60605,43 +59413,37 @@ var app =
 	    Accordion.create = function (options) {
 	        return Accordion.recycleBin.create(options);
 	    };
+	    Accordion.defProps = Object.assign({}, widget_1.Widget.defProps, { _titleHeight: 30 });
+	    Accordion.TYPE = "accordion";
+	    Accordion.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Accordion);
 	    return Accordion;
 	}(widget_1.Widget));
-	Accordion.defProps = Object.assign({}, widget_1.Widget.defProps, { _titleHeight: 30 });
-	Accordion.TYPE = "accordion";
-	Accordion.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Accordion);
 	exports.Accordion = Accordion;
 	;
 	widget_factory_1.WidgetFactory.register(Accordion.TYPE, Accordion.create);
 
 
 /***/ },
-/* 341 */
+/* 342 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var widget_1 = __webpack_require__(21);
 	var Events = __webpack_require__(8);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * 一个用来显示标题和内容的控件。通常用于Accordion和PropertySheets的子控件。
 	 */
 	var TitleContent = (function (_super) {
 	    __extends(TitleContent, _super);
 	    function TitleContent() {
-	        return _super.call(this, TitleContent.TYPE) || this;
+	        _super.call(this, TitleContent.TYPE);
 	    }
 	    Object.defineProperty(TitleContent.prototype, "titleH", {
 	        get: function () {
@@ -60842,36 +59644,30 @@ var app =
 	    TitleContent.create = function (options) {
 	        return TitleContent.rBin.create(options);
 	    };
+	    TitleContent.defProps = Object.assign({}, widget_1.Widget.defProps, { _movable: false, _th: 30, _ch: 0 });
+	    TitleContent.TYPE = "title-content";
+	    TitleContent.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleContent);
 	    return TitleContent;
 	}(widget_1.Widget));
-	TitleContent.defProps = Object.assign({}, widget_1.Widget.defProps, { _movable: false, _th: 30, _ch: 0 });
-	TitleContent.TYPE = "title-content";
-	TitleContent.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitleContent);
 	exports.TitleContent = TitleContent;
 	;
 	widget_factory_1.WidgetFactory.register(TitleContent.TYPE, TitleContent.create);
 
 
 /***/ },
-/* 342 */
+/* 343 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var rect_1 = __webpack_require__(3);
 	var point_1 = __webpack_require__(4);
 	var widget_1 = __webpack_require__(21);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * 可折叠的标题控件，点击折叠图片或双击时折叠或展开。
 	 * 只能用于TitleContent的titleWidget。
@@ -60880,7 +59676,7 @@ var app =
 	var CollapsableTitle = (function (_super) {
 	    __extends(CollapsableTitle, _super);
 	    function CollapsableTitle() {
-	        return _super.call(this, CollapsableTitle.TYPE) || this;
+	        _super.call(this, CollapsableTitle.TYPE);
 	    }
 	    Object.defineProperty(CollapsableTitle.prototype, "collapsed", {
 	        get: function () {
@@ -60936,43 +59732,36 @@ var app =
 	    CollapsableTitle.create = function (options) {
 	        return CollapsableTitle.rBin.create(options);
 	    };
+	    CollapsableTitle.TYPE = "collapsable-title";
+	    CollapsableTitle.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(CollapsableTitle);
 	    return CollapsableTitle;
 	}(widget_1.Widget));
-	CollapsableTitle.TYPE = "collapsable-title";
-	CollapsableTitle.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(CollapsableTitle);
 	exports.CollapsableTitle = CollapsableTitle;
 	;
 
 
 /***/ },
-/* 343 */
+/* 344 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var recyclable_creator_1 = __webpack_require__(93);
+	var recyclable_creator_1 = __webpack_require__(94);
 	var Ruler = (function (_super) {
 	    __extends(Ruler, _super);
 	    function Ruler(type) {
-	        var _this = _super.call(this, type) || this;
-	        _this.scale = 1;
-	        _this.originX = 0;
-	        _this.originY = 0;
-	        _this.pointerX = 0;
-	        _this.pointerY = 0;
-	        return _this;
+	        _super.call(this, type);
+	        this.scale = 1;
+	        this.originX = 0;
+	        this.originY = 0;
+	        this.pointerX = 0;
+	        this.pointerY = 0;
 	    }
 	    Object.defineProperty(Ruler.prototype, "originX", {
 	        get: function () {
@@ -61047,15 +59836,15 @@ var app =
 	        this.drawColorBackground(ctx, style);
 	        return this;
 	    };
+	    Ruler.SIZE = 10;
 	    return Ruler;
 	}(widget_1.Widget));
-	Ruler.SIZE = 10;
 	exports.Ruler = Ruler;
 	;
 	var VRuler = (function (_super) {
 	    __extends(VRuler, _super);
 	    function VRuler() {
-	        return _super.call(this, VRuler.TYPE) || this;
+	        _super.call(this, VRuler.TYPE);
 	    }
 	    VRuler.prototype.drawColorBackground = function (ctx, style) {
 	        var h = this.w;
@@ -61156,17 +59945,17 @@ var app =
 	    VRuler.create = function (options) {
 	        return VRuler.recycleBin.create().reset(VRuler.TYPE, options);
 	    };
+	    VRuler.TYPE = "vruler";
+	    VRuler.recycleBin = new recyclable_creator_1.RecyclableCreator(function () { return new VRuler(); });
 	    return VRuler;
 	}(Ruler));
-	VRuler.TYPE = "vruler";
-	VRuler.recycleBin = new recyclable_creator_1.RecyclableCreator(function () { return new VRuler(); });
 	exports.VRuler = VRuler;
 	;
 	widget_factory_1.WidgetFactory.register(VRuler.TYPE, VRuler.create);
 	var HRuler = (function (_super) {
 	    __extends(HRuler, _super);
 	    function HRuler() {
-	        return _super.call(this, HRuler.TYPE) || this;
+	        _super.call(this, HRuler.TYPE);
 	    }
 	    HRuler.prototype.drawColorBackground = function (ctx, style) {
 	        var w = this.w;
@@ -61251,41 +60040,35 @@ var app =
 	    HRuler.create = function (options) {
 	        return HRuler.recycleBin.create().reset(HRuler.TYPE, options);
 	    };
+	    HRuler.TYPE = "hruler";
+	    HRuler.recycleBin = new recyclable_creator_1.RecyclableCreator(function () { return new HRuler(); });
 	    return HRuler;
 	}(Ruler));
-	HRuler.TYPE = "hruler";
-	HRuler.recycleBin = new recyclable_creator_1.RecyclableCreator(function () { return new HRuler(); });
 	exports.HRuler = HRuler;
 	;
 	widget_factory_1.WidgetFactory.register(HRuler.TYPE, HRuler.create);
 
 
 /***/ },
-/* 344 */
+/* 345 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var Events = __webpack_require__(8);
-	var scroll_view_1 = __webpack_require__(110);
+	var scroll_view_1 = __webpack_require__(111);
 	var widget_factory_1 = __webpack_require__(26);
-	var title_content_1 = __webpack_require__(341);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
-	var collapsable_title_1 = __webpack_require__(342);
+	var title_content_1 = __webpack_require__(342);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var collapsable_title_1 = __webpack_require__(343);
 	var TitlePage = (function (_super) {
 	    __extends(TitlePage, _super);
 	    function TitlePage() {
-	        return _super !== null && _super.apply(this, arguments) || this;
+	        _super.apply(this, arguments);
 	    }
 	    TitlePage.prototype.onReset = function () {
 	        _super.prototype.onReset.call(this);
@@ -61301,10 +60084,10 @@ var app =
 	    TitlePage.create = function (options) {
 	        return TitlePage.rb.create(options);
 	    };
+	    TitlePage.TYPE = "title-page";
+	    TitlePage.rb = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitlePage);
 	    return TitlePage;
 	}(title_content_1.TitleContent));
-	TitlePage.TYPE = "title-page";
-	TitlePage.rb = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TitlePage);
 	exports.TitlePage = TitlePage;
 	;
 	widget_factory_1.WidgetFactory.register(TitlePage.TYPE, TitlePage.create);
@@ -61316,7 +60099,7 @@ var app =
 	var PropertySheets = (function (_super) {
 	    __extends(PropertySheets, _super);
 	    function PropertySheets() {
-	        return _super.call(this, PropertySheets.TYPE) || this;
+	        _super.call(this, PropertySheets.TYPE);
 	    }
 	    Object.defineProperty(PropertySheets.prototype, "titleH", {
 	        get: function () {
@@ -61401,21 +60184,20 @@ var app =
 	    PropertySheets.create = function (options) {
 	        return PropertySheets.rBin.create(options);
 	    };
+	    PropertySheets.TYPE = "property-sheets";
+	    PropertySheets.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(PropertySheets);
 	    return PropertySheets;
 	}(scroll_view_1.ScrollView));
-	PropertySheets.TYPE = "property-sheets";
-	PropertySheets.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(PropertySheets);
 	exports.PropertySheets = PropertySheets;
 	;
 	widget_factory_1.WidgetFactory.register(PropertySheets.TYPE, PropertySheets.create);
 
 
 /***/ },
-/* 345 */
+/* 346 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var DelegateCommand = (function () {
 	    function DelegateCommand(execute, canExecute) {
 	        this._execute = execute;
@@ -61437,40 +60219,33 @@ var app =
 
 
 /***/ },
-/* 346 */
+/* 347 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var Events = __webpack_require__(8);
-	var delegate_command_1 = __webpack_require__(345);
-	var ivalidation_rule_1 = __webpack_require__(168);
-	var iview_model_1 = __webpack_require__(91);
-	var view_model_default_1 = __webpack_require__(165);
+	var delegate_command_1 = __webpack_require__(346);
+	var ivalidation_rule_1 = __webpack_require__(169);
+	var iview_model_1 = __webpack_require__(92);
+	var view_model_default_1 = __webpack_require__(166);
 	/**
 	 * 集合ViewModel。delProp/getProp/setProp操作当前的项。
 	 */
 	var CollectionViewModel = (function (_super) {
 	    __extends(CollectionViewModel, _super);
 	    function CollectionViewModel(data) {
-	        var _this = _super.call(this, data) || this;
-	        _this.isCollection = true;
-	        _this.filters = {};
-	        _this.comparators = {};
-	        _this._current = 0;
-	        _this._collection = data;
-	        _this.needUpdateViewModelItems = true;
-	        return _this;
+	        _super.call(this, data);
+	        this.isCollection = true;
+	        this.filters = {};
+	        this.comparators = {};
+	        this._current = 0;
+	        this._collection = data;
+	        this.needUpdateViewModelItems = true;
 	    }
 	    Object.defineProperty(CollectionViewModel.prototype, "collection", {
 	        /**
@@ -61755,10 +60530,9 @@ var app =
 	var ItemViewModel = (function (_super) {
 	    __extends(ItemViewModel, _super);
 	    function ItemViewModel() {
-	        var _this = _super.call(this, null) || this;
-	        _this.isCollection = false;
-	        _this.initCommands();
-	        return _this;
+	        _super.call(this, null);
+	        this.isCollection = false;
+	        this.initCommands();
 	    }
 	    ItemViewModel.prototype.getCommand = function (name) {
 	        var cmd = _super.prototype.getCommand.call(this, name);
@@ -61846,18 +60620,17 @@ var app =
 	        var vm = ItemViewModel.cache.length > 0 ? ItemViewModel.cache.pop() : (new ItemViewModel());
 	        return vm.init(collectionViewModel, index, data);
 	    };
+	    ItemViewModel.cache = [];
 	    return ItemViewModel;
 	}(view_model_default_1.ViewModelDefault));
-	ItemViewModel.cache = [];
 	exports.ItemViewModel = ItemViewModel;
 
 
 /***/ },
-/* 347 */
+/* 348 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var DelegateValueConverter = (function () {
 	    function DelegateValueConverter(convert, convertBack) {
 	        this._convert = convert;
@@ -61879,11 +60652,10 @@ var app =
 
 
 /***/ },
-/* 348 */
+/* 349 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var DelegateValidationRule = (function () {
 	    function DelegateValidationRule(validate) {
 	        this._validate = validate;
@@ -61901,11 +60673,10 @@ var app =
 
 
 /***/ },
-/* 349 */
+/* 350 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	/**
 	 * @class ToastInfo
 	 * InteractionRequest.toast的参数。
@@ -61937,11 +60708,10 @@ var app =
 
 
 /***/ },
-/* 350 */
+/* 351 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	/**
 	 * @class InputInfo
 	 * InteractionRequest.input的参数。
@@ -61980,11 +60750,10 @@ var app =
 
 
 /***/ },
-/* 351 */
+/* 352 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	/**
 	 * @class PropsInfo
 	 * InteractionRequest.props的参数。
@@ -62018,11 +60787,10 @@ var app =
 
 
 /***/ },
-/* 352 */
+/* 353 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var ChoiceOption = (function () {
 	    function ChoiceOption(text, iconURL) {
 	        this.text = text;
@@ -62075,11 +60843,10 @@ var app =
 
 
 /***/ },
-/* 353 */
+/* 354 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	/**
 	 * @class ProgressInfo
 	 * InteractionRequest.progress的参数。
@@ -62111,11 +60878,10 @@ var app =
 
 
 /***/ },
-/* 354 */
+/* 355 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	/**
 	 * @class ConfirmationInfo
 	 * InteractionRequest.confirm的参数。
@@ -62146,11 +60912,10 @@ var app =
 
 
 /***/ },
-/* 355 */
+/* 356 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	/**
 	 * @class NotificationInfo
 	 * InteractionRequest.notify的参数。
@@ -62180,11 +60945,10 @@ var app =
 
 
 /***/ },
-/* 356 */
+/* 357 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var ItemsStorage = (function () {
 	    function ItemsStorage(prefix) {
 	        this._prefix = prefix + ".";
@@ -62227,31 +60991,25 @@ var app =
 
 
 /***/ },
-/* 357 */
+/* 358 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * 表格中的一行。
 	 */
 	var TableRow = (function (_super) {
 	    __extends(TableRow, _super);
 	    function TableRow() {
-	        return _super.call(this, TableRow.TYPE) || this;
+	        _super.call(this, TableRow.TYPE);
 	    }
 	    TableRow.prototype.relayoutChildren = function () {
 	        var tableClient = (this.parent);
@@ -62273,45 +61031,39 @@ var app =
 	    TableRow.create = function (options) {
 	        return TableRow.recycleBin.create(options);
 	    };
+	    TableRow.TYPE = "table-row";
+	    TableRow.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TableRow);
 	    return TableRow;
 	}(widget_1.Widget));
-	TableRow.TYPE = "table-row";
-	TableRow.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TableRow);
 	exports.TableRow = TableRow;
 	;
 	widget_factory_1.WidgetFactory.register(TableRow.TYPE, TableRow.create);
 
 
 /***/ },
-/* 358 */
+/* 359 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var rect_1 = __webpack_require__(3);
 	var point_1 = __webpack_require__(4);
-	var range_1 = __webpack_require__(359);
-	var list_view_1 = __webpack_require__(122);
+	var range_1 = __webpack_require__(360);
+	var list_view_1 = __webpack_require__(123);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * 表格内容区域
 	 */
 	var TableClient = (function (_super) {
 	    __extends(TableClient, _super);
 	    function TableClient() {
-	        return _super.call(this, TableClient.TYPE) || this;
+	        _super.call(this, TableClient.TYPE);
 	    }
 	    Object.defineProperty(TableClient.prototype, "colsWidth", {
 	        get: function () {
@@ -62543,21 +61295,20 @@ var app =
 	    TableClient.create = function (options) {
 	        return TableClient.rBin.create(options);
 	    };
+	    TableClient.TYPE = "table-client";
+	    TableClient.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TableClient);
 	    return TableClient;
 	}(list_view_1.ListView));
-	TableClient.TYPE = "table-client";
-	TableClient.rBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TableClient);
 	exports.TableClient = TableClient;
 	;
 	widget_factory_1.WidgetFactory.register(TableClient.TYPE, TableClient.create);
 
 
 /***/ },
-/* 359 */
+/* 360 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var Range = (function () {
 	    function Range(first, second) {
 	        this.first = first;
@@ -62573,50 +61324,11 @@ var app =
 	    Range.create = function (first, second) {
 	        return new Range(first, second);
 	    };
+	    Range.range = Range.create(0, 0);
 	    return Range;
 	}());
-	Range.range = Range.create(0, 0);
 	exports.Range = Range;
 	;
-
-
-/***/ },
-/* 360 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var widget_factory_1 = __webpack_require__(26);
-	var passive_scrollable_group_1 = __webpack_require__(361);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
-	/**
-	 * 表格左边的行序数。
-	 */
-	var TableIndex = (function (_super) {
-	    __extends(TableIndex, _super);
-	    function TableIndex() {
-	        return _super.call(this, TableIndex.TYPE) || this;
-	    }
-	    TableIndex.create = function (options) {
-	        return TableIndex.recycleBin.create(options);
-	    };
-	    return TableIndex;
-	}(passive_scrollable_group_1.PassiveScrollableGroup));
-	TableIndex.TYPE = "table-index";
-	TableIndex.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TableIndex);
-	exports.TableIndex = TableIndex;
-	;
-	widget_factory_1.WidgetFactory.register(TableIndex.TYPE, TableIndex.create);
 
 
 /***/ },
@@ -62624,17 +61336,44 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var widget_factory_1 = __webpack_require__(26);
+	var passive_scrollable_group_1 = __webpack_require__(362);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
+	/**
+	 * 表格左边的行序数。
+	 */
+	var TableIndex = (function (_super) {
+	    __extends(TableIndex, _super);
+	    function TableIndex() {
+	        _super.call(this, TableIndex.TYPE);
+	    }
+	    TableIndex.create = function (options) {
+	        return TableIndex.recycleBin.create(options);
 	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	    TableIndex.TYPE = "table-index";
+	    TableIndex.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TableIndex);
+	    return TableIndex;
+	}(passive_scrollable_group_1.PassiveScrollableGroup));
+	exports.TableIndex = TableIndex;
+	;
+	widget_factory_1.WidgetFactory.register(TableIndex.TYPE, TableIndex.create);
+
+
+/***/ },
+/* 362 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var widget_1 = __webpack_require__(21);
 	/**
 	 * 被动式可滚分组。滚动区域由外面设置。
@@ -62642,7 +61381,7 @@ var app =
 	var PassiveScrollableGroup = (function (_super) {
 	    __extends(PassiveScrollableGroup, _super);
 	    function PassiveScrollableGroup(type) {
-	        return _super.call(this, type) || this;
+	        _super.call(this, type);
 	    }
 	    Object.defineProperty(PassiveScrollableGroup.prototype, "offsetX", {
 	        get: function () {
@@ -62763,70 +61502,58 @@ var app =
 
 
 /***/ },
-/* 362 */
+/* 363 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var widget_factory_1 = __webpack_require__(26);
-	var passive_scrollable_group_1 = __webpack_require__(361);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var passive_scrollable_group_1 = __webpack_require__(362);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * 表格头
 	 */
 	var TableHeader = (function (_super) {
 	    __extends(TableHeader, _super);
 	    function TableHeader() {
-	        return _super.call(this, TableHeader.TYPE) || this;
+	        _super.call(this, TableHeader.TYPE);
 	    }
 	    TableHeader.create = function (options) {
 	        return TableHeader.recycleBin.create(options);
 	    };
+	    TableHeader.TYPE = "table-header";
+	    TableHeader.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TableHeader);
 	    return TableHeader;
 	}(passive_scrollable_group_1.PassiveScrollableGroup));
-	TableHeader.TYPE = "table-header";
-	TableHeader.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TableHeader);
 	exports.TableHeader = TableHeader;
 	;
 	widget_factory_1.WidgetFactory.register(TableHeader.TYPE, TableHeader.create);
 
 
 /***/ },
-/* 363 */
+/* 364 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var Events = __webpack_require__(8);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
-	var table_row_1 = __webpack_require__(357);
-	var table_index_1 = __webpack_require__(360);
-	var table_client_1 = __webpack_require__(358);
-	var table_header_1 = __webpack_require__(362);
-	var table_index_item_1 = __webpack_require__(364);
-	var table_header_item_1 = __webpack_require__(365);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
+	var table_row_1 = __webpack_require__(358);
+	var table_index_1 = __webpack_require__(361);
+	var table_client_1 = __webpack_require__(359);
+	var table_header_1 = __webpack_require__(363);
+	var table_index_item_1 = __webpack_require__(365);
+	var table_header_item_1 = __webpack_require__(366);
 	/**
 	 * 描述表格中某列的信息。
 	 */
@@ -62854,7 +61581,7 @@ var app =
 	var Table = (function (_super) {
 	    __extends(Table, _super);
 	    function Table() {
-	        return _super.call(this, Table.TYPE) || this;
+	        _super.call(this, Table.TYPE);
 	    }
 	    Object.defineProperty(Table.prototype, "headerBar", {
 	        /**
@@ -63105,53 +61832,14 @@ var app =
 	    Table.create = function (options) {
 	        return Table.recycleBin.create(options);
 	    };
+	    Table.defProps = Object.assign({}, widget_1.Widget.defProps, { _rowH: 30, _ibW: 30, _hbH: 30, _siB: true });
+	    Table.TYPE = "table";
+	    Table.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Table);
 	    return Table;
 	}(widget_1.Widget));
-	Table.defProps = Object.assign({}, widget_1.Widget.defProps, { _rowH: 30, _ibW: 30, _hbH: 30, _siB: true });
-	Table.TYPE = "table";
-	Table.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(Table);
 	exports.Table = Table;
 	;
 	widget_factory_1.WidgetFactory.register(Table.TYPE, Table.create);
-
-
-/***/ },
-/* 364 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
-	var widget_1 = __webpack_require__(21);
-	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
-	/**
-	 * 表格左边的行序数项。
-	 */
-	var TableIndexItem = (function (_super) {
-	    __extends(TableIndexItem, _super);
-	    function TableIndexItem() {
-	        return _super.call(this, TableIndexItem.TYPE) || this;
-	    }
-	    TableIndexItem.create = function (options) {
-	        return TableIndexItem.recycleBin.create(options);
-	    };
-	    return TableIndexItem;
-	}(widget_1.Widget));
-	TableIndexItem.TYPE = "table-index-item";
-	TableIndexItem.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TableIndexItem);
-	exports.TableIndexItem = TableIndexItem;
-	;
-	widget_factory_1.WidgetFactory.register(TableIndexItem.TYPE, TableIndexItem.create);
 
 
 /***/ },
@@ -63159,31 +61847,57 @@ var app =
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var widget_1 = __webpack_require__(21);
+	var widget_factory_1 = __webpack_require__(26);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
+	/**
+	 * 表格左边的行序数项。
+	 */
+	var TableIndexItem = (function (_super) {
+	    __extends(TableIndexItem, _super);
+	    function TableIndexItem() {
+	        _super.call(this, TableIndexItem.TYPE);
+	    }
+	    TableIndexItem.create = function (options) {
+	        return TableIndexItem.recycleBin.create(options);
 	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	    TableIndexItem.TYPE = "table-index-item";
+	    TableIndexItem.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TableIndexItem);
+	    return TableIndexItem;
+	}(widget_1.Widget));
+	exports.TableIndexItem = TableIndexItem;
+	;
+	widget_factory_1.WidgetFactory.register(TableIndexItem.TYPE, TableIndexItem.create);
+
+
+/***/ },
+/* 366 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var rect_1 = __webpack_require__(3);
 	var Events = __webpack_require__(8);
 	var widget_1 = __webpack_require__(21);
 	var widget_factory_1 = __webpack_require__(26);
-	var widget_recyclable_creator_1 = __webpack_require__(92);
+	var widget_recyclable_creator_1 = __webpack_require__(93);
 	/**
 	 * 表格头的一项。
 	 */
 	var TableHeaderItem = (function (_super) {
 	    __extends(TableHeaderItem, _super);
 	    function TableHeaderItem() {
-	        var _this = _super.call(this, TableHeaderItem.TYPE) || this;
-	        _this._sortEvent = Events.SortEvent.create(null, false);
-	        return _this;
+	        _super.call(this, TableHeaderItem.TYPE);
+	        this._sortEvent = Events.SortEvent.create(null, false);
 	    }
 	    Object.defineProperty(TableHeaderItem.prototype, "sortKey", {
 	        get: function () {
@@ -63253,23 +61967,22 @@ var app =
 	    TableHeaderItem.create = function (options) {
 	        return TableHeaderItem.recycleBin.create(options);
 	    };
+	    TableHeaderItem.SORT_INC = "inc";
+	    TableHeaderItem.SORT_DEC = "dec";
+	    TableHeaderItem.TYPE = "table-header-item";
+	    TableHeaderItem.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TableHeaderItem);
 	    return TableHeaderItem;
 	}(widget_1.Widget));
-	TableHeaderItem.SORT_INC = "inc";
-	TableHeaderItem.SORT_DEC = "dec";
-	TableHeaderItem.TYPE = "table-header-item";
-	TableHeaderItem.recycleBin = widget_recyclable_creator_1.WidgetRecyclableCreator.create(TableHeaderItem);
 	exports.TableHeaderItem = TableHeaderItem;
 	;
 	widget_factory_1.WidgetFactory.register(TableHeaderItem.TYPE, TableHeaderItem.create);
 
 
 /***/ },
-/* 366 */
+/* 367 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var DelegateFilter = (function () {
 	    function DelegateFilter(check) {
 	        this._check = check;
@@ -63287,11 +62000,10 @@ var app =
 
 
 /***/ },
-/* 367 */
+/* 368 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var DelegateComparator = (function () {
 	    function DelegateComparator(compare) {
 	        this._compare = compare;
@@ -63309,11 +62021,10 @@ var app =
 
 
 /***/ },
-/* 368 */
+/* 369 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	/**
 	 * 数值比较器。
 	 */
@@ -63397,11 +62108,10 @@ var app =
 
 
 /***/ },
-/* 369 */
+/* 370 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var RangeFixer = (function () {
 	    function RangeFixer(firstMin, firstMax, secondMin, secondMax, secondMustGreater) {
 	        this._value = { first: 0, second: 0 };
@@ -63437,11 +62147,10 @@ var app =
 
 
 /***/ },
-/* 370 */
+/* 371 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var NumberFixer = (function () {
 	    function NumberFixer(vMin, vMax) {
 	        this.vMin = vMin;
@@ -63462,11 +62171,10 @@ var app =
 
 
 /***/ },
-/* 371 */
+/* 372 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var Vector2Fixer = (function () {
 	    function Vector2Fixer(xMin, xMax, yMin, yMax) {
 	        this._value = { x: 0, y: 0 };
@@ -63492,11 +62200,10 @@ var app =
 
 
 /***/ },
-/* 372 */
+/* 373 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var Vector3Fixer = (function () {
 	    function Vector3Fixer(xMin, xMax, yMin, yMax, zMin, zMax) {
 	        this._value = { x: 0, y: 0, z: 0 };
@@ -63525,11 +62232,10 @@ var app =
 
 
 /***/ },
-/* 373 */
+/* 374 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var qtk_1 = __webpack_require__(2);
 	var zhStrings = {
 	    "open file failed.": "打开文件失败。",
@@ -63579,11 +62285,10 @@ var app =
 	//# sourceMappingURL=locales.js.map
 
 /***/ },
-/* 374 */
+/* 375 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var MainModel = (function () {
 	    function MainModel() {
 	        var _this = this;
@@ -63684,21 +62389,15 @@ var app =
 	//# sourceMappingURL=main-model.js.map
 
 /***/ },
-/* 375 */
+/* 376 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var qtk_1 = __webpack_require__(2);
 	var qtk_2 = __webpack_require__(2);
 	var qtk_3 = __webpack_require__(2);
@@ -63752,25 +62451,19 @@ var app =
 	//# sourceMappingURL=main-window.js.map
 
 /***/ },
-/* 376 */
+/* 377 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var __extends = (this && this.__extends) || (function () {
-	    var extendStatics = Object.setPrototypeOf ||
-	        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-	        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-	    return function (d, b) {
-	        extendStatics(d, b);
-	        function __() { this.constructor = d; }
-	        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-	    };
-	})();
-	Object.defineProperty(exports, "__esModule", { value: true });
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
 	var qtk_1 = __webpack_require__(2);
-	var command_choose_file_1 = __webpack_require__(377);
-	var command_show_settings_1 = __webpack_require__(378);
-	var command_start_download_1 = __webpack_require__(379);
+	var command_choose_file_1 = __webpack_require__(378);
+	var command_show_settings_1 = __webpack_require__(379);
+	var command_start_download_1 = __webpack_require__(380);
 	var MainViewModel = (function (_super) {
 	    __extends(MainViewModel, _super);
 	    function MainViewModel(data) {
@@ -63796,11 +62489,10 @@ var app =
 	//# sourceMappingURL=main-view-model.js.map
 
 /***/ },
-/* 377 */
+/* 378 */
 /***/ function(module, exports) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var CommandChooseFile = (function () {
 	    function CommandChooseFile(model) {
 	        this._model = model;
@@ -63832,11 +62524,10 @@ var app =
 	//# sourceMappingURL=command-choose-file.js.map
 
 /***/ },
-/* 378 */
+/* 379 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var qtk_1 = __webpack_require__(2);
 	var CommandShowSettings = (function () {
 	    function CommandShowSettings(model) {
@@ -63865,11 +62556,10 @@ var app =
 	//# sourceMappingURL=command-show-settings.js.map
 
 /***/ },
-/* 379 */
+/* 380 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	Object.defineProperty(exports, "__esModule", { value: true });
 	var qtk_1 = __webpack_require__(2);
 	var CommandStartDownload = (function () {
 	    function CommandStartDownload(model) {

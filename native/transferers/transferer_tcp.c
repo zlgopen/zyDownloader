@@ -68,7 +68,7 @@ static size_t transferer_tcp_get_sent_size(transferer_t* t){
 static void transferer_tcp_destroy(transferer_t* t){
 	transferer_tcp_t* tcp = (transferer_tcp_t*)t;
 	stream_close(tcp->stream);
-	url_free(tcp->url);
+	url_unref(tcp->url);
 	memset(tcp, 0x00, sizeof(transferer_tcp_t));
 }
 
@@ -77,18 +77,13 @@ static bool_t transferer_is_valid_url(url_t* url) {
 		&& url_get_param(url, "server") != NULL && url->path;
 }
 
-transferer_t* transferer_tcp_create(const char* surl) {
-	url_t* url = url_parse(surl);
-
+transferer_t* transferer_tcp_create(url_t* url) {
+	url_print(url);
 	if(!transferer_is_valid_url(url)) {
-		url_print(url);
-		url_free(url);
 		return NULL;
 	}
-	url_print(url);
-
 	transferer_tcp_t* tcp = (transferer_tcp_t*)calloc(1, sizeof(transferer_tcp_t));
-	tcp->url =  url;
+	tcp->url =  url_ref(url);
 	
 	transferer_t* transferer = (transferer_t*)tcp;
 	transferer->start = transferer_tcp_start;

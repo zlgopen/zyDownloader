@@ -6,6 +6,29 @@
 #include "transferer_tftp_server.h"
 
 #include <stdio.h>
+#ifdef WIN32
+#include <Windows.h>
+char* toLocaleString(const char* str)
+{
+	WCHAR *strSrc = NULL;
+	char *szRes = NULL;
+
+	int len = MultiByteToWideChar(CP_UTF8, 0, str, -1, NULL, 0);
+	strSrc = (WCHAR*)calloc(len+1, sizeof(WCHAR));
+	MultiByteToWideChar(CP_UTF8, 0, str, -1, strSrc, len);
+	len = WideCharToMultiByte(CP_ACP, 0, strSrc, -1, NULL, 0, NULL, NULL);
+	szRes = (char*)calloc(len+1, 1);
+	WideCharToMultiByte(CP_ACP, 0, strSrc, -1, szRes, len, NULL, NULL);
+	free(strSrc);
+
+	printf("%s => %s\n", str, szRes);
+	return szRes;
+}
+#else
+char* toLocaleString(char* str) {
+	return str;
+}
+#endif
 
 using v8::Handle;
 using v8::Object;
@@ -35,7 +58,12 @@ public:
 	~TransferWorker() {}
 
 	void Execute () {
-		const char* url = mURL.c_str();
+		url_t* url = url_parse(mURL.c_str());
+		url_print(url);
+		
+		url->dir = toLocaleString(url->dir);
+		url->path = toLocaleString(url->path);
+		url->filename = toLocaleString(url->filename);
 
 		transferer_t* transferer = transferer_factory_create(url);
 		if(transferer) {
@@ -53,6 +81,7 @@ public:
 			mResult = "failed";
 			printf("create transferer failed.");
 		}
+		url_unref(url);
 	}
 
 	void HandleOKCallback () {
