@@ -14,7 +14,7 @@
   "author": "lixianjing@zlg.cn",
   "devDependencies": {
     "asar": "^0.12.4",
-    "electron": "1.4.13",
+    "electron": ">=1.8.2-beta5",
     "electron-builder": "^10.17.3",
     "karma": "^1.1.2",
     "karma-chrome-launcher": "^1.0.1",
@@ -33,7 +33,7 @@
   "build": {
     "appId": "zydownloader.zlg.cn",
     "productName": "zyDownloader",
-	"originalFilename": "zyDownloader.exe"
+    "originalFilename": "zyDownloader.exe"
   },
   "dependencies": {
     "bindings": "^1.2.1"
